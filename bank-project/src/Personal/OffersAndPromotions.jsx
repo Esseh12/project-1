@@ -10,11 +10,11 @@ const OffersAndPromotions = () => {
       href: "/personal/offers-and-promotions",
       isActive: true,
     },
-    { text: "Home Offers", href: "../home-offers.html" },
-    { text: "Banking Promotions", href: "../banking.html" },
+    { text: "Home Offers", href: "/personal/home-offers" },
+    { text: "Banking Promotions", href: "/personal/banking" },
     {
       text: "American Express® Membership Rewards®",
-      href: "../american-express-membership-rewards-offers.html",
+      href: "/personal/american-express-membership-rewards-offers",
     },
   ];
 
@@ -363,7 +363,7 @@ const OffersAndPromotions = () => {
                 </div>
                 <div className="col-sm-6 col-lg-3 isotope-item">
                   <div className="portfolio-item">
-                    <a href="offers-and-promotions/Lifestyle/My-Fitness-Pal.html">
+                    <a href="/personal/offers-and-promotions/lifestyle/my-fitness-pal">
                       <span className="thumb-info thumb-info-lighten border-radius-0">
                         <span className="thumb-info-wrapper border-radius-0">
                           <span
@@ -395,7 +395,7 @@ const OffersAndPromotions = () => {
                 </div>
                 <div className="col-sm-6 col-lg-3 isotope-item">
                   <div className="portfolio-item">
-                    <a href="offers-and-promotions/Lifestyle/La-Vallee-des-Couleurs-Nature-Park.html">
+                    <a href="/personal/offers-and-promotions/lifestyle/la-vallee-des-couleurs-nature-park">
                       <span className="thumb-info thumb-info-lighten border-radius-0">
                         <span className="thumb-info-wrapper border-radius-0">
                           <span
@@ -427,7 +427,7 @@ const OffersAndPromotions = () => {
                 </div>
                 <div className="col-sm-6 col-lg-3 isotope-item">
                   <div className="portfolio-item">
-                    <a href="offers-and-promotions/Lifestyle/Iron-Lion-Gym-Apparel.html">
+                    <a href="/personal/offers-and-promotions/lifestyle/iron-lion-gym-apparel">
                       <span className="thumb-info thumb-info-lighten border-radius-0">
                         <span className="thumb-info-wrapper border-radius-0">
                           <span
@@ -459,7 +459,7 @@ const OffersAndPromotions = () => {
                 </div>
                 <div className="col-sm-6 col-lg-3 isotope-item">
                   <div className="portfolio-item">
-                    <a href="offers-and-promotions/Lifestyle/Suhotoo-Optics.html">
+                    <a href="/personal/offers-and-promotions/lifestyle/suhotoo-optics">
                       <span className="thumb-info thumb-info-lighten border-radius-0">
                         <span className="thumb-info-wrapper border-radius-0">
                           <span
@@ -491,7 +491,7 @@ const OffersAndPromotions = () => {
                 </div>
                 <div className="col-sm-6 col-lg-3 isotope-item">
                   <div className="portfolio-item">
-                    <a href="offers-and-promotions/Lifestyle/Roche-Bobois-Special-deal.html">
+                    <a href="/personal/offers-and-promotions/lifestyle/roche-bobois-special-deal">
                       <span className="thumb-info thumb-info-lighten border-radius-0">
                         <span className="thumb-info-wrapper border-radius-0">
                           <span
@@ -523,7 +523,7 @@ const OffersAndPromotions = () => {
                 </div>
                 <div className="col-sm-6 col-lg-3 isotope-item">
                   <div className="portfolio-item">
-                    <a href="offers-and-promotions/Lifestyle/Sofap-Home.html">
+                    <a href="/personal/offers-and-promotions/lifestyle/sofap-home">
                       <span className="thumb-info thumb-info-lighten border-radius-0">
                         <span className="thumb-info-wrapper border-radius-0">
                           <span
@@ -553,7 +553,7 @@ const OffersAndPromotions = () => {
                 </div>
                 <div className="col-sm-6 col-lg-3 isotope-item">
                   <div className="portfolio-item">
-                    <a href="offers-and-promotions/Lifestyle/Well-Case-Ltd.html">
+                    <a href="/personal/offers-and-promotions/lifestyle/well-case-ltd">
                       <span className="thumb-info thumb-info-lighten border-radius-0">
                         <span className="thumb-info-wrapper border-radius-0">
                           <span

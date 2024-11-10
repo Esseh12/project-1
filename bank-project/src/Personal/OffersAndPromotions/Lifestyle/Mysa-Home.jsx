@@ -10,11 +10,11 @@ const MysaHome = () => {
       href: "/personal/offers-and-promotions",
       isActive: true,
     },
-    { text: "Home Offers", href: "../home-offers.html" },
-    { text: "Banking Promotions", href: "../banking.html" },
+    { text: "Home Offers", href: "/personal/home-offers" },
+    { text: "Banking Promotions", href: "/personal/banking" },
     {
       text: "American Express® Membership Rewards®",
-      href: "../american-express-membership-rewards-offers.html",
+      href: "/personal/american-express-membership-rewards-offers",
     },
   ];
 

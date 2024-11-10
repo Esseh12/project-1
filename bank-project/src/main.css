@@ -742,3 +742,179 @@ table.factstable.factstable .lgreybg {
     margin-left: -23px;
   }
 }
+
+/* tresury list style */
+.treasury-list a {
+  color: #000000 !important;
+}
+
+.treasury-list a:hover {
+  color: #000000 !important;
+}
+
+
+/* rates in html styling */
+/*table.tableBOM {
+    border-left: none;
+    border-bottom: 1px solid #ebebeb;
+    border-top: none!important;
+    border-right: none!important;
+  font-family: 'Open Sans'!important;
+    color: #333;
+    margin: 0 auto;
+}
+
+.table.tableBOM td.none {
+    border-top: none!important;
+    border-left: none!important;
+}
+
+.tableBOM tr td.bg_red {
+    background: #ad000c!important;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+
+table.tableBOM tr.title_row, table.tableBOM tr.title_row td {
+    background: #333!important;
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+table.tableBOM tr.title_row_level2, table.tableBOM tr.title_row_level2 td {
+    background: #ebebeb!important;
+    font-size: 16px;
+    font-style: italic;
+    color: #000;
+}*/
+
+.tableBOM .style1 {
+  border: 1px solid #000
+}
+
+.tableBOM .style4 {
+  color: #000;
+  background: 0 0;
+  padding-left: 0 !important
+}
+
+.tableBOM .style5 {
+  margin-left: 40px
+}
+
+table.tableBOM {
+  border-left: none;
+  border-bottom: 1px solid #ebebeb;
+  border-top: none !important;
+  border-right: none !important;
+  font-family: 'Open Sans' !important;
+  font-size: 13px;
+  color: #333;
+  margin: 0 auto
+}
+
+.tableBOM tr td {
+  border-top: 1px solid #ebebeb !important;
+  border-right: 1px solid #ebebeb !important;
+  border-left: 1px solid #ebebeb;
+  border-bottom: none;
+  padding: 3px
+}
+
+table.tableBOM tr.title_row td,
+table.tableBOM tr.title_row_level2 td {
+  border-right: none !important
+}
+
+.tableBOM td:first-child {
+  border-left: 1px solid #ebebeb !important
+}
+
+.tableBOM tr td.bg_red {
+  background: #ad000c !important;
+  color: #fff;
+  text-align: center;
+  font-size: 16px
+}
+
+.tableBOM tr:first-child,
+table.tableBOM td {
+  background: 0 0
+}
+
+.tableBOM .title_ita {
+  font-weight: 700;
+  color: #000;
+  font-size: 15px;
+  width: 200px
+}
+
+.tableBOM li,
+.tableBOM ul {
+  padding: 0;
+  margin: 0
+}
+
+.tableBOM li.style4 {
+  margin-left: 26px !important
+}
+
+.tableBOM li.style3 {
+  margin-left: 40px
+}
+
+.tableBOM span {
+  color: #fff
+}
+
+.tableBOM ul.ullevel2 {
+  padding-left: 0
+}
+
+.tableBOM ul.ullevel2 li {
+  font-weight: 700;
+  list-style: none;
+  font-size: 14px;
+  background: 0 0;
+  padding-left: 0
+}
+
+.tableBOM ul.ullevel3 {
+  padding-left: 32px
+}
+
+.tableBOM ul.ullevel4 {
+  padding-left: 30px
+}
+
+.tableBOM ul.ullevel4 li {
+  padding-left: 20px
+}
+
+.tableBOM .note {
+  font-size: 11px;
+  color: #666
+}
+
+table.tableBOM tr.title_row,
+table.tableBOM tr.title_row td {
+  background: #333 !important;
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px
+}
+
+table.tableBOM tr.title_row_level2,
+table.tableBOM tr.title_row_level2 td {
+  background: #ebebeb !important;
+  font-size: 18px;
+  font-style: italic;
+  color: #000
+}
+
+table.tableBOM td.none {
+  border-top: none !important;
+  border-left: none !important
+}

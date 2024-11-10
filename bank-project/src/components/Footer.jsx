@@ -1,4 +1,4 @@
-// image at footer not rendering and icon a little bit to the left
+//icon a little bit to the left
 import { useEffect } from "react";
 import PropTypes from "prop-types";
 
@@ -129,7 +129,7 @@ const Footer = () => {
                 href: "../../about-us/financials-annual-reports.html",
                 text: "Financial & Reports",
               },
-              { href: "../../../rates-fees.html", text: "Rates & Fees" },
+              { href: "/rates-fees", text: "Rates & Fees" },
             ]}
           />
 
@@ -145,7 +145,7 @@ const Footer = () => {
                 text: "Foreign exchange calculator",
               },
               {
-                href: "../../../tools-calculators/how-much-can-i-borrow.html",
+                href: "/mauritius/tools-calculators/how-much-can-i-borrow",
                 text: "How much can I borrow?",
               },
               {
@@ -164,7 +164,7 @@ const Footer = () => {
             title="Resources"
             links={[
               {
-                href: "../../../resources/adherence-to-fx-global-code.html",
+                href: "/resources/adherence-to-fx-global-code",
                 text: "Adherence to FX Global Code",
               },
               {
@@ -180,11 +180,11 @@ const Footer = () => {
                 text: "Complaints Escalation",
               },
               {
-                href: "../../../resources/environmental-and-social-risk-management.html",
+                href: "/resources/environmental-and-social-risk-management",
                 text: "Environmental & Social Risk Management",
               },
               {
-                href: "../../../resources/libor-transition.html",
+                href: "/resources/libor-transition",
                 text: "LIBOR Transition",
               },
             ]}
@@ -194,15 +194,12 @@ const Footer = () => {
             title="Legal & Security"
             links={[
               {
-                href: "../../../legal/cookie-policy.html",
+                href: "/legal/cookie-policy",
                 text: "Cookie Policy",
               },
+              { href: "/legal/legal-notice", text: "Legal Notice" },
               {
-                href: "../../../legal/legal-notice.html",
-                text: "Legal Notice",
-              },
-              {
-                href: "../../../security-centre.html",
+                href: "/security-centre",
                 text: "Security Centre",
               },
               {
@@ -225,7 +222,7 @@ const Footer = () => {
           className="sf_colsIn col-md-6 col-lg-3 mb-4 mb-lg-0 pb-20"
         />
         <FooterAdditionalLink
-          href="../../../locate-us.html"
+          href="/locate-us"
           iconClass="fa-location-dot"
           text="Find a branch"
           id="Footer_T0975117C010_Col01"
@@ -263,6 +260,7 @@ const Footer = () => {
                       src="/images/mcb/default-album/logo-mcb-color.svg"
                       height="32"
                       alt=""
+                      style={{ width: "5rem" }}
                     />
                   </a>
                 </div>
