@@ -20,6 +20,7 @@ const Header = ({ children }) => {
       const script = document.createElement("script");
       script.src = src;
       script.async = false;
+      script.onerror = () => console.error(`Failed to load script: ${src}`);
       document.body.appendChild(script);
     });
 

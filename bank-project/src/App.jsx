@@ -14,9 +14,9 @@ import CustomerForms from "./mainPages/Customer-forms";
 // End of main pages
 // offer and promotions files
 import OffersAndPromotions from "./Personal/OffersAndPromotions";
-import HomeOffers from "./Personal/HomeOffers";
-import Banking from "./Personal/Banking";
-import AmericanExpressMembershipRewardsOffers from "./Personal/American-express-membership-rewards-offers";
+import HomeOffers from "./Personal/OffersAndPromotions/HomeOffers";
+import Banking from "./Personal/OffersAndPromotions/Banking";
+import AmericanExpressMembershipRewardsOffers from "./Personal/OffersAndPromotions/American-express-membership-rewards-offers";
 import CashlessAvoyOuLwin from "./Personal/OffersAndPromotions/Cashless-avoy-ou-lwin";
 // offers and promotions lifestyle files
 import KairaliSpa from "./Personal/OffersAndPromotions/Lifestyle/KAIRALI-SPA";
@@ -33,10 +33,60 @@ import RochesBoboisSpecialDeal from "./Personal/OffersAndPromotions/Lifestyle/Ro
 import SofapHome from "./Personal/OffersAndPromotions/Lifestyle/Sofap-Home";
 import WellCaseLtd from "./Personal/OffersAndPromotions/Lifestyle/Well-Case-Ltd";
 // end of  offers and promotions lifestyle files
+// Home Offers files
+import ReyLenferna from "./Personal/OffersAndPromotions/Home-offers/Home/Rey-lenferna";
+import TecoLtd from "./Personal/OffersAndPromotions/Home-offers/Home/Teco-Ltd";
+import EntrepoDeLaPierre from "./Personal/OffersAndPromotions/Home-offers/Home/Entrepot-de-la-Pierre";
+import RaisonHome from "./Personal/OffersAndPromotions/Home-offers/Home/RAISON-HOME";
+import VhHomeDecorations from "./Personal/OffersAndPromotions/Home-offers/Home/VH-Home-Decorations";
+import AshleyHomestore from "./Personal/OffersAndPromotions/Home-offers/Home/Ashley-Homestore";
+import TempurMauritius from "./Personal/OffersAndPromotions/Home-offers/Home/Tempur-Mauritius";
+import ElectricalMU from "./Personal/OffersAndPromotions/Home-offers/Home/ELECTRICAL-MU";
+import LealEnergieLtd from "./Personal/OffersAndPromotions/Home-offers/Home/Leal-Energie-Ltd";
+import DuracoLtd from "./Personal/OffersAndPromotions/Home-offers/Home/Duraco-Ltd";
+import ProfilageOceanIndien from "./Personal/OffersAndPromotions/Home-offers/Home/Profilage-Ocean-Indien";
+import Lising from "./Personal/OffersAndPromotions/Home-offers/Home/Lising";
+import QualityDecor from "./Personal/OffersAndPromotions/Home-offers/Home/Quality-Decor";
+import FurnitureMu from "./Personal/OffersAndPromotions/Home-offers/Home/Furniture-mu";
+import DecoB from "./Personal/OffersAndPromotions/Home-offers/Home/Deco-B";
+import Mauvilac from "./Personal/OffersAndPromotions/Home-offers/Home/Mauvilac";
+import AssociatedTextileServices from "./Personal/OffersAndPromotions/Home-offers/Home/Associated-Textile-Services";
+import DragonElectronics from "./Personal/OffersAndPromotions/Home-offers/Home/Dragon-Electronics";
+import AroundThePool from "./Personal/OffersAndPromotions/Home-offers/Home/Around-The-Pool";
+import GaleriesFokeerbux from "./Personal/OffersAndPromotions/Home-offers/Home/Galeries-Fokeerbux";
+import FebalCasa from "./Personal/OffersAndPromotions/Home-offers/Home/Febal-Casa";
+import RocheBobois from "./Personal/OffersAndPromotions/Home-offers/Home/Roche-Bobois";
+import MysaMaison from "./Personal/OffersAndPromotions/Home-offers/Home/MYSA-Maison";
+import SofapInspirationsStore from "./Personal/OffersAndPromotions/Home-offers/Home/Sofap-Inspirations-Store";
+// end of home offers files
+// Banking offers files
+import EnjoyUpTo8OffOnBookingComWithVisa from "./Personal/OffersAndPromotions/banking/Banking/Enjoy-up-to-8-off-on-booking.com-with-visa";
+import ContactlessCampaign2023 from "./Personal/OffersAndPromotions/banking/Banking/Contactless-campaign-2023";
+import CashlessAvoyOuLwinBank from "./Personal/OffersAndPromotions/banking/Banking/Cashless-avoy-ou-lwin";
+import McbrupysOffers from "./Personal/OffersAndPromotions/banking/Banking/Mcb-rupys-offfers";
+// end of banking offers files
 // end of offer and promotions files
 import GovernmentHomeLoanScheme from "./Personal/Loans/HomeLoans/GovernmentHomeLoanScheme";
 import FirstTimeHomeBuyerTips from "./Personal/Loans/HomeLoans/FirstTimeHomeBuyerTips";
 import ApplyingForAHomeLoanDocumentsYouWillNeed from "./Personal/Loans/HomeLoans/ApplyingForAHomeLoanDocumentsYouWillNeed";
+// Cards files
+import AmericanExpress from "./Personal/Cards/American-express";
+import ClassicCreditCard from "./Personal/Cards/Classic-credit-card";
+import CompareOurCreditCards from "./Personal/Cards/Compare-our-credit-cards";
+import GoldCreditCard from "./Personal/Cards/Gold-credit-card";
+import MastercardPrimoCreditCard from "./Personal/Cards/Mastercard-primo-credit-card";
+import McbDebitCard from "./Personal/Cards/Mcb-debit-card";
+import McbSecure from "./Personal/Cards/Mcb-secure";
+import PrepaidCards from "./Personal/Cards/Prepaid-cards";
+import TravelInsurance from "./Personal/Cards/Travel-insurance";
+import VisaPlatinum from "./Personal/Cards/Visa-platinum";
+import VisaSignature from "./Personal/Cards/Visa-signature";
+// Compare your credit cards files
+import YourExclusiveCards from "./Personal/Cards/Compare-our-credit-cards/Your-exclusive-cards";
+// End of compare your credit card files
+// mcb debit card files
+import ManagingYourDebitCardJustGotEasier from "./Personal/Cards/Mcb-debit-card/Managing-your-debit-card-just-got-easier";
+// End of Personal files
 // Treasury Market Updates files
 import TreasuryMarket2 from "./Treasury-market-updates/Treasury-Market2";
 import TreasuryMarket3 from "./Treasury-market-updates/Treasury-Market3";
@@ -59,7 +109,17 @@ import LiborTransition from "./Resources/Libor-transition";
 // Security centre files
 import CardsAndAtms from "./Security-centre/Cards-and-atms";
 import FraudAndScams from "./Security-centre/Fraud-and-scams";
+import MoneyMuling from "./Security-centre/Money-muling";
+import OnlineAndMobile from "./Security-centre/Online-and-mobile";
 // End of Security centre files
+// Online and mobile files
+import HowMcbProtectsYou from "./Security-centre/Online-and-mobile/How-mcb-protects-you";
+import WaysToKeepYourselfSafe from "./Security-centre/Online-and-mobile/Ways-to-keep-yourself-safe";
+// End of online and mobile files
+// Card and atms files
+import HowMcbProtectsYourCard from "./Security-centre/Cards-and-atms/How-mcb-protects-you";
+import WhatYouCanDoToProtectYourCards from "./Security-centre/Cards-and-atms/What-you-can-do-to-protect-your-cards";
+// End of card and atms files
 
 function App() {
   return (
@@ -159,7 +219,121 @@ function App() {
 
         {/* Home Offers files */}
         <Route path="/personal/home-offers" element={<HomeOffers />} />
-
+        <Route
+          path="/personal/offers-and-promotions/home-offers/home/rey-lenferna"
+          element={<ReyLenferna />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/home-offers/home/teco-ltd"
+          element={<TecoLtd />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/home-offers/home/entrepot-de-la-pierre"
+          element={<EntrepoDeLaPierre />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/home-offers/home/raison-home"
+          element={<RaisonHome />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/home-offers/home/vh-home-decorations"
+          element={<VhHomeDecorations />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/home-offers/home/ashley-homestore"
+          element={<AshleyHomestore />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/home-offers/home/tempur-mauritius"
+          element={<TempurMauritius />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/home-offers/home/electrical-mu"
+          element={<ElectricalMU />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/home-offers/home/leal-energie-ltd"
+          element={<LealEnergieLtd />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/home-offers/home/duraco-ltd"
+          element={<DuracoLtd />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/home-offers/home/profilage-ocean-indien"
+          element={<ProfilageOceanIndien />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/home-offers/home/lising"
+          element={<Lising />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/home-offers/home/quality-decor"
+          element={<QualityDecor />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/home-offers/home/furniture-mu"
+          element={<FurnitureMu />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/home-offers/home/deco-b"
+          element={<DecoB />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/home-offers/home/mauvilac"
+          element={<Mauvilac />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/home-offers/home/associated-textile-services"
+          element={<AssociatedTextileServices />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/home-offers/home/dragon-electronics"
+          element={<DragonElectronics />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/home-offers/home/around-the-pool"
+          element={<AroundThePool />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/home-offers/home/galeries-fokeerbux"
+          element={<GaleriesFokeerbux />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/home-offers/home/febalcasa"
+          element={<FebalCasa />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/home-offers/home/roche-bobois"
+          element={<RocheBobois />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/home-offers/home/mysa-maison"
+          element={<MysaMaison />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/home-offers/home/sofap-inspirations-store"
+          element={<SofapInspirationsStore />}
+        />
+        {/* END HOME OFFERS FILES */}
+        {/* Banking offers files */}
+        <Route
+          path="/personal/offers-and-promotions/banking/enjoy-up-to-8-off-on-booking-com-with-visa"
+          element={<EnjoyUpTo8OffOnBookingComWithVisa />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/banking/contactless-campaign-2023"
+          element={<ContactlessCampaign2023 />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/banking/cashless-avoy-ou-lwin"
+          element={<CashlessAvoyOuLwinBank />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/banking/mcb-rupys-offfers"
+          element={<McbrupysOffers />}
+        />
+        {/* end of banking offers files */}
         {/* Banking offers file */}
         <Route path="/personal/banking" element={<Banking />} />
 
@@ -181,7 +355,63 @@ function App() {
           path="/personal/loans/home-loan/applying-for-a-home-loan-documents-you-will-need"
           element={<ApplyingForAHomeLoanDocumentsYouWillNeed />}
         />
+        {/* Cards files */}
+        <Route
+          path="/personal/cards/american-express"
+          element={<AmericanExpress />}
+        />
+        <Route
+          path="/personal/cards/classic-credit-card"
+          element={<ClassicCreditCard />}
+        />
+        <Route
+          path="/personal/cards/compare-our-credit-cards"
+          element={<CompareOurCreditCards />}
+        />
+        <Route
+          path="/personal/cards/gold-credit-card"
+          element={<GoldCreditCard />}
+        />
+        <Route
+          path="/personal/cards/mastercard-primo-credit-card"
+          element={<MastercardPrimoCreditCard />}
+        />
+        <Route
+          path="/personal/cards/mcb-debit-card"
+          element={<McbDebitCard />}
+        />
+        <Route path="/personal/cards/mcb-secure" element={<McbSecure />} />
+        <Route
+          path="/personal/cards/prepaid-cards"
+          element={<PrepaidCards />}
+        />
+        <Route
+          path="/personal/cards/travel-insurance"
+          element={<TravelInsurance />}
+        />
+        <Route
+          path="/personal/cards/visa-platinum"
+          element={<VisaPlatinum />}
+        />
+        <Route
+          path="/personal/cards/visa-signature"
+          element={<VisaSignature />}
+        />
 
+        {/* Compare your credit cards files */}
+        <Route
+          path="/personal/cards/compare-our-credit-cards/your-exclusive-cards"
+          element={<YourExclusiveCards />}
+        />
+        {/* End of compare your credit card files */}
+        {/* Mcb debit card files */}
+        <Route
+          path="/personal/cards/mcb-debit-card/managing-your-debit-card-just-got-easier"
+          element={<ManagingYourDebitCardJustGotEasier />}
+        />
+        {/* End Mcb Debit Card */}
+        {/* End of card files */}
+        {/* End of Personal files */}
         {/* Legal folder files */}
         <Route path="/legal/cookie-policy" element={<CookiePolicy />} />
         <Route path="/legal/legal-notice" element={<LegalNotice />} />
@@ -223,7 +453,32 @@ function App() {
           path="/security-centre/fraud-and-scams"
           element={<FraudAndScams />}
         />
+        <Route path="/security-centre/money-muling" element={<MoneyMuling />} />
+        <Route
+          path="/security-centre/online-and-mobile"
+          element={<OnlineAndMobile />}
+        />
         {/* End of Security center files */}
+        {/* Online and mobile files */}
+        <Route
+          path="/security-centre/online-and-mobile/how-mcb-protects-you"
+          element={<HowMcbProtectsYou />}
+        />
+        <Route
+          path="/security-centre/online-and-mobile/ways-to-keep-yourself-safe"
+          element={<WaysToKeepYourselfSafe />}
+        />
+        {/* End of online and mobile files */}
+        {/* Card and atms files */}
+        <Route
+          path="/security-centre/cards-and-atms/how-mcb-protects-you"
+          element={<HowMcbProtectsYourCard />}
+        />
+        <Route
+          path="/security-centre/cards-and-atms/what-you-can-do-to-protect-your-cards"
+          element={<WhatYouCanDoToProtectYourCards />}
+        />
+        {/* End of Cards and atm files */}
       </Routes>
     </BrowserRouter>
   );

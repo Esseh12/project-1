@@ -18,7 +18,7 @@ const DesktopMenu = ({ children }) => {
   };
 
   return (
-    <div className="desktop-menu d-none d-lg-block d-xl-block header-home">
+    <div className="desktop-menu d-none d-lg-block d-xl-block anim-header-home">
       <div className="nav-container">
         <div className="top-header">
           <div className="container-fluid">
@@ -109,6 +109,7 @@ const DesktopMenu = ({ children }) => {
                         </Link>
                       </li>
                     </ul>
+                    {/* CHild component should go here */}
                   </div>
                 </div>
                 {/* Top part ending */}
@@ -117,9 +118,85 @@ const DesktopMenu = ({ children }) => {
           </div>
         </div>
         {/* bottom part starting  */}
-        <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-          {children}
-        </nav>
+        <div className="navigation">
+          <div className="container-fluid">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-primary ">
+              <div className="collapse navbar-collapse " id="main_nav">
+                <div
+                  className="logo"
+                  style={{
+                    visibility: "visible",
+                    display: "flex",
+                    alignItems: "center",
+                  }}
+                >
+                  <a className="navbar-brand main" href="#"></a>
+                  <a href="/">
+                    <img
+                      src="/images/mcb/default-album/logo-mcb-caravelle-red.svg"
+                      //sf-size={2255}
+                      data-sf-ec-immutable=""
+                      alt=""
+                      width={40}
+                      className="sf-immutable-selected"
+                    />
+                  </a>
+                </div>
+                {children}
+                {/* Side Button */}
+                <ul
+                  className="navbar-nav button"
+                  style={{
+                    visibility: "visible",
+                  }}
+                >
+                  {/* Internet Banking */}
+                  <li className="nav-item ib">
+                    <div className="btn-group">
+                      <a
+                        className="nav-link px-3"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        <i className="icon-ib" style={{ fontSize: 20 }} />
+                        <small
+                          style={{ lineHeight: "10px", fontSize: "80%" }}
+                          className=""
+                        >
+                          Internet Banking
+                        </small>
+                      </a>
+                      <div className="dropdown-menu dropdown-menu-end">
+                        <div className="title">
+                          <h4>Internet Banking</h4>
+                        </div>
+                        <ul className="buttons">
+                          <li className="btn-primary">
+                            <a
+                              href="/T001/banking.html"
+                              className="dropdown-item"
+                              target="_blank"
+                            >
+                              Login
+                            </a>
+                          </li>
+                        </ul>
+                        <ul className="more-links mt-4">
+                          <li>
+                            <a href="../../security-centre.html">
+                              <i className="icon-chevron-right" /> Protect
+                              yourself online
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
         {/* bottom part ending*/}
       </div>
     </div>

@@ -219,14 +219,19 @@ const Footer = () => {
           iconClass="fa-file-lines"
           text="Contact Us"
           id="Footer_T0975117C010_Col00"
+          // touching this section will break the footer
           className="sf_colsIn col-md-6 col-lg-3 mb-4 mb-lg-0 pb-20"
+          data-sf-element="Column 1"
+          data-placeholder-label="Column 1"
         />
         <FooterAdditionalLink
           href="/locate-us"
           iconClass="fa-location-dot"
           text="Find a branch"
           id="Footer_T0975117C010_Col01"
-          className="sf_colsIn col-md-6 col-lg-3 mb-4 mb-md-0 pb-20"
+          className="sf_colsIn col-md-6 col-lg-3 mb-4 mb-lg-0 pb-20"
+          data-sf-element="Column 2"
+          data-placeholder-label="Column 2"
         />
         <FooterAdditionalLink
           href="../../help-centre.html"
@@ -234,6 +239,8 @@ const Footer = () => {
           text="Need Help?"
           id="Footer_T0975117C010_Col02"
           className="sf_colsIn col-md-6 col-lg-3 mb-4 mb-md-0 pb-20"
+          data-sf-element="Column 3"
+          data-placeholder-label="Column 3"
         />
         <FooterAdditionalLink
           href="../../../offers/index.html"
@@ -241,6 +248,8 @@ const Footer = () => {
           text="Offers & promotions"
           id="Footer_T0975117C010_Col03"
           className="sf_colsIn col-md-6 col-lg-3 pb-20"
+          data-sf-element="Column 4"
+          data-placeholder-label="Column 4"
         />
       </div>
 

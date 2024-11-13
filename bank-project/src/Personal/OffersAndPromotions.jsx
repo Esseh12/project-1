@@ -1,7 +1,7 @@
-import { useEffect } from "react";
-import Header from "../components/Header";
 import NavMenu from "./OffersAndPromotions/OfferNavMenu";
-import Footer from "../components/Footer";
+import PersonalHeader from "../Components/Personal-header";
+import Footer from "../Components/Footer";
+import OfferCard from "./Personal-components/OfferCard";
 
 const OffersAndPromotions = () => {
   const navItems = [
@@ -18,35 +18,97 @@ const OffersAndPromotions = () => {
     },
   ];
 
-  useEffect(() => {
-    // External scripts to be loaded dynamically
-    const scripts = [
-      "/ResourcePackages/MCBMU/assets/dist/vendor/plugins/js/plugins.min7306.js?package=MCBMU",
-      "/ResourcePackages/MCBMU/assets/dist/js/theme7306.js?package=MCBMU",
-      "/ResourcePackages/MCBMU/assets/dist/js/views/view.contact7306.js?package=MCBMU",
-      "/ResourcePackages/MCBMU/assets/dist/js/demos/demo-business-consulting-27306.js?package=MCBMU",
-      "/ResourcePackages/MCBMU/assets/dist/js/custom7306.js?package=MCBMU",
-      "/ResourcePackages/MCBMU/assets/dist/js/ma5-menu7306.js?package=MCBMU",
-      "/ResourcePackages/MCBMU/assets/dist/js/theme.init7306.js?package=MCBMU",
-    ];
-
-    scripts.forEach((src) => {
-      const script = document.createElement("script");
-      script.src = src;
-      script.async = false;
-      document.body.appendChild(script);
-    });
-
-    // Cleanup scripts on component unmount
-    return () => {
-      scripts.forEach((src) => {
-        const script = document.querySelector(`script[src="${src}"]`);
-        if (script && script.parentNode === document.body) {
-          document.body.removeChild(script);
-        }
-      });
-    };
-  }, []);
+  const offers = [
+    {
+      link: "/personal/offers-and-promotions/lifestyle/kairali-spa",
+      images: [
+        "/images/mcb/offers/lifestyle/KAIRALI-SPAe26e.jpg?sfvrsn=4cdb330b_1",
+      ],
+      title: "KAIRALI SPA",
+    },
+    {
+      link: "/personal/offers-and-promotions/lifestyle/albert-trading-ltd",
+      images: [
+        "/images/mcb/offers/lifestyle/Alberttradingcoverb567.png?sfvrsn=5bb0efb6_1",
+      ],
+      title: "Albert Trading Ltd",
+    },
+    {
+      link: "/personal/offers-and-promotions/lifestyle/shoe-connection",
+      images: [
+        "/images/mcb/offers/lifestyle/shoe-connection-sd-2-20220459.jpg?sfvrsn=5dc5ea31_1",
+      ],
+      title: "Shoe Connection",
+    },
+    {
+      link: "offers-and-promotions/Lifestyle/Phydra.html",
+      images: ["/images/mcb/offers/lifestyle/phydra7e62.png?sfvrsn=36adca4_1"],
+      title: "Phydra",
+    },
+    {
+      link: "/personal/offers-and-promotions/lifestyle/mysa-home",
+      images: [
+        "/images/mcb/offers/lifestyle/mysa-home9e89.jpeg?sfvrsn=ab111409_1",
+      ],
+      title: "Mysa Home",
+    },
+    {
+      link: "/personal/offers-and-promotions/lifestyle/rv7-perfumery",
+      images: [
+        "/images/mcb/offers/lifestyle/RV7_Perfumeryc4de.png?sfvrsn=b003c6b3_1",
+      ],
+      title: "RV7 Perfumery",
+    },
+    {
+      link: "/personal/offers-and-promotions/lifestyle/my-fitness-pal",
+      images: [
+        "/images/mcb/offers/lifestyle/myfitness-pal1c6a.jpeg?sfvrsn=8d417e4a_1",
+      ],
+      title: "My Fitness Pal",
+    },
+    {
+      link: "/personal/offers-and-promotions/lifestyle/la-vallee-des-couleurs-nature-park",
+      images: [
+        "/images/mcb/offers/lifestyle/La-Vallee-des-Couleursc442.jpeg?sfvrsn=28f96e87_1",
+      ],
+      title: "La Vallée des Couleurs Nature Park",
+    },
+    {
+      link: "/personal/offers-and-promotions/lifestyle/iron-lion-gym-apparel",
+      images: [
+        "/images/mcb/offers/lifestyle/iron-lion-gym-apparel06c6.jpeg?sfvrsn=3dd8b0f9_1",
+      ],
+      title: "Iron Lion Gym Apparel",
+    },
+    {
+      link: "/personal/offers-and-promotions/lifestyle/suhotoo-optics",
+      images: [
+        "/images/mcb/offers/lifestyle/Suhotoo_optics8758.png?sfvrsn=f5136b17_1",
+      ],
+      title: "Suhotoo Optics",
+    },
+    {
+      link: "/personal/offers-and-promotions/lifestyle/roche-bobois-special-deal",
+      images: [
+        "/images/mcb/offers/lifestyle/Roche-Bobois-Special-deal3dbc.jpeg?sfvrsn=61e62b3b_1",
+      ],
+      title: "Roche Bobois Special deal",
+    },
+    {
+      link: "/personal/offers-and-promotions/lifestyle/sofap-home",
+      images: [
+        "/images/mcb/offers/lifestyle/Sofap2023ec2b.jpg?sfvrsn=f5bd3a6b_1",
+      ],
+      title: "Sofap Home",
+    },
+    {
+      link: "/personal/offers-and-promotions/lifestyle/well-case-ltd",
+      images: [
+        "/images/mcb/offers/lifestyle/Well-Case-Ltd214a.png?sfvrsn=8654c0c8_1",
+      ],
+      title: "Well Case Ltd",
+    },
+  ];
 
   return (
     <>
@@ -72,11 +134,14 @@ const OffersAndPromotions = () => {
           style={{ display: "none" }}
           data-website-id="tRTwdI-rQiKLFvNlhJwu_ptPTi2SJRsFNInusvSEpY0"
           data-hostname="c3991d45a5a44d94b4be9d674555dfaf.svc.dynamics.com"
-        />{" "}
-        <Header />
+        />
+        {/* REUSABLE HEADER COMPONENT */}
+        <PersonalHeader />
+        {/* REUSABLE HEADER COMPONENT */}
         <div role="main" className="main no-banner-spacing">
           {/* reusable nav menu component */}
           <NavMenu items={navItems} />
+          {/* reusable nav menu component */}
           <div className="container py-2 mt-50 mb-70">
             <div className=" sort-destination-loader-showing mt-4 pt-2">
               <div className="row mb-70">
@@ -173,422 +238,15 @@ const OffersAndPromotions = () => {
                 </div>
               </div>
               <div className="row portfolio-list sort-destination">
-                <div className="col-sm-6 col-lg-3 isotope-item">
-                  <div className="portfolio-item">
-                    <a href="/personal/offers-and-promotions/lifestyle/kairali-spa">
-                      <span className="thumb-info thumb-info-lighten border-radius-0">
-                        <span className="thumb-info-wrapper border-radius-0">
-                          <span
-                            className="owl-carousel owl-theme dots-inside m-0"
-                            data-plugin-options="{'items': 1, 'margin': 20, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}"
-                          >
-                            <span>
-                              <img
-                                src="/images/mcb/offers/lifestyle/KAIRALI-SPAe26e.jpg?sfvrsn=4cdb330b_1"
-                                className="img-fluid border-radius-0"
-                                alt=""
-                              />
-                            </span>
-                          </span>
-                          <span className="thumb-info-title">
-                            <span className="thumb-info-inner">
-                              KAIRALI SPA
-                            </span>
-                          </span>
-                          <span className="thumb-info-action">
-                            <span className="thumb-info-action-icon bg-dark opacity-8">
-                              <i className="fas fa-plus" />
-                            </span>
-                          </span>
-                        </span>
-                      </span>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-sm-6 col-lg-3 isotope-item">
-                  <div className="portfolio-item">
-                    <a href="/personal/offers-and-promotions/lifestyle/albert-trading-ltd">
-                      <span className="thumb-info thumb-info-lighten border-radius-0">
-                        <span className="thumb-info-wrapper border-radius-0">
-                          <span
-                            className="owl-carousel owl-theme dots-inside m-0"
-                            data-plugin-options="{'items': 1, 'margin': 20, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}"
-                          >
-                            <span>
-                              <img
-                                src="/images/mcb/offers/lifestyle/Alberttradingcoverb567.png?sfvrsn=5bb0efb6_1"
-                                className="img-fluid border-radius-0"
-                                alt=""
-                              />
-                            </span>
-                          </span>
-                          <span className="thumb-info-title">
-                            <span className="thumb-info-inner">
-                              Albert Trading Ltd
-                            </span>
-                          </span>
-                          <span className="thumb-info-action">
-                            <span className="thumb-info-action-icon bg-dark opacity-8">
-                              <i className="fas fa-plus" />
-                            </span>
-                          </span>
-                        </span>
-                      </span>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-sm-6 col-lg-3 isotope-item">
-                  <div className="portfolio-item">
-                    <a href="/personal/offers-and-promotions/lifestyle/shoe-connection">
-                      <span className="thumb-info thumb-info-lighten border-radius-0">
-                        <span className="thumb-info-wrapper border-radius-0">
-                          <span
-                            className="owl-carousel owl-theme dots-inside m-0"
-                            data-plugin-options="{'items': 1, 'margin': 20, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}"
-                          >
-                            <span>
-                              <img
-                                src="/images/mcb/offers/lifestyle/shoe-connection-sd-2-20220459.jpg?sfvrsn=5dc5ea31_1"
-                                className="img-fluid border-radius-0"
-                                alt=""
-                              />
-                            </span>
-                          </span>
-                          <span className="thumb-info-title">
-                            <span className="thumb-info-inner">
-                              Shoe Connection
-                            </span>
-                          </span>
-                          <span className="thumb-info-action">
-                            <span className="thumb-info-action-icon bg-dark opacity-8">
-                              <i className="fas fa-plus" />
-                            </span>
-                          </span>
-                        </span>
-                      </span>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-sm-6 col-lg-3 isotope-item">
-                  <div className="portfolio-item">
-                    <a href="offers-and-promotions/Lifestyle/Phydra.html">
-                      <span className="thumb-info thumb-info-lighten border-radius-0">
-                        <span className="thumb-info-wrapper border-radius-0">
-                          <span
-                            className="owl-carousel owl-theme dots-inside m-0"
-                            data-plugin-options="{'items': 1, 'margin': 20, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}"
-                          >
-                            <span>
-                              <img
-                                src="/images/mcb/offers/lifestyle/phydra7e62.png?sfvrsn=36adca4_1"
-                                className="img-fluid border-radius-0"
-                                alt=""
-                              />
-                            </span>
-                          </span>
-                          <span className="thumb-info-title">
-                            <span className="thumb-info-inner">Phydra</span>
-                          </span>
-                          <span className="thumb-info-action">
-                            <span className="thumb-info-action-icon bg-dark opacity-8">
-                              <i className="fas fa-plus" />
-                            </span>
-                          </span>
-                        </span>
-                      </span>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-sm-6 col-lg-3 isotope-item">
-                  <div className="portfolio-item">
-                    <a href="/personal/offers-and-promotions/lifestyle/mysa-home">
-                      <span className="thumb-info thumb-info-lighten border-radius-0">
-                        <span className="thumb-info-wrapper border-radius-0">
-                          <span
-                            className="owl-carousel owl-theme dots-inside m-0"
-                            data-plugin-options="{'items': 1, 'margin': 20, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}"
-                          >
-                            <span>
-                              <img
-                                src="/images/mcb/offers/lifestyle/mysa-home9e89.jpeg?sfvrsn=ab111409_1"
-                                className="img-fluid border-radius-0"
-                                alt=""
-                              />
-                            </span>
-                          </span>
-                          <span className="thumb-info-title">
-                            <span className="thumb-info-inner">Mysa Home</span>
-                          </span>
-                          <span className="thumb-info-action">
-                            <span className="thumb-info-action-icon bg-dark opacity-8">
-                              <i className="fas fa-plus" />
-                            </span>
-                          </span>
-                        </span>
-                      </span>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-sm-6 col-lg-3 isotope-item">
-                  <div className="portfolio-item">
-                    <a href="/personal/offers-and-promotions/lifestyle/rv7-perfumery">
-                      <span className="thumb-info thumb-info-lighten border-radius-0">
-                        <span className="thumb-info-wrapper border-radius-0">
-                          <span
-                            className="owl-carousel owl-theme dots-inside m-0"
-                            data-plugin-options="{'items': 1, 'margin': 20, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}"
-                          >
-                            <span>
-                              <img
-                                src="/images/mcb/offers/lifestyle/RV7_Perfumeryc4de.png?sfvrsn=b003c6b3_1"
-                                className="img-fluid border-radius-0"
-                                alt=""
-                              />
-                            </span>
-                          </span>
-                          <span className="thumb-info-title">
-                            <span className="thumb-info-inner">
-                              RV7 Perfumery
-                            </span>
-                          </span>
-                          <span className="thumb-info-action">
-                            <span className="thumb-info-action-icon bg-dark opacity-8">
-                              <i className="fas fa-plus" />
-                            </span>
-                          </span>
-                        </span>
-                      </span>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-sm-6 col-lg-3 isotope-item">
-                  <div className="portfolio-item">
-                    <a href="/personal/offers-and-promotions/lifestyle/my-fitness-pal">
-                      <span className="thumb-info thumb-info-lighten border-radius-0">
-                        <span className="thumb-info-wrapper border-radius-0">
-                          <span
-                            className="owl-carousel owl-theme dots-inside m-0"
-                            data-plugin-options="{'items': 1, 'margin': 20, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}"
-                          >
-                            <span>
-                              <img
-                                src="/images/mcb/offers/lifestyle/myfitness-pal1c6a.jpeg?sfvrsn=8d417e4a_1"
-                                className="img-fluid border-radius-0"
-                                alt=""
-                              />
-                            </span>
-                          </span>
-                          <span className="thumb-info-title">
-                            <span className="thumb-info-inner">
-                              My Fitness Pal
-                            </span>
-                          </span>
-                          <span className="thumb-info-action">
-                            <span className="thumb-info-action-icon bg-dark opacity-8">
-                              <i className="fas fa-plus" />
-                            </span>
-                          </span>
-                        </span>
-                      </span>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-sm-6 col-lg-3 isotope-item">
-                  <div className="portfolio-item">
-                    <a href="/personal/offers-and-promotions/lifestyle/la-vallee-des-couleurs-nature-park">
-                      <span className="thumb-info thumb-info-lighten border-radius-0">
-                        <span className="thumb-info-wrapper border-radius-0">
-                          <span
-                            className="owl-carousel owl-theme dots-inside m-0"
-                            data-plugin-options="{'items': 1, 'margin': 20, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}"
-                          >
-                            <span>
-                              <img
-                                src="/images/mcb/offers/lifestyle/La-Vallee-des-Couleursc442.jpeg?sfvrsn=28f96e87_1"
-                                className="img-fluid border-radius-0"
-                                alt=""
-                              />
-                            </span>
-                          </span>
-                          <span className="thumb-info-title">
-                            <span className="thumb-info-inner">
-                              La Vallée des Couleurs Nature Park
-                            </span>
-                          </span>
-                          <span className="thumb-info-action">
-                            <span className="thumb-info-action-icon bg-dark opacity-8">
-                              <i className="fas fa-plus" />
-                            </span>
-                          </span>
-                        </span>
-                      </span>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-sm-6 col-lg-3 isotope-item">
-                  <div className="portfolio-item">
-                    <a href="/personal/offers-and-promotions/lifestyle/iron-lion-gym-apparel">
-                      <span className="thumb-info thumb-info-lighten border-radius-0">
-                        <span className="thumb-info-wrapper border-radius-0">
-                          <span
-                            className="owl-carousel owl-theme dots-inside m-0"
-                            data-plugin-options="{'items': 1, 'margin': 20, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}"
-                          >
-                            <span>
-                              <img
-                                src="/images/mcb/offers/lifestyle/iron-lion-gym-apparel06c6.jpeg?sfvrsn=3dd8b0f9_1"
-                                className="img-fluid border-radius-0"
-                                alt=""
-                              />
-                            </span>
-                          </span>
-                          <span className="thumb-info-title">
-                            <span className="thumb-info-inner">
-                              Iron Lion Gym Apparel
-                            </span>
-                          </span>
-                          <span className="thumb-info-action">
-                            <span className="thumb-info-action-icon bg-dark opacity-8">
-                              <i className="fas fa-plus" />
-                            </span>
-                          </span>
-                        </span>
-                      </span>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-sm-6 col-lg-3 isotope-item">
-                  <div className="portfolio-item">
-                    <a href="/personal/offers-and-promotions/lifestyle/suhotoo-optics">
-                      <span className="thumb-info thumb-info-lighten border-radius-0">
-                        <span className="thumb-info-wrapper border-radius-0">
-                          <span
-                            className="owl-carousel owl-theme dots-inside m-0"
-                            data-plugin-options="{'items': 1, 'margin': 20, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}"
-                          >
-                            <span>
-                              <img
-                                src="/images/mcb/offers/lifestyle/Suhotoo_optics8758.png?sfvrsn=f5136b17_1"
-                                className="img-fluid border-radius-0"
-                                alt=""
-                              />
-                            </span>
-                          </span>
-                          <span className="thumb-info-title">
-                            <span className="thumb-info-inner">
-                              Suhotoo Optics
-                            </span>
-                          </span>
-                          <span className="thumb-info-action">
-                            <span className="thumb-info-action-icon bg-dark opacity-8">
-                              <i className="fas fa-plus" />
-                            </span>
-                          </span>
-                        </span>
-                      </span>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-sm-6 col-lg-3 isotope-item">
-                  <div className="portfolio-item">
-                    <a href="/personal/offers-and-promotions/lifestyle/roche-bobois-special-deal">
-                      <span className="thumb-info thumb-info-lighten border-radius-0">
-                        <span className="thumb-info-wrapper border-radius-0">
-                          <span
-                            className="owl-carousel owl-theme dots-inside m-0"
-                            data-plugin-options="{'items': 1, 'margin': 20, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}"
-                          >
-                            <span>
-                              <img
-                                src="/images/mcb/offers/lifestyle/Roche-Bobois-Special-deal3dbc.jpeg?sfvrsn=61e62b3b_1"
-                                className="img-fluid border-radius-0"
-                                alt=""
-                              />
-                            </span>
-                          </span>
-                          <span className="thumb-info-title">
-                            <span className="thumb-info-inner">
-                              Roche Bobois Special deal
-                            </span>
-                          </span>
-                          <span className="thumb-info-action">
-                            <span className="thumb-info-action-icon bg-dark opacity-8">
-                              <i className="fas fa-plus" />
-                            </span>
-                          </span>
-                        </span>
-                      </span>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-sm-6 col-lg-3 isotope-item">
-                  <div className="portfolio-item">
-                    <a href="/personal/offers-and-promotions/lifestyle/sofap-home">
-                      <span className="thumb-info thumb-info-lighten border-radius-0">
-                        <span className="thumb-info-wrapper border-radius-0">
-                          <span
-                            className="owl-carousel owl-theme dots-inside m-0"
-                            data-plugin-options="{'items': 1, 'margin': 20, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}"
-                          >
-                            <span>
-                              <img
-                                src="/images/mcb/offers/lifestyle/Sofap2023ec2b.jpg?sfvrsn=f5bd3a6b_1"
-                                className="img-fluid border-radius-0"
-                                alt=""
-                              />
-                            </span>
-                          </span>
-                          <span className="thumb-info-title">
-                            <span className="thumb-info-inner">Sofap Home</span>
-                          </span>
-                          <span className="thumb-info-action">
-                            <span className="thumb-info-action-icon bg-dark opacity-8">
-                              <i className="fas fa-plus" />
-                            </span>
-                          </span>
-                        </span>
-                      </span>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-sm-6 col-lg-3 isotope-item">
-                  <div className="portfolio-item">
-                    <a href="/personal/offers-and-promotions/lifestyle/well-case-ltd">
-                      <span className="thumb-info thumb-info-lighten border-radius-0">
-                        <span className="thumb-info-wrapper border-radius-0">
-                          <span
-                            className="owl-carousel owl-theme dots-inside m-0"
-                            data-plugin-options="{'items': 1, 'margin': 20, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}"
-                          >
-                            <span>
-                              <img
-                                src="/images/mcb/offers/lifestyle/Well-Case-Ltd214a.png?sfvrsn=8654c0c8_1"
-                                className="img-fluid border-radius-0"
-                                alt=""
-                              />
-                            </span>
-                          </span>
-                          <span className="thumb-info-title">
-                            <span className="thumb-info-inner">
-                              Well Case Ltd
-                            </span>
-                          </span>
-                          <span className="thumb-info-action">
-                            <span className="thumb-info-action-icon bg-dark opacity-8">
-                              <i className="fas fa-plus" />
-                            </span>
-                          </span>
-                        </span>
-                      </span>
-                    </a>
-                  </div>
-                </div>
+                {offers.map((offer, index) => (
+                  <OfferCard key={index} {...offer} />
+                ))}
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>
         <Footer />
-      </div>{" "}
+      </div>
       {/* Vendor */} {/* Theme Base, Components and Settings */}{" "}
       {/* Current Page Vendor and Views */} {/* Demo */} {/* Theme Custom */}{" "}
       {/* Theme Initialization Files */}
