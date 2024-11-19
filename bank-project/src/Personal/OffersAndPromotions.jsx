@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import NavMenu from "./OffersAndPromotions/OfferNavMenu";
 import PersonalHeader from "../Components/Personal-header";
 import Footer from "../Components/Footer";
@@ -112,14 +113,16 @@ const OffersAndPromotions = () => {
 
   return (
     <>
-      <meta name="title" content="Offers and promotions" />
-      <title>Offers and promotions</title>{" "}
-      <meta property="og:title" content="Offers and promotions" />
-      <meta
-        property="og:url"
-        content="https://mcb.mu/personal/offers-and-promotions"
-      />
-      <link rel="canonical" href="/offers-and-promotions.html" />
+      <Helmet>
+        <meta name="title" content="Offers and promotions" />
+        <title>Offers and promotions</title>{" "}
+        <meta property="og:title" content="Offers and promotions" />
+        <meta
+          property="og:url"
+          content="https://mcb.mu/personal/offers-and-promotions"
+        />
+        <link rel="canonical" href="/offers-and-promotions.html" />
+      </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
         <noscript

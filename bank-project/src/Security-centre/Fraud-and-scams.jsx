@@ -1,27 +1,31 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import { Helmet } from "react-helmet-async";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
+
 const FraudAndScams = () => {
   return (
     <>
-      {/* Mirrored from mcb.mu/security-centre/fraud-and-scams by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 07:16:33 GMT */}
-      <meta name="title" content="Fraud and Scams Awareness | MCB	" />
-      <meta
-        name="description"
-        content="Learn about common scams and stay informed about financial fraud. Protect your identity, devices, and financial information. Report scams to MCB."
-      />
-      <title>Fraud and Scams Awareness | MCB</title>
-      <meta property="og:title" content="Fraud and Scams Awareness | MCB" />
-      <meta
-        property="og:description"
-        content="Learn about common scams and stay informed about financial fraud. Protect your identity, devices, and financial information. Report scams to MCB."
-      />
-      <meta
-        property="og:url"
-        content="https://mcb.mu/security-centre/fraud-and-scams"
-      />
-      <meta property="og:type" content="website" />
-      <meta property="og:site_name" content="MCB Mauritius" />
-      <link rel="canonical" href="/fraud-and-scams" />
+      <Helmet>
+        {/* Mirrored from mcb.mu/security-centre/fraud-and-scams by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 07:16:33 GMT */}
+        <meta name="title" content="Fraud and Scams Awareness | MCB	" />
+        <meta
+          name="description"
+          content="Learn about common scams and stay informed about financial fraud. Protect your identity, devices, and financial information. Report scams to MCB."
+        />
+        <title>Fraud and Scams Awareness | MCB</title>
+        <meta property="og:title" content="Fraud and Scams Awareness | MCB" />
+        <meta
+          property="og:description"
+          content="Learn about common scams and stay informed about financial fraud. Protect your identity, devices, and financial information. Report scams to MCB."
+        />
+        <meta
+          property="og:url"
+          content="https://mcb.mu/security-centre/fraud-and-scams"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="MCB Mauritius" />
+        <link rel="canonical" href="/fraud-and-scams" />
+      </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
         <noscript
@@ -39,7 +43,7 @@ const FraudAndScams = () => {
             className="banner-small custom-bg-color-light-2 position-relative border-0 pb-sm-0 pt-lg-4 m-0 mt-80"
             style={{
               backgroundImage:
-                "url(../images/mcb/personal/banners/personal-fraud-scams-banner44f8.jpeg?sfvrsn=fde5752b_0)",
+                "url(/images/mcb/personal/banners/personal-fraud-scams-banner44f8.jpeg?sfvrsn=fde5752b_0)",
             }}
           >
             <div className="overlay" />
@@ -51,14 +55,14 @@ const FraudAndScams = () => {
                   data-appear-animation-delay={450}
                 >
                   <h1
-                    className="text-color-dark font-weight-semi-bold text-10 line-height-1 mb-3 pe-5 me-5"
-                    style={{ color: "#ffffff!important" }}
+                    className="font-weight-semi-bold text-10 line-height-1 mb-3 pe-5 me-5"
+                    style={{ color: "#ffffff" }}
                   >
                     Fraud and Scams
                   </h1>
                   <p
                     className="lead line-height-2 text-4 pe-5 mb-4 pb-2"
-                    style={{ color: "#ffffff!important" }}
+                    style={{ color: "#ffffff" }}
                   >
                     We are dedicated to fighting fraud as well as help you
                     reduce your exposure to certain types of fraud.
@@ -132,7 +136,7 @@ const FraudAndScams = () => {
                             <p>&nbsp;</p>
                           </div>
                           <a
-                            href="fraud-and-scams/latest-scams.html"
+                            href="/security-centre/fraud-and-scams/latest-scams"
                             target="_self"
                             className="mb-1 mt-1 me-1 btn btn-primary"
                           >
@@ -159,7 +163,11 @@ const FraudAndScams = () => {
                 >
                   <div>
                     <div className="card bg-color-light box-shadow-1 box-shadow-1-hover anim-hover-translate-top-10px transition-3ms">
-                      <div className="card-body" data-mh-l1="tiles-block">
+                      <div
+                        className="card-body"
+                        data-mh-l1="tiles-block"
+                        style={{ minHeight: "306px" }}
+                      >
                         <div className="d-flex flex-column align-items-start">
                           <h3
                             className="card-title mb-2 text-5 font-weight-medium text-decoration-none text-transform-none"
@@ -177,7 +185,7 @@ const FraudAndScams = () => {
                         <div className="d-flex flex-column align-items-end">
                           <p className="mb-0 mt-3">
                             <a
-                              href="fraud-and-scams/online-fraud.html"
+                              href="/security-centre/fraud-and-scams/online-fraud"
                               target="_self"
                               className="read-more text-color-primary font-weight-semibold mt-2 text-2"
                             >
@@ -203,7 +211,11 @@ const FraudAndScams = () => {
                 >
                   <div>
                     <div className="card bg-color-light box-shadow-1 box-shadow-1-hover anim-hover-translate-top-10px transition-3ms">
-                      <div className="card-body" data-mh-l1="tiles-block">
+                      <div
+                        className="card-body"
+                        data-mh-l1="tiles-block"
+                        style={{ minHeight: "306px" }}
+                      >
                         <div className="d-flex flex-column align-items-start">
                           <h3
                             className="card-title mb-2 text-5 font-weight-medium text-decoration-none text-transform-none"
@@ -220,7 +232,7 @@ const FraudAndScams = () => {
                         <div className="d-flex flex-column align-items-end">
                           <p className="mb-0 mt-3">
                             <a
-                              href="fraud-and-scams/mobile-fraud.html"
+                              href="/security-centre/fraud-and-scams/mobile-fraud"
                               target="_self"
                               className="read-more text-color-primary font-weight-semibold mt-2 text-2"
                             >
@@ -246,7 +258,11 @@ const FraudAndScams = () => {
                 >
                   <div>
                     <div className="card bg-color-light box-shadow-1 box-shadow-1-hover anim-hover-translate-top-10px transition-3ms">
-                      <div className="card-body" data-mh-l1="tiles-block">
+                      <div
+                        className="card-body"
+                        data-mh-l1="tiles-block"
+                        style={{ minHeight: "306px" }}
+                      >
                         <div className="d-flex flex-column align-items-start">
                           <h3
                             className="card-title mb-2 text-5 font-weight-medium text-decoration-none text-transform-none"
@@ -263,7 +279,7 @@ const FraudAndScams = () => {
                         <div className="d-flex flex-column align-items-end">
                           <p className="mb-0 mt-3">
                             <a
-                              href="fraud-and-scams/card-fraud.html"
+                              href="/security-centre/fraud-and-scams/card-fraud"
                               target="_self"
                               className="read-more text-color-primary font-weight-semibold mt-2 text-2"
                             >
@@ -289,7 +305,11 @@ const FraudAndScams = () => {
                 >
                   <div>
                     <div className="card bg-color-light box-shadow-1 box-shadow-1-hover anim-hover-translate-top-10px transition-3ms">
-                      <div className="card-body" data-mh-l1="tiles-block">
+                      <div
+                        className="card-body"
+                        data-mh-l1="tiles-block"
+                        style={{ minHeight: "306px" }}
+                      >
                         <div className="d-flex flex-column align-items-start">
                           <h3
                             className="card-title mb-2 text-5 font-weight-medium text-decoration-none text-transform-none"
@@ -307,7 +327,7 @@ const FraudAndScams = () => {
                         <div className="d-flex flex-column align-items-end">
                           <p className="mb-0 mt-3">
                             <a
-                              href="fraud-and-scams/other-fraud.html"
+                              href="/security-centre/fraud-and-scams/other-fraud"
                               target="_self"
                               className="read-more text-color-primary font-weight-semibold mt-2 text-2"
                             >
@@ -347,7 +367,7 @@ const FraudAndScams = () => {
                             <p>
                               Email us on{" "}
                               <a
-                                href="../cdn-cgi/l/email-protection.html"
+                                href="/cdn-cgi/l/email-protection.html"
                                 className="__cf_email__"
                                 data-femail="7d1e1213091c1e093d101e1f531008"
                               >
@@ -361,7 +381,7 @@ const FraudAndScams = () => {
                             <p>&nbsp;</p>
                           </div>
                           <a
-                            href="../cdn-cgi/l/email-protection.html#e0838f8e94818394a08d8382ce8d95"
+                            href="/cdn-cgi/l/email-protection.html#e0838f8e94818394a08d8382ce8d95"
                             target="_blank"
                             className="mb-1 mt-1 me-1 btn btn-primary"
                           >

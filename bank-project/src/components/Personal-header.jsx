@@ -1,4 +1,4 @@
-import Header from "../Components/Header";
+import Header from "./Header";
 
 const PersonalHeader = () => {
   return (

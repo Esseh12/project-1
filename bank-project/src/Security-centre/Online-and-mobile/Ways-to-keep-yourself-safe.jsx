@@ -1,26 +1,32 @@
+import { Helmet } from "react-helmet-async";
 import Header from "../../Components/Header";
 import Footer from "../../Components/Footer";
 
 const WaysToKeepYourselfSafe = () => {
   return (
     <>
-      {/* Mirrored from mcb.mu/security-centre/online-and-mobile/ways-to-keep-yourself-safe by HTTrack Website Copier/3.x [XR&CO&#39;2014], Fri, 05 Jan 2024 09:55:18 GMT */}
-      <meta name="title" content="Online &amp; Mobile Security Tips | MCB	" />
-      <meta
-        name="description"
-        content="Explore essential security practices for safe online and mobile banking. Learn how MCB helps you protect your finances."
-      />
-      <title>Online &amp; Mobile Security Tips | MCB</title>
-      <meta property="og:title" content="Online & Mobile Security Tips | MCB" />
-      <meta
-        property="og:description"
-        content="Explore essential security practices for safe online and mobile banking. Learn how MCB helps you protect your finances."
-      />
-      <meta
-        property="og:url"
-        content="https://mcb.mu/security-centre/online-and-mobile/ways-to-keep-yourself-safe"
-      />
-      <link rel="canonical" href="ways-to-keep-yourself-safe" />
+      <Helmet>
+        {/* Mirrored from mcb.mu/security-centre/online-and-mobile/ways-to-keep-yourself-safe by HTTrack Website Copier/3.x [XR&CO&#39;2014], Fri, 05 Jan 2024 09:55:18 GMT */}
+        <meta name="title" content="Online &amp; Mobile Security Tips | MCB	" />
+        <meta
+          name="description"
+          content="Explore essential security practices for safe online and mobile banking. Learn how MCB helps you protect your finances."
+        />
+        <title>Online &amp; Mobile Security Tips | MCB</title>
+        <meta
+          property="og:title"
+          content="Online & Mobile Security Tips | MCB"
+        />
+        <meta
+          property="og:description"
+          content="Explore essential security practices for safe online and mobile banking. Learn how MCB helps you protect your finances."
+        />
+        <meta
+          property="og:url"
+          content="https://mcb.mu/security-centre/online-and-mobile/ways-to-keep-yourself-safe"
+        />
+        <link rel="canonical" href="ways-to-keep-yourself-safe" />
+      </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
         <noscript
@@ -38,7 +44,7 @@ const WaysToKeepYourselfSafe = () => {
             className="banner-small custom-bg-color-light-2 position-relative border-0 pb-sm-0 pt-lg-4 m-0 mt-80"
             style={{
               backgroundImage:
-                "url(../../images/mcb/personal/banners/personal-online-protection-banner459d.jpeg?sfvrsn=7e539421_0)",
+                "url(/images/mcb/personal/banners/personal-online-protection-banner459d.jpeg?sfvrsn=7e539421_0)",
             }}
           >
             <div className="overlay" />
@@ -50,14 +56,14 @@ const WaysToKeepYourselfSafe = () => {
                   data-appear-animation-delay={450}
                 >
                   <h1
-                    className="text-color-dark font-weight-semi-bold text-10 line-height-1 mb-3 pe-5 me-5"
-                    style={{ color: "#ffffff!important" }}
+                    className="font-weight-semi-bold text-10 line-height-1 mb-3 pe-5 me-5"
+                    style={{ color: "#ffffff" }}
                   >
                     Ways to keep yourself safe
                   </h1>
                   <p
                     className="lead line-height-2 text-4 pe-5 mb-4 pb-2"
-                    style={{ color: "#ffffff!important" }}
+                    style={{ color: "#ffffff" }}
                   >
                     While we make sure to use industry-standard security
                     technology, you have a role to play in securing your money
@@ -125,7 +131,7 @@ const WaysToKeepYourselfSafe = () => {
                         can be rewarded. In case you’ve received a suspicious
                         email, forward it to us immediately on{" "}
                         <a
-                          href="../../cdn-cgi/l/email-protection.html"
+                          href="/cdn-cgi/l/email-protection.html"
                           className="__cf_email__"
                           data-femail="553439302721153836377b3820"
                         >

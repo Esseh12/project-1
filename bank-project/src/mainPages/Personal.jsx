@@ -760,6 +760,8 @@ const Personal = () => {
                     <h2>Useful tools and resources</h2>
                   </div>
                 </div>
+
+                {/* The calculator */}
                 <div className="row" data-sf-element="Row">
                   <div
                     id="Main_C010_Col00"
@@ -844,6 +846,7 @@ const Personal = () => {
                                               id="currency1a"
                                               name="currency1a"
                                               className="form__input jquery-selectmenu--forex currency1"
+                                              style={{ display: "none" }}
                                             >
                                               <option value="aed">
                                                 UAE Dirham AED
@@ -884,7 +887,7 @@ const Personal = () => {
                                               <option value="mga">
                                                 Malagasy Ariary MGA
                                               </option>
-                                              <option value="mur">
+                                              <option value="mur" disabled="">
                                                 Mauritius MUR
                                               </option>
                                               <option value="nok">
@@ -916,6 +919,28 @@ const Personal = () => {
                                                 South Africa Rand ZAR
                                               </option>
                                             </select>
+                                            <span
+                                              tabIndex={0}
+                                              id="currency1a-button"
+                                              role="combobox"
+                                              aria-expanded="false"
+                                              aria-autocomplete="list"
+                                              aria-owns="currency1a-menu"
+                                              aria-haspopup="true"
+                                              className="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"
+                                              aria-activedescendant="ui-id-390"
+                                              aria-labelledby="ui-id-390"
+                                              aria-disabled="false"
+                                            >
+                                              <span
+                                                style={{}}
+                                                className="ui-selectmenu-flag"
+                                              />
+                                              <span className="ui-selectmenu-icon ui-icon icon--arrow-down" />
+                                              <span className="ui-selectmenu-text">
+                                                United States Dollars USD
+                                              </span>
+                                            </span>
                                           </div>
                                         </div>
                                       </div>
@@ -948,6 +973,7 @@ const Personal = () => {
                                               id="currency2a"
                                               name="currency2a"
                                               className="form__input jquery-selectmenu--forex currency2"
+                                              style={{ display: "none" }}
                                             >
                                               <option value="aed">
                                                 UAE Dirham AED
@@ -1013,13 +1039,35 @@ const Personal = () => {
                                               <option value="tzs">
                                                 Tanzania Shillings TZS
                                               </option>
-                                              <option value="usd">
+                                              <option value="usd" disabled="">
                                                 United States Dollars USD
                                               </option>
                                               <option value="zar">
                                                 South Africa Rand ZAR
                                               </option>
                                             </select>
+                                            <span
+                                              tabIndex={0}
+                                              id="currency2a-button"
+                                              role="combobox"
+                                              aria-expanded="false"
+                                              aria-autocomplete="list"
+                                              aria-owns="currency2a-menu"
+                                              aria-haspopup="true"
+                                              className="ui-selectmenu-button ui-button ui-widget ui-selectmenu-button-closed ui-corner-all"
+                                              aria-activedescendant="ui-id-405"
+                                              aria-labelledby="ui-id-405"
+                                              aria-disabled="false"
+                                            >
+                                              <span
+                                                style={{}}
+                                                className="ui-selectmenu-flag"
+                                              />
+                                              <span className="ui-selectmenu-icon ui-icon icon--arrow-down" />
+                                              <span className="ui-selectmenu-text">
+                                                Mauritius MUR
+                                              </span>
+                                            </span>
                                           </div>
                                         </div>
                                       </div>
@@ -1043,11 +1091,15 @@ const Personal = () => {
                                     style={{}}
                                   >
                                     <span className="foreignexchangecalculator__results-from">
-                                      <span className="foreignexchangecalculator__results-base-amount" />
+                                      <span className="foreignexchangecalculator__results-base-amount">
+                                        1.00 United States Dollars
+                                      </span>{" "}
                                       equals
                                     </span>
                                     <span className="foreignexchangecalculator__results-to">
-                                      <span className="foreignexchangecalculator__results-result-amount" />
+                                      <span className="foreignexchangecalculator__results-result-amount">
+                                        44.2300 Mauritius
+                                      </span>
                                     </span>
                                     <span className="foreignexchangecalculator__results-terms">
                                       Disclaimer: The exchange rates provided by
@@ -1086,7 +1138,7 @@ const Personal = () => {
                       <div className="grid__item grid__item-1-4-large">
                         <div className="component component--collapsed">
                           <a
-                            href="tools-calculators/download-daily-rate"
+                            href="tools-calculators/download-daily-rates.html"
                             className="product-panel hover-expand indicativeforex"
                             data-eh="yes"
                             target="_self"
@@ -1177,7 +1229,7 @@ const Personal = () => {
                   <div className="grid__item grid__item-1-4-large">
                     <div className="component component--collapsed">
                       <a
-                        href="treasury-market-updates.html"
+                        href="/treasury-market-updates"
                         className="product-panel hover-expand indicativeforex"
                         data-eh="yes"
                         target="Model.IsTargetNewTab"
@@ -1302,7 +1354,7 @@ const Personal = () => {
                         className="card-content d-flex flex-column justify-content-end align-items-center p-3"
                         style={{
                           backgroundImage:
-                            "url(_/images/mcb/personal/assets/personal-treasury-market-updates.html)",
+                            "url(_/images/mcb/personal/assets/personal-treasury-market-updates)",
                           backgroundSize: "cover",
                           backgroundPosition: "center",
                           minHeight: 360,
@@ -1318,7 +1370,7 @@ const Personal = () => {
                         </div>
                         <div className="d-flex flex-row flex-wrap align-items-center justify-content-evenly">
                           <a
-                            href="treasury-market-updates.html"
+                            href="/treasury-market-updates"
                             className="btn btn-default btn-outline btn-outline-thin btn-outline-light-opacity-2 btn-effect-5 font-weight-semi-bold px-3 btn-py-2 text-3 text-color-dark text-color-hover-dark d-flex flex-row ms-1 mb-1 text-1"
                             target="_blank"
                             data-sf-ec-immutable=""

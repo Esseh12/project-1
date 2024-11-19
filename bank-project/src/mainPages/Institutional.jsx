@@ -1,58 +1,28 @@
-import { useEffect } from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import { Helmet } from "react-helmet-async";
+import InstitutionalHeader from "../Components/Institutional-header";
+import Footer from "../Components/Footer";
 
 const Institutional = () => {
-  useEffect(() => {
-    // External scripts to be loaded dynamically
-    const scripts = [
-      "ResourcePackages/MCBMU/assets/dist/vendor/plugins/js/plugins.min7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/theme7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/views/view.contact7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/demos/demo-business-consulting-27306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/custom7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/ma5-menu7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/theme.init7306.js?package=MCBMU",
-    ];
-
-    scripts.forEach((src) => {
-      const script = document.createElement("script");
-      script.src = src;
-      script.async = false;
-      document.body.appendChild(script);
-    });
-
-    // Cleanup scripts on component unmount
-    return () => {
-      scripts.forEach((src) => {
-        const script = document.querySelector(`script[src="${src}"]`);
-        if (script) {
-          document.body.removeChild(script);
-        }
-      });
-    };
-  }, []);
-
   return (
     <>
-      <meta httpEquiv="content-type" content="text/html;charset=utf-8" />
-      <meta name="title" content="Institutional Banking Solutions | MCB" />
-      <meta
-        name="description"
-        content="Explore MCB's global expertise for institutions worldwide. Your gateway to institutional banking excellence"
-      />
-      <title>Institutional Banking Solutions | MCB</title>
-      <meta
-        property="og:title"
-        content="Institutional Banking Solutions | MCB"
-      />
-      <meta
-        property="og:description"
-        content="Explore MCB's global expertise for institutions worldwide. Your gateway to institutional banking excellence"
-      />
-      <meta property="og:url" content="https://mcb.mu/institutional" />
-      <link rel="canonical" href="/institutional" />
-
+      <Helmet>
+        <meta name="title" content="Institutional Banking Solutions | MCB" />
+        <meta
+          name="description"
+          content="Explore MCB's global expertise for institutions worldwide. Your gateway to institutional banking excellence"
+        />
+        <title>Institutional Banking Solutions | MCB</title>
+        <meta
+          property="og:title"
+          content="Institutional Banking Solutions | MCB"
+        />
+        <meta
+          property="og:description"
+          content="Explore MCB's global expertise for institutions worldwide. Your gateway to institutional banking excellence"
+        />
+        <meta property="og:url" content="https://mcb.mu/institutional" />
+        <link rel="canonical" href="/institutional" />
+      </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
         <noscript
@@ -62,8 +32,10 @@ const Institutional = () => {
         />
 
         {/* reusable header component */}
-        <Header />
+        <InstitutionalHeader />
+        {/* Header */}
 
+        {/* Main Content */}
         <div role="main" className="main">
           {/* Banner Section */}
           <div

@@ -1,19 +1,22 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import { Helmet } from "react-helmet-async";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
 const TreasuryMarketUpdates = () => {
   return (
     <>
-      {/* Mirrored from mcb.mu/treasury-market-updates by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 06:52:24 GMT */}
-      <meta name="title" content="Treasury Market Updates" />
-      <title>Treasury Market Updates</title>
-      <meta property="og:title" content="Treasury Market Updates" />
-      <meta
-        property="og:url"
-        content="https://mcb.mu/treasury-market-updates"
-      />
-      <link rel="canonical" href="/treasury-market-updates" />
-      <link rel="next" href="/treasury-market-updates/treasury-market2" />
+      <Helmet>
+        {/* Mirrored from mcb.mu/treasury-market-updates by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 06:52:24 GMT */}
+        <meta name="title" content="Treasury Market Updates" />
+        <title>Treasury Market Updates</title>
+        <meta property="og:title" content="Treasury Market Updates" />
+        <meta
+          property="og:url"
+          content="https://mcb.mu/treasury-market-updates"
+        />
+        <link rel="canonical" href="/treasury-market-updates" />
+        <link rel="next" href="/treasury-market-updates/treasury-market2" />
+      </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
         <noscript

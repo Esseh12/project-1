@@ -1,26 +1,29 @@
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
+import { Helmet } from "react-helmet-async";
+import Header from "../../Components/Header";
+import Footer from "../../Components/Footer";
 
 const HowMcbProtectsYourCard = () => {
   return (
     <>
-      {/* Mirrored from mcb.mu/security-centre/cards-and-atms/how-mcb-protects-you by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 09:10:12 GMT */}
-      <meta name="title" content="How we Protect You | MCB	" />
-      <meta
-        name="description"
-        content="Learn how MCB prioritizes your security with chip card technology, safer online shopping, fraud monitoring, and ATM protection."
-      />
-      <title>How we Protect You | MCB</title>{" "}
-      <meta property="og:title" content="How we Protect You | MCB" />
-      <meta
-        property="og:description"
-        content="Learn how MCB prioritizes your security with chip card technology, safer online shopping, fraud monitoring, and ATM protection."
-      />
-      <meta
-        property="og:url"
-        content="https://mcb.mu/security-centre/cards-and-atms/how-mcb-protects-you"
-      />
-      <link rel="canonical" href="/how-mcb-protects-you" />
+      <Helmet>
+        {/* Mirrored from mcb.mu/security-centre/cards-and-atms/how-mcb-protects-you by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 09:10:12 GMT */}
+        <meta name="title" content="How we Protect You | MCB	" />
+        <meta
+          name="description"
+          content="Learn how MCB prioritizes your security with chip card technology, safer online shopping, fraud monitoring, and ATM protection."
+        />
+        <title>How we Protect You | MCB</title>{" "}
+        <meta property="og:title" content="How we Protect You | MCB" />
+        <meta
+          property="og:description"
+          content="Learn how MCB prioritizes your security with chip card technology, safer online shopping, fraud monitoring, and ATM protection."
+        />
+        <meta
+          property="og:url"
+          content="https://mcb.mu/security-centre/cards-and-atms/how-mcb-protects-you"
+        />
+        <link rel="canonical" href="/how-mcb-protects-you" />
+      </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
         <noscript
@@ -38,7 +41,7 @@ const HowMcbProtectsYourCard = () => {
             className="banner-small custom-bg-color-light-2 position-relative border-0 pb-sm-0 pt-lg-4 m-0 mt-80"
             style={{
               backgroundImage:
-                "url(../../images/mcb/personal/banners/personal-cards-protection-banner19cf.jpeg?sfvrsn=ab40c161_0)",
+                "url(/images/mcb/personal/banners/personal-cards-protection-banner19cf.jpeg?sfvrsn=ab40c161_0)",
             }}
           >
             <div className="overlay" />
@@ -50,14 +53,14 @@ const HowMcbProtectsYourCard = () => {
                   data-appear-animation-delay={450}
                 >
                   <h1
-                    className="text-color-dark font-weight-semi-bold text-10 line-height-1 mb-3 pe-5 me-5"
-                    style={{ color: "#ffffff!important" }}
+                    className="font-weight-semi-bold text-10 line-height-1 mb-3 pe-5 me-5"
+                    style={{ color: "#ffffff" }}
                   >
                     How MCB protects you
                   </h1>
                   <p
                     className="lead line-height-2 text-4 pe-5 mb-4 pb-2"
-                    style={{ color: "#ffffff!important" }}
+                    style={{ color: "#ffffff" }}
                   >
                     Our security measures are continually updated and improved
                     to safeguard your cards activities.

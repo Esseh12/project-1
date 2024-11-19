@@ -1,55 +1,28 @@
-import { useEffect } from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import { Helmet } from "react-helmet-async";
+import PersonalHeader from "../Components/Personal-header";
+import Footer from "../Components/Footer";
 
 const SecurityCentre = () => {
-  useEffect(() => {
-    // External scripts to be loaded dynamically
-    const scripts = [
-      "ResourcePackages/MCBMU/assets/dist/vendor/plugins/js/plugins.min7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/theme7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/views/view.contact7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/demos/demo-business-consulting-27306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/custom7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/ma5-menu7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/theme.init7306.js?package=MCBMU",
-    ];
-
-    scripts.forEach((src) => {
-      const script = document.createElement("script");
-      script.src = src;
-      script.async = false;
-      document.body.appendChild(script);
-    });
-
-    // Cleanup scripts on component unmount
-    return () => {
-      scripts.forEach((src) => {
-        const script = document.querySelector(`script[src="${src}"]`);
-        if (script) {
-          document.body.removeChild(script);
-        }
-      });
-    };
-  }, []);
   return (
     <>
-      {/* Mirrored from mcb.mu/security-centre by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 06:32:05 GMT */}
-      <meta name="title" content="Security Centre | MCB	" />
-      <meta
-        name="description"
-        content="Learn more on the security measures deploys by MCB to reduce your exposure to certain types of fraud."
-      />
-      <title>Security Centre | MCB</title>
-      <meta property="og:title" content="Security Centre | MCB" />
-      <meta
-        property="og:description"
-        content="Learn more on the security measures deploys by MCB to reduce your exposure to certain types of fraud."
-      />
-      <meta property="og:url" content="https://mcb.mu/security-centre" />
-      <meta property="og:type" content="website" />
-      <meta property="og:site_name" content="MCB Mauritius" />
-      <link rel="canonical" href="/security-centre" />
+      <Helmet>
+        {/* Mirrored from mcb.mu/security-centre by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 06:32:05 GMT */}
+        <meta name="title" content="Security Centre | MCB	" />
+        <meta
+          name="description"
+          content="Learn more on the security measures deploys by MCB to reduce your exposure to certain types of fraud."
+        />
+        <title>Security Centre | MCB</title>
+        <meta property="og:title" content="Security Centre | MCB" />
+        <meta
+          property="og:description"
+          content="Learn more on the security measures deploys by MCB to reduce your exposure to certain types of fraud."
+        />
+        <meta property="og:url" content="https://mcb.mu/security-centre" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="MCB Mauritius" />
+        <link rel="canonical" href="/security-centre" />
+      </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
         <noscript
@@ -59,7 +32,8 @@ const SecurityCentre = () => {
         />
         {/* End Google Tag Manager (noscript) */}
         {/* reusable header component */}
-        <Header />
+        <PersonalHeader />
+        {/* Header */}
         <div role="main" className="main">
           <section
             className="banner-small custom-bg-color-light-2 position-relative border-0 pb-sm-0 pt-lg-4 m-0 mt-80"
@@ -77,14 +51,14 @@ const SecurityCentre = () => {
                   data-appear-animation-delay={450}
                 >
                   <h1
-                    className="text-color-dark font-weight-semi-bold text-10 line-height-1 mb-3 pe-5 me-5"
-                    style={{ color: "#ffffff!important" }}
+                    className="font-weight-semi-bold text-10 line-height-1 mb-3 pe-5 me-5"
+                    style={{ color: "#ffffff" }}
                   >
                     Security Centre
                   </h1>
                   <p
                     className="lead line-height-2 text-4 pe-5 mb-4 pb-2"
-                    style={{ color: "#ffffff!important" }}
+                    style={{ color: "#ffffff" }}
                   >
                     Secure your online experience.
                   </p>

@@ -12,6 +12,39 @@ import RatesFees from "./mainPages/Rates-fees";
 import LocateUs from "./mainPages/Locate-us";
 import CustomerForms from "./mainPages/Customer-forms";
 // End of main pages
+// Personal Files
+import AboutUs from "./Personal/About-us";
+// About Folder files
+import AtAGlance from "./Personal/About-us/At-a-glance";
+import FinancialsAnnualReports from "./Personal/About-us/Financials-annual-reports";
+import Governance from "./Personal/About-us/Governance";
+import LcrDisclosures from "./Personal/About-us/Lcr-disclosures";
+import LeadershipTeam from "./Personal/About-us/Leadership-team";
+import PhilosophyVision from "./Personal/About-us/Philosophy-vision";
+// End of About Folder files
+// Help Centre files
+import HelpCentre from "./Personal/Help-centre";
+import Faq from "./Personal/Help-centre/Faq";
+import HowToVideos from "./Personal/Help-centre/How-to-videos";
+import ToolsAndCalculators from "./Personal/Help-centre/Tools-and-calculators";
+// Faq folder files
+import AmericanExpressSafekey from "./Personal/Help-centre/Faq/American-express-safekey";
+import Atms from "./Personal/Help-centre/Faq/Atms";
+import FaqBanking from "./Personal/Help-centre/Faq/Banking";
+import Branches from "./Personal/Help-centre/Faq/Branches";
+import Cards from "./Personal/Help-centre/Faq/Cards";
+import ContactlessCards from "./Personal/Help-centre/Faq/Contactless-cards";
+import General from "./Personal/Help-centre/Faq/General";
+import InternetBanking from "./Personal/Help-centre/Faq/Internet-banking";
+import Investments from "./Personal/Help-centre/Faq/Investments";
+import McbRefill from "./Personal/Help-centre/Faq/Mcb-refill";
+import FaqPrepaidCards from "./Personal/Help-centre/Faq/Prepaid-card";
+import SavingsAccount from "./Personal/Help-centre/Faq/Savings-account";
+import ShoppingOnlineWithDebitCards from "./Personal/Help-centre/Faq/Shopping-online-with-debit-cards";
+import SmsBanking from "./Personal/Help-centre/Faq/Sms-banking";
+// End Faq folder files
+// End of Help Centre files
+// Personal Files
 // offer and promotions files
 import OffersAndPromotions from "./Personal/OffersAndPromotions";
 import HomeOffers from "./Personal/OffersAndPromotions/HomeOffers";
@@ -86,7 +119,57 @@ import YourExclusiveCards from "./Personal/Cards/Compare-our-credit-cards/Your-e
 // End of compare your credit card files
 // mcb debit card files
 import ManagingYourDebitCardJustGotEasier from "./Personal/Cards/Mcb-debit-card/Managing-your-debit-card-just-got-easier";
+// End Mcb Debit Card
+// American Express Gold
+import AmericanExpressGold from "./Personal/Cards/American-express/American-express-gold";
+import MembershipRewards from "./Personal/Cards/American-express/Membership-rewards";
+import AmericanExpressGreen from "./Personal/Cards/American-express/American-express-green";
+// End Ameriacan Express Gold
+// Prepaid card
+import UnionPrepaidCard from "./Personal/Cards/Prepaid-cards/Unionpay-prepaid-card";
+import VisaPrepaidCard from "./Personal/Cards/Prepaid-cards/Visa-prepaid-card";
+// End Prepaid card
+// Investment files
+import EducationPlan from "./Personal/Investments/Education-plan";
+import FixedDeposit from "./Personal/Investments/Fixed-deposit";
+import LifeInsurance from "./Personal/Investments/Life-insurance";
+import McbMutualFunds from "./Personal/Investments/Mcb-mutual-funds";
+import RetirementPlan from "./Personal/Investments/Retirement-plan";
+import Stockbroking from "./Personal/Investments/Stockbroking";
+import HowToViewYourInvestmentPortfolio from "./Personal/Investments/Stockbroking/How-to-view-your-investment-portfolio";
+// End of Investment files
+// Account and packages files
+import ForeignCurrencyAccount from "./Personal/Accounts-packages/Foreign-currency-account";
+import Instakit from "./Personal/Accounts-packages/Instakit";
+import McbRupys from "./Personal/Accounts-packages/Mcb-rupys";
+import Neo from "./Personal/Accounts-packages/Neo";
+import Pack1825 from "./Personal/Accounts-packages/Pack-1825";
+import StandardCurrentAccount from "./Personal/Accounts-packages/Standard-current-account";
+import StandardSavingsAccount from "./Personal/Accounts-packages/Standard-savings-account";
+// End of Account and packages files
 // End of Personal files
+
+// Institutional Folder files
+import Events from "./Institutional/Events";
+import McbAtAGlance from "./Institutional/Mcb-at-a-glance";
+import OurGeographicalPresence from "./Institutional/Our-geographical-presence";
+import OurSolutions from "./Institutional/Our-solutions";
+
+// Our Solutions folder files
+import BankOfBanks from "./Institutional/Our-solutions/Bank-of-banks";
+import CorrespondentBanking from "./Institutional/Our-solutions/Correspondent-banking";
+import RiskSharing from "./Institutional/Our-solutions/Risk-sharing";
+import Syndications from "./Institutional/Our-solutions/Syndications";
+// End of our solutions folder files
+// Mcb at a glance folder files
+import FactsFigures from "./Institutional/Mcb-at-a-glance/Facts-figures";
+import RecognitionsAccolades from "./Institutional/Mcb-at-a-glance/Recognitions-accolades";
+// End of Mcb at a glance folder files
+// End of Institutional Folder files
+
+// En Packages files
+import ADayPackageAtIleDesDeuxCocos from "./en/mediacontent/A-day-package-at-Ile-des-deux-cocos_tcm55-62105";
+// End En Packages files
 // Treasury Market Updates files
 import TreasuryMarket2 from "./Treasury-market-updates/Treasury-Market2";
 import TreasuryMarket3 from "./Treasury-market-updates/Treasury-Market3";
@@ -120,6 +203,12 @@ import WaysToKeepYourselfSafe from "./Security-centre/Online-and-mobile/Ways-to-
 import HowMcbProtectsYourCard from "./Security-centre/Cards-and-atms/How-mcb-protects-you";
 import WhatYouCanDoToProtectYourCards from "./Security-centre/Cards-and-atms/What-you-can-do-to-protect-your-cards";
 // End of card and atms files
+// FRAUD AND SCAMS
+import CardFraud from "./Security-centre/Fraud-and-scams/Card-fraud";
+import LatestScams from "./Security-centre/Fraud-and-scams/Latest-scams";
+import MobileFraud from "./Security-centre/Fraud-and-scams/Mobile-fraud";
+import OnlineFraud from "./Security-centre/Fraud-and-scams/Online-fraud";
+import OtherFraud from "./Security-centre/Fraud-and-scams/Other-fraud";
 
 function App() {
   return (
@@ -140,6 +229,90 @@ function App() {
         <Route path="/locate-us" element={<LocateUs />} />
         <Route path="/customer-forms" element={<CustomerForms />} />
 
+        {/* Personal Files */}
+        <Route path="/personal/about-us" element={<AboutUs />} />
+        {/* About Folder files */}
+        <Route path="/personal/about-us/at-a-glance" element={<AtAGlance />} />
+        <Route
+          path="/personal/about-us/financials-annual-reports"
+          element={<FinancialsAnnualReports />}
+        />
+        <Route path="/personal/about-us/governance" element={<Governance />} />
+        <Route
+          path="/personal/about-us/lcr-disclosures"
+          element={<LcrDisclosures />}
+        />
+        <Route
+          path="/personal/about-us/leadership-team"
+          element={<LeadershipTeam />}
+        />
+        <Route
+          path="/personal/about-us/philosophy-vision"
+          element={<PhilosophyVision />}
+        />
+        {/* End of About Folder files */}
+        {/* Help Centre files */}
+        <Route path="/personal/help-centre" element={<HelpCentre />} />
+        <Route path="/personal/help-centre/faq" element={<Faq />} />
+        <Route
+          path="/personal/help-centre/how-to-videos"
+          element={<HowToVideos />}
+        />
+        <Route
+          path="/personal/help-centre/tools-and-calculators"
+          element={<ToolsAndCalculators />}
+        />
+        {/* Faq folder files */}
+        <Route
+          path="/personal/help-centre/faq/american-express-safekey"
+          element={<AmericanExpressSafekey />}
+        />
+        <Route path="/personal/help-centre/faq/atms" element={<Atms />} />
+        <Route
+          path="/personal/help-centre/faq/banking"
+          element={<FaqBanking />}
+        />
+        <Route
+          path="/personal/help-centre/faq/branches"
+          element={<Branches />}
+        />
+        <Route path="/personal/help-centre/faq/cards" element={<Cards />} />
+        <Route
+          path="/personal/help-centre/faq/contactless-cards"
+          element={<ContactlessCards />}
+        />
+        <Route path="/personal/help-centre/faq/general" element={<General />} />
+        <Route
+          path="/personal/help-centre/faq/internet-banking"
+          element={<InternetBanking />}
+        />
+        <Route
+          path="/personal/help-centre/faq/investments"
+          element={<Investments />}
+        />
+        <Route
+          path="/personal/help-centre/faq/mcb-refill"
+          element={<McbRefill />}
+        />
+        <Route
+          path="/personal/help-centre/faq/prepaid-cards"
+          element={<FaqPrepaidCards />}
+        />
+        <Route
+          path="/personal/help-centre/faq/savings-account"
+          element={<SavingsAccount />}
+        />
+        <Route
+          path="/personal/help-centre/faq/shopping-online-with-debit-cards"
+          element={<ShoppingOnlineWithDebitCards />}
+        />
+        <Route
+          path="/personal/help-centre/faq/sms-banking"
+          element={<SmsBanking />}
+        />
+        {/* End Faq folder files */}
+        {/* End of Help Centre files
+        {/* End of Personal Files */}
         {/* Treasury market files */}
         <Route
           path="/treasury-market-updates/treasury-market2"
@@ -410,8 +583,135 @@ function App() {
           element={<ManagingYourDebitCardJustGotEasier />}
         />
         {/* End Mcb Debit Card */}
+        {/* American Express Gold */}
+        <Route
+          path="/personal/cards/american-express/american-express-gold"
+          element={<AmericanExpressGold />}
+        />
+        <Route
+          path="/personal/cards/american-express/membership-rewards"
+          element={<MembershipRewards />}
+        />
+        <Route
+          path="/personal/cards/american-express/american-express-green"
+          element={<AmericanExpressGreen />}
+        />
+        {/* End Ameriacn Express Gold */}
+        {/* Prepaid card */}
+        <Route
+          path="/personal/cards/prepaid-cards/unionpay-prepaid-card"
+          element={<UnionPrepaidCard />}
+        />
+        <Route
+          path="/personal/cards/prepaid-cards/visa-prepaid-card"
+          element={<VisaPrepaidCard />}
+        />
+        {/* End Prepaid card */}
         {/* End of card files */}
+
+        {/* Investment files */}
+        <Route
+          path="/personal/investments/education-plan"
+          element={<EducationPlan />}
+        />
+        <Route
+          path="/personal/investments/fixed-deposit"
+          element={<FixedDeposit />}
+        />
+        <Route
+          path="/personal/investments/life-insurance"
+          element={<LifeInsurance />}
+        />
+        <Route
+          path="/personal/investments/mcb-mutual-funds"
+          element={<McbMutualFunds />}
+        />
+        <Route
+          path="/personal/investments/retirement-plan"
+          element={<RetirementPlan />}
+        />
+        <Route
+          path="/personal/investments/stockbroking"
+          element={<Stockbroking />}
+        />
+        <Route
+          path="/personal/investments/stockbroking/how-to-view-your-investment-portfolio"
+          element={<HowToViewYourInvestmentPortfolio />}
+        />
+        <Route
+          path="/personal/accounts-packages/foreign-currency-account"
+          element={<ForeignCurrencyAccount />}
+        />
+        <Route
+          path="/personal/accounts-packages/instakit"
+          element={<Instakit />}
+        />
+        <Route
+          path="/personal/accounts-packages/mcb-rupys"
+          element={<McbRupys />}
+        />
+        <Route path="/personal/accounts-packages/neo" element={<Neo />} />
+        <Route
+          path="/personal/accounts-packages/pack-1825"
+          element={<Pack1825 />}
+        />
+        <Route
+          path="/personal/accounts-packages/standard-current-account"
+          element={<StandardCurrentAccount />}
+        />
+        <Route
+          path="/personal/accounts-packages/standard-savings-account"
+          element={<StandardSavingsAccount />}
+        />
+        {/* End of Investment files */}
         {/* End of Personal files */}
+
+        {/* Institutional Folder files */}
+        <Route path="/institutional/events" element={<Events />} />
+        <Route
+          path="/institutional/mcb-at-a-glance"
+          element={<McbAtAGlance />}
+        />
+        <Route
+          path="/institutional/our-geographical-presence"
+          element={<OurGeographicalPresence />}
+        />
+        <Route path="/institutional/our-solutions" element={<OurSolutions />} />
+
+        {/* Solution folder Files */}
+        <Route
+          path="/institutional/our-solutions/bank-of-banks"
+          element={<BankOfBanks />}
+        />
+        <Route
+          path="/institutional/our-solutions/correspondent-banking"
+          element={<CorrespondentBanking />}
+        />
+        <Route
+          path="/institutional/our-solutions/risk-sharing"
+          element={<RiskSharing />}
+        />
+        <Route
+          path="/institutional/our-solutions/syndications"
+          element={<Syndications />}
+        />
+        {/* End of our solutions folder files */}
+        {/* Mcb at a glance folder files */}
+        <Route
+          path="/institutional/mcb-at-a-glance/facts-figures"
+          element={<FactsFigures />}
+        />
+        <Route
+          path="/institutional/mcb-at-a-glance/recognitions-accolades"
+          element={<RecognitionsAccolades />}
+        />
+        {/* End of Institutional Folder files */}
+        {/* En Packages files */}
+        <Route
+          path="/en/mediacontent/a-day-package-at-ile-des-deux-cocos_tcm55-62105"
+          element={<ADayPackageAtIleDesDeuxCocos />}
+        />
+        {/* End En Packages files */}
         {/* Legal folder files */}
         <Route path="/legal/cookie-policy" element={<CookiePolicy />} />
         <Route path="/legal/legal-notice" element={<LegalNotice />} />
@@ -479,6 +779,27 @@ function App() {
           element={<WhatYouCanDoToProtectYourCards />}
         />
         {/* End of Cards and atm files */}
+        {/* FRAUD AND SCAMS */}
+        <Route
+          path="/security-centre/fraud-and-scams/card-fraud"
+          element={<CardFraud />}
+        />
+        <Route
+          path="/security-centre/fraud-and-scams/latest-scams"
+          element={<LatestScams />}
+        />
+        <Route
+          path="/security-centre/fraud-and-scams/mobile-fraud"
+          element={<MobileFraud />}
+        />
+        <Route
+          path="/security-centre/fraud-and-scams/online-fraud"
+          element={<OnlineFraud />}
+        />
+        <Route
+          path="/security-centre/fraud-and-scams/other-fraud"
+          element={<OtherFraud />}
+        />
       </Routes>
     </BrowserRouter>
   );

@@ -204,7 +204,7 @@ const DesktopMenu = ({ children }) => {
 };
 
 DesktopMenu.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node,
 };
 
 export default DesktopMenu;

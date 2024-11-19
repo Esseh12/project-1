@@ -1,26 +1,29 @@
+import { Helmet } from "react-helmet-async";
 import Header from "../../Components/Header";
 import Footer from "../../Components/Footer";
 
 const HowMcbProtectsYou = () => {
   return (
     <>
-      {/* Mirrored from mcb.mu/security-centre/online-and-mobile/how-mcb-protects-you by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 09:55:17 GMT */}
-      <meta name="title" content="Online Security Measures | MCB	" />
-      <meta
-        name="description"
-        content="Discover MCB's top-notch security protocols for online and mobile banking. Your peace of mind is our priority."
-      />
-      <title>Online Security Measures | MCB</title>
-      <meta property="og:title" content="Online Security Measures | MCB" />
-      <meta
-        property="og:description"
-        content="Discover MCB's top-notch security protocols for online and mobile banking. Your peace of mind is our priority."
-      />
-      <meta
-        property="og:url"
-        content="https://mcb.mu/security-centre/online-and-mobile/how-mcb-protects-you"
-      />
-      <link rel="canonical" href="how-mcb-protects-you" />
+      <Helmet>
+        {/* Mirrored from mcb.mu/security-centre/online-and-mobile/how-mcb-protects-you by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 09:55:17 GMT */}
+        <meta name="title" content="Online Security Measures | MCB	" />
+        <meta
+          name="description"
+          content="Discover MCB's top-notch security protocols for online and mobile banking. Your peace of mind is our priority."
+        />
+        <title>Online Security Measures | MCB</title>
+        <meta property="og:title" content="Online Security Measures | MCB" />
+        <meta
+          property="og:description"
+          content="Discover MCB's top-notch security protocols for online and mobile banking. Your peace of mind is our priority."
+        />
+        <meta
+          property="og:url"
+          content="https://mcb.mu/security-centre/online-and-mobile/how-mcb-protects-you"
+        />
+        <link rel="canonical" href="/how-mcb-protects-you" />
+      </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
         <noscript
@@ -38,7 +41,7 @@ const HowMcbProtectsYou = () => {
             className="banner-small custom-bg-color-light-2 position-relative border-0 pb-sm-0 pt-lg-4 m-0 mt-80"
             style={{
               backgroundImage:
-                "url(../../images/mcb/personal/banners/personal-online-protection-banner459d.jpeg?sfvrsn=7e539421_0)",
+                "url(/images/mcb/personal/banners/personal-online-protection-banner459d.jpeg?sfvrsn=7e539421_0)",
             }}
           >
             <div className="overlay" />
@@ -50,14 +53,14 @@ const HowMcbProtectsYou = () => {
                   data-appear-animation-delay={450}
                 >
                   <h1
-                    className="text-color-dark font-weight-semi-bold text-10 line-height-1 mb-3 pe-5 me-5"
-                    style={{ color: "#ffffff!important" }}
+                    className="font-weight-semi-bold text-10 line-height-1 mb-3 pe-5 me-5"
+                    style={{ color: "#ffffff" }}
                   >
                     How MCB protects you
                   </h1>
                   <p
                     className="lead line-height-2 text-4 pe-5 mb-4 pb-2"
-                    style={{ color: "#ffffff!important" }}
+                    style={{ color: "#ffffff" }}
                   >
                     At MCB, we use high levels of security to keep your finances
                     safe from fraudsters.

@@ -1,26 +1,29 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import { Helmet } from "react-helmet-async";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
 const MoneyMuling = () => {
   return (
     <>
-      {/* Mirrored from mcb.mu/security-centre/money-muling by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 07:17:04 GMT */}
-      <meta name="title" content="Attention au Money Muling | MCB	" />
-      <meta
-        name="description"
-        content="Découvrez ce qu'est le Money Muling et comment éviter cette activité illégale. Protégez vos données bancaires et ne faites pas confiance aux inconnus."
-      />
-      <title>Attention au Money Muling | MCB</title>
-      <meta property="og:title" content="Attention au Money Muling | MCB" />
-      <meta
-        property="og:description"
-        content="Découvrez ce qu'est le Money Muling et comment éviter cette activité illégale. Protégez vos données bancaires et ne faites pas confiance aux inconnus."
-      />
-      <meta
-        property="og:url"
-        content="https://mcb.mu/security-centre/money-muling"
-      />
-      <link rel="canonical" href="/money-muling" />
+      <Helmet>
+        {/* Mirrored from mcb.mu/security-centre/money-muling by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 07:17:04 GMT */}
+        <meta name="title" content="Attention au Money Muling | MCB	" />
+        <meta
+          name="description"
+          content="Découvrez ce qu'est le Money Muling et comment éviter cette activité illégale. Protégez vos données bancaires et ne faites pas confiance aux inconnus."
+        />
+        <title>Attention au Money Muling | MCB</title>
+        <meta property="og:title" content="Attention au Money Muling | MCB" />
+        <meta
+          property="og:description"
+          content="Découvrez ce qu'est le Money Muling et comment éviter cette activité illégale. Protégez vos données bancaires et ne faites pas confiance aux inconnus."
+        />
+        <meta
+          property="og:url"
+          content="https://mcb.mu/security-centre/money-muling"
+        />
+        <link rel="canonical" href="/money-muling" />
+      </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
         <noscript
@@ -38,7 +41,7 @@ const MoneyMuling = () => {
             className="banner-small custom-bg-color-light-2 position-relative border-0 pb-sm-0 pt-lg-4 m-0 mt-80"
             style={{
               backgroundImage:
-                "url(../images/mcb/personal/banners/security-centre-muling-banner05b0.jpg?sfvrsn=7c1afb64_0)",
+                "url(/images/mcb/personal/banners/security-centre-muling-banner05b0.jpg?sfvrsn=7c1afb64_0)",
             }}
           >
             <div className="overlay" />
@@ -50,14 +53,14 @@ const MoneyMuling = () => {
                   data-appear-animation-delay={450}
                 >
                   <h1
-                    className="text-color-dark font-weight-semi-bold text-10 line-height-1 mb-3 pe-5 me-5"
-                    style={{ color: "#ffffff!important" }}
+                    className="font-weight-semi-bold text-10 line-height-1 mb-3 pe-5 me-5"
+                    style={{ color: "#ffffff" }}
                   >
                     Money Muling : Ne vous faites pas avoir !
                   </h1>
                   <p
                     className="lead line-height-2 text-4 pe-5 mb-4 pb-2"
-                    style={{ color: "#ffffff!important" }}
+                    style={{ color: "#ffffff" }}
                   >
                     Vous en avez peut-être été victime sans savoir que cela
                     s’appelait du « Money Muling ». Il s’agit de recevoir de
@@ -73,7 +76,7 @@ const MoneyMuling = () => {
                       href="https://m.me/mcb.mauritius"
                       className=" btn btn-primary me-4 mt-3 w-100-mobile btn-floating is-visible"
                       target="_blank"
-                      style={{ color: "#ffffff!important" }}
+                      style={{ color: "#ffffff" }}
                     >
                       Contactez-nous si vous êtes victime de Money Muling
                       <i className="fas fa-angle-right icons ms-1" />{" "}
@@ -162,7 +165,7 @@ const MoneyMuling = () => {
                 <img
                   loading="lazy"
                   className="mw-100 h-auto"
-                  src="../images/mcb/personal/assets/security-centre-muling-image12eab.png?sfvrsn=1ec436b_0"
+                  src="/images/mcb/personal/assets/security-centre-muling-image12eab.png?sfvrsn=1ec436b_0"
                   title="Money Muling"
                   alt="Money Muling"
                 />
@@ -192,7 +195,7 @@ const MoneyMuling = () => {
                         <p style={{ textAlign: "center" }}>
                           <img
                             alt="Money muling"
-                            src="../images/mcb/personal/assets/security-centre-muling-image23ade.png?sfvrsn=2a311812_0"
+                            src="/images/mcb/personal/assets/security-centre-muling-image23ade.png?sfvrsn=2a311812_0"
                           />
                         </p>
                         <p style={{ textAlign: "center" }}>
@@ -214,7 +217,7 @@ const MoneyMuling = () => {
                         <p style={{ textAlign: "center" }}>
                           <img
                             alt="Money muling"
-                            src="../images/mcb/personal/assets/Money-muling9c5e.png?sfvrsn=d1095d9e_1"
+                            src="/images/mcb/personal/assets/Money-muling9c5e.png?sfvrsn=d1095d9e_1"
                           />
                         </p>
                         <p style={{ textAlign: "center" }}>
@@ -300,7 +303,7 @@ const MoneyMuling = () => {
                 <img
                   loading="lazy"
                   className="mw-100 h-auto"
-                  src="../images/mcb/personal/assets/security-centre-muling-image4844a.png?sfvrsn=455b36dc_0"
+                  src="/images/mcb/personal/assets/security-centre-muling-image4844a.png?sfvrsn=455b36dc_0"
                   title="Money muling"
                   alt="Money muling"
                 />

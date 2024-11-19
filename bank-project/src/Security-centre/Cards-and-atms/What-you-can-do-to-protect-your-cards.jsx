@@ -1,145 +1,35 @@
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
+import { Helmet } from "react-helmet-async";
+import Header from "../../Components/Header";
+import Footer from "../../Components/Footer";
 
 const WhatYouCanDoToProtectYourCards = () => {
   return (
     <>
-      {/* Mirrored from mcb.mu/security-centre/cards-and-atms/what-you-can-do-to-protect-your-cards by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 09:55:18 GMT */}
-      {/* Added by HTTrack */}
-      <meta httpEquiv="content-type" content="text/html;charset=utf-8" />
-      {/* /Added by HTTrack */}
-      <meta
-        name="title"
-        content="What you can do to protect your cards | MCB"
-      />
-      <meta
-        name="description"
-        content="Protect your cards and ATM transactions with MCB's security tips. Learn how to secure your financial data and stay safe while making payments."
-      />{" "}
-      <meta charSet="utf-8" />{" "}
-      <meta name="viewport" content="width=device-width, initial-scale=1" />{" "}
-      {/* Favicon */}{" "}
-      <link
-        rel="shortcut icon"
-        href="../../ResourcePackages/MCBMU/assets/dist/images/favicon.ico"
-        type="image/x-icon"
-      />{" "}
-      {/* <link rel="apple-touch-icon" href="/ResourcePackages/MCBMU/assets/dist/images/favicon.ico"> */}{" "}
-      {/* Mobile Metas */}{" "}
-      {/*<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">*/}{" "}
-      <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no"
-      />{" "}
-      {/* Web Fonts  */}{" "}
-      {/*<link id="googleFonts" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" type="text/css">*/}{" "}
-      <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet"
-      />{" "}
-      <link
-        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
-        rel="stylesheet"
-      />{" "}
-      {/* Vendor CSS */}{" "}
-      <link
-        href="../../ResourcePackages/MCBMU/assets/dist/vendor/bootstrap/css/bootstrap.min7306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="../../ResourcePackages/MCBMU/assets/dist/vendor/fontawesome-free/css/all.min7306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="../../ResourcePackages/MCBMU/assets/dist/vendor/animate/animate.compat7306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="../../ResourcePackages/MCBMU/assets/dist/vendor/simple-line-icons/css/simple-line-icons.min7306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="../../ResourcePackages/MCBMU/assets/dist/vendor/owl.carousel/assets/owl.carousel.min7306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="../../ResourcePackages/MCBMU/assets/dist/vendor/owl.carousel/assets/owl.theme.default.min7306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="../../ResourcePackages/MCBMU/assets/dist/vendor/magnific-popup/magnific-popup.min7306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="../../ResourcePackages/MCBMU/assets/dist/css/theme7306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="../../ResourcePackages/MCBMU/assets/dist/css/theme-elements7306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="../../ResourcePackages/MCBMU/assets/dist/css/theme-blog7306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="../../ResourcePackages/MCBMU/assets/dist/css/theme-shop7306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="../../ResourcePackages/MCBMU/assets/dist/css/demos/demo-business-consulting-27306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="../../ResourcePackages/MCBMU/assets/dist/css/skins/skin-business-consulting-27306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="../../ResourcePackages/MCBMU/assets/dist/css/custom7306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="../../ResourcePackages/MCBMU/assets/dist/css/menu_style/assets/css/ma5-menu7306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="../../ResourcePackages/MCBMU/assets/dist/css/style-new7306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />{" "}
-      {/* Theme CSS */} {/* Demo CSS */} {/* Skin CSS */}{" "}
-      {/* Theme Custom CSS */} {/* Head Libs */}{" "}
-      <title>What you can do to protect your cards | MCB</title>{" "}
-      <meta
-        property="og:title"
-        content="What you can do to protect your cards | MCB"
-      />
-      <meta
-        property="og:description"
-        content="Protect your cards and ATM transactions with MCB's security tips. Learn how to secure your financial data and stay safe while making payments."
-      />
-      <meta
-        property="og:url"
-        content="https://mcb.mu/security-centre/cards-and-atms/what-you-can-do-to-protect-your-cards"
-      />
-      <meta property="og:type" content="website" />
-      <meta property="og:site_name" content="MCB Mauritius" />
-      <link rel="canonical" href="what-you-can-do-to-protect-your-cards" />
+      <Helmet>
+        {/* Mirrored from mcb.mu/security-centre/cards-and-atms/what-you-can-do-to-protect-your-cards by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 09:55:18 GMT */}
+        <meta
+          name="title"
+          content="What you can do to protect your cards | MCB"
+        />
+        <meta
+          name="description"
+          content="Protect your cards and ATM transactions with MCB's security tips. Learn how to secure your financial data and stay safe while making payments."
+        />
+        <title>What you can do to protect your cards | MCB</title>
+        <meta
+          property="og:title"
+          content="What you can do to protect your cards | MCB"
+        />
+        <meta
+          property="og:description"
+          content="Protect your cards and ATM transactions with MCB's security tips. Learn how to secure your financial data and stay safe while making payments."
+        />
+        <meta
+          property="og:url"
+          content="https://mcb.mu/security-centre/cards-and-atms/what-you-can-do-to-protect-your-cards"
+        />
+        <link rel="canonical" href="/what-you-can-do-to-protect-your-cards" />
+      </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
         <noscript
@@ -157,7 +47,7 @@ const WhatYouCanDoToProtectYourCards = () => {
             className="banner-small custom-bg-color-light-2 position-relative border-0 pb-sm-0 pt-lg-4 m-0 mt-80"
             style={{
               backgroundImage:
-                "url(../../images/mcb/personal/banners/personal-cards-protection-banner19cf.jpeg?sfvrsn=ab40c161_0)",
+                "url(/images/mcb/personal/banners/personal-cards-protection-banner19cf.jpeg?sfvrsn=ab40c161_0)",
             }}
           >
             <div className="overlay" />
@@ -169,14 +59,14 @@ const WhatYouCanDoToProtectYourCards = () => {
                   data-appear-animation-delay={450}
                 >
                   <h1
-                    className="text-color-dark font-weight-semi-bold text-10 line-height-1 mb-3 pe-5 me-5"
-                    style={{ color: "#ffffff!important" }}
+                    className="font-weight-semi-bold text-10 line-height-1 mb-3 pe-5 me-5"
+                    style={{ color: "#ffffff" }}
                   >
                     What you can do to protect your cards
                   </h1>
                   <p
                     className="lead line-height-2 text-4 pe-5 mb-4 pb-2"
-                    style={{ color: "#ffffff!important" }}
+                    style={{ color: "#ffffff" }}
                   >
                     Our security measures are continually updated and improved
                     to safeguard your cards activities.

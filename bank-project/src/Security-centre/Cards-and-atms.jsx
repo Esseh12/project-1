@@ -1,26 +1,29 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import { Helmet } from "react-helmet-async";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
 const CardsAndAtms = () => {
   return (
     <>
-      {/* Mirrored from mcb.mu/security-centre/cards-and-atms by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 07:16:02 GMT */}
-      <meta name="title" content="Security Cards and ATMs | MCB" />
-      <meta
-        name="description"
-        content="Learn how MCB safeguards your cards and transactions. Discover essential security tips to protect your debit and credit cards."
-      />
-      <title>Security Cards and ATMs | MCB</title>{" "}
-      <meta property="og:title" content="Security Cards and ATMs | MCB" />
-      <meta
-        property="og:description"
-        content="Learn how MCB safeguards your cards and transactions. Discover essential security tips to protect your debit and credit cards."
-      />
-      <meta
-        property="og:url"
-        content="https://mcb.mu/security-centre/cards-and-atms"
-      />
-      <link rel="canonical" href="/cards-and-atms" />
+      <Helmet>
+        {/* Mirrored from mcb.mu/security-centre/cards-and-atms by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 07:16:02 GMT */}
+        <meta name="title" content="Security Cards and ATMs | MCB" />
+        <meta
+          name="description"
+          content="Learn how MCB safeguards your cards and transactions. Discover essential security tips to protect your debit and credit cards."
+        />
+        <title>Security Cards and ATMs | MCB</title>{" "}
+        <meta property="og:title" content="Security Cards and ATMs | MCB" />
+        <meta
+          property="og:description"
+          content="Learn how MCB safeguards your cards and transactions. Discover essential security tips to protect your debit and credit cards."
+        />
+        <meta
+          property="og:url"
+          content="https://mcb.mu/security-centre/cards-and-atms"
+        />
+        <link rel="canonical" href="/cards-and-atms" />
+      </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
         <noscript
@@ -38,7 +41,7 @@ const CardsAndAtms = () => {
             className="banner-small custom-bg-color-light-2 position-relative border-0 pb-sm-0 pt-lg-4 m-0 mt-80"
             style={{
               backgroundImage:
-                "url(../images/mcb/personal/banners/personal-cards-protection-banner19cf.jpeg?sfvrsn=ab40c161_0)",
+                "url(/images/mcb/personal/banners/personal-cards-protection-banner19cf.jpeg?sfvrsn=ab40c161_0)",
             }}
           >
             <div className="overlay" />
@@ -50,14 +53,14 @@ const CardsAndAtms = () => {
                   data-appear-animation-delay={450}
                 >
                   <h1
-                    className="text-color-dark font-weight-semi-bold text-10 line-height-1 mb-3 pe-5 me-5"
-                    style={{ color: "#ffffff!important" }}
+                    className="font-weight-semi-bold text-10 line-height-1 mb-3 pe-5 me-5"
+                    style={{ color: "#ffffff" }}
                   >
                     Cards and ATMs
                   </h1>
                   <p
                     className="lead line-height-2 text-4 pe-5 mb-4 pb-2"
-                    style={{ color: "#ffffff!important" }}
+                    style={{ color: "#ffffff" }}
                   >
                     Our security measures are continually updated and improved
                     to safeguard your cards activities.
@@ -103,7 +106,7 @@ const CardsAndAtms = () => {
                         <div className="d-flex flex-column align-items-end">
                           <p className="mb-0 mt-3">
                             <a
-                              href="../personal/cards/mcb-secure.html"
+                              href="/personal/cards/mcb-secure"
                               target="_self"
                               className="read-more text-color-primary font-weight-semibold mt-2 text-2"
                             >
@@ -146,7 +149,7 @@ const CardsAndAtms = () => {
                         <div className="d-flex flex-column align-items-end">
                           <p className="mb-0 mt-3">
                             <a
-                              href="cards-and-atms/how-mcb-protects-you.html"
+                              href="/security-centre/online-and-mobile/how-mcb-protects-you"
                               target="_self"
                               className="read-more text-color-primary font-weight-semibold mt-2 text-2"
                             >
@@ -218,7 +221,7 @@ const CardsAndAtms = () => {
                           Not recognising a transaction? Report it to us
                           straight away. Email us on{" "}
                           <a
-                            href="../cdn-cgi/l/email-protection.html"
+                            href="/cdn-cgi/l/email-protection.html"
                             className="__cf_email__"
                             data-femail="abc8c4c5dfcac8dfebc6c8c985c6de"
                           >
@@ -311,11 +314,7 @@ const CardsAndAtms = () => {
                     </p>
                     <p>
                       Call MCB on +230 202 6060 or send us an email at{" "}
-                      <a
-                        href="../index.html"
-                        target="_blank"
-                        data-sf-ec-immutable=""
-                      >
+                      <a href="/" target="_blank" data-sf-ec-immutable="">
                         <span
                           className="__cf_email__"
                           data-femail="caa9a5a4beaba9be8aa7a9a8e4a7bf"

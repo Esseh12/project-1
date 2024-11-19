@@ -52,7 +52,7 @@ const Footer = () => {
                       <img
                         src="/images/mcb/personal/assets/whatsappc2c5.png?sfvrsn=44901c69_2"
                         height={60}
-                        style={{ marginLeft: 10, marginRight: 10 }}
+                        style={{ marginLeft: "10px", marginRight: "10px" }}
                         width={60}
                         alt=""
                       />
@@ -92,220 +92,226 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Main Footer Links */}
-      <div className="row" data-sf-element="Row">
-        <div
-          id="Footer_T0975117C022_Col00"
-          className="sf_colsIn col-lg-12"
-          data-sf-element="Column 1"
-          data-placeholder-label="Column 1"
-        >
-          <div
-            id="Footer_T0975117C022_Col00"
-            className="sf_colsIn container"
-            data-sf-element="Container"
-            data-placeholder-label="Container"
-          ></div>
-        </div>
-      </div>
-
       <div
-        id="Footer_T0975117C022_Col00"
+        id="Footer_T0975117C001_Col00"
         className="sf_colsIn container"
         data-sf-element="Container"
         data-placeholder-label="Container"
       >
-        <div className="row footer-desktop" data-sf-element="Row">
-          <FooterSection
-            title="Explore MCB"
-            links={[
-              { href: "../../about-us.html", text: "About us" },
-              {
-                href: "https://mcbgroup.com/talent",
-                text: "Careers",
-                target: "_blank",
-              },
-              {
-                href: "../../about-us/financials-annual-reports.html",
-                text: "Financial & Reports",
-              },
-              { href: "/rates-fees", text: "Rates & Fees" },
-            ]}
-          />
+        {/* Main Footer Links */}
+        <div className="row" data-sf-element="Row">
+          <div
+            id="Footer_T0975117C022_Col00"
+            className="sf_colsIn col-lg-12"
+            data-sf-element="Column 1"
+            data-placeholder-label="Column 1"
+          >
+            <div
+              id="Footer_T0975117C022_Col00"
+              className="sf_colsIn container"
+              data-sf-element="Container"
+              data-placeholder-label="Container"
+            ></div>
+          </div>
+        </div>
 
-          <FooterSection
-            title="Tools & Calculators"
-            links={[
-              {
-                href: "../../../tools-calculators/bank-guarantee-authentication.html",
-                text: "Bank Guarantee authentication",
-              },
-              {
-                href: "../../../tools-calculators/foreign-exchange-convertor.html",
-                text: "Foreign exchange calculator",
-              },
-              {
-                href: "/mauritius/tools-calculators/how-much-can-i-borrow",
-                text: "How much can I borrow?",
-              },
-              {
-                href: "../../../tools-calculators/monthly-repayment.html",
-                text: "Monthly repayment",
-              },
-              {
-                href: "https://app.mcb.mu/app/banking/ways-to-bank/update-your-profile",
-                text: "Update your Personal Profile",
-                target: "_blank",
-              },
-            ]}
-          />
+        <div
+          id="Footer_T0975117C022_Col00"
+          className="sf_colsIn container"
+          data-sf-element="Container"
+          data-placeholder-label="Container"
+        >
+          <div className="row footer-desktop" data-sf-element="Row">
+            <FooterSection
+              title="Explore MCB"
+              links={[
+                { href: "/personal/about-us", text: "About us" },
+                {
+                  href: "https://mcbgroup.com/talent",
+                  text: "Careers",
+                  target: "_blank",
+                },
+                {
+                  href: "../../about-us/financials-annual-reports.html",
+                  text: "Financial & Reports",
+                },
+                { href: "/rates-fees", text: "Rates & Fees" },
+              ]}
+            />
 
-          <FooterSection
-            title="Resources"
-            links={[
-              {
-                href: "/resources/adherence-to-fx-global-code",
-                text: "Adherence to FX Global Code",
-              },
-              {
-                href: "../../../rates-fees/rates-in-html-version.html",
-                text: "Bank of Mauritius Template on Fees, Charges & Commissions",
-              },
-              {
-                href: "../../../docs/mcb/default-document-library/MBA-Code-of-Banking-Practice-2016.pdf",
-                text: "Code of Ethics & Banking Practice",
-              },
-              {
-                href: "../../../docs/mcb/personal/mcb-complaints-escalation.pdf",
-                text: "Complaints Escalation",
-              },
-              {
-                href: "/resources/environmental-and-social-risk-management",
-                text: "Environmental & Social Risk Management",
-              },
-              {
-                href: "/resources/libor-transition",
-                text: "LIBOR Transition",
-              },
-            ]}
-          />
+            <FooterSection
+              title="Tools & Calculators"
+              links={[
+                {
+                  href: "../../../tools-calculators/bank-guarantee-authentication.html",
+                  text: "Bank Guarantee authentication",
+                },
+                {
+                  href: "../../../tools-calculators/foreign-exchange-convertor.html",
+                  text: "Foreign exchange calculator",
+                },
+                {
+                  href: "/mauritius/tools-calculators/how-much-can-i-borrow",
+                  text: "How much can I borrow?",
+                },
+                {
+                  href: "../../../tools-calculators/monthly-repayment.html",
+                  text: "Monthly repayment",
+                },
+                {
+                  href: "https://app.mcb.mu/app/banking/ways-to-bank/update-your-profile",
+                  text: "Update your Personal Profile",
+                  target: "_blank",
+                },
+              ]}
+            />
 
-          <FooterSection
-            title="Legal & Security"
-            links={[
-              {
-                href: "/legal/cookie-policy",
-                text: "Cookie Policy",
-              },
-              { href: "/legal/legal-notice", text: "Legal Notice" },
-              {
-                href: "/security-centre",
-                text: "Security Centre",
-              },
-              {
-                href: "https://on.mcb.mu/f2388",
-                text: "T&C Governing Data Protection and Processing",
-                target: "_blank",
-              },
-            ]}
+            <FooterSection
+              title="Resources"
+              links={[
+                {
+                  href: "/resources/adherence-to-fx-global-code",
+                  text: "Adherence to FX Global Code",
+                },
+                {
+                  href: "../../../rates-fees/rates-in-html-version.html",
+                  text: "Bank of Mauritius Template on Fees, Charges & Commissions",
+                },
+                {
+                  href: "../../../docs/mcb/default-document-library/MBA-Code-of-Banking-Practice-2016.pdf",
+                  text: "Code of Ethics & Banking Practice",
+                },
+                {
+                  href: "../../../docs/mcb/personal/mcb-complaints-escalation.pdf",
+                  text: "Complaints Escalation",
+                },
+                {
+                  href: "/resources/environmental-and-social-risk-management",
+                  text: "Environmental & Social Risk Management",
+                },
+                {
+                  href: "/resources/libor-transition",
+                  text: "LIBOR Transition",
+                },
+              ]}
+            />
+
+            <FooterSection
+              title="Legal & Security"
+              links={[
+                {
+                  href: "/legal/cookie-policy",
+                  text: "Cookie Policy",
+                },
+                { href: "/legal/legal-notice", text: "Legal Notice" },
+                {
+                  href: "/security-centre",
+                  text: "Security Centre",
+                },
+                {
+                  href: "https://on.mcb.mu/f2388",
+                  text: "T&C Governing Data Protection and Processing",
+                  target: "_blank",
+                },
+              ]}
+            />
+          </div>
+        </div>
+
+        {/* Additional Links */}
+        <div className="row mt-50" data-sf-element="Row">
+          <FooterAdditionalLink
+            href="../../contact-us.html"
+            iconClass="fa-file-lines"
+            text="Contact Us"
+            id="Footer_T0975117C010_Col00"
+            className="sf_colsIn col-md-6 col-lg-3 mb-4 mb-lg-0 pb-20"
+            data-sf-element="Column 1"
+            data-placeholder-label="Column 1"
+          />
+          <FooterAdditionalLink
+            href="/locate-us"
+            iconClass="fa-location-dot"
+            text="Find a branch"
+            id="Footer_T0975117C010_Col01"
+            className="sf_colsIn col-md-6 col-lg-3 mb-4 mb-lg-0 pb-20"
+            data-sf-element="Column 2"
+            data-placeholder-label="Column 2"
+          />
+          <FooterAdditionalLink
+            href="/personal/help-centre"
+            iconClass="fa-circle-question"
+            text="Need Help?"
+            id="Footer_T0975117C010_Col02"
+            className="sf_colsIn col-md-6 col-lg-3 mb-4 mb-md-0 pb-20"
+            data-sf-element="Column 3"
+            data-placeholder-label="Column 3"
+          />
+          <FooterAdditionalLink
+            href="../../../offers/index.html"
+            iconClass="fa-star"
+            text="Offers & promotions"
+            id="Footer_T0975117C010_Col03"
+            className="sf_colsIn col-md-6 col-lg-3 pb-20"
+            data-sf-element="Column 4"
+            data-placeholder-label="Column 4"
           />
         </div>
-      </div>
 
-      {/* Additional Links */}
-      <div className="row mt-50" data-sf-element="Row">
-        <FooterAdditionalLink
-          href="../../contact-us.html"
-          iconClass="fa-file-lines"
-          text="Contact Us"
-          id="Footer_T0975117C010_Col00"
-          // touching this section will break the footer
-          className="sf_colsIn col-md-6 col-lg-3 mb-4 mb-lg-0 pb-20"
-          data-sf-element="Column 1"
-          data-placeholder-label="Column 1"
-        />
-        <FooterAdditionalLink
-          href="/locate-us"
-          iconClass="fa-location-dot"
-          text="Find a branch"
-          id="Footer_T0975117C010_Col01"
-          className="sf_colsIn col-md-6 col-lg-3 mb-4 mb-lg-0 pb-20"
-          data-sf-element="Column 2"
-          data-placeholder-label="Column 2"
-        />
-        <FooterAdditionalLink
-          href="../../help-centre.html"
-          iconClass="fa-circle-question"
-          text="Need Help?"
-          id="Footer_T0975117C010_Col02"
-          className="sf_colsIn col-md-6 col-lg-3 mb-4 mb-md-0 pb-20"
-          data-sf-element="Column 3"
-          data-placeholder-label="Column 3"
-        />
-        <FooterAdditionalLink
-          href="../../../offers/index.html"
-          iconClass="fa-star"
-          text="Offers & promotions"
-          id="Footer_T0975117C010_Col03"
-          className="sf_colsIn col-md-6 col-lg-3 pb-20"
-          data-sf-element="Column 4"
-          data-placeholder-label="Column 4"
-        />
-      </div>
-
-      {/* Copyright Section */}
-      <div className="row mt-50" data-sf-element="Row">
-        <div
-          className="sf_colsIn col-lg-12"
-          data-sf-element="Column 1"
-          data-placeholder-label="Column 1"
-        >
-          <div className="footer-copyright footer-top-border bg-color-light-scale-1">
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-1 d-flex align-items-center justify-content-center justify-content-lg-start mb-2 mb-lg-0">
-                  <a href="/" className="logo pe-0 pe-lg-1">
-                    <img
-                      src="/images/mcb/default-album/logo-mcb-color.svg"
-                      height="32"
-                      alt=""
-                      style={{ width: "5rem" }}
-                    />
-                  </a>
-                </div>
-                <div className="col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">
-                  <p id="copyright" style={{ textAlign: "right" }}></p>
-                </div>
-                <div className="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-end">
-                  <ul className="header-social-icons social-icons">
-                    <li className="social-icons-facebook">
-                      <a
-                        href="https://www.facebook.com/mcb.mauritius/"
-                        target="_blank"
-                        title="Facebook"
-                      >
-                        <i className="fab fa-facebook-f text-2"></i>
-                      </a>
-                    </li>
-                    <li className="social-icons-instagram">
-                      <a
-                        href="https://www.instagram.com/mcb.mauritius/"
-                        target="_blank"
-                        title="Instagram"
-                      >
-                        <i className="icon-instagram text-4"></i>
-                      </a>
-                    </li>
-                    <li className="social-icons-youtube">
-                      <a
-                        href="https://www.youtube.com/@MCBLtd"
-                        target="_blank"
-                        title="YouTube"
-                      >
-                        <i className="icon-youtube"></i>
-                      </a>
-                    </li>
-                  </ul>
+        {/* Copyright Section */}
+        <div className="row mt-50" data-sf-element="Row">
+          <div
+            className="sf_colsIn col-lg-12"
+            data-sf-element="Column 1"
+            data-placeholder-label="Column 1"
+          >
+            <div className="footer-copyright footer-top-border bg-color-light-scale-1">
+              <div className="container">
+                <div className="row">
+                  <div className="col-lg-1 d-flex align-items-center justify-content-center justify-content-lg-start mb-2 mb-lg-0">
+                    <a href="/" className="logo pe-0 pe-lg-1">
+                      <img
+                        src="/images/mcb/default-album/logo-mcb-color.svg"
+                        height="32"
+                        alt=""
+                        style={{ width: "5rem" }}
+                      />
+                    </a>
+                  </div>
+                  <div className="col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">
+                    <p id="copyright" style={{ textAlign: "right" }}></p>
+                  </div>
+                  <div className="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-end">
+                    <ul className="header-social-icons social-icons">
+                      <li className="social-icons-facebook">
+                        <a
+                          href="https://www.facebook.com/mcb.mauritius/"
+                          target="_blank"
+                          title="Facebook"
+                        >
+                          <i className="fab fa-facebook-f text-2"></i>
+                        </a>
+                      </li>
+                      <li className="social-icons-instagram">
+                        <a
+                          href="https://www.instagram.com/mcb.mauritius/"
+                          target="_blank"
+                          title="Instagram"
+                        >
+                          <i className="icon-instagram text-4"></i>
+                        </a>
+                      </li>
+                      <li className="social-icons-youtube">
+                        <a
+                          href="https://www.youtube.com/@MCBLtd"
+                          target="_blank"
+                          title="YouTube"
+                        >
+                          <i className="icon-youtube"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>

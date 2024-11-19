@@ -1,28 +1,31 @@
+import { Helmet } from "react-helmet-async";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 
 const OnlineAndMobile = () => {
   return (
     <>
-      {/* Mirrored from mcb.mu/security-centre/online-and-mobile by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 07:15:15 GMT */}
-      <meta name="title" content="Online and Mobile Security | MCB	" />
-      <meta
-        name="description"
-        content="We’re committed to making your internet and mobile banking experience secure and protected by using strong security features that will provide you peace of mind."
-      />
-      <title>Online and Mobile Security | MCB</title>
-      <meta property="og:title" content="Online and Mobile Security | MCB" />
-      <meta
-        property="og:description"
-        content="We’re committed to making your internet and mobile banking experience secure and protected by using strong security features that will provide you peace of mind."
-      />
-      <meta
-        property="og:url"
-        content="https://mcb.mu/security-centre/online-and-mobile"
-      />
-      <meta property="og:type" content="website" />
-      <meta property="og:site_name" content="MCB Mauritius" />
-      <link rel="canonical" href="/online-and-mobile" />
+      <Helmet>
+        {/* Mirrored from mcb.mu/security-centre/online-and-mobile by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 07:15:15 GMT */}
+        <meta name="title" content="Online and Mobile Security | MCB	" />
+        <meta
+          name="description"
+          content="We’re committed to making your internet and mobile banking experience secure and protected by using strong security features that will provide you peace of mind."
+        />
+        <title>Online and Mobile Security | MCB</title>
+        <meta property="og:title" content="Online and Mobile Security | MCB" />
+        <meta
+          property="og:description"
+          content="We’re committed to making your internet and mobile banking experience secure and protected by using strong security features that will provide you peace of mind."
+        />
+        <meta
+          property="og:url"
+          content="https://mcb.mu/security-centre/online-and-mobile"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="MCB Mauritius" />
+        <link rel="canonical" href="/online-and-mobile" />
+      </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
         <noscript
@@ -40,7 +43,7 @@ const OnlineAndMobile = () => {
             className="banner-small custom-bg-color-light-2 position-relative border-0 pb-sm-0 pt-lg-4 m-0 mt-80"
             style={{
               backgroundImage:
-                "url(../images/mcb/personal/banners/personal-online-protection-banner459d.jpeg?sfvrsn=7e539421_0)",
+                "url(/images/mcb/personal/banners/personal-online-protection-banner459d.jpeg?sfvrsn=7e539421_0)",
             }}
           >
             <div className="overlay" />
@@ -52,14 +55,14 @@ const OnlineAndMobile = () => {
                   data-appear-animation-delay={450}
                 >
                   <h1
-                    className="text-color-dark font-weight-semi-bold text-10 line-height-1 mb-3 pe-5 me-5"
-                    style={{ color: "#ffffff!important" }}
+                    className="font-weight-semi-bold text-10 line-height-1 mb-3 pe-5 me-5"
+                    style={{ color: "#ffffff" }}
                   >
                     Online and Mobile
                   </h1>
                   <p
                     className="lead line-height-2 text-4 pe-5 mb-4 pb-2"
-                    style={{ color: "#ffffff!important" }}
+                    style={{ color: "#ffffff" }}
                   >
                     The protection of your privacy matters to us. Be assured
                     that our services rely on high-security mechanisms to
@@ -205,7 +208,7 @@ const OnlineAndMobile = () => {
                               a suspicious email, forward it to us immediately
                               on{" "}
                               <a
-                                href="../cdn-cgi/l/email-protection.html"
+                                href="/cdn-cgi/l/email-protection.html"
                                 className="__cf_email__"
                                 data-femail="88e9e4edfafcc8e5ebeaa6e5fd"
                               >
@@ -362,7 +365,7 @@ const OnlineAndMobile = () => {
                       If you think your MCB account has been compromised,
                       contact us straight away. In case you’ve received a
                       suspicious email, forward it to us immediately on{" "}
-                      <a href="../cdn-cgi/l/email-protection.html#1d7c71786f695d707e7f337068">
+                      <a href="/cdn-cgi/l/email-protection.html#1d7c71786f695d707e7f337068">
                         <span
                           className="__cf_email__"
                           data-femail="46272a233432062b2524682b33"

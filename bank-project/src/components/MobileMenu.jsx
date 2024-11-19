@@ -11,7 +11,7 @@ const MobileMenu = () => (
                 <div className="logo logo-mobile">
                   <Link to="/">
                     <img
-                      src="images/mcb/default-album/logo-mcb-caravelle-red.svg"
+                      src="/images/mcb/default-album/logo-mcb-caravelle-red.svg"
                       alt="MCB Logo"
                       width={40}
                       className="sf-immutable-selected"
