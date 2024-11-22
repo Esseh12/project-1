@@ -235,6 +235,38 @@ import RecognitionsAccolades from "./Institutional/Mcb-at-a-glance/Recognitions-
 // End of Institutional Folder files
 
 // Corporate Folder files
+import CorporateFaq from "./Corporate/Faq";
+import FinanceLending from "./Corporate/Finance-lending";
+import InvestmentAdvisory from "./Corporate/Investment-advisory";
+import CorporateMcbAtAGlance from "./Corporate/Mcb-at-a-glance";
+import CorporateOurGeographicalPresence from "./Corporate/Our-geographical-presence";
+import PaymentCash from "./Corporate/Payment-cash";
+import CorporateSecurityCenter from "./Corporate/Security-centre";
+import WhatWeDo from "./Corporate/What-we-do";
+// Payment Cash Folder files
+import Collect from "./Corporate/payment-cash/Collect";
+import Monitor from "./Corporate/payment-cash/Monitor";
+import Optimise from "./Corporate/payment-cash/Optimise";
+import CorperatePay from "./Corporate/payment-cash/Pay";
+// Monitor Folder files
+import CorporateEStatements from "./Corporate/payment-cash/monitor/E-statements";
+import ReportingServicesIbDashboard from "./Corporate/payment-cash/monitor/Reporting-services-ib-dashboard";
+// End of Monitor Folder files
+// Optimise Folder files
+import CashPoolingServices from "./Corporate/payment-cash/optimise/Cash-pooling-services";
+import FxMoneyMarketServices from "./Corporate/payment-cash/optimise/Fx-money-market-services";
+// End of Optimise Folder files
+// Collect Folder files
+import CashDepositSolutions from "./Corporate/payment-cash/collect/Cash-deposit-solutions";
+import DirectDebitBillPayment from "./Corporate/payment-cash/collect/Direct-debit-bill-payment";
+import Ecommerce from "./Corporate/payment-cash/collect/E-commerce";
+// Ecommerce Folder files
+import MerchantServices from "./Corporate/payment-cash/collect/e-commerce/Merchant-services";
+import OnlinePaymentGateway from "./Corporate/payment-cash/collect/e-commerce/Online-payment-gateway";
+// End Ecommerce Folder files
+// End Collect Folder files
+// End of Payment Cash Folder files
+// End of Payment Cash Folder files
 // Faq
 import CorporateBanking from "./Corporate/faq/Banking";
 import CorporateCards from "./Corporate/faq/Cards";
@@ -256,7 +288,20 @@ import GlobalMarketsSolutions from "./Corporate/investment-advisory/global-marke
 // MCB AT A GLANCE
 import CorporateFactsFigures from "./Corporate/mcb-at-a-glance/Facts-figures";
 import Overview from "./Corporate/mcb-at-a-glance/Overview";
+import CorporateRecognitionsAccolades from "./Corporate/mcb-at-a-glance/Recognitions-accolades";
 // MCB AT A GLANCE
+// What we do
+import WWDCorporateBanking from "./Corporate/what-we-do/Corporate-banking";
+import GlobalBusiness from "./Corporate/what-we-do/Global-business";
+// Global Business Folder files
+import BecomeAClient from "./Corporate/what-we-do/global-business/Become-a-client";
+import CustodyServices from "./Corporate/what-we-do/global-business/Custody-services";
+import InvestingInMauritius from "./Corporate/what-we-do/global-business/Investing-in-mauritius";
+// End of Global Business Folder files
+// Corporate Banking Folder files
+import CorporateBecomeAClient from "./Corporate/what-we-do/corporate-banking/become-a-client";
+import OurSuccessStories from "./Corporate/what-we-do/corporate-banking/Our-success-stories";
+// End of What we do
 // End of Corporate Folder files
 // En Packages files
 import ADayPackageAtIleDesDeuxCocos from "./en/mediacontent/A-day-package-at-Ile-des-deux-cocos_tcm55-62105";
@@ -951,6 +996,77 @@ const App = () => {
         {/* End of Institutional Folder files */}
 
         {/* Corporate Folder files */}
+        <Route path="/corporate/faq" element={<CorporateFaq />} />
+        <Route path="/corporate/finance-lending" element={<FinanceLending />} />
+        <Route
+          path="/corporate/investment-advisory"
+          element={<InvestmentAdvisory />}
+        />
+        <Route
+          path="/corporate/mcb-at-a-glance"
+          element={<CorporateMcbAtAGlance />}
+        />
+        <Route
+          path="/corporate/our-geographical-presence"
+          element={<CorporateOurGeographicalPresence />}
+        />
+        <Route path="/corporate/payment-cash" element={<PaymentCash />} />
+        <Route
+          path="/corporate/security-center"
+          element={<CorporateSecurityCenter />}
+        />
+        <Route path="/corporate/what-we-do" element={<WhatWeDo />} />
+        {/* Payment- cash folder */}
+        <Route path="/corporate/payment-cash/collect" element={<Collect />} />
+        <Route path="/corporate/payment-cash/monitor" element={<Monitor />} />
+        <Route path="/corporate/payment-cash/optimise" element={<Optimise />} />
+        <Route path="/corporate/payment-cash/pay" element={<CorperatePay />} />
+        {/* Monitor folder */}
+        <Route
+          path="/corporate/payment-cash/monitor/e-statements"
+          element={<CorporateEStatements />}
+        />
+        <Route
+          path="/corporate/payment-cash/monitor/reporting-services-ib-dashboard"
+          element={<ReportingServicesIbDashboard />}
+        />
+        {/* End Monitor folder */}
+        {/* Optimise Folder files */}
+        <Route
+          path="/corporate/payment-cash/optimise/cash-pooling-services"
+          element={<CashPoolingServices />}
+        />
+        <Route
+          path="/corporate/payment-cash/optimise/fx-money-market-services"
+          element={<FxMoneyMarketServices />}
+        />
+        {/* Optimise Folder Files */}
+        {/* Collect folder Files */}
+        <Route
+          path="/corporate/payment-cash/collect/cash-deposit-solutions"
+          element={<CashDepositSolutions />}
+        />
+        <Route
+          path="/corporate/payment-cash/collect/direct-debit-bill-payment"
+          element={<DirectDebitBillPayment />}
+        />
+        <Route
+          path="/corporate/payment-cash/collect/e-commerce"
+          element={<Ecommerce />}
+        />
+        {/* Ecommerce folder files */}
+        <Route
+          path="/corporate/payment-cash/collect/e-commerce/merchant-services"
+          element={<MerchantServices />}
+        />
+        <Route
+          path="/corporate/payment-cash/collect/e-commerce/online-payment-gateway"
+          element={<OnlinePaymentGateway />}
+        />
+        {/* End Ecommerce folder files */}
+        {/* Collect folder files */}
+        {/* End Payment cash folder */}
+        {/* Faq folder */}
         <Route path="/corporate/faq/banking" element={<CorporateBanking />} />
         <Route path="/corporate/faq/cards" element={<CorporateCards />} />
         <Route
@@ -966,6 +1082,7 @@ const App = () => {
           element={<McbSmartApprove />}
         />
         <Route path="/corporate/faq/soft-token" element={<SoftToken />} />
+        {/* End of Faq folder */}
         {/* Investment Advisory folder files */}
         <Route
           path="/corporate/investment-advisory/capital-markets"
@@ -1003,7 +1120,45 @@ const App = () => {
           path="/corporate/mcb-at-a-glance/overview"
           element={<Overview />}
         />
+        <Route
+          path="/corporate/mcb-at-a-glance/recognitions-accolades"
+          element={<CorporateRecognitionsAccolades />}
+        />
         {/* End Mcb at a glance */}
+        {/* WHAT WE DO */}
+        <Route
+          path="/corporate/what-we-do/corporate-banking"
+          element={<WWDCorporateBanking />}
+        />
+        <Route
+          path="/corporate/what-we-do/global-business"
+          element={<GlobalBusiness />}
+        />
+        {/* Global buisness folder */}
+        <Route
+          path="/corporate/what-we-do/global-business/become-a-client"
+          element={<BecomeAClient />}
+        />
+        <Route
+          path="/corporate/what-we-do/global-business/custody-services"
+          element={<CustodyServices />}
+        />
+        <Route
+          path="/corporate/what-we-do/global-business/investing-in-mauritius"
+          element={<InvestingInMauritius />}
+        />
+        {/* End of Global Business folder */}
+        {/* Corporate banking folder  */}
+        <Route
+          path="/corporate/what-we-do/corporate-banking/become-a-client"
+          element={<CorporateBecomeAClient />}
+        />
+        <Route
+          path="/corporate/what-we-do/corporate-banking/our-success-stories"
+          element={<OurSuccessStories />}
+        />
+        {/* End Corporate banking */}
+        {/* End What we do */}
         {/* End Corporate Folder Files */}
         {/* En Packages files */}
         <Route
