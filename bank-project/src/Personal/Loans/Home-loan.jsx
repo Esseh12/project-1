@@ -1,7 +1,7 @@
 // code needs to be refectored;
 import { useEffect } from "react";
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
+import Header from "../../Components/Header";
+import Footer from "../../Components/Footer";
 
 const HomeLoan = () => {
   useEffect(() => {

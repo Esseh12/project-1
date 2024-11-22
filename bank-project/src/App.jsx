@@ -4,7 +4,7 @@ import Personal from "./mainPages/Personal";
 import Institutional from "./mainPages/Institutional";
 import Sme from "./mainPages/Sme";
 import Coperate from "./mainPages/Coperate";
-import FileComplaintForm from "./mainPages/file-a-complaint";
+import FileComplaintForm from "./mainPages/File-a-complaint";
 import HomeLoan from "./Personal/Loans/Home-loan";
 import TreasuryMarketUpdates from "./mainPages/Treasury-market-updates";
 import SecurityCentre from "./mainPages/Security-centre";
@@ -27,6 +27,10 @@ import HelpCentre from "./Personal/Help-centre";
 import Faq from "./Personal/Help-centre/Faq";
 import HowToVideos from "./Personal/Help-centre/How-to-videos";
 import ToolsAndCalculators from "./Personal/Help-centre/Tools-and-calculators";
+//End of Help Centre files
+// Amex Golf files
+import TheNineAzuriGolfCourse from "./Personal/AMEX_Golf/the-nine-azuri-golf-course";
+// End of Amex Golf files
 // Faq folder files
 import AmericanExpressSafekey from "./Personal/Help-centre/Faq/American-express-safekey";
 import Atms from "./Personal/Help-centre/Faq/Atms";
@@ -44,6 +48,17 @@ import ShoppingOnlineWithDebitCards from "./Personal/Help-centre/Faq/Shopping-on
 import SmsBanking from "./Personal/Help-centre/Faq/Sms-banking";
 // End Faq folder files
 // End of Help Centre files
+// Tools and calculators files
+import Index from "./Tools-calculators/How-much-can-i-borrow/Index";
+import MonthlyIndex from "./Tools-calculators/Monthly-repayment/Index";
+import BankGuaranteeAuthentication from "./Tools-calculators/Bank-guarantee-authentication";
+import DownloadDailyRates from "./Tools-calculators/Download-daily-rates";
+import ForeignExchangeConvertor from "./Tools-calculators/Foreign-exchange-convertor";
+import ToolsHowMuchCanIBorrow from "./Tools-calculators/How-much-can-i-borrow";
+import IbanGenerator from "./Tools-calculators/Iban-generator";
+import RequestForProposal from "./Tools-calculators/Request-for-proposal";
+import UpfrontCost from "./Tools-calculators/Upfront-cost";
+// End of Tools and calculators files
 // Personal Files
 // offer and promotions files
 import OffersAndPromotions from "./Personal/OffersAndPromotions";
@@ -149,6 +164,58 @@ import StandardSavingsAccount from "./Personal/Accounts-packages/Standard-saving
 // End of Account and packages files
 // End of Personal files
 
+// Sme Folder files
+import Bank from "./Sme/Bank";
+import Borrow from "./Sme/Borrow";
+import BusinessIntroducer from "./Sme/Business-introducer";
+import Finance from "./Sme/Finance";
+import Partnerships from "./Sme/Partnerships";
+import Pay from "./Sme/Pay";
+import SmeConnect from "./Sme/Sme-connect";
+import Structure from "./Sme/Structure";
+// Sme Connect Folder files
+import ManageYourBusiness from "./Sme/Sme-connect/Manage-your-business";
+import SpeakerSeries from "./Sme/Sme-connect/Speaker-series";
+import StartYourBusiness from "./Sme/Sme-connect/Start-your-business";
+// End of Sme Connect Folder files
+// Borrow Folder files
+import BankGuarantees from "./Sme/Borrow/Bank-guarantees";
+import Factoring from "./Sme/Borrow/Factoring";
+import Leasing from "./Sme/Borrow/Leasing";
+import Loans from "./Sme/Borrow/Loans";
+import LokalIsBeautiful from "./Sme/Borrow/Lokal-is-beautiful";
+import Overdrafts from "./Sme/Borrow/Overdrafts";
+import SustainableLoan from "./Sme/Borrow/Sustainable-loan";
+import TradeFinance from "./Sme/Borrow/Trade-finance";
+// End of Borrow Folder files
+// Bank Folder files
+import BusinessAccount from "./Sme/Bank/Business-account";
+import TailorMadeSolutions from "./Sme/Bank/Tailor-made-solutions";
+import TransactAnytimeAnywhere from "./Sme/Bank/Transact-anytime-anywhere";
+// Transact Anytime Anywhere Folder files
+import Atm from "./Sme/Bank/Transact-anytime-anywhere/Atm";
+import EStatements from "./Sme/Bank/Transact-anytime-anywhere/E-statements";
+import SmeInternetBanking from "./Sme/Bank/Transact-anytime-anywhere/Internet-banking";
+import JuicePro from "./Sme/Bank/Transact-anytime-anywhere/Juicepro";
+// End Transact Anytime Anywhere Folder files
+// End of Bank Folder files
+// Pay Folder Files
+import SmeCards from "./Sme/Pay/Cards";
+import Cheque from "./Sme/Pay/Cheques";
+import ElectronicePayments from "./Sme/Pay/Electronic-payments";
+import PayrollServices from "./Sme/Pay/Payroll-services";
+// Electric Payments Folder files
+import EcommerceSolutions from "./Sme/Pay/Electronic-payments/E-commerce-solutions";
+import ElectronicTransfer from "./Sme/Pay/Electronic-payments/Electronic-transfer";
+// End of Electric Payments Folder files
+// card folder files
+import BusinessCard from "./Sme/Pay/Cards/Business-card";
+import SmeBusinessDepositCard from "./Sme/Pay/Cards/Business-deposit-card";
+import FleetmanCard from "./Sme/Pay/Cards/Fleetman-card";
+// end of card folder files
+// End of Pay Folder Files
+// End Of Sme Folder files
+
 // Institutional Folder files
 import Events from "./Institutional/Events";
 import McbAtAGlance from "./Institutional/Mcb-at-a-glance";
@@ -167,6 +234,30 @@ import RecognitionsAccolades from "./Institutional/Mcb-at-a-glance/Recognitions-
 // End of Mcb at a glance folder files
 // End of Institutional Folder files
 
+// Corporate Folder files
+// Faq
+import CorporateBanking from "./Corporate/faq/Banking";
+import CorporateCards from "./Corporate/faq/Cards";
+import ForeignCurrencyTransferOnIB from "./Corporate/faq/Foreign-currency-transfer-on-ib";
+import CoperateInternetBanking from "./Corporate/faq/Internet-banking";
+import McbSmartApprove from "./Corporate/faq/Mcb-smartapprove";
+import SoftToken from "./Corporate/faq/Soft-token";
+// End of Faq
+// Investment advisory
+import CapitalMarket from "./Corporate/investment-advisory/Capital-markets";
+import GlobalMarkets from "./Corporate/investment-advisory/Global-markets";
+import SecurityServices from "./Corporate/investment-advisory/Securities-services";
+// Global Markets Folder files
+import DirectAccessToMarkets from "./Corporate/investment-advisory/global-markets/Direct-access-to-markets";
+import FinancialMarketsSummary from "./Corporate/investment-advisory/global-markets/Financial-markets-summary";
+import GlobalMarketsSolutions from "./Corporate/investment-advisory/global-markets/Global-markets-solutions";
+// End Global Markets Folder files
+// End Investment Advisory Folder files
+// MCB AT A GLANCE
+import CorporateFactsFigures from "./Corporate/mcb-at-a-glance/Facts-figures";
+import Overview from "./Corporate/mcb-at-a-glance/Overview";
+// MCB AT A GLANCE
+// End of Corporate Folder files
 // En Packages files
 import ADayPackageAtIleDesDeuxCocos from "./en/mediacontent/A-day-package-at-Ile-des-deux-cocos_tcm55-62105";
 // End En Packages files
@@ -210,7 +301,7 @@ import MobileFraud from "./Security-centre/Fraud-and-scams/Mobile-fraud";
 import OnlineFraud from "./Security-centre/Fraud-and-scams/Online-fraud";
 import OtherFraud from "./Security-centre/Fraud-and-scams/Other-fraud";
 
-function App() {
+const App = () => {
   return (
     <BrowserRouter>
       <Routes>
@@ -262,6 +353,13 @@ function App() {
           path="/personal/help-centre/tools-and-calculators"
           element={<ToolsAndCalculators />}
         />
+        {/* End of Help Centre files */}
+        {/* Amex Golf files */}
+        <Route
+          path="/personal/amex-golf/the-nine-azuri-golf-course"
+          element={<TheNineAzuriGolfCourse />}
+        />
+        {/* End of Amex Golf files */}
         {/* Faq folder files */}
         <Route
           path="/personal/help-centre/faq/american-express-safekey"
@@ -313,6 +411,44 @@ function App() {
         {/* End Faq folder files */}
         {/* End of Help Centre files
         {/* End of Personal Files */}
+        {/* Tools and calculators files */}
+        <Route
+          path="/tools-calculators/how-much-can-i-borrow/index"
+          element={<Index />}
+        />
+        <Route
+          path="/tools-calculators/monthly-repayment/index"
+          element={<MonthlyIndex />}
+        />
+        <Route
+          path="/tools-calculators/bank-guarantee-authentication"
+          element={<BankGuaranteeAuthentication />}
+        />
+        <Route
+          path="/tools-calculators/download-daily-rates"
+          element={<DownloadDailyRates />}
+        />
+        <Route
+          path="/tools-calculators/foreign-exchange-convertor"
+          element={<ForeignExchangeConvertor />}
+        />
+        <Route
+          path="/tools-calculators/how-much-can-i-borrow"
+          element={<ToolsHowMuchCanIBorrow />}
+        />
+        <Route
+          path="/tools-calculators/iban-generator"
+          element={<IbanGenerator />}
+        />
+        <Route
+          path="/tools-calculators/request-for-proposal"
+          element={<RequestForProposal />}
+        />
+        <Route
+          path="/tools-calculators/upfront-cost"
+          element={<UpfrontCost />}
+        />
+        {/* End of Tools and calculators files */}
         {/* Treasury market files */}
         <Route
           path="/treasury-market-updates/treasury-market2"
@@ -666,6 +802,113 @@ function App() {
         {/* End of Investment files */}
         {/* End of Personal files */}
 
+        {/* Sme Folder files */}
+        <Route path="/sme/bank" element={<Bank />} />
+        <Route path="/sme/borrow" element={<Borrow />} />
+        <Route
+          path="/sme/business-introducer"
+          element={<BusinessIntroducer />}
+        />
+        <Route path="/sme/finance" element={<Finance />} />
+        <Route path="/sme/partnerships" element={<Partnerships />} />
+        <Route path="/sme/pay" element={<Pay />} />
+        <Route path="/sme/sme-connect" element={<SmeConnect />} />
+        <Route path="/sme/structure" element={<Structure />} />
+
+        {/* Sme Connect Files */}
+        <Route
+          path="/sme/sme-connect/manage-your-business"
+          element={<ManageYourBusiness />}
+        />
+        <Route
+          path="/sme/sme-connect/speaker-series"
+          element={<SpeakerSeries />}
+        />
+        <Route
+          path="/sme/sme-connect/start-your-business"
+          element={<StartYourBusiness />}
+        />
+        {/* End Sme Connect Files */}
+        {/* bORROW folder */}
+        <Route
+          path="/sme/borrow/bank-guarantees"
+          element={<BankGuarantees />}
+        />
+        <Route path="/sme/borrow/factoring" element={<Factoring />} />
+        <Route path="/sme/borrow/leasing" element={<Leasing />} />
+        <Route path="/sme/borrow/loans" element={<Loans />} />
+        <Route
+          path="/sme/borrow/lokal-is-beautiful"
+          element={<LokalIsBeautiful />}
+        />
+        <Route path="/sme/borrow/overdrafts" element={<Overdrafts />} />
+        <Route
+          path="/sme/borrow/sustainable-loan"
+          element={<SustainableLoan />}
+        />
+        <Route path="/sme/borrow/trade-finance" element={<TradeFinance />} />
+        {/* End Borrow Folder */}
+        {/* Bank Folder */}
+        <Route
+          path="/sme/bank/business-account"
+          element={<BusinessAccount />}
+        />
+        <Route
+          path="/sme/bank/tailor-made-solutions"
+          element={<TailorMadeSolutions />}
+        />
+        <Route
+          path="/sme/bank/transact-anytime-anywhere"
+          element={<TransactAnytimeAnywhere />}
+        />
+        {/* Transact Anytime Folder */}
+        <Route
+          path="/sme/bank/transact-anytime-anywhere/atm"
+          element={<Atm />}
+        />
+        <Route
+          path="/sme/bank/transact-anytime-anywhere/e-statements"
+          element={<EStatements />}
+        />
+        <Route
+          path="/sme/bank/transact-anytime-anywhere/internet-banking"
+          element={<SmeInternetBanking />}
+        />
+        <Route
+          path="/sme/bank/transact-anytime-anywhere/juicepro"
+          element={<JuicePro />}
+        />
+        {/* End of Transact Anytime Folder */}
+        {/* Bank Folder */}
+        <Route path="/sme/pay/cards" element={<SmeCards />} />
+        <Route path="/sme/pay/cheques" element={<Cheque />} />
+        <Route
+          path="/sme/pay/electronic-payments"
+          element={<ElectronicePayments />}
+        />
+        <Route path="/sme/pay/payroll-services" element={<PayrollServices />} />
+        {/* End of Bank Folder */}
+        {/* Electric payment folder */}
+        <Route
+          path="/sme/pay/electronic-payments/e-commerce-solutions"
+          element={<EcommerceSolutions />}
+        />
+        <Route
+          path="/sme/pay/electronic-payments/electronic-transfer"
+          element={<ElectronicTransfer />}
+        />
+        {/* End of Electric payment folder */}
+        {/* Cards folder */}
+        <Route path="/sme/pay/cards/business-card" element={<BusinessCard />} />
+        <Route
+          path="/sme/pay/cards/business-deposit-card"
+          element={<SmeBusinessDepositCard />}
+        />
+        <Route path="/sme/pay/cards/fleetman-card" element={<FleetmanCard />} />
+        {/* End CARDS FOLDER */}
+        {/* Pay Folder */}
+        {/* End Of Pay Folder */}
+        {/* End Of Sme Folder files */}
         {/* Institutional Folder files */}
         <Route path="/institutional/events" element={<Events />} />
         <Route
@@ -706,6 +949,62 @@ function App() {
           element={<RecognitionsAccolades />}
         />
         {/* End of Institutional Folder files */}
+
+        {/* Corporate Folder files */}
+        <Route path="/corporate/faq/banking" element={<CorporateBanking />} />
+        <Route path="/corporate/faq/cards" element={<CorporateCards />} />
+        <Route
+          path="/corporate/faq/foreign-currency-transfer-on-ib"
+          element={<ForeignCurrencyTransferOnIB />}
+        />
+        <Route
+          path="/corporate/faq/internet-banking"
+          element={<CoperateInternetBanking />}
+        />
+        <Route
+          path="/corporate/faq/mcb-smartapprove"
+          element={<McbSmartApprove />}
+        />
+        <Route path="/corporate/faq/soft-token" element={<SoftToken />} />
+        {/* Investment Advisory folder files */}
+        <Route
+          path="/corporate/investment-advisory/capital-markets"
+          element={<CapitalMarket />}
+        />
+        <Route
+          path="/corporate/investment-advisory/global-markets"
+          element={<GlobalMarkets />}
+        />
+        <Route
+          path="/corporate/investment-advisory/securities-services"
+          element={<SecurityServices />}
+        />
+        {/* Global Market */}
+        <Route
+          path="/corporate/investment-advisory/global-markets/direct-access-to-markets"
+          element={<DirectAccessToMarkets />}
+        />
+        <Route
+          path="/corporate/investment-advisory/global-markets/financial-markets-summary"
+          element={<FinancialMarketsSummary />}
+        />
+        <Route
+          path="/corporate/investment-advisory/global-markets/global-markets-solutions"
+          element={<GlobalMarketsSolutions />}
+        />
+        {/* End Global Market */}
+        {/* End Investment Advisory folder files */}
+        {/* Mcb at a glance */}
+        <Route
+          path="/corporate/mcb-at-a-glance/facts-figures"
+          element={<CorporateFactsFigures />}
+        />
+        <Route
+          path="/corporate/mcb-at-a-glance/overview"
+          element={<Overview />}
+        />
+        {/* End Mcb at a glance */}
+        {/* End Corporate Folder Files */}
         {/* En Packages files */}
         <Route
           path="/en/mediacontent/a-day-package-at-ile-des-deux-cocos_tcm55-62105"
@@ -803,6 +1102,6 @@ function App() {
       </Routes>
     </BrowserRouter>
   );
-}
+};
 
 export default App;

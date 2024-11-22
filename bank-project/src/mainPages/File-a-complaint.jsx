@@ -1,6 +1,6 @@
 // form doesn't work because it's not connected to the backend
 import { useEffect } from "react";
-import Header from "../components/Header";
+import Header from "../Components/Header";
 
 const FileComplaintForm = () => {
   useEffect(() => {

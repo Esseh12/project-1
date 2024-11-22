@@ -1,67 +1,42 @@
-// main div at the top isn't showing and script tag isn't completed
-import { useEffect } from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import { Helmet } from "react-helmet-async";
+import SmeHeader from "../Components/Sme-header";
+import Footer from "../Components/Footer";
 
 const Sme = () => {
-  useEffect(() => {
-    // External scripts to be loaded dynamically
-    const scripts = [
-      "ResourcePackages/MCBMU/assets/dist/vendor/plugins/js/plugins.min7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/theme7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/views/view.contact7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/demos/demo-business-consulting-27306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/custom7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/ma5-menu7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/theme.init7306.js?package=MCBMU",
-    ];
-
-    scripts.forEach((src) => {
-      const script = document.createElement("script");
-      script.src = src;
-      script.async = false;
-      document.body.appendChild(script);
-    });
-
-    // Cleanup scripts on component unmount
-    return () => {
-      scripts.forEach((src) => {
-        const script = document.querySelector(`script[src="${src}"]`);
-        if (script) {
-          document.body.removeChild(script);
-        }
-      });
-    };
-  }, []);
-
   return (
     <>
-      <meta name="title" content="SME Banking | MCB	" />
-      <meta
-        name="description"
-        content="Explore MCB's SME banking services. We provide financial solutions, resources, and a thriving community for local entrepreneurs to succeed and grow their businesses."
-      />{" "}
-      <title>SME Banking | MCB</title>{" "}
-      <meta property="og:title" content="SME Banking | MCB" />
-      <meta
-        property="og:description"
-        content="Explore MCB's SME banking services. We provide financial solutions, resources, and a thriving community for local entrepreneurs to succeed and grow their businesses."
-      />
-      <meta
-        property="og:image"
-        content="https://mcb.mu/images/mcb/sme/banners/sme-lokal-is-beautiful.jpeg?sfvrsn=6e79d86e_1"
-      />
-      <link rel="canonical" href="/sme" />
+      <Helmet>
+        <meta name="title" content="SME Banking | MCB	" />
+        <meta
+          name="description"
+          content="Explore MCB's SME banking services. We provide financial solutions, resources, and a thriving community for local entrepreneurs to succeed and grow their businesses."
+        />{" "}
+        <title>SME Banking | MCB</title>{" "}
+        <meta property="og:title" content="SME Banking | MCB" />
+        <meta
+          property="og:description"
+          content="Explore MCB's SME banking services. We provide financial solutions, resources, and a thriving community for local entrepreneurs to succeed and grow their businesses."
+        />
+        <meta
+          property="og:image"
+          content="https://mcb.mu/images/mcb/sme/banners/sme-lokal-is-beautiful.jpeg?sfvrsn=6e79d86e_1"
+        />
+        <link rel="canonical" href="/sme" />
+      </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}
         {/* reusable header component */}
-        <Header />
+        <SmeHeader />
+        {/* Header */}
         <div role="main" className="main">
           <div
             className="owl-carousel owl-carousel-top-banner owl-carousel-light owl-carousel-light-init-fadeIn owl-theme manual dots-inside dots-vertical-center dots-align-right dots-orientation-portrait custom-dots-style-1 show-dots-hover show-dots-xs nav-style-1 nav-inside nav-inside-plus nav-dark nav-lg nav-font-size-lg show-nav-hover mb-0"
@@ -110,87 +85,149 @@ const Sme = () => {
             >
               <section className="bg-color-light p-relative z-index-2">
                 <div
-                  className="cards custom-cards custom-cards-slider home h-auto pt-5 pb-4 container appear-animation"
+                  className="cards custom-cards custom-cards-slider home h-auto pt-5 pb-4 container appear-animation animated fadeInUpShorter appear-animation-visible"
                   data-appear-animation="fadeInUpShorter"
                   data-appear-animation-delay={100}
+                  style={{ animationDelay: "100ms" }}
                 >
                   <div className="row bg-color-light cards-container d-flex justify-content-center justify-content-xl-between w-100 mb-5 mx-0 box-shadow-1 p-relative top-0">
                     <div
-                      className="owl-carousel owl-theme stage-margin nav-style-1 hp"
-                      data-plugin-options="{'items': 3 , 'margin': 0, 'loop': false, 'nav': true, 'dots': false, 'stagePadding': 40,'responsive': {'0': {'items': 1, 'loop':true}, '479': {'items': 1, 'loop':true}, '768': {'items': 2, 'loop':true}, '991': {'items': 3, 'loop':true}}}"
+                      className="owl-carousel owl-theme stage-margin nav-style-1 hp owl-loaded owl-drag owl-carousel-init"
+                      data-plugin-options="{'items': 4, 'margin': 0, 'loop': false, 'nav': true, 'dots': false, 'stagePadding': 40,'responsive': {'0': {'items': 1, 'loop':true}, '479': {'items': 1, 'loop':true}, '768': {'items': 2, 'loop':true}, '991': {'items': 3, 'loop':true}}}"
+                      style={{ height: "auto" }}
                     >
-                      <div className=" bg-light p-0 shadow-none">
-                        <div className="card border-radius-0 border-0 shadow-none">
-                          <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
-                            <a href="sme/structure.html">
-                              <h4 className="card-title mb-1 text-6 font-weight-light text-color-dark text-center">
-                                Structure
-                              </h4>
-                            </a>
-                            <a href="sme/structure.html">
-                              <div className="card-text link-button text-center pt-2">
-                                <p>
-                                  Take advantage of our unique product offerings
-                                  to make better business decisions.
-                                </p>
+                      <div className="owl-stage-outer">
+                        <div
+                          className="owl-stage"
+                          style={{
+                            transform: "translate3d(0px, 0px, 0px)",
+                            transition: "all",
+                            width: 1192,
+                            paddingLeft: 40,
+                            paddingRight: 40,
+                          }}
+                        >
+                          <div
+                            className="owl-item active"
+                            style={{ width: 278 }}
+                          >
+                            <div className=" bg-light p-0 shadow-none">
+                              <div className="card border-radius-0 border-0 shadow-none">
+                                <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
+                                  <a href="/sme/structure">
+                                    <h4 className="card-title mb-1 text-6 font-weight-light text-color-dark text-center">
+                                      Structure
+                                    </h4>
+                                  </a>
+                                  <a href="/sme/structure">
+                                    <div className="card-text link-button text-center pt-2">
+                                      <p>
+                                        Take advantage of our unique product
+                                        offerings to make better business
+                                        decisions.
+                                      </p>
+                                    </div>
+                                  </a>
+                                  <a
+                                    href="/sme/structure"
+                                    className="font-weight-bold text-uppercase text-decoration-none mt-3"
+                                  >
+                                    More info
+                                  </a>
+                                </div>
                               </div>
-                            </a>
-                            <a
-                              href="sme/structure.html"
-                              className="font-weight-bold text-uppercase text-decoration-none mt-3"
-                            >
-                              More info
-                            </a>
+                            </div>
                           </div>
-                        </div>
-                      </div>
-                      <div className=" bg-light p-0 shadow-none">
-                        <div className="card border-radius-0 border-0 shadow-none">
-                          <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
-                            <a href="sme/finance.html">
-                              <h4 className="card-title mb-1 text-6 font-weight-light text-color-dark text-center">
-                                Finance
-                              </h4>
-                            </a>
-                            <a href="sme/finance.html">
-                              <div className="card-text link-button text-center pt-2">
-                                <p>
-                                  We provide you with a wide range of financial
-                                  solution to manage your cash flow.
-                                </p>
+                          <div
+                            className="owl-item active"
+                            style={{ width: 278 }}
+                          >
+                            <div className=" bg-light p-0 shadow-none">
+                              <div className="card border-radius-0 border-0 shadow-none">
+                                <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
+                                  <a href="https://www.punch.mu/">
+                                    <h4 className="card-title mb-1 text-6 font-weight-light text-color-dark text-center">
+                                      Community
+                                    </h4>
+                                  </a>
+                                  <a href="https://www.punch.mu/">
+                                    <div className="card-text link-button text-center pt-2">
+                                      <p>
+                                        Make meaningful connections and find
+                                        interesting resources for growth.
+                                      </p>
+                                    </div>
+                                  </a>
+                                  <a
+                                    href="https://www.punch.mu/"
+                                    className="font-weight-bold text-uppercase text-decoration-none mt-3"
+                                  >
+                                    Connect
+                                  </a>
+                                </div>
                               </div>
-                            </a>
-                            <a
-                              href="sme/finance.html"
-                              className="font-weight-bold text-uppercase text-decoration-none mt-3"
-                            >
-                              Learn more
-                            </a>
+                            </div>
                           </div>
-                        </div>
-                      </div>
-                      <div className=" bg-light p-0 shadow-none">
-                        <div className="card border-radius-0 border-0 shadow-none">
-                          <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
-                            <a href="/signup.html">
-                              <h4 className="card-title mb-1 text-6 font-weight-light text-color-dark text-center">
-                                Onboarding
-                              </h4>
-                            </a>
-                            <a href="/signup.html">
-                              <div className="card-text link-button text-center pt-2">
-                                <p>
-                                  Online account opening for local
-                                  entrepreneurs.
-                                </p>
+                          <div
+                            className="owl-item active"
+                            style={{ width: 278 }}
+                          >
+                            <div className=" bg-light p-0 shadow-none">
+                              <div className="card border-radius-0 border-0 shadow-none">
+                                <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
+                                  <a href="/sme/finance">
+                                    <h4 className="card-title mb-1 text-6 font-weight-light text-color-dark text-center">
+                                      Finance
+                                    </h4>
+                                  </a>
+                                  <a href="/sme/finance">
+                                    <div className="card-text link-button text-center pt-2">
+                                      <p>
+                                        We provide you with a wide range of
+                                        financial solution to manage your cash
+                                        flow.
+                                      </p>
+                                    </div>
+                                  </a>
+                                  <a
+                                    href="/sme/finance"
+                                    className="font-weight-bold text-uppercase text-decoration-none mt-3"
+                                  >
+                                    Learn more
+                                  </a>
+                                </div>
                               </div>
-                            </a>
-                            <a
-                              href="/signup.html"
-                              className="font-weight-bold text-uppercase text-decoration-none mt-3"
-                            >
-                              Apply now
-                            </a>
+                            </div>
+                          </div>
+                          <div
+                            className="owl-item active"
+                            style={{ width: 278 }}
+                          >
+                            <div className=" bg-light p-0 shadow-none">
+                              <div className="card border-radius-0 border-0 shadow-none">
+                                <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
+                                  <a href="/signup.html">
+                                    <h4 className="card-title mb-1 text-6 font-weight-light text-color-dark text-center">
+                                      Onboarding
+                                    </h4>
+                                  </a>
+                                  <a href="/signup.html">
+                                    <div className="card-text link-button text-center pt-2">
+                                      <p>
+                                        Online account opening for local
+                                        entrepreneurs.
+                                      </p>
+                                    </div>
+                                  </a>
+                                  <a
+                                    href="/signup.html"
+                                    className="font-weight-bold text-uppercase text-decoration-none mt-3"
+                                  >
+                                    Apply now
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -264,6 +301,393 @@ const Sme = () => {
               </div>
             </div>
           </div>
+          {/* adding */}
+          <div className="row mt-50 hp-payment" data-sf-element="Row">
+            <div
+              id="Main_C028_Col00"
+              className="sf_colsIn col-lg-12"
+              data-sf-element="Column 1"
+              data-placeholder-label="Column 1"
+            >
+              <div
+                id="Main_C029_Col00"
+                className="sf_colsIn container"
+                data-sf-element="Container"
+                data-placeholder-label="Container"
+              >
+                <div className="row" data-sf-element="Row">
+                  <div
+                    id="Main_C030_Col00"
+                    className="sf_colsIn col-lg-6 order-1 order-sm-1 order-lg-1 text-center"
+                    data-sf-element="Column 1"
+                    data-placeholder-label="Column 1"
+                  >
+                    <img
+                      loading="lazy"
+                      className="mw-100 h-auto text-center"
+                      src="images/mcb/sme/assets/sme-punch6a3a.png?sfvrsn=42d2d300_0"
+                      title="sme-punch"
+                      alt="punch.mu"
+                    />
+                  </div>
+                  <div
+                    id="Main_C030_Col01"
+                    className="sf_colsIn col-lg-6 payment-text mb-5 order-2 order-sm-2 order-lg-2"
+                    data-sf-element="Column 2"
+                    data-placeholder-label="Column 2"
+                  >
+                    <div className="check-ul-styling">
+                      <div>
+                        <div>
+                          <h4 className="sub-title">Punch</h4>
+                          <h2>Join the community</h2>
+                          <p>
+                            Punch.mu is a thriving online platform where local
+                            entrepreneurs make meaningful connections, find
+                            solutions to their business challenges and are
+                            inspired to harness new resources for growth. Be
+                            part of this community.
+                          </p>
+                          <div className="button mt-25">
+                            <a
+                              href="https://punch.mu/"
+                              target="_blank"
+                              className="btn primary"
+                              data-sf-ec-immutable=""
+                            >
+                              Learn more
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="row hp-juice-container" data-sf-element="Row">
+            <div
+              id="Main_C045_Col00"
+              className="sf_colsIn col-lg-12"
+              data-sf-element="Column 1"
+              data-placeholder-label="Column 1"
+            >
+              <div
+                id="Main_C033_Col00"
+                className="sf_colsIn container hp-juice payplus"
+                data-sf-element="Container"
+                data-placeholder-label="Container"
+              >
+                <div className="row" data-sf-element="Row">
+                  <div
+                    id="Main_C034_Col00"
+                    className="sf_colsIn col-lg-6 mb-5 order-2 order-sm-2 order-lg-1"
+                    data-sf-element="Column 1"
+                    data-placeholder-label="Column 1"
+                  >
+                    <div className="check-ul-styling">
+                      <div>
+                        <div className="text-content">
+                          <h4 className="sub-title">JuicePro</h4>
+                          <h2>Transact and manage your Business everywhere</h2>
+                          <p>
+                            Our JuicePro app, a seamless and easy mobile
+                            solution, is for our multi-tasker SME customers’
+                            daily transactional and other banking needs.
+                          </p>
+                          <div className="mt-20 d-none d-md-block d-lg-block d-xl-block">
+                            <a
+                              href="/sme/bank/transact-anytime-anywhere/juicepro"
+                              target="_blank"
+                              data-sf-ec-immutable=""
+                            >
+                              <button
+                                type="button"
+                                className="btn btn-primary "
+                                data-bs-toggle="modal"
+                                data-bs-target="#mcb-juice"
+                              >
+                                Get Started
+                              </button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    id="Main_C034_Col01"
+                    className="sf_colsIn col-lg-6 order-1 order-sm-1 order-lg-2"
+                    data-sf-element="Column 2"
+                    data-placeholder-label="Column 2"
+                  >
+                    <section className=" p-relative z-index-2">
+                      <div
+                        className="cards custom-cards custom-cards-slider home h-auto container appear-animation animated fadeInUpShorter appear-animation-visible"
+                        data-appear-animation="fadeInUpShorter"
+                        data-appear-animation-delay={100}
+                        style={{ animationDelay: "100ms" }}
+                      >
+                        <div className="row bg-color-light cards-container d-flex justify-content-center justify-content-xl-between w-100 mx-0 box-shadow-1 p-relative top-0">
+                          <div
+                            className="owl-carousel owl-theme stage-margin nav-style-1 hp owl-loaded owl-drag owl-carousel-init"
+                            data-plugin-options='{"items": 1 , "margin": 0, "loop": true, "autoplay": true, "autoplayTimeout":5000, "nav": true, "dots": true, "stagePadding": 40,"responsive": {"0": {"items": 1, "loop":true}, "479": {"items": 1,"loop":true}, "768": {"items": 1, "loop":true}, "991": {"items": 1, "loop":true}}}'
+                            style={{ height: "auto" }}
+                          >
+                            <div className="owl-stage-outer">
+                              <div
+                                className="owl-stage"
+                                style={{
+                                  transform: "translate3d(-1872px, 0px, 0px)",
+                                  transition: "0.25s",
+                                  width: 5228,
+                                  paddingLeft: 40,
+                                  paddingRight: 40,
+                                }}
+                              >
+                                <div
+                                  className="owl-item cloned"
+                                  style={{ width: 468 }}
+                                >
+                                  <div className=" bg-light p-0 shadow-none">
+                                    <div className="card border-radius-0 border-0 shadow-none">
+                                      <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
+                                        <img
+                                          src="images/mcb/sme/assets/sme-hp-juice-pro-3.jpg"
+                                          className="w-auto p-0"
+                                          alt="Gold Credit Card"
+                                        />
+                                        {/* <h4 class="card-title mb-1 text-6 font-weight-light text-color-dark text-center">Gold Credit Card</h4> */}
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  className="owl-item cloned"
+                                  style={{ width: 468 }}
+                                >
+                                  <div className=" bg-light p-0 shadow-none">
+                                    <div className="card border-radius-0 border-0 shadow-none">
+                                      <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
+                                        <img
+                                          src="images/mcb/sme/assets/sme-hp-juice-pro-4.jpg"
+                                          className="w-auto p-0"
+                                          alt="Visa Platinum"
+                                        />
+                                        {/* <h4 class="card-title mb-1 text-6 font-weight-light text-color-dark text-center">Visa Platinum</h4> */}
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  className="owl-item cloned"
+                                  style={{ width: 468 }}
+                                >
+                                  <div className=" bg-light p-0 shadow-none">
+                                    <div className="card border-radius-0 border-0 shadow-none">
+                                      <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
+                                        <img
+                                          src="images/mcb/sme/assets/sme-hp-juicepro-5.jpg"
+                                          className="w-auto p-0"
+                                          alt="Classic Credit Card"
+                                        />
+                                        {/* <h4 class="card-title mb-1 text-6 font-weight-light text-color-dark text-center">Classic Credit Card</h4> */}
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  className="owl-item"
+                                  style={{ width: 468 }}
+                                >
+                                  <div className=" bg-light p-0 shadow-none">
+                                    <div className="card border-radius-0 border-0 shadow-none">
+                                      <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
+                                        <img
+                                          src="images/mcb/sme/assets/sme-hp-juice-pro-1.jpg"
+                                          className="w-auto p-0"
+                                          alt="Primo Credit Card"
+                                        />
+                                        {/* <h4 class="card-title mb-1 text-6 font-weight-light text-color-dark text-center">Primo Credit Card</h4> */}
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  className="owl-item active"
+                                  style={{ width: 468 }}
+                                >
+                                  <div className=" bg-light p-0 shadow-none">
+                                    <div className="card border-radius-0 border-0 shadow-none">
+                                      <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
+                                        <img
+                                          src="images/mcb/sme/assets/sme-hp-juice-pro-2.jpg"
+                                          className="w-auto p-0"
+                                          alt="Classic Credit Card"
+                                        />
+                                        {/* <h4 class="card-title mb-1 text-6 font-weight-light text-color-dark text-center">Classic Credit Card</h4> */}
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  className="owl-item"
+                                  style={{ width: 468 }}
+                                >
+                                  <div className=" bg-light p-0 shadow-none">
+                                    <div className="card border-radius-0 border-0 shadow-none">
+                                      <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
+                                        <img
+                                          src="images/mcb/sme/assets/sme-hp-juice-pro-3.jpg"
+                                          className="w-auto p-0"
+                                          alt="Gold Credit Card"
+                                        />
+                                        {/* <h4 class="card-title mb-1 text-6 font-weight-light text-color-dark text-center">Gold Credit Card</h4> */}
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  className="owl-item"
+                                  style={{ width: 468 }}
+                                >
+                                  <div className=" bg-light p-0 shadow-none">
+                                    <div className="card border-radius-0 border-0 shadow-none">
+                                      <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
+                                        <img
+                                          src="images/mcb/sme/assets/sme-hp-juice-pro-4.jpg"
+                                          className="w-auto p-0"
+                                          alt="Visa Platinum"
+                                        />
+                                        {/* <h4 class="card-title mb-1 text-6 font-weight-light text-color-dark text-center">Visa Platinum</h4> */}
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  className="owl-item"
+                                  style={{ width: 468 }}
+                                >
+                                  <div className=" bg-light p-0 shadow-none">
+                                    <div className="card border-radius-0 border-0 shadow-none">
+                                      <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
+                                        <img
+                                          src="images/mcb/sme/assets/sme-hp-juicepro-5.jpg"
+                                          className="w-auto p-0"
+                                          alt="Classic Credit Card"
+                                        />
+                                        {/* <h4 class="card-title mb-1 text-6 font-weight-light text-color-dark text-center">Classic Credit Card</h4> */}
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  className="owl-item cloned"
+                                  style={{ width: 468 }}
+                                >
+                                  <div className=" bg-light p-0 shadow-none">
+                                    <div className="card border-radius-0 border-0 shadow-none">
+                                      <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
+                                        <img
+                                          src="images/mcb/sme/assets/sme-hp-juice-pro-1.jpg"
+                                          className="w-auto p-0"
+                                          alt="Primo Credit Card"
+                                        />
+                                        {/* <h4 class="card-title mb-1 text-6 font-weight-light text-color-dark text-center">Primo Credit Card</h4> */}
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  className="owl-item cloned"
+                                  style={{ width: 468 }}
+                                >
+                                  <div className=" bg-light p-0 shadow-none">
+                                    <div className="card border-radius-0 border-0 shadow-none">
+                                      <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
+                                        <img
+                                          src="images/mcb/sme/assets/sme-hp-juice-pro-2.jpg"
+                                          className="w-auto p-0"
+                                          alt="Classic Credit Card"
+                                        />
+                                        {/* <h4 class="card-title mb-1 text-6 font-weight-light text-color-dark text-center">Classic Credit Card</h4> */}
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  className="owl-item cloned"
+                                  style={{ width: 468 }}
+                                >
+                                  <div className=" bg-light p-0 shadow-none">
+                                    <div className="card border-radius-0 border-0 shadow-none">
+                                      <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
+                                        <img
+                                          src="images/mcb/sme/assets/sme-hp-juice-pro-3.jpg"
+                                          className="w-auto p-0"
+                                          alt="Gold Credit Card"
+                                        />
+                                        {/* <h4 class="card-title mb-1 text-6 font-weight-light text-color-dark text-center">Gold Credit Card</h4> */}
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="owl-nav">
+                              <button
+                                type="button"
+                                role="presentation"
+                                className="owl-prev"
+                              />
+                              <button
+                                type="button"
+                                role="presentation"
+                                className="owl-next disabled"
+                              />
+                            </div>
+                            <div className="owl-dots disabled" />
+                            <div className="owl-nav">
+                              <button
+                                type="button"
+                                role="presentation"
+                                className="owl-prev"
+                              />
+                              <button
+                                type="button"
+                                role="presentation"
+                                className="owl-next"
+                              />
+                            </div>
+                            <div className="owl-dots">
+                              <button role="button" className="owl-dot">
+                                <span />
+                              </button>
+                              <button role="button" className="owl-dot active">
+                                <span />
+                              </button>
+                              <button role="button" className="owl-dot">
+                                <span />
+                              </button>
+                              <button role="button" className="owl-dot">
+                                <span />
+                              </button>
+                              <button role="button" className="owl-dot">
+                                <span />
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div
             id="Main_C037_Col00"
             className="sf_colsIn container"
@@ -312,7 +736,7 @@ const Sme = () => {
                                 solution to manage your cash flow.
                               </p>
                               <a
-                                href="sme/finance.html"
+                                href="/sme/finance"
                                 target="_self"
                                 className="btn btn-more text-light d-flex align-items-center ps-0"
                               >
@@ -357,7 +781,7 @@ const Sme = () => {
                                 and services that are value-driven.
                               </p>
                               <a
-                                href="sme/partnerships.html"
+                                href="/sme/partnerships"
                                 target="_self"
                                 className="btn btn-more text-light d-flex align-items-center ps-0"
                               >
@@ -401,7 +825,7 @@ const Sme = () => {
                                 Good for your business, the country, the planet.
                               </p>
                               <a
-                                href="sme/borrow/lokal-is-beautiful.html"
+                                href="/sme/borrow/lokal-is-beautiful"
                                 target="_self"
                                 className="btn btn-more text-light d-flex align-items-center ps-0"
                               >
@@ -421,6 +845,7 @@ const Sme = () => {
               </div>
             </div>
           </div>
+
           <div className="row" data-sf-element="Row">
             <div
               id="Main_C015_Col00"
@@ -442,7 +867,7 @@ const Sme = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="sme/sme-connect/manage-your-business.html"
+                        href="/sme/sme-connect/manage-your-business"
                         className="text-decoration-none"
                       >
                         <article>
@@ -477,7 +902,7 @@ const Sme = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="sme/sme-connect/start-your-business.html"
+                        href="/sme/sme-connect/start-your-business"
                         className="text-decoration-none"
                       >
                         <article>
