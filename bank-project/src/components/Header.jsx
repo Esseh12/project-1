@@ -14,6 +14,12 @@ const Header = ({ children }) => {
       "/ResourcePackages/MCBMU/assets/dist/js/custom7306.js?package=MCBMU",
       "/ResourcePackages/MCBMU/assets/dist/js/ma5-menu7306.js?package=MCBMU",
       "/ResourcePackages/MCBMU/assets/dist/js/theme.init7306.js?package=MCBMU",
+      "/ResourcePackages/MCBMU/assets/dist/js/bankgurantee7306.js?package=MCBMU",
+      "/ResourcePackages/MCB/assets/dist/js/anychart/anychart-ui.min7306.js?package=MCBMU",
+      "/ResourcePackages/MCB/assets/dist/js/anychart/anychart-stock.min7306.js?package=MCBMU",
+      "/ResourcePackages/MCBMU/assets/dist/js/forexchartData7306.js?package=MCBMU",
+      "/ResourcePackages/MCBMU/assets/dist/js/forexchart7306.js?package=MCBMU",
+      "/ResourcePackages/MCBMU/assets/dist/js/iban7306.js?package=MCBMU",
     ];
 
     scripts.forEach((src) => {
@@ -25,14 +31,14 @@ const Header = ({ children }) => {
     });
 
     // Cleanup scripts on component unmount
-    return () => {
-      scripts.forEach((src) => {
-        const script = document.querySelector(`script[src="${src}"]`);
-        if (script && script.parentNode === document.body) {
-          document.body.removeChild(script);
-        }
-      });
-    };
+    // return () => {
+    //   scripts.forEach((src) => {
+    //     const script = document.querySelector(`script[src="${src}"]`);
+    //     if (script && script.parentNode === document.body) {
+    //       document.body.removeChild(script);
+    //     }
+    //   });
+    // };
   }, []);
 
   return (

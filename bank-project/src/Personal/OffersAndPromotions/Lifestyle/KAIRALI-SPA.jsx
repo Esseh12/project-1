@@ -1,7 +1,7 @@
 import { useEffect } from "react";
-import Header from "../../../components/Header";
+import Header from "../../../Components/Header";
 import NavMenu from "../OfferNavMenu";
-import Footer from "../../../components/Footer";
+import Footer from "../../../Components/Footer";
 
 const KairaliSpa = () => {
   const navItems = [

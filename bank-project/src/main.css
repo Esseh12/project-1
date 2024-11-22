@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 /* general styling for most pages */
+a {
+  color: #c72b2b;
+}
+
 .footer-desktop {
   padding-top: 48px;
   padding-bottom: 0 !important;
@@ -29,29 +33,52 @@
   color: #ffffff;
 }
 
-#footer .footer-copyright .social-icons .social-icons-instagram .icon-instagram:before {
+#footer
+  .footer-copyright
+  .social-icons
+  .social-icons-instagram
+  .icon-instagram:before {
   color: #000000;
   position: relative;
   top: 3px;
   left: 0.5px;
 }
 
-#footer .footer-copyright .social-icons .social-icons-instagram:hover .icon-instagram:before {
+#footer
+  .footer-copyright
+  .social-icons
+  .social-icons-instagram:hover
+  .icon-instagram:before {
   color: #ffffff;
 }
 
 #footer .social-icons li:hover.social-icons-instagram a {
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%) !important;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  ) !important;
 }
 
-#footer .footer-copyright .social-icons .social-icons-youtube .icon-youtube:before {
+#footer
+  .footer-copyright
+  .social-icons
+  .social-icons-youtube
+  .icon-youtube:before {
   color: #000000;
   position: relative;
   top: 1px;
   left: -0.5px;
 }
 
-#footer .footer-copyright .social-icons .social-icons-youtube:hover .icon-youtube:before {
+#footer
+  .footer-copyright
+  .social-icons
+  .social-icons-youtube:hover
+  .icon-youtube:before {
   color: #ffffff;
 }
 
@@ -100,19 +127,15 @@
 }
 
 .mobile-menu .univers-option {
-
   display: flex !important;
 
   align-items: center !important;
-
 }
 
 .mobile-menu .univers-option .ib-mobile-btn {
   padding-right: 0px !important;
   display: flex !important;
 }
-
-
 
 .mobile-menu .univers-option .ib-mobile-btn i:before {
   color: #000000 !important;
@@ -160,7 +183,7 @@
 .mobile-menu .dropdown-menu .dropdown-item:hover,
 .mobile-menu .dropdown-menu .dropdown-item:active,
 .mobile-menu .dropdown-menu .dropdown-item:visited {
-  background-color: #C72B2B;
+  background-color: #c72b2b;
 }
 
 @media only screen and (max-width: 768px) {
@@ -192,7 +215,7 @@
   padding: 10px 9px;
   border: 1px solid #000;
   border-radius: 5px;
-  font-family: 'Kanit' !important;
+  font-family: "Kanit" !important;
   color: #000;
   text-transform: uppercase;
 }
@@ -263,7 +286,6 @@
 
 .hp-payment .owl-stage-outer .owl-item .card {
   background-color: transparent !important;
-
 }
 
 .hp-payment .custom-cards-slider {
@@ -323,7 +345,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-
   .hp-juice .text-content,
   .hp-payment .payment-text,
   .owl-carousel-top-banner h1 {
@@ -332,7 +353,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-
   .hp-payment h2,
   .hp-juice h2 {
     font-size: 3.1rem !important;
@@ -391,7 +411,7 @@
 
 .desktop-menu .megamenu .menu-list .submenu .fa-chevron-right {
   margin-top: 2px;
-  font-size: .8em !important;
+  font-size: 0.8em !important;
 }
 
 .silder-block.downtime .owl-carousel {
@@ -430,14 +450,12 @@
   .silder-block.downtime .card .card-body {
     flex-direction: column;
   }
-
 }
 
 @media only screen and (min-width: 768px) {
   .silder-block.downtime .card .card-body {
     flex-direction: row;
   }
-
 }
 
 .silder-block.downtime .card .card-body .btn {
@@ -461,7 +479,7 @@
 }
 
 .silder-block.downtime .card .card-body .btn:before {
-  content: url('images/mcb/default-album/notice-icon.png');
+  content: url("images/mcb/default-album/notice-icon.png");
   margin-right: 5px;
 }
 
@@ -486,7 +504,13 @@
   right: -7px !important;
 }
 
-.desktop-menu .navbar .main-nav .navbar-nav .nav-item .dropdown-menu.megamenu ul {
+.desktop-menu
+  .navbar
+  .main-nav
+  .navbar-nav
+  .nav-item
+  .dropdown-menu.megamenu
+  ul {
   max-height: 250px !important;
 }
 
@@ -525,7 +549,6 @@
   z-index: 1030 !important;
 }
 
-
 /* from sme.html */
 .link-slider-hp h2 {
   color: #ffffff !important;
@@ -533,17 +556,14 @@
   line-height: 24px;
 }
 
-
 .link-slider-hp .card a:has(h4):hover,
 .link-slider-hp .card a:hover {
   text-decoration: none !important;
 }
 
-
 .link-slider-hp .card .card-title {
   font-size: 20px !important;
 }
-
 
 .why-sme .img-text-cta {
   margin-top: 0 !important;
@@ -601,7 +621,12 @@
   margin-top: 0px !important;
 }
 
-.hp-juice .custom-cards.custom-cards-slider .cards-container .card .card-body.hp img {
+.hp-juice
+  .custom-cards.custom-cards-slider
+  .cards-container
+  .card
+  .card-body.hp
+  img {
   height: 390px;
 }
 
@@ -642,12 +667,10 @@
   line-height: 24px;
 }
 
-
 .link-slider-hp .card a:has(h4):hover,
 .link-slider-hp .card a:hover {
   text-decoration: none !important;
 }
-
 
 .link-slider-hp .card .card-title {
   font-size: 20px !important;
@@ -665,8 +688,6 @@
     flex-direction: column;
     justify-content: center;
   }
-
-
 }
 
 @media only screen and (min-width: 1200px) {
@@ -752,7 +773,6 @@ table.factstable.factstable .lgreybg {
   color: #000000 !important;
 }
 
-
 /* rates in html styling */
 /*table.tableBOM {
     border-left: none;
@@ -791,17 +811,17 @@ table.tableBOM tr.title_row_level2, table.tableBOM tr.title_row_level2 td {
 }*/
 
 .tableBOM .style1 {
-  border: 1px solid #000
+  border: 1px solid #000;
 }
 
 .tableBOM .style4 {
   color: #000;
   background: 0 0;
-  padding-left: 0 !important
+  padding-left: 0 !important;
 }
 
 .tableBOM .style5 {
-  margin-left: 40px
+  margin-left: 40px;
 }
 
 table.tableBOM {
@@ -809,10 +829,10 @@ table.tableBOM {
   border-bottom: 1px solid #ebebeb;
   border-top: none !important;
   border-right: none !important;
-  font-family: 'Open Sans' !important;
+  font-family: "Open Sans" !important;
   font-size: 13px;
   color: #333;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 .tableBOM tr td {
@@ -820,57 +840,57 @@ table.tableBOM {
   border-right: 1px solid #ebebeb !important;
   border-left: 1px solid #ebebeb;
   border-bottom: none;
-  padding: 3px
+  padding: 3px;
 }
 
 table.tableBOM tr.title_row td,
 table.tableBOM tr.title_row_level2 td {
-  border-right: none !important
+  border-right: none !important;
 }
 
 .tableBOM td:first-child {
-  border-left: 1px solid #ebebeb !important
+  border-left: 1px solid #ebebeb !important;
 }
 
 .tableBOM tr td.bg_red {
   background: #ad000c !important;
   color: #fff;
   text-align: center;
-  font-size: 16px
+  font-size: 16px;
 }
 
 .tableBOM tr:first-child,
 table.tableBOM td {
-  background: 0 0
+  background: 0 0;
 }
 
 .tableBOM .title_ita {
   font-weight: 700;
   color: #000;
   font-size: 15px;
-  width: 200px
+  width: 200px;
 }
 
 .tableBOM li,
 .tableBOM ul {
   padding: 0;
-  margin: 0
+  margin: 0;
 }
 
 .tableBOM li.style4 {
-  margin-left: 26px !important
+  margin-left: 26px !important;
 }
 
 .tableBOM li.style3 {
-  margin-left: 40px
+  margin-left: 40px;
 }
 
 .tableBOM span {
-  color: #fff
+  color: #fff;
 }
 
 .tableBOM ul.ullevel2 {
-  padding-left: 0
+  padding-left: 0;
 }
 
 .tableBOM ul.ullevel2 li {
@@ -878,24 +898,24 @@ table.tableBOM td {
   list-style: none;
   font-size: 14px;
   background: 0 0;
-  padding-left: 0
+  padding-left: 0;
 }
 
 .tableBOM ul.ullevel3 {
-  padding-left: 32px
+  padding-left: 32px;
 }
 
 .tableBOM ul.ullevel4 {
-  padding-left: 30px
+  padding-left: 30px;
 }
 
 .tableBOM ul.ullevel4 li {
-  padding-left: 20px
+  padding-left: 20px;
 }
 
 .tableBOM .note {
   font-size: 11px;
-  color: #666
+  color: #666;
 }
 
 table.tableBOM tr.title_row,
@@ -903,7 +923,7 @@ table.tableBOM tr.title_row td {
   background: #333 !important;
   color: #fff;
   font-weight: 700;
-  font-size: 17px
+  font-size: 17px;
 }
 
 table.tableBOM tr.title_row_level2,
@@ -911,10 +931,12 @@ table.tableBOM tr.title_row_level2 td {
   background: #ebebeb !important;
   font-size: 18px;
   font-style: italic;
-  color: #000
+  color: #000;
 }
 
 table.tableBOM td.none {
   border-top: none !important;
-  border-left: none !important
+  border-left: none !important;
 }
+
+/* Sme Finance.jsx */
