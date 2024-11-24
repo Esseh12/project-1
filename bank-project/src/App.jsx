@@ -260,6 +260,8 @@ import FxMoneyMarketServices from "./Corporate/payment-cash/optimise/Fx-money-ma
 import CashDepositSolutions from "./Corporate/payment-cash/collect/Cash-deposit-solutions";
 import DirectDebitBillPayment from "./Corporate/payment-cash/collect/Direct-debit-bill-payment";
 import Ecommerce from "./Corporate/payment-cash/collect/E-commerce";
+import MobileBanking from "./Corporate/payment-cash/collect/Mobile-banking";
+import PointOfSaleSolutions from "./Corporate/payment-cash/collect/Point-of-sale-solutions";
 // Ecommerce Folder files
 import MerchantServices from "./Corporate/payment-cash/collect/e-commerce/Merchant-services";
 import OnlinePaymentGateway from "./Corporate/payment-cash/collect/e-commerce/Online-payment-gateway";
@@ -285,6 +287,24 @@ import FinancialMarketsSummary from "./Corporate/investment-advisory/global-mark
 import GlobalMarketsSolutions from "./Corporate/investment-advisory/global-markets/Global-markets-solutions";
 // End Global Markets Folder files
 // End Investment Advisory Folder files
+// Finance Lending Folder files
+import AssetFinance from "./Corporate/finance-lending/Asset-finance";
+import CorporateLending from "./Corporate/finance-lending/Corporate-lending";
+import StructuredFinance from "./Corporate/finance-lending/structured-finance";
+import SupplyChainFinance from "./Corporate/finance-lending/Supply-chain-finance";
+// Mcb Leasing Folder files
+import McbLeasing from "./Corporate/finance-lending/asset-finance/Mcb-leasing";
+// End of Mcb Leasing Folder files
+// Supply Chain Finance Folder files
+import CreditProtection from "./Corporate/finance-lending/supply-chain-finance/Credit-protection";
+import GlobalTradePortal from "./Corporate/finance-lending/supply-chain-finance/Global-trade-portal";
+import InvoiceFactoring from "./Corporate/finance-lending/supply-chain-finance/Invoice-factoring";
+import CorporateTradeFinance from "./Corporate/finance-lending/supply-chain-finance/Trade-finance";
+// Trade Finance Folder files
+import TradeFinanceForms from "./Corporate/finance-lending/supply-chain-finance/trade-finance/Trade-finance-forms";
+// End of Trade Finance Folder files
+// End Supply Chain Finance Folder files
+// End of Finance Lending Folder files
 // MCB AT A GLANCE
 import CorporateFactsFigures from "./Corporate/mcb-at-a-glance/Facts-figures";
 import Overview from "./Corporate/mcb-at-a-glance/Overview";
@@ -1054,6 +1074,14 @@ const App = () => {
           path="/corporate/payment-cash/collect/e-commerce"
           element={<Ecommerce />}
         />
+        <Route
+          path="/corporate/payment-cash/collect/mobile-banking"
+          element={<MobileBanking />}
+        />
+        <Route
+          path="/corporate/payment-cash/collect/point-of-sale-solutions"
+          element={<PointOfSaleSolutions />}
+        />
         {/* Ecommerce folder files */}
         <Route
           path="/corporate/payment-cash/collect/e-commerce/merchant-services"
@@ -1111,6 +1139,54 @@ const App = () => {
         />
         {/* End Global Market */}
         {/* End Investment Advisory folder files */}
+
+        {/* Finance lending files */}
+        <Route
+          path="/corporate/finance-lending/asset-finance"
+          element={<AssetFinance />}
+        />
+        <Route
+          path="/corporate/finance-lending/corporate-lending"
+          element={<CorporateLending />}
+        />
+        <Route
+          path="/corporate/finance-lending/structured-finance"
+          element={<StructuredFinance />}
+        />
+        <Route
+          path="/corporate/finance-lending/supply-chain-finance"
+          element={<SupplyChainFinance />}
+        />
+        {/* MCb leasing */}
+        <Route
+          path="/corporate/finance-lending/asset-finance/mcb-leasing"
+          element={<McbLeasing />}
+        />
+        {/* End Mcb leasing */}
+        {/* Supply chain finance */}
+        <Route
+          path="/corporate/finance-lending/supply-chain-finance/credit-protection"
+          element={<CreditProtection />}
+        />
+        <Route
+          path="/corporate/finance-lending/supply-chain-finance/global-trade-portal"
+          element={<GlobalTradePortal />}
+        />
+        <Route
+          path="/corporate/finance-lending/supply-chain-finance/invoice-factoring"
+          element={<InvoiceFactoring />}
+        />
+        <Route
+          path="/corporate/finance-lending/supply-chain-finance/trade-finance"
+          element={<CorporateTradeFinance />}
+        />
+        {/* Trade Finance files */}
+        <Route
+          path="/corporate/finance-lending/supply-chain-finance/trade-finance/trade-finance-forms"
+          element={<TradeFinanceForms />}
+        />
+        {/* Supply chain finance */}
+        {/* End Finance lending files */}
         {/* Mcb at a glance */}
         <Route
           path="/corporate/mcb-at-a-glance/facts-figures"
