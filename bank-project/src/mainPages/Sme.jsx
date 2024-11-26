@@ -661,7 +661,7 @@ const Sme = () => {
                                 className="owl-next"
                               />
                             </div>
-                            <div className="owl-dots">
+                            {/* <div className="owl-dots">
                               <button role="button" className="owl-dot">
                                 <span />
                               </button>
@@ -677,7 +677,7 @@ const Sme = () => {
                               <button role="button" className="owl-dot">
                                 <span />
                               </button>
-                            </div>
+                            </div> */}
                           </div>
                         </div>
                       </div>

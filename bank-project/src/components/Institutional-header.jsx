@@ -1,6 +1,8 @@
 import Header from "./Header";
+import { Link } from "react-router-dom";
 
 const InstitutionalHeader = () => {
+  // active current-page-active
   return (
     <>
       <Header>
@@ -13,27 +15,27 @@ const InstitutionalHeader = () => {
             <div className="col-lg-12">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a
+                  <Link
                     className="nav-link "
-                    href="/institutional/mcb-at-a-glance"
+                    to="/institutional/mcb-at-a-glance"
                     target="_self"
                   >
                     MCB at a glance
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a
+                  <Link
                     className="nav-link "
-                    href="/institutional/our-geographical-presence"
+                    to="/institutional/our-geographical-presence"
                     target="_self"
                   >
                     Our geographical presence
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item dropdown has-megamenu ">
-                  <a
+                  <Link
                     className="nav-link"
-                    href="/institutional/our-solutions"
+                    to="/institutional/our-solutions"
                     target="_self"
                     id="navbarDropdownMenuLink2-2"
                     data-bs-toggle="dropdown"
@@ -41,7 +43,7 @@ const InstitutionalHeader = () => {
                   >
                     Our solutions&nbsp;
                     <i className="fas fa-chevron-down" />
-                  </a>
+                  </Link>
                   <div className="dropdown-menu megamenu" role="menu">
                     <button type="button" className="btn-close-dropdown-menu">
                       <i className="icon-close-menu-main" />
@@ -60,50 +62,50 @@ const InstitutionalHeader = () => {
                             <ul>
                               <li className="">
                                 <span>
-                                  <a
+                                  <Link
                                     className="d-flex flex-column "
-                                    href="/institutional/our-solutions/bank-of-banks"
+                                    to="/institutional/our-solutions/bank-of-banks"
                                     target="_self"
                                   >
                                     <strong>Bank of Banks</strong>
                                     <small></small>
-                                  </a>
+                                  </Link>
                                 </span>
                               </li>
                               <li className="">
                                 <span>
-                                  <a
+                                  <Link
                                     className="d-flex flex-column "
-                                    href="/institutional/our-solutions/correspondent-banking"
+                                    to="/institutional/our-solutions/correspondent-banking"
                                     target="_self"
                                   >
                                     <strong>Correspondent Banking</strong>
                                     <small></small>
-                                  </a>
+                                  </Link>
                                 </span>
                               </li>
                               <li className="">
                                 <span>
-                                  <a
+                                  <Link
                                     className="d-flex flex-column "
-                                    href="/institutional/our-solutions/risk-sharing"
+                                    to="/institutional/our-solutions/risk-sharing"
                                     target="_self"
                                   >
                                     <strong>Risk Sharing</strong>
                                     <small></small>
-                                  </a>
+                                  </Link>
                                 </span>
                               </li>
                               <li className="">
                                 <span>
-                                  <a
+                                  <Link
                                     className="d-flex flex-column "
-                                    href="/institutional/our-solutions/syndications"
+                                    to="/institutional/our-solutions/syndications"
                                     target="_self"
                                   >
                                     <strong>Syndications</strong>
                                     <small></small>
-                                  </a>
+                                  </Link>
                                 </span>
                               </li>
                             </ul>
@@ -114,13 +116,13 @@ const InstitutionalHeader = () => {
                   </div>
                 </li>
                 <li className="nav-item">
-                  <a
+                  <Link
                     className="nav-link "
-                    href="/institutional/events"
+                    to="/institutional/events"
                     target="_self"
                   >
                     Events
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

@@ -25,12 +25,14 @@ const Institutional = () => {
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
-
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* reusable header component */}
         <InstitutionalHeader />
         {/* Header */}
@@ -74,7 +76,7 @@ const Institutional = () => {
                           </p>
                         </div>
                         <a
-                          href="institutional/our-solutions.html"
+                          href="/institutional/our-solutions"
                           className="btn btn-more text-light d-flex align-items-center appear-animation ps-0"
                           data-appear-animation="fadeInUpShorter"
                           data-appear-animation-delay={500}

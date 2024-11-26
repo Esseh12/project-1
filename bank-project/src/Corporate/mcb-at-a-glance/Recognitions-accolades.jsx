@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet-async";
 import CorporateHeader from "../../Components/Corporate-header";
 import Footer from "../../Components/Footer";
 
-const RecognitionsAccolades = () => {
+const CorporateRecognitionsAccolades = () => {
   return (
     <>
       <Helmet>
@@ -532,4 +532,4 @@ const RecognitionsAccolades = () => {
     </>
   );
 };
-export default RecognitionsAccolades;
+export default CorporateRecognitionsAccolades;

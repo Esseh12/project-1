@@ -7,6 +7,66 @@ a {
   color: #c72b2b;
 }
 
+/* from theme css */
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #212529;
+  font-weight: 200;
+  letter-spacing: 0em;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-size: 2.6em;
+  line-height: 44px;
+  margin: 0 0 32px 0;
+}
+
+h2 {
+  font-size: 2.2em;
+  font-weight: 300;
+  line-height: 42px;
+  margin: 0 0 32px 0;
+}
+
+h3 {
+  font-size: 1.8em;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 33px;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 1.4em;
+  font-weight: 600;
+  line-height: 27px;
+  margin: 0 0 14px 0;
+}
+
+h5 {
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 18px;
+  margin: 0 0 14px 0;
+  text-transform: uppercase;
+}
+
+h6 {
+  color: #333;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 18px;
+  margin: 0 0 14px 0;
+}
+
+/* from theme css */
 .footer-desktop {
   padding-top: 48px;
   padding-bottom: 0 !important;
@@ -276,7 +336,7 @@ a {
 }
 
 .hp-payment {
-  background-image: url(images/mcb/personal/assets/hp-payment-bg.png);
+  background-image: url("/images/mcb/personal/assets/hp-payment-bg.png");
   background-size: cover;
 }
 
@@ -479,7 +539,7 @@ a {
 }
 
 .silder-block.downtime .card .card-body .btn:before {
-  content: url("images/mcb/default-album/notice-icon.png");
+  content: url("/images/mcb/default-album/notice-icon.png");
   margin-right: 5px;
 }
 

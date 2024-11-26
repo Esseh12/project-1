@@ -25,15 +25,21 @@ const Syndications = () => {
           property="og:url"
           content="https://mcb.mu/institutional/our-solutions/syndications"
         />
-        <link rel="canonical" href="/syndications" />
+        <link
+          rel="canonical"
+          href="/institutional/our-solutions/syndications"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}
         {/* Header */}
         <InstitutionalHeader />
@@ -198,7 +204,7 @@ const Syndications = () => {
                                 together to bring your business to new heights.
                               </p>
                               <a
-                                href="../../personal/contact-us.html"
+                                href="/contact-us"
                                 target="_blank"
                                 className="mb-1 mt-1 me-1 btn btn-primary"
                               >
