@@ -7,22 +7,22 @@ const Header = ({ children }) => {
   useEffect(() => {
     // External scripts to be loaded dynamically
     const scripts = [
-      "/ResourcePackages/MCBMU/assets/dist/vendor/plugins/js/plugins.min7306.js?package=MCBMU",
-      "/ResourcePackages/MCBMU/assets/dist/js/theme7306.js?package=MCBMU",
-      "/ResourcePackages/MCBMU/assets/dist/js/views/view.contact7306.js?package=MCBMU",
-      "/ResourcePackages/MCBMU/assets/dist/js/demos/demo-business-consulting-27306.js?package=MCBMU",
-      "/ResourcePackages/MCBMU/assets/dist/js/custom7306.js?package=MCBMU",
-      "/ResourcePackages/MCBMU/assets/dist/js/ma5-menu7306.js?package=MCBMU",
-      "/ResourcePackages/MCBMU/assets/dist/js/theme.init7306.js?package=MCBMU",
-      "/ResourcePackages/MCBMU/assets/dist/js/bankgurantee7306.js?package=MCBMU",
-      "/ResourcePackages/MCB/assets/dist/js/anychart/anychart-ui.min7306.js?package=MCBMU",
-      "/ResourcePackages/MCB/assets/dist/js/anychart/anychart-stock.min7306.js?package=MCBMU",
-      "/ResourcePackages/MCBMU/assets/dist/js/forexchartData7306.js?package=MCBMU",
-      "/ResourcePackages/MCBMU/assets/dist/js/forexchart7306.js?package=MCBMU",
-      "/ResourcePackages/MCBMU/assets/dist/js/iban7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/forexdata7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/forexCalculator7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/forexCalculator7306.js?package=MCBMU",
+      "/ResourcePackages/MCBMU/assets/dist/vendor/plugins/js/plugins.min7306.js",
+      "/ResourcePackages/MCBMU/assets/dist/js/theme7306.js",
+      "/ResourcePackages/MCBMU/assets/dist/js/views/view.contact7306.js",
+      "/ResourcePackages/MCBMU/assets/dist/js/demos/demo-business-consulting-27306.js",
+      "/ResourcePackages/MCBMU/assets/dist/js/custom7306.js",
+      "/ResourcePackages/MCBMU/assets/dist/js/ma5-menu7306.js",
+      "/ResourcePackages/MCBMU/assets/dist/js/theme.init7306.js",
+      "/ResourcePackages/MCBMU/assets/dist/js/bankgurantee7306.js",
+      "/ResourcePackages/MCB/assets/dist/js/anychart/anychart-ui.min7306.js",
+      "/ResourcePackages/MCB/assets/dist/js/anychart/anychart-stock.min7306.js",
+      "/ResourcePackages/MCBMU/assets/dist/js/forexchartData7306.js",
+      "/ResourcePackages/MCBMU/assets/dist/js/forexchart7306.js",
+      "/ResourcePackages/MCBMU/assets/dist/js/iban7306.js",
+      "ResourcePackages/MCBMU/assets/dist/js/forexdata7306.js",
+      "ResourcePackages/MCBMU/assets/dist/js/forexCalculator7306.js",
+      "ResourcePackages/MCBMU/assets/dist/js/forexCalculator7306.js",
     ];
 
     scripts.forEach((src) => {
