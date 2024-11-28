@@ -1,11 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // Too1 folder files
 // End of Too1 folder files
+// Main pages
 // contact us files
 import Personal from "./mainPages/Personal";
 import ContactUs from "./mainPages/Contact-us";
-// Main pages
-
 import Institutional from "./mainPages/Institutional";
 import Sme from "./mainPages/Sme";
 import Coperate from "./mainPages/Coperate";
@@ -21,6 +20,11 @@ import CustomerForms from "./mainPages/Customer-forms";
 import AboutUs from "./Personal/About-us";
 import AccountsPackages from "./Personal/Accounts-packages";
 import PersonalInvestments from "./Personal/Investments";
+import PersonalLoans from "./Personal/Loans";
+import WaysToBank from "./Personal/Ways-to-bank";
+// Way to bank files
+import WtbAtms from "./Personal/Ways-to-bank/Atms";
+// WAY TO bank files
 // About Folder files
 import AtAGlance from "./Personal/About-us/At-a-glance";
 import FinancialsAnnualReports from "./Personal/About-us/Financials-annual-reports";
@@ -415,6 +419,11 @@ const App = () => {
           element={<AccountsPackages />}
         />
         <Route path="/personal/investments" element={<PersonalInvestments />} />
+        <Route path="/personal/loans" element={<PersonalLoans />} />
+        <Route path="/personal/ways-to-bank" element={<WaysToBank />} />
+        {/* Way to bank files */}
+        <Route path="/personal/ways-to-bank/atms" element={<WtbAtms />} />
+        {/* WAY TO bank files */}
         {/* About Folder files */}
         <Route path="/personal/about-us/at-a-glance" element={<AtAGlance />} />
         <Route

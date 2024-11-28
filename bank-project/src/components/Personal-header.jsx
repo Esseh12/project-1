@@ -878,7 +878,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="/personal//personal/file-a-complaint"
+                                    href="/file-a-complaint"
                                     target="_self"
                                   >
                                     <strong>File a complaint</strong>
