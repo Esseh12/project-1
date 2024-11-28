@@ -28,7 +28,10 @@ const CorporateBecomeAClient = () => {
           property="og:url"
           content="https://mcb.mu/corporate/what-we-do/corporate-banking/become-a-client"
         />
-        <link rel="canonical" href="/become-a-client" />
+        <link
+          rel="canonical"
+          href="/corporate/what-we-do/corporate-banking/become-a-client"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}

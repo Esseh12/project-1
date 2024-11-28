@@ -1,142 +1,57 @@
+import { Helmet } from "react-helmet-async";
 import PersonalHeader from "../Components/Personal-header";
 import Footer from "../Components/Footer";
 
 const Personal = () => {
   return (
     <>
-      {/* Mirrored from mcb.mu/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 06:23:50 GMT */}
-      <meta
-        name="title"
-        content="MCB | Personal, Corporate, and Institutional Banking"
-      />
-      <meta
-        name="description"
-        content="Explore MCB for all your banking needs - Personal, Private, SME, Corporate, and Institutional. Your financial solutions are just a click away."
-      />
-      {/* Vendor CSS */}
-      <link
-        href="ResourcePackages/MCBMU/assets/dist/vendor/bootstrap/css/bootstrap.min7306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="ResourcePackages/MCBMU/assets/dist/vendor/fontawesome-free/css/all.min7306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="ResourcePackages/MCBMU/assets/dist/vendor/animate/animate.compat7306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="ResourcePackages/MCBMU/assets/dist/vendor/simple-line-icons/css/simple-line-icons.min7306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="ResourcePackages/MCBMU/assets/dist/vendor/owl.carousel/assets/owl.carousel.min7306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="ResourcePackages/MCBMU/assets/dist/vendor/owl.carousel/assets/owl.theme.default.min7306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="ResourcePackages/MCBMU/assets/dist/vendor/magnific-popup/magnific-popup.min7306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="ResourcePackages/MCBMU/assets/dist/css/theme7306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="ResourcePackages/MCBMU/assets/dist/css/theme-elements7306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="ResourcePackages/MCBMU/assets/dist/css/theme-blog7306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="ResourcePackages/MCBMU/assets/dist/css/theme-shop7306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="ResourcePackages/MCBMU/assets/dist/css/demos/demo-business-consulting-27306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="ResourcePackages/MCBMU/assets/dist/css/skins/skin-business-consulting-27306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="ResourcePackages/MCBMU/assets/dist/css/custom7306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="ResourcePackages/MCBMU/assets/dist/css/menu_style/assets/css/ma5-menu7306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="ResourcePackages/MCBMU/assets/dist/css/style-new7306.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      {/* Theme CSS */} {/* Demo CSS */} {/* Skin CSS */}
-      {/* Theme Custom CSS */} {/* Head Libs */}
-      <title>
-        Bank Of Africa | Personal, Corporate, and Institutional Banking
-      </title>
-      <meta
-        property="og:title"
-        content="MCB | Personal, Corporate, and Institutional Banking"
-      />
-      <meta
-        property="og:description"
-        content="Discover comprehensive banking solutions at MCB for Personal, Private, SME, Corporate, and Institutional needs. Your financial solutions are just a click away."
-      />
-      <meta
-        property="og:image"
-        content="https://mcb.mu/images/mcb/personal/banners/mcb-main-banner.jpg?sfvrsn=18cbc14f_1"
-      />
-      <meta property="og:url" content="https://mcb.mu" />
-      <style
-        type="text/css"
-        media="all"
-        dangerouslySetInnerHTML={{
-          __html:
-            "\n        #footer {\n            margin-top: 0px !important;\n        }\n\n        .owl-carousel-top-banner {\n            height: 780px !important;\n        }\n\n        .link-slider-hp .custom-cards.custom-cards-slider .cards-container {\n            background-color: transparent !important;\n        }\n\n        .link-slider-hp .custom-cards.custom-cards-slider .cards-container div:has(h2) {\n            background-color: transparent !important;\n        }\n\n        .link-slider-hp .custom-cards.custom-cards-slider .cards-container:before {\n            box-shadow: none !important;\n        }\n\n        .owl-carousel-top-banner .description {\n            display: none;\n        }\n\n        .owl-carousel-top-banner .owl-item .row .col {\n            margin-top: -150px\n        }\n\n        .link-slider-hp.bg-color-light {\n            margin-top: -340px;\n            background-color: transparent !important;\n        }\n\n        .link-slider-hp h2 {\n            color: #ffffff !important;\n            font-size: 20px;\n            line-height: 24px;\n        }\n\n        .link-slider-hp .card .card-body a:nth-child(3) {\n            display: none;\n        }\n\n        .link-slider-hp .card a:has(h4):hover {\n            text-decoration: none !important;\n        }\n\n        .link-slider-hp .owl-stage-outer .owl-item .bg-light.p-0.shadow-none {\n            background-color: transparent !important;\n        }\n\n        .link-slider-hp .owl-stage-outer .owl-item .card {\n            background-color: transparent !important;\n            margin-right: 10px;\n            margin-left: 10px;\n        }\n\n        .link-slider-hp .card .card-body {\n            background-color: #ffffff !important;\n            border: 2px solid #ffffff !important;\n            border-radius: 15px !important;\n        }\n\n        .link-slider-hp .card .card-title {\n            font-size: 20px !important;\n        }\n\n        .link-slider-hp .card .link-button {\n            display: none;\n        }\n\n        .hp-payment .owl-stage-outer .owl-item .bg-light.p-0.shadow-none {\n            background-color: transparent !important;\n        }\n\n        .hp-payment .owl-stage-outer .owl-item .card {\n            background-color: transparent !important;\n\n        }\n\n        .hp-payment .custom-cards-slider {\n            padding-top: 0px !important;\n            padding-bottom: 0px !important;\n        }\n\n        .hp-payment .custom-cards-slider .cards-container {\n            background-color: transparent !important;\n            margin: auto !important;\n        }\n\n        .hp-payment .custom-cards-slider .cards-container:before {\n            box-shadow: none !important;\n        }\n\n        .hp-payment .custom-cards-slider .cards-container .owl-carousel {\n            margin-bottom: 0px !important;\n        }\n\n        .hp-payment .owl-item .card .card-body {\n            background-color: transparent !important;\n            border-radius: 15px !important;\n        }\n\n        .hp-payment .owl-item .card {\n            padding-bottom: 20px !important;\n        }\n\n        .hp-payment .owl-item .card .card-body img {\n            height: auto !important;\n            width: 100% !important;\n        }\n\n        .hp-payment section .bg-color-light {\n            background-color: transparent !important;\n        }\n\n        .hp-payment .owl-item .card .card-body .card-title {\n            color: #ffffff !important;\n            font-size: 17px !important;\n        }\n\n\n        .hp-payment {\n            background-image: url(images/mcb/personal/assets/hp-payment-bg.png);\n            padding-top: 50px;\n            padding-bottom: 50px;\n            background-size: cover;\n        }\n\n        .hp-payment .payment-text h4,\n        .hp-payment .payment-text h2,\n        .hp-payment .payment-text p {\n            color: #ffffff !important;\n        }\n\n        .hp-payment .payment-text .button a {\n            background-color: #ffffff !important;\n        }\n\n        .hp-payment .owl-carousel.nav-style-1 .owl-nav .owl-next,\n        .hp-payment .owl-carousel.nav-style-1 .owl-nav .owl-prev,\n        .link-slider-hp .owl-carousel.nav-style-1 .owl-nav .owl-next,\n        .link-slider-hp .owl-carousel.nav-style-1 .owl-nav .owl-prev {\n            color: #ffffff !important;\n        }\n\n        @media only screen and (max-width: 768px) {\n\n            .hp-juice .text-content,\n            .hp-payment .payment-text,\n            .hp-news,\n            .owl-carousel-top-banner h1 {\n                text-align: center !important;\n            }\n        }\n\n        .hp-news.section {\n            padding-top: 0px;\n        }\n\n        #mcb-juice .title {\n            color: #000000 !important;\n        }\n\n        @media only screen and (min-width: 768px) {\n\n            .hp-payment h2,\n            .hp-juice h2 {\n                font-size: 3.1rem !important;\n            }\n        }\n\n        .hp-news h2 {\n            margin-bottom: 0px !important;\n        }\n\n        .hp-news.block {\n            margin: 0px !important;\n            padding: 0px !important;\n        }\n\n        .hp-news.block .row.pt-4 {\n            padding: 0px !important;\n        }\n\n        .hp-news .btn {\n            width: auto !important;\n        }\n\n        @media only screen and (min-width: 1200px) {\n            .hp-treasury-market .card {\n                margin: 0px !important;\n                height: 460px;\n            }\n\n            .hp-treasury-market .card .card-content {\n                height: 460px;\n                display: flex;\n                flex-direction: column;\n                justify-content: center;\n            }\n\n            .hp-currency-convertor .featured-box,\n            .hp-currency-convertor .block-currency-convertor {\n                height: 370px;\n            }\n\n        }\n\n        .hp-offers h2 {\n            margin-top: 35px;\n        }\n\n        .hp-offers .container.mb-70 {\n            margin: 0px !important;\n        }\n\n        .hp-offers .sort-destination-loader-showing {\n            margin-top: 0px !important;\n            padding-top: 0px !important;\n        }\n\n        .hp-offers .portfolio-list .owl-item img {\n            height: 220px !important;\n        }\n\n        .hp-offers .portfolio-list .thumb-info-title {\n            max-width: 100% !important;\n            bottom: 0% !important;\n        }\n\n        @media only screen and (min-width: 992px) {\n            .hp-offers .portfolio-list .col-lg-3 {\n                width: 33% !important;\n            }\n\n            .hp-offers .portfolio-list .owl-item img {\n                height: 220px !important;\n            }\n\n            .hp-offers .portfolio-list .thumb-info-title {\n                max-width: 100% !important;\n                bottom: 0% !important;\n            }\n\n            .hp-offers .portfolio-list {\n                margin-left: -23px;\n            }\n        }\n\n        @media only screen and (max-width: 992px) {\n            .hp-offers .btn-view-all {\n                text-align: center;\n                position: relative;\n                left: 50%;\n                transform: translateX(-50%);\n            }\n        }\n\n        .hp-hr {\n            margin-top: 0px !important;\n            margin-bottom: 0px !important;\n        }\n\n        .hp-home-loan {\n            background-image: url('images/mcb/personal/assets/hp-home-loan.jpg');\n            background-size: cover;\n        }\n\n        .hp-home-loan .text-content h2 {\n            font-size: 3.1rem !important;\n            font-family: \"Kanit\", sans-serif;\n        }\n\n        .hp-home-loan .text-content h2,\n        .hp-home-loan .text-content p {\n            color: #ffffff;\n        }\n\n        .hp-loan .img-text-cta .thumb-info-wrapper {\n            height: 460px !important;\n        }\n\n        .hp-loan .img-text-cta {\n            margin-top: 0px !important;\n            margin-bottom: 70px !important;\n        }\n    ",
-        }}
-      />
-      <style
-        type="text/css"
-        media="all"
-        dangerouslySetInnerHTML={{
-          __html:
-            "\n        .owl-item h1.text-color-light {\n            visibility: hidden;\n            display: none;\n        }\n    ",
-        }}
-      />
-      <link rel="canonical" href="/" />
-      <div className="body detail-landing">
-        {/* Google Tag Manager (noscript) */}
-        <noscript
+      <Helmet>
+        {/* Mirrored from mcb.mu/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 06:23:50 GMT */}
+        <meta
+          name="title"
+          content="MCB | Personal, Corporate, and Institutional Banking"
+        />
+        <meta
+          name="description"
+          content="Explore MCB for all your banking needs - Personal, Private, SME, Corporate, and Institutional. Your financial solutions are just a click away."
+        />
+        <title>
+          Bank Of Africa | Personal, Corporate, and Institutional Banking
+        </title>
+        <meta
+          property="og:title"
+          content="MCB | Personal, Corporate, and Institutional Banking"
+        />
+        <meta
+          property="og:description"
+          content="Discover comprehensive banking solutions at MCB for Personal, Private, SME, Corporate, and Institutional needs. Your financial solutions are just a click away."
+        />
+        <meta
+          property="og:image"
+          content="https://mcb.mu/images/mcb/personal/banners/mcb-main-banner.jpg?sfvrsn=18cbc14f_1"
+        />
+        <meta property="og:url" content="https://mcb.mu" />
+        <style
+          type="text/css"
+          media="all"
           dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
+            __html:
+              "\n        #footer {\n            margin-top: 0px !important;\n        }\n\n        .owl-carousel-top-banner {\n            height: 780px !important;\n        }\n\n        .link-slider-hp .custom-cards.custom-cards-slider .cards-container {\n            background-color: transparent !important;\n        }\n\n        .link-slider-hp .custom-cards.custom-cards-slider .cards-container div:has(h2) {\n            background-color: transparent !important;\n        }\n\n        .link-slider-hp .custom-cards.custom-cards-slider .cards-container:before {\n            box-shadow: none !important;\n        }\n\n        .owl-carousel-top-banner .description {\n            display: none;\n        }\n\n        .owl-carousel-top-banner .owl-item .row .col {\n            margin-top: -150px\n        }\n\n        .link-slider-hp.bg-color-light {\n            margin-top: -340px;\n            background-color: transparent !important;\n        }\n\n        .link-slider-hp h2 {\n            color: #ffffff !important;\n            font-size: 20px;\n            line-height: 24px;\n        }\n\n        .link-slider-hp .card .card-body a:nth-child(3) {\n            display: none;\n        }\n\n        .link-slider-hp .card a:has(h4):hover {\n            text-decoration: none !important;\n        }\n\n        .link-slider-hp .owl-stage-outer .owl-item .bg-light.p-0.shadow-none {\n            background-color: transparent !important;\n        }\n\n        .link-slider-hp .owl-stage-outer .owl-item .card {\n            background-color: transparent !important;\n            margin-right: 10px;\n            margin-left: 10px;\n        }\n\n        .link-slider-hp .card .card-body {\n            background-color: #ffffff !important;\n            border: 2px solid #ffffff !important;\n            border-radius: 15px !important;\n        }\n\n        .link-slider-hp .card .card-title {\n            font-size: 20px !important;\n        }\n\n        .link-slider-hp .card .link-button {\n            display: none;\n        }\n\n        .hp-payment .owl-stage-outer .owl-item .bg-light.p-0.shadow-none {\n            background-color: transparent !important;\n        }\n\n        .hp-payment .owl-stage-outer .owl-item .card {\n            background-color: transparent !important;\n\n        }\n\n        .hp-payment .custom-cards-slider {\n            padding-top: 0px !important;\n            padding-bottom: 0px !important;\n        }\n\n        .hp-payment .custom-cards-slider .cards-container {\n            background-color: transparent !important;\n            margin: auto !important;\n        }\n\n        .hp-payment .custom-cards-slider .cards-container:before {\n            box-shadow: none !important;\n        }\n\n        .hp-payment .custom-cards-slider .cards-container .owl-carousel {\n            margin-bottom: 0px !important;\n        }\n\n        .hp-payment .owl-item .card .card-body {\n            background-color: transparent !important;\n            border-radius: 15px !important;\n        }\n\n        .hp-payment .owl-item .card {\n            padding-bottom: 20px !important;\n        }\n\n        .hp-payment .owl-item .card .card-body img {\n            height: auto !important;\n            width: 100% !important;\n        }\n\n        .hp-payment section .bg-color-light {\n            background-color: transparent !important;\n        }\n\n        .hp-payment .owl-item .card .card-body .card-title {\n            color: #ffffff !important;\n            font-size: 17px !important;\n        }\n\n\n        .hp-payment {\n            background-image: url(images/mcb/personal/assets/hp-payment-bg.png);\n            padding-top: 50px;\n            padding-bottom: 50px;\n            background-size: cover;\n        }\n\n        .hp-payment .payment-text h4,\n        .hp-payment .payment-text h2,\n        .hp-payment .payment-text p {\n            color: #ffffff !important;\n        }\n\n        .hp-payment .payment-text .button a {\n            background-color: #ffffff !important;\n        }\n\n        .hp-payment .owl-carousel.nav-style-1 .owl-nav .owl-next,\n        .hp-payment .owl-carousel.nav-style-1 .owl-nav .owl-prev,\n        .link-slider-hp .owl-carousel.nav-style-1 .owl-nav .owl-next,\n        .link-slider-hp .owl-carousel.nav-style-1 .owl-nav .owl-prev {\n            color: #ffffff !important;\n        }\n\n        @media only screen and (max-width: 768px) {\n\n            .hp-juice .text-content,\n            .hp-payment .payment-text,\n            .hp-news,\n            .owl-carousel-top-banner h1 {\n                text-align: center !important;\n            }\n        }\n\n        .hp-news.section {\n            padding-top: 0px;\n        }\n\n        #mcb-juice .title {\n            color: #000000 !important;\n        }\n\n        @media only screen and (min-width: 768px) {\n\n            .hp-payment h2,\n            .hp-juice h2 {\n                font-size: 3.1rem !important;\n            }\n        }\n\n        .hp-news h2 {\n            margin-bottom: 0px !important;\n        }\n\n        .hp-news.block {\n            margin: 0px !important;\n            padding: 0px !important;\n        }\n\n        .hp-news.block .row.pt-4 {\n            padding: 0px !important;\n        }\n\n        .hp-news .btn {\n            width: auto !important;\n        }\n\n        @media only screen and (min-width: 1200px) {\n            .hp-treasury-market .card {\n                margin: 0px !important;\n                height: 460px;\n            }\n\n            .hp-treasury-market .card .card-content {\n                height: 460px;\n                display: flex;\n                flex-direction: column;\n                justify-content: center;\n            }\n\n            .hp-currency-convertor .featured-box,\n            .hp-currency-convertor .block-currency-convertor {\n                height: 370px;\n            }\n\n        }\n\n        .hp-offers h2 {\n            margin-top: 35px;\n        }\n\n        .hp-offers .container.mb-70 {\n            margin: 0px !important;\n        }\n\n        .hp-offers .sort-destination-loader-showing {\n            margin-top: 0px !important;\n            padding-top: 0px !important;\n        }\n\n        .hp-offers .portfolio-list .owl-item img {\n            height: 220px !important;\n        }\n\n        .hp-offers .portfolio-list .thumb-info-title {\n            max-width: 100% !important;\n            bottom: 0% !important;\n        }\n\n        @media only screen and (min-width: 992px) {\n            .hp-offers .portfolio-list .col-lg-3 {\n                width: 33% !important;\n            }\n\n            .hp-offers .portfolio-list .owl-item img {\n                height: 220px !important;\n            }\n\n            .hp-offers .portfolio-list .thumb-info-title {\n                max-width: 100% !important;\n                bottom: 0% !important;\n            }\n\n            .hp-offers .portfolio-list {\n                margin-left: -23px;\n            }\n        }\n\n        @media only screen and (max-width: 992px) {\n            .hp-offers .btn-view-all {\n                text-align: center;\n                position: relative;\n                left: 50%;\n                transform: translateX(-50%);\n            }\n        }\n\n        .hp-hr {\n            margin-top: 0px !important;\n            margin-bottom: 0px !important;\n        }\n\n        .hp-home-loan {\n            background-image: url('images/mcb/personal/assets/hp-home-loan.jpg');\n            background-size: cover;\n        }\n\n        .hp-home-loan .text-content h2 {\n            font-size: 3.1rem !important;\n            font-family: \"Kanit\", sans-serif;\n        }\n\n        .hp-home-loan .text-content h2,\n        .hp-home-loan .text-content p {\n            color: #ffffff;\n        }\n\n        .hp-loan .img-text-cta .thumb-info-wrapper {\n            height: 460px !important;\n        }\n\n        .hp-loan .img-text-cta {\n            margin-top: 0px !important;\n            margin-bottom: 70px !important;\n        }\n    ",
           }}
         />
+
+        <link rel="canonical" href="/" />
+      </Helmet>
+      <div className="body detail-landing">
+        {/* Google Tag Manager (noscript) */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}
         {/* REUSABLE HEADER COMPONENT */}
         <PersonalHeader />
@@ -201,7 +116,7 @@ const Personal = () => {
                     <div className=" bg-light p-0 shadow-none">
                       <div className="card border-radius-0 border-0 shadow-none">
                         <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
-                          <a href="personal/loans/home-loan">
+                          <a href="/personal/loans/home-loan">
                             <img
                               src="images/mcb/default-album/ph_house-line-lighte8bf.png?sfvrsn=49ba69b0_3"
                               height={80}
@@ -209,13 +124,13 @@ const Personal = () => {
                               alt="ph_house-line-light"
                             />
                           </a>
-                          <a href="personal/loans/home-loan">
+                          <a href="/personal/loans/home-loan">
                             <h4 className="card-title mb-1 text-6 font-weight-light text-color-dark text-center">
                               Buy your first house
                             </h4>
                           </a>
                           <a
-                            href="personal/loans/home-loan"
+                            href="/personal/loans/home-loan"
                             className="font-weight-bold text-uppercase text-decoration-none mt-3"
                           >
                             LEARN MORE
@@ -226,7 +141,7 @@ const Personal = () => {
                     <div className=" bg-light p-0 shadow-none">
                       <div className="card border-radius-0 border-0 shadow-none">
                         <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
-                          <a href="personal/loans/educational-loan">
+                          <a href="/personal/loans/educational-loan">
                             <img
                               src="images/mcb/default-album/cil_education4b9a.png?sfvrsn=97285b76_3"
                               height={80}
@@ -234,13 +149,13 @@ const Personal = () => {
                               alt="cil_education"
                             />
                           </a>
-                          <a href="personal/loans/educational-loan">
+                          <a href="/personal/loans/educational-loan">
                             <h4 className="card-title mb-1 text-6 font-weight-light text-color-dark text-center">
                               Finance your child&#39;s studies
                             </h4>
                           </a>
                           <a
-                            href="personal/loans/educational-loan"
+                            href="/personal/loans/educational-loan"
                             className="font-weight-bold text-uppercase text-decoration-none mt-3"
                           >
                             LEARN MORE
@@ -259,13 +174,13 @@ const Personal = () => {
                               alt="fluent_payment-20-regular"
                             />
                           </a>
-                          <a href="personal/ways-to-bank/payment-solutions">
+                          <a href="/personal/ways-to-bank/payment-solutions">
                             <h4 className="card-title mb-1 text-6 font-weight-light text-color-dark text-center">
                               Discover our payment solutions
                             </h4>
                           </a>
                           <a
-                            href="personal/ways-to-bank/payment-solutions"
+                            href="/personal/ways-to-bank/payment-solutions"
                             className="font-weight-bold text-uppercase text-decoration-none mt-3"
                           >
                             LEARN MORE
@@ -276,7 +191,7 @@ const Personal = () => {
                     <div className=" bg-light p-0 shadow-none">
                       <div className="card border-radius-0 border-0 shadow-none">
                         <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
-                          <a href="personal/investments/mcb-mutual-funds">
+                          <a href="/personal/investments/mcb-mutual-funds">
                             <img
                               src="images/mcb/default-album/fe_line-chart987a.png?sfvrsn=b7a33998_3"
                               height={80}
@@ -284,13 +199,13 @@ const Personal = () => {
                               alt="fe_line-chart"
                             />
                           </a>
-                          <a href="personal/investments/mcb-mutual-funds">
+                          <a href="/personal/investments/mcb-mutual-funds">
                             <h4 className="card-title mb-1 text-6 font-weight-light text-color-dark text-center">
                               Invest for your future
                             </h4>
                           </a>
                           <a
-                            href="personal/investments/mcb-mutual-funds"
+                            href="/personal/investments/mcb-mutual-funds"
                             className="font-weight-bold text-uppercase text-decoration-none mt-3"
                           >
                             LEARN MORE
@@ -310,28 +225,6 @@ const Personal = () => {
                 data-placeholder-label="Column 1"
               ></div>
             </div>
-            {/* App section */}
-            {/* <div id="Main_C008_Col00" class="sf_colsIn container hp-juice" data-sf-element="Container" data-placeholder-label="Container"><div class="row" data-sf-element="Row">
-    <div id="Main_C035_Col00" class="sf_colsIn col-lg-6 mb-5 order-2 order-sm-2 order-lg-1" data-sf-element="Column 1" data-placeholder-label="Column 1">
-
-<div class="check-ul-styling" >
-    <div >
-
-
-<div class="text-content"><h4 class="sub-title">&nbsp;</h4><h2 class="line-height-1">Mobile Banking made easy!</h2><p><a href="https://juice.mu/" target="_blank" data-sf-ec-immutable="">MCB Juice</a> is your digital wallet. Pay your utility bills, manage your cards, accounts and bank transfers in a seamless swipe, and enjoy exclusive discounts. </p>
- <div class="button mt-3 text-left d-block  d-md-none d-lg-none d-xl-none "><a href="https://on.mcb.mu/jdwnld" class="btn btn-primary w-auto" data-sf-ec-immutable="">Download</a>
- </div><div class="mt-20 d-none d-md-block d-lg-block d-xl-block"><button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#mcb-juice">Download now!
-  </button></div></div></div>    
-</div>
-    </div>
-    <div id="Main_C035_Col01" class="sf_colsIn col-lg-6 order-1 order-sm-1 order-lg-2" data-sf-element="Column 2" data-placeholder-label="Column 2">
-
-  <img loading="lazy" class="mw-100 h-auto" src="images/mcb/personal/assets/juice-featured5c9a.jpg?sfvrsn=a5390091_0" title="juice-featured" alt="juice-featured"
-   
-    />
- 
-    </div>
-</div> */}
           </div>
           <div
             id="Main_C104_Col00"
@@ -348,7 +241,7 @@ const Personal = () => {
                         className="thumb-info-wrapper"
                         style={{
                           backgroundImage:
-                            "url(images/mcb/personal/assets/hp-home-loan79dd.jpg?sfvrsn=a155643c_3)",
+                            "url(/images/mcb/personal/assets/hp-home-loan79dd.jpg?sfvrsn=a155643c_3)",
                         }}
                       >
                         <span className="thumb-info-title bg-transparent">
@@ -363,7 +256,7 @@ const Personal = () => {
                             accessible.
                           </p>
                           <a
-                            href="personal/loans/home-loan.html"
+                            href="/personal/loans/home-loan"
                             target="_self"
                             className="btn btn-more text-light d-flex align-items-center ps-0"
                           >
@@ -458,7 +351,7 @@ const Personal = () => {
                                       <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
                                         <a href="/personal/cards/mastercard-primo-credit-card">
                                           <img
-                                            src="images/mcb/personal/assets/mastercard-primo8bb66cb6-b723-4fd1-abed-bf0443460927.png"
+                                            src="/images/mcb/personal/assets/mastercard-primo8bb66cb6-b723-4fd1-abed-bf0443460927.png"
                                             height={80}
                                             className="w-auto p-0"
                                             alt="Primo Credit Card"
@@ -477,7 +370,7 @@ const Personal = () => {
                                       <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
                                         <a href="/personal/cards/classic-credit-card">
                                           <img
-                                            src="images/mcb/personal/assets/Visa-Credit2a6ce057-1333-4ed6-ab12-be01a3012660.png"
+                                            src="/images/mcb/personal/assets/Visa-Credit2a6ce057-1333-4ed6-ab12-be01a3012660.png"
                                             height={80}
                                             className="w-auto p-0"
                                             alt="Classic Credit Card"
@@ -496,7 +389,7 @@ const Personal = () => {
                                       <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
                                         <a href="/personal/cards/gold-credit-card">
                                           <img
-                                            src="images/mcb/personal/assets/Visa-gold3a505ac2-f9ab-4f84-b36d-2600e46d3527.png"
+                                            src="/images/mcb/personal/assets/Visa-gold3a505ac2-f9ab-4f84-b36d-2600e46d3527.png"
                                             height={80}
                                             className="w-auto p-0"
                                             alt="Gold Credit Card"
@@ -515,7 +408,7 @@ const Personal = () => {
                                       <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
                                         <a href="/personal/cards/visa-platinum">
                                           <img
-                                            src="images/mcb/personal/assets/Visa-platinum6c6b277d-9c1e-479a-ac3b-cb980bdddc52.png"
+                                            src="/images/mcb/personal/assets/Visa-platinum6c6b277d-9c1e-479a-ac3b-cb980bdddc52.png"
                                             height={80}
                                             className="w-auto p-0"
                                             alt="Visa Platinum"
@@ -551,9 +444,9 @@ const Personal = () => {
                                   <div className=" bg-light p-0 shadow-none">
                                     <div className="card border-radius-0 border-0 shadow-none">
                                       <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
-                                        <a href="personal/cards/american-express/american-express-green">
+                                        <a href="/personal/cards/american-express/american-express-green">
                                           <img
-                                            src="images/mcb/personal/assets/amex-green22d193d1-cb68-4aac-84da-b488aeb714c6.png"
+                                            src="/images/mcb/personal/assets/amex-green22d193d1-cb68-4aac-84da-b488aeb714c6.png"
                                             height={80}
                                             className="w-auto p-0"
                                             alt="American Express® Green"
@@ -570,9 +463,9 @@ const Personal = () => {
                                   <div className=" bg-light p-0 shadow-none">
                                     <div className="card border-radius-0 border-0 shadow-none">
                                       <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
-                                        <a href="personal/cards/american-express/american-express-gold">
+                                        <a href="/personal/cards/american-express/american-express-gold">
                                           <img
-                                            src="images/mcb/personal/assets/amex-gold2138435b-fa90-43f3-8191-343bd361d3ed.png"
+                                            src="/images/mcb/personal/assets/amex-gold2138435b-fa90-43f3-8191-343bd361d3ed.png"
                                             height={80}
                                             className="w-auto p-0"
                                             alt="American Express® Gold"
@@ -733,7 +626,7 @@ const Personal = () => {
                   <div>
                     <a
                       className="btn btn-default w-auto btn-view-all"
-                      href="personal/offers-and-promotions"
+                      href="/personal/offers-and-promotions"
                     >
                       VIEW ALL OFFERS
                     </a>
@@ -1138,7 +1031,7 @@ const Personal = () => {
                       <div className="grid__item grid__item-1-4-large">
                         <div className="component component--collapsed">
                           <a
-                            href="tools-calculators/download-daily-rates.html"
+                            href="/tools-calculators/download-daily-rates"
                             className="product-panel hover-expand indicativeforex"
                             data-eh="yes"
                             target="_self"
@@ -1196,7 +1089,7 @@ const Personal = () => {
                         </div>
                         <div className="d-flex flex-row flex-wrap align-items-center justify-content-evenly">
                           <a
-                            href="rates-fees.html"
+                            href="/rates-fees"
                             className="btn btn-light btn-outline btn-outline-thin btn-outline-light-opacity-2 btn-effect-5 font-weight-semi-bold px-3 btn-py-2 text-3 text-color-light text-color-hover-dark d-flex flex-row ms-1 mb-1 text-1"
                             target="_blank"
                           >
@@ -1538,7 +1431,7 @@ const Personal = () => {
                         <div className="col-sm-3 col-lg-3">
                           <div className="call-to-action-btn w-100-mobile px-0 w-auto">
                             <a
-                              href="personal/help-centre.html"
+                              href="/personal/help-centre"
                               target="_blank"
                               className="btn btn-gray-ca w-auto btn-modern text-2"
                               data-sf-ec-immutable=""

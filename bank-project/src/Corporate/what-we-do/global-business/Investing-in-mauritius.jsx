@@ -336,7 +336,10 @@ const InvestingInMauritius = () => {
                                 target="_blank"
                                 data-sf-ec-immutable=""
                               />
-                              <a target="_blank" href="custody-services.html">
+                              <a
+                                target="_blank"
+                                href="/corporate/what-we-do/global-business/custody-services"
+                              >
                                 Custodian services
                               </a>
                             </p>

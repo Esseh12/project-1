@@ -28,9 +28,10 @@ const OurSuccessStories = () => {
           property="og:url"
           content="https://mcb.mu/corporate/what-we-do/corporate-banking/our-success-stories"
         />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="MCB Mauritius" />
-        <link rel="canonical" href="/our-success-stories" />
+        <link
+          rel="canonical"
+          href="/corporate/what-we-do/corporate-banking/our-success-stories"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
