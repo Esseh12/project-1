@@ -617,10 +617,10 @@ const CorporateRoutes = () => {
         path="/corporate/what-we-do/corporate-banking/become-a-client"
         element={<CorporateBecomeAClient />}
       />
-      <Route
+      {/* <Route
         path="/corporate/what-we-do/corporate-banking/our-success-stories"
         element={<OurSuccessStories />}
-      />
+      /> */}
       {/* End of What we do */}
 
       {/* End of Corporate folder files */}
