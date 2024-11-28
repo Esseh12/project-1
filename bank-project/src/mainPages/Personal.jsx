@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet-async";
-import PersonalHeader from "../Components/Personal-header";
+// import PersonalHeader from "../Components/Personal-header";
 // import Footer from "../Components/Footer";
 
 const Personal = () => {
@@ -54,7 +54,7 @@ const Personal = () => {
         </noscript>
         {/* End Google Tag Manager (noscript) */}
         {/* REUSABLE HEADER COMPONENT */}
-        <PersonalHeader />
+        {/* <PersonalHeader /> */}
         {/* END OF REUSABLE HEADER COMPONENT */}
         {/* THIS DIV IS TO BE REMOVED DURING CLEANUP */}
         <div>
