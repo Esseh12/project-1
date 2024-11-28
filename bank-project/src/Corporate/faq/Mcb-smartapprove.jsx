@@ -22,7 +22,7 @@ const McbSmartApprove = () => {
           property="og:url"
           content="https://mcb.mu/corporate/faq/mcb-smartapprove"
         />
-        <link rel="canonical" href="/mcb-smartapprove" />
+        <link rel="canonical" href="/corporate/faq/mcb-smartapprove" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
@@ -151,7 +151,7 @@ const McbSmartApprove = () => {
                                 >
                                   <a
                                     target="_blank"
-                                    href="../payment-cash/pay/domestic-international-transfers.html"
+                                    href="/corporate/payment-cash/pay/domestic-international-transfers"
                                   >
                                     Click here
                                   </a>

@@ -19,7 +19,7 @@ const CorporateFaq = () => {
           content="Get answers to common queries about banking, cards, internet banking, foreign currency, MCB SmartApprove etc."
         />
         <meta property="og:url" content="https://mcb.mu/corporate/faq" />
-        <link rel="canonical" href="/faq" />
+        <link rel="canonical" href="/corporate/faq" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
@@ -85,7 +85,7 @@ const CorporateFaq = () => {
                       <article className="faq">
                         <div className="border boxshadow px-3 py-2">
                           <a
-                            href="faq/soft-token.html"
+                            href="/corporate/faq/soft-token"
                             className="text-3 text-uppercase font-weight-medium d-block text-dark text-decoration-none d-flex align-items-center justify-content-between"
                           >
                             <h4 className="mb-0">
@@ -104,7 +104,7 @@ const CorporateFaq = () => {
                       <article className="faq">
                         <div className="border boxshadow px-3 py-2">
                           <a
-                            href="faq/mcb-smartapprove.html"
+                            href="/corporate/faq/mcb-smartapprove"
                             className="text-3 text-uppercase font-weight-medium d-block text-dark text-decoration-none d-flex align-items-center justify-content-between"
                           >
                             <h4 className="mb-0">
@@ -123,7 +123,7 @@ const CorporateFaq = () => {
                       <article className="faq">
                         <div className="border boxshadow px-3 py-2">
                           <a
-                            href="faq/foreign-currency-transfer-on-ib.html"
+                            href="/corporate/faq/foreign-currency-transfer-on-ib"
                             className="text-3 text-uppercase font-weight-medium d-block text-dark text-decoration-none d-flex align-items-center justify-content-between"
                           >
                             <h4 className="mb-0">
@@ -142,7 +142,7 @@ const CorporateFaq = () => {
                       <article className="faq">
                         <div className="border boxshadow px-3 py-2">
                           <a
-                            href="faq/internet-banking.html"
+                            href="/corporate/faq/internet-banking"
                             className="text-3 text-uppercase font-weight-medium d-block text-dark text-decoration-none d-flex align-items-center justify-content-between"
                           >
                             <h4 className="mb-0">
@@ -161,7 +161,7 @@ const CorporateFaq = () => {
                       <article className="faq">
                         <div className="border boxshadow px-3 py-2">
                           <a
-                            href="faq/cards.html"
+                            href="/corporate/faq/cards"
                             className="text-3 text-uppercase font-weight-medium d-block text-dark text-decoration-none d-flex align-items-center justify-content-between"
                           >
                             <h4 className="mb-0">
@@ -180,7 +180,7 @@ const CorporateFaq = () => {
                       <article className="faq">
                         <div className="border boxshadow px-3 py-2">
                           <a
-                            href="faq/banking.html"
+                            href="/corporate/faq/banking"
                             className="text-3 text-uppercase font-weight-medium d-block text-dark text-decoration-none d-flex align-items-center justify-content-between"
                           >
                             <h4 className="mb-0">

@@ -25,7 +25,7 @@ const Events = () => {
           content="Discover MCB's active presence in key international conferences, fostering global partnerships and exploring new opportunities."
         />
         <meta property="og:url" content="https://mcb.mu/institutional/events" />
-        <a rel="canonical" href="/institutional/events" />
+        <link rel="canonical" href="/institutional/events" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}

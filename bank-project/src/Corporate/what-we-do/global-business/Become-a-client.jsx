@@ -28,7 +28,10 @@ const BecomeAClient = () => {
           property="og:url"
           content="https://mcb.mu/corporate/what-we-do/global-business/become-a-client"
         />
-        <link rel="canonical" href="/become-a-client" />
+        <link
+          rel="canonical"
+          href="/corporate/what-we-do/global-business/become-a-client"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}

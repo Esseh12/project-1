@@ -25,7 +25,10 @@ const MobileBanking = () => {
           property="og:url"
           content="https://mcb.mu/corporate/payment-cash/collect/mobile-banking"
         />
-        <link rel="canonical" href="/mobile-banking" />
+        <link
+          rel="canonical"
+          href="/corporate/payment-cash/collect/mobile-banking"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}

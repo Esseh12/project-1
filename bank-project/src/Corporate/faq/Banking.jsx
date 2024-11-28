@@ -22,7 +22,7 @@ const CorporateBanking = () => {
           property="og:url"
           content="https://mcb.mu/corporate/faq/banking"
         />
-        <link rel="canonical" href="/banking" />
+        <link rel="canonical" href="/corporate/faq/banking" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
@@ -433,7 +433,7 @@ const CorporateBanking = () => {
                             <div className="mb-0">
                               <p>
                                 To obtain this information, kindly refer to our{" "}
-                                <a target="_blank" href="rates-fees.html">
+                                <a target="_blank" href="/rates-fees">
                                   rates &amp; fees
                                 </a>
                                 .

@@ -16,7 +16,7 @@ const CorporateFactsFigures = () => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="MCB Mauritius" />
-        <link rel="canonical" href="/facts-figures" />
+        <link rel="canonical" href="/corporate/mcb-at-a-glance/facts-figures" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
@@ -56,7 +56,7 @@ const CorporateFactsFigures = () => {
                   </h1>
                   <div className="col mt-4">
                     <a
-                      href="../our-geographical-presence.html"
+                      href="/corporate/our-geographical-presence"
                       className=" btn btn-primary me-4 mt-3 w-100-mobile btn-floating is-visible"
                       target="_blank"
                       style={{ color: "#ffffff" }}
@@ -154,7 +154,7 @@ const CorporateFactsFigures = () => {
                                 Annual Report &amp; Financial Statements
                               </p>
                               <a
-                                href="/personal/about-us/financial-reports.html"
+                                href="/personal/about-us/financial-reports"
                                 target="_blank"
                                 className="mb-1 mt-1 me-1 btn btn-primary"
                               >

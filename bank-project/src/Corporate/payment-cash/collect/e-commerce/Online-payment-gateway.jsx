@@ -14,7 +14,10 @@ const OnlinePaymentGateway = () => {
           property="og:url"
           content="https://mcb.mu/corporate/payment-cash/collect/e-commerce/online-payment-gateway"
         />
-        <link rel="canonical" href="/online-payment-gateway" />
+        <link
+          rel="canonical"
+          href="/corporate/payment-cash/collect/e-commerce/online-payment-gateway"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
@@ -152,7 +155,7 @@ const OnlinePaymentGateway = () => {
                           solutions to support your business.
                         </p>
                         <a
-                          href="/personal/contact-us.html"
+                          href="/contact-us"
                           target="_blank"
                           className="mb-1 mt-1 me-1 btn btn-primary"
                         >

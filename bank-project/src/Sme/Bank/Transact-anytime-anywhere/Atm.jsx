@@ -25,15 +25,18 @@ const Atm = () => {
           property="og:url"
           content="https://mcb.mu/sme/bank/transact-anytime-anywhere/atm"
         />
-        <link rel="canonical" href="/atm" />
+        <link rel="canonical" href="/sme/bank/transact-anytime-anywhere/atm" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}
         {/* Header */}
         <SmeHeader />
@@ -69,7 +72,7 @@ const Atm = () => {
                   </p>
                   <div className="col mt-4">
                     <a
-                      href="../../../locate-us.html"
+                      href="/locate-us"
                       className=" btn btn-primary me-4 mt-3 w-100-mobile btn-floating is-visible"
                       target="_blank"
                       style={{ color: "#ffffff" }}
@@ -157,7 +160,7 @@ const Atm = () => {
                           </p>
                         </div>
                         <a
-                          href="../../../locate-us.html"
+                          href="/locate-us"
                           target="_blank"
                           className="mb-1 mt-1 me-1 btn btn-primary"
                         >

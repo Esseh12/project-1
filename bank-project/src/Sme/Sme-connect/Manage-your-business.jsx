@@ -25,15 +25,18 @@ const ManageYourBusiness = () => {
           property="og:url"
           content="https://mcb.mu/sme/sme-connect/manage-your-business"
         />
-        <link rel="canonical" href="/manage-your-business" />
+        <link rel="canonical" href="/sme/sme-connect/manage-your-business" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}
         {/* Header */}
         <SmeHeader />
@@ -341,7 +344,7 @@ const ManageYourBusiness = () => {
                       >
                         <div className="check-ul-styling">
                           <div>
-                            <a target="_blank" href="/personal/contact-us.html">
+                            <a target="_blank" href="/contact-us">
                               Contact us today
                             </a>
                           </div>

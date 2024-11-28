@@ -22,7 +22,7 @@ const SoftToken = () => {
           property="og:url"
           content="https://mcb.mu/corporate/faq/soft-token"
         />
-        <link rel="canonical" href="/soft-token" />
+        <link rel="canonical" href="/corporate/faq/soft-token" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}

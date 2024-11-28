@@ -22,15 +22,18 @@ const ElectronicePayments = () => {
           property="og:url"
           content="https://mcb.mu/sme/pay/electronic-payments"
         />
-        <link rel="canonical" href="/electronic-payments" />
+        <link rel="canonical" href="/sme/pay/electronic-payments" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}
         {/* Header */}
         <SmeHeader />
@@ -89,12 +92,12 @@ const ElectronicePayments = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="electronic-payments/electronic-transfer.html"
+                        href="/sme/pay/electronic-payments/electronic-transfer"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="electronic-payments/electronic-transfer.html"
+                          href="/sme/pay/electronic-payments/electronic-transfer"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -109,21 +112,21 @@ const ElectronicePayments = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="electronic-payments/electronic-transfer.html"
+                            href="/sme/pay/electronic-payments/electronic-transfer"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="electronic-payments/electronic-transfer.html"
+                              href="/sme/pay/electronic-payments/electronic-transfer"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="electronic-payments/electronic-transfer.html"
+                                href="/sme/pay/electronic-payments/electronic-transfer"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="electronic-payments/electronic-transfer.html"
+                                href="/sme/pay/electronic-payments/electronic-transfer"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Electronic transfer (SWIFT)
@@ -146,12 +149,12 @@ const ElectronicePayments = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="electronic-payments/e-commerce-solutions.html"
+                        href="/sme/pay/electronic-payments/e-commerce-solutions"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="electronic-payments/e-commerce-solutions.html"
+                          href="/sme/pay/electronic-payments/e-commerce-solutions"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -166,21 +169,21 @@ const ElectronicePayments = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="electronic-payments/e-commerce-solutions.html"
+                            href="/sme/pay/electronic-payments/e-commerce-solutions"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="electronic-payments/e-commerce-solutions.html"
+                              href="/sme/pay/electronic-payments/e-commerce-solutions"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="electronic-payments/e-commerce-solutions.html"
+                                href="/sme/pay/electronic-payments/e-commerce-solutions"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="electronic-payments/e-commerce-solutions.html"
+                                href="/sme/pay/electronic-payments/e-commerce-solutions"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 E-Commerce Solutions

@@ -22,7 +22,7 @@ const Collect = () => {
           property="og:url"
           content="https://mcb.mu/corporate/payment-cash/collect"
         />
-        <link rel="canonical" href="/collect" />
+        <link rel="canonical" href="/corporate/payment-cash/collect" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
@@ -92,7 +92,7 @@ const Collect = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="collect/direct-debit-bill-payment.html"
+                        href="/corporate/payment-cash/collect/direct-debit-bill-payment"
                         className="text-decoration-none"
                       >
                         <article>
@@ -127,7 +127,7 @@ const Collect = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="collect/cash-deposit-solutions.html"
+                        href="/corporate/payment-cash/collect/cash-deposit-solutions"
                         className="text-decoration-none"
                       >
                         <article>
@@ -160,7 +160,7 @@ const Collect = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="collect/e-commerce.html"
+                        href="/corporate/payment-cash/collect/e-commerce"
                         className="text-decoration-none"
                       >
                         <article>
@@ -194,7 +194,7 @@ const Collect = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="collect/point-of-sale-solutions.html"
+                        href="/corporate/payment-cash/collect/point-of-sale-solutions"
                         className="text-decoration-none"
                       >
                         <article>
@@ -230,7 +230,7 @@ const Collect = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="collect/mobile-banking.html"
+                        href="/corporate/payment-cash/collect/mobile-banking"
                         className="text-decoration-none"
                       >
                         <article>

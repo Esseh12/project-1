@@ -22,15 +22,13 @@ const Finance = () => {
           content="Explore our financing options for small businesses to manage cash flow effectively."
         />
         <meta property="og:url" content="https://mcb.mu/sme/finance" />
-        <style
-          type="text/css"
-          media="all"
-          dangerouslySetInnerHTML={{
-            __html:
-              "article ul li{\n  position:relative;\n  padding-left: 20px;\n}\n\narticle ul li:before{\n    content: \"\\f00c\";\n    font-family: 'FontAwesome';\n    font-size: 8px;\n    border: 1px solid;\n    border-radius: 50%;\n    padding: 2px;\n    position: absolute;\n    line-height: 8px;\n    top: 5px;\n    left: 0px;\n}\n\n.justify-content-start .row.justify-content-center{\n  justify-content: flex-start!important;\n}",
-          }}
-        />
-        <link rel="canonical" href="/finance" />
+        <style type="text/css" media="all">
+          {`article ul li{
+          position:relative;
+          padding-left: 20px;
+          } article ul li:before{content: "\f00c";font-family: 'FontAwesome';font-size: 8px;border: 1px solid;border-radius: 50%;padding: 2px;position: absolute;line-height: 8px;top: 5px;left: 0px;}.justify-content-start .row.justify-content-center{justify-content: flex-start!important;} `}
+        </style>
+        <link rel="canonical" href="/sme/finance" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}

@@ -22,7 +22,7 @@ const WWDCorporateBanking = () => {
           property="og:url"
           content="https://mcb.mu/corporate/what-we-do/corporate-banking"
         />
-        <link rel="canonical" href="/corporate-banking" />
+        <link rel="canonical" href="/corporate/what-we-do/corporate-banking" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
@@ -71,7 +71,7 @@ const WWDCorporateBanking = () => {
                   </p>
                   <div className="col mt-4">
                     <a
-                      href="../mcb-at-a-glance.html"
+                      href="/corporate/mcb-at-a-glance"
                       className=" btn btn-primary me-4 mt-3 w-100-mobile btn-floating is-visible"
                       target="_blank"
                       style={{ color: "#ffffff" }}
@@ -364,12 +364,12 @@ const WWDCorporateBanking = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="../payment-cash.html"
+                        href="/corporate/payment-cash"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="../payment-cash.html"
+                          href="/corporate/payment-cash"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -384,21 +384,21 @@ const WWDCorporateBanking = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="../payment-cash.html"
+                            href="/corporate/payment-cash"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="../payment-cash.html"
+                              href="/corporate/payment-cash"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="../payment-cash.html"
+                                href="/corporate/payment-cash"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="../payment-cash.html"
+                                href="/corporate/payment-cash"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Payment &amp; Cash
@@ -421,12 +421,12 @@ const WWDCorporateBanking = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="../finance-lending.html"
+                        href="/corporate/finance-lending"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="../finance-lending.html"
+                          href="/corporate/finance-lending"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -441,21 +441,21 @@ const WWDCorporateBanking = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="../finance-lending.html"
+                            href="/corporate/finance-lending"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="../finance-lending.html"
+                              href="/corporate/finance-lending"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="../finance-lending.html"
+                                href="/corporate/finance-lending"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="../finance-lending.html"
+                                href="/corporate/finance-lending"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Finance &amp; Lending
@@ -478,12 +478,12 @@ const WWDCorporateBanking = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="../investment-advisory/capital-markets.html"
+                        href="/corporate/investment-advisory/capital-markets"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="../investment-advisory/capital-markets.html"
+                          href="/corporate/investment-advisory/capital-markets"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -498,21 +498,21 @@ const WWDCorporateBanking = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="../investment-advisory/capital-markets.html"
+                            href="/corporate/investment-advisory/capital-markets"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="../investment-advisory/capital-markets.html"
+                              href="/corporate/investment-advisory/capital-markets"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="../investment-advisory/capital-markets.html"
+                                href="/corporate/investment-advisory/capital-markets"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="../investment-advisory/capital-markets.html"
+                                href="/corporate/investment-advisory/capital-markets"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Capital Markets
@@ -534,12 +534,12 @@ const WWDCorporateBanking = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="../investment-advisory/global-markets/global-markets-solutions.html"
+                        href="/corporate/investment-advisory/global-markets/global-markets-solutions"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="../investment-advisory/global-markets/global-markets-solutions.html"
+                          href="/corporate/investment-advisory/global-markets/global-markets-solutions"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -554,21 +554,21 @@ const WWDCorporateBanking = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="../investment-advisory/global-markets/global-markets-solutions.html"
+                            href="/corporate/investment-advisory/global-markets/global-markets-solutions"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="../investment-advisory/global-markets/global-markets-solutions.html"
+                              href="/corporate/investment-advisory/global-markets/global-markets-solutions"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="../investment-advisory/global-markets/global-markets-solutions.html"
+                                href="/corporate/investment-advisory/global-markets/global-markets-solutions"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="../investment-advisory/global-markets/global-markets-solutions.html"
+                                href="/corporate/investment-advisory/global-markets/global-markets-solutions"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Global Markets Solutions
@@ -628,7 +628,7 @@ const WWDCorporateBanking = () => {
                           </p>
                         </div>
                         <a
-                          href="corporate-banking/become-a-client.html"
+                          href="/corporate/what-we-do/corporate-banking/become-a-client"
                           target="_self"
                           className="mb-1 mt-1 me-1 btn btn-primary"
                         >

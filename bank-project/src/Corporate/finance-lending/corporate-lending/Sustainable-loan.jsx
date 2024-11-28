@@ -25,9 +25,10 @@ const CorporateSustainableLoan = () => {
           property="og:url"
           content="https://mcb.mu/corporate/finance-lending/corporate-lending/sustainable-loan"
         />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="MCB Mauritius" />
-        <link rel="canonical" href="/sustainable-loan" />
+        <link
+          rel="canonical"
+          href="/corporate/finance-lending/corporate-lending/sustainable-loan"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}

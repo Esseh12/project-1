@@ -13,7 +13,7 @@ const SmeHeader = () => {
               <li className="nav-item dropdown has-megamenu ">
                 <a
                   className="nav-link"
-                  href="sme/bank.html"
+                  href="/sme/bank"
                   target="_self"
                   id="navbarDropdownMenuLink0-2"
                   data-bs-toggle="dropdown"
@@ -41,7 +41,7 @@ const SmeHeader = () => {
                               <span>
                                 <a
                                   className="d-flex flex-column "
-                                  href="sme/bank/business-account.html"
+                                  href="/sme/bank/business-account"
                                   target="_self"
                                 >
                                   <strong>Business Account</strong>
@@ -88,7 +88,7 @@ const SmeHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="sme/bank/transact-anytime-anywhere/internet-banking.html"
+                                      href="/sme/bank/transact-anytime-anywhere/internet-banking"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -103,7 +103,7 @@ const SmeHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="sme/bank/transact-anytime-anywhere/atm.html"
+                                      href="/sme/bank/transact-anytime-anywhere/atm"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -118,7 +118,7 @@ const SmeHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="sme/bank/transact-anytime-anywhere/e-statements.html"
+                                      href="/sme/bank/transact-anytime-anywhere/e-statements"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -133,7 +133,7 @@ const SmeHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="sme/bank/transact-anytime-anywhere/juicepro.html"
+                                      href="/sme/bank/transact-anytime-anywhere/juicepro"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -156,7 +156,7 @@ const SmeHeader = () => {
               <li className="nav-item dropdown has-megamenu ">
                 <a
                   className="nav-link"
-                  href="sme/borrow.html"
+                  href="/sme/borrow"
                   target="_self"
                   id="navbarDropdownMenuLink1-2"
                   data-bs-toggle="dropdown"
@@ -184,7 +184,7 @@ const SmeHeader = () => {
                               <span>
                                 <a
                                   className="d-flex flex-column "
-                                  href="sme/borrow/loans.html"
+                                  href="/sme/borrow/loans"
                                   target="_self"
                                 >
                                   <strong>Loans</strong>
@@ -196,7 +196,7 @@ const SmeHeader = () => {
                               <span>
                                 <a
                                   className="d-flex flex-column "
-                                  href="sme/borrow/overdrafts.html"
+                                  href="/sme/borrow/overdrafts"
                                   target="_self"
                                 >
                                   <strong>Overdrafts</strong>
@@ -208,7 +208,7 @@ const SmeHeader = () => {
                               <span>
                                 <a
                                   className="d-flex flex-column "
-                                  href="sme/borrow/leasing.html"
+                                  href="/sme/borrow/leasing"
                                   target="_self"
                                 >
                                   <strong>Leasing</strong>
@@ -220,7 +220,7 @@ const SmeHeader = () => {
                               <span>
                                 <a
                                   className="d-flex flex-column "
-                                  href="sme/borrow/trade-finance.html"
+                                  href="/sme/borrow/trade-finance"
                                   target="_self"
                                 >
                                   <strong>Trade Finance</strong>
@@ -232,7 +232,7 @@ const SmeHeader = () => {
                               <span>
                                 <a
                                   className="d-flex flex-column "
-                                  href="sme/borrow/sustainable-loan.html"
+                                  href="/sme/borrow/sustainable-loan"
                                   target="_self"
                                 >
                                   <strong>Sustainable Loan</strong>
@@ -244,7 +244,7 @@ const SmeHeader = () => {
                               <span>
                                 <a
                                   className="d-flex flex-column "
-                                  href="sme/borrow/factoring.html"
+                                  href="/sme/borrow/factoring"
                                   target="_self"
                                 >
                                   <strong>Factoring</strong>
@@ -256,7 +256,7 @@ const SmeHeader = () => {
                               <span>
                                 <a
                                   className="d-flex flex-column "
-                                  href="sme/borrow/bank-guarantees.html"
+                                  href="/sme/borrow/bank-guarantees"
                                   target="_self"
                                 >
                                   <strong>Bank Guarantees</strong>
@@ -268,7 +268,7 @@ const SmeHeader = () => {
                               <span>
                                 <a
                                   className="d-flex flex-column "
-                                  href="sme/borrow/lokal-is-beautiful.html"
+                                  href="/sme/borrow/lokal-is-beautiful"
                                   target="_self"
                                 >
                                   <strong>Lokal is Beautiful</strong>
@@ -286,7 +286,7 @@ const SmeHeader = () => {
               <li className="nav-item dropdown has-megamenu ">
                 <a
                   className="nav-link"
-                  href="sme/pay.html"
+                  href="/sme/pay"
                   target="_self"
                   id="navbarDropdownMenuLink2-2"
                   data-bs-toggle="dropdown"
@@ -323,7 +323,7 @@ const SmeHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="sme/pay/cards/business-card.html"
+                                      href="/sme/pay/cards/business-card"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -338,7 +338,7 @@ const SmeHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="sme/pay/cards/business-deposit-card.html"
+                                      href="/sme/pay/cards/business-deposit-card"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -353,7 +353,7 @@ const SmeHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="sme/pay/cards/fleetman-card.html"
+                                      href="/sme/pay/cards/fleetman-card"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -370,7 +370,7 @@ const SmeHeader = () => {
                               <span>
                                 <a
                                   className="d-flex flex-column "
-                                  href="sme/pay/payroll-services.html"
+                                  href="/sme/pay/payroll-services"
                                   target="_self"
                                 >
                                   <strong>Payroll Services</strong>
@@ -382,7 +382,7 @@ const SmeHeader = () => {
                               <span>
                                 <a
                                   className="d-flex flex-column "
-                                  href="sme/pay/cheques.html"
+                                  href="/sme/pay/cheques"
                                   target="_self"
                                 >
                                   <strong>Cheques</strong>
@@ -403,7 +403,7 @@ const SmeHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="sme/pay/electronic-payments/electronic-transfer.html"
+                                      href="/sme/pay/electronic-payments/electronic-transfer"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -418,7 +418,7 @@ const SmeHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="sme/pay/electronic-payments/e-commerce-solutions.html"
+                                      href="/sme/pay/electronic-payments/e-commerce-solutions"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -441,7 +441,7 @@ const SmeHeader = () => {
               <li className="nav-item dropdown has-megamenu ">
                 <a
                   className="nav-link"
-                  href="sme/sme-connect.html"
+                  href="/sme/sme-connect"
                   target="_self"
                   id="navbarDropdownMenuLink3-2"
                   data-bs-toggle="dropdown"
@@ -469,7 +469,7 @@ const SmeHeader = () => {
                               <span>
                                 <a
                                   className="d-flex flex-column "
-                                  href="sme/sme-connect/start-your-business.html"
+                                  href="/sme/sme-connect/start-your-business"
                                   target="_self"
                                 >
                                   <strong>Start Your Business</strong>
@@ -481,7 +481,7 @@ const SmeHeader = () => {
                               <span>
                                 <a
                                   className="d-flex flex-column "
-                                  href="sme/sme-connect/manage-your-business.html"
+                                  href="/sme/sme-connect/manage-your-business"
                                   target="_self"
                                 >
                                   <strong>Manage Your Business</strong>
@@ -493,7 +493,7 @@ const SmeHeader = () => {
                               <span>
                                 <a
                                   className="d-flex flex-column "
-                                  href="sme/sme-connect/speaker-series.html"
+                                  href="/sme/sme-connect/speaker-series"
                                   target="_self"
                                 >
                                   <strong>Speaker Series</strong>
@@ -512,6 +512,22 @@ const SmeHeader = () => {
           </div>
         </div>
       </div>
+      {/* <div
+        id="overlay"
+        style={{
+          position: "fixed",
+          top: "0px",
+          left: "0px",
+          width: "100%",
+          height: "100%",
+          backgroundColor: "rgb(0, 0, 0)",
+          opacity: "0.9",
+          zIndex: "1010",
+          display: "block",
+        }}
+      >
+        {" "}
+      </div> */}
     </Header>
   );
 };

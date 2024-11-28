@@ -14,7 +14,10 @@ const CorporateRecognitionsAccolades = () => {
           property="og:url"
           content="https://mcb.mu/corporate/mcb-at-a-glance/recognitions-accolades"
         />
-        <link rel="canonical" href="/recognitions-accolades" />
+        <link
+          rel="canonical"
+          href="/corporate/mcb-at-a-glance/recognitions-accolades"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}

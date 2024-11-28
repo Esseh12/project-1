@@ -14,7 +14,7 @@ const CorporateOurGeographicalPresence = () => {
           property="og:url"
           content="https://mcb.mu/corporate/our-geographical-presence"
         />
-        <link rel="canonical" href="/our-geographical-presence" />
+        <link rel="canonical" href="/corporate/our-geographical-presence" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}

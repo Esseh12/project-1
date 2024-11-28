@@ -16,7 +16,10 @@ const InvestingInMauritius = () => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="MCB Mauritius" />
-        <link rel="canonical" href="investing-in-mauritius" />
+        <link
+          rel="canonical"
+          href="/corporate/what-we-do/global-business/investing-in-mauritius"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}

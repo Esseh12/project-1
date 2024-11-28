@@ -25,15 +25,21 @@ const JuicePro = () => {
           property="og:url"
           content="https://mcb.mu/sme/bank/transact-anytime-anywhere/juicepro"
         />
-        <link rel="canonical" href="/juicepro" />
+        <link
+          rel="canonical"
+          href="/sme/bank/transact-anytime-anywhere/juicepro"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}
         {/* SmeHeader */}
         <SmeHeader />
@@ -344,7 +350,7 @@ const JuicePro = () => {
                     <br />
                     <div
                       data-sf-ec-immutable=""
-                      contentEditable="false"
+                      // contentEditable="false"
                       style={{ width: 640, height: 360 }}
                     >
                       <div data-sf-disable-link-event="">

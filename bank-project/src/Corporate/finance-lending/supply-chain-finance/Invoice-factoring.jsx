@@ -30,7 +30,10 @@ const InvoiceFactoring = () => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="MCB Mauritius" />
-        <link rel="canonical" href="/invoice-factoring" />
+        <link
+          rel="canonical"
+          href="/corporate/finance-lending/supply-chain-finance/invoice-factoring"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
@@ -169,7 +172,7 @@ const InvoiceFactoring = () => {
                           possible advice regarding your financing needs.
                         </p>
                         <a
-                          href="/personal/contact-us.html"
+                          href="/contact-us"
                           target="_blank"
                           className="mb-1 mt-1 me-1 btn btn-primary"
                         >

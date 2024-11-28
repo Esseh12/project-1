@@ -25,7 +25,10 @@ const CoperarteEstatements = () => {
           property="og:url"
           content="https://mcb.mu/corporate/payment-cash/monitor/e-statements"
         />
-        <link rel="canonical" href="/e-statements" />
+        <link
+          rel="canonical"
+          href="/corporate/payment-cash/monitor/e-statements"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}

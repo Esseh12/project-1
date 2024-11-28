@@ -28,7 +28,7 @@ const AssetFinance = () => {
           property="og:url"
           content="https://mcb.mu/corporate/finance-lending/asset-finance"
         />
-        <link rel="canonical" href="/asset-finance" />
+        <link rel="canonical" href="/corporate/finance-lending/asset-finance" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
@@ -99,12 +99,12 @@ const AssetFinance = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="asset-finance/mcb-leasing.html"
+                        href="/corporate/finance-lending/asset-finance/mcb-leasing"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="asset-finance/mcb-leasing.html"
+                          href="/corporate/finance-lending/asset-finance/mcb-leasing"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -119,21 +119,21 @@ const AssetFinance = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="asset-finance/mcb-leasing.html"
+                            href="/corporate/finance-lending/asset-finance/mcb-leasing"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="asset-finance/mcb-leasing.html"
+                              href="/corporate/finance-lending/asset-finance/mcb-leasing"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="asset-finance/mcb-leasing.html"
+                                href="/corporate/finance-lending/asset-finance/mcb-leasing"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="asset-finance/mcb-leasing.html"
+                                href="/corporate/finance-lending/asset-finance/mcb-leasing"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 MCB Leasing

@@ -25,15 +25,18 @@ const BankGuarantees = () => {
           property="og:url"
           content="https://mcb.mu/sme/borrow/bank-guarantees"
         />
-        <link rel="canonical" href="/bank-guarantees" />
+        <link rel="canonical" href="/sme/borrow/bank-guarantees" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}
         {/* Header */}
         <SmeHeader />
@@ -43,7 +46,7 @@ const BankGuarantees = () => {
             className="banner-small custom-bg-color-light-2 position-relative border-0 pb-sm-0 pt-lg-4 m-0 mt-80"
             style={{
               backgroundImage:
-                "url(../../images/mcb/sme/banners/sme-bank-guaranteesaeed.jpeg?sfvrsn=bda6ab69_1)",
+                "url(/images/mcb/sme/banners/sme-bank-guaranteesaeed.jpeg?sfvrsn=bda6ab69_1)",
             }}
           >
             <div className="overlay" />
@@ -192,7 +195,7 @@ const BankGuarantees = () => {
                                 <h5>+230 202 6060</h5>
                               </div>
                               <a
-                                href="../../locate-us.html"
+                                href="/locate-us"
                                 target="_blank"
                                 className="mb-1 mt-1 me-1 btn btn-primary"
                               >
@@ -228,7 +231,7 @@ const BankGuarantees = () => {
                                 </p>
                               </div>
                               <a
-                                href="../../personal/contact-us.html"
+                                href="/contact-us"
                                 target="_blank"
                                 className="mb-1 mt-1 me-1 btn btn-primary"
                               >

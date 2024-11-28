@@ -17,7 +17,10 @@ const CorporateOurSuccessStories = () => {
           property="og:url"
           content="https://mcb.mu/corporate/finance-lending/structured-finance/energy-commodities/our-success-stories"
         />
-        <link rel="canonical" href="/our-success-stories" />
+        <link
+          rel="canonical"
+          href="/corporate/finance-lending/structured-finance/energy-commodities/our-success-stories"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}

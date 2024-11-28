@@ -22,7 +22,10 @@ const PointOfSaleSolutions = () => {
           property="og:url"
           content="https://mcb.mu/corporate/payment-cash/collect/point-of-sale-solutions"
         />
-        <link rel="canonical" href="/point-of-sale-solutions" />
+        <link
+          rel="canonical"
+          href="/corporate/payment-cash/collect/point-of-sale-solutions"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}

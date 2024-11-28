@@ -25,7 +25,10 @@ const GlobalMarketsSolutions = () => {
           property="og:url"
           content="https://mcb.mu/corporate/investment-advisory/global-markets/global-markets-solutions"
         />
-        <link rel="canonical" href="/global-markets-solutions" />
+        <link
+          rel="canonical"
+          href="/corporate/investment-advisory/global-markets/global-markets-solutions"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}

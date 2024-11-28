@@ -28,7 +28,10 @@ const CashPoolingServices = () => {
           property="og:url"
           content="https://mcb.mu/corporate/payment-cash/optimise/cash-pooling-services"
         />
-        <link rel="canonical" href="/cash-pooling-services" />
+        <link
+          rel="canonical"
+          href="/corporate/payment-cash/cash-pooling-services"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
@@ -151,7 +154,7 @@ const CashPoolingServices = () => {
                           team on +230 202 5788
                         </p>
                         <a
-                          href="/personal/contact-us.html"
+                          href="/contact-us"
                           target="_blank"
                           className="mb-1 mt-1 me-1 btn btn-primary"
                         >

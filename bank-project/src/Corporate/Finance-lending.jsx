@@ -28,13 +28,13 @@ const FinanceLending = () => {
           property="og:url"
           content="https://mcb.mu/corporate/finance-lending"
         />
-        <link rel="canonical" href="/finance-lending" />
+        <link rel="canonical" href="/corporate/finance-lending" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            src="https://www.googletagmanager.com/ns?id=GTM-NMCB2SN"
             height="0"
             width="0"
             style={{ display: "none", visibility: "hidden" }}
@@ -49,7 +49,7 @@ const FinanceLending = () => {
             className="banner-small custom-bg-color-light-2 position-relative border-0 pb-sm-0 pt-lg-4 m-0 mt-80"
             style={{
               backgroundImage:
-                "url(/images/mcb/corporate/banners/corporate-finance-lending9203.jpeg?sfvrsn=6501e4b7_1)",
+                "url(/images/mcb/corporate/banners/corporate-/corporate/finance-lending9203.jpeg?sfvrsn=6501e4b7_1)",
             }}
           >
             <div className="overlay" />
@@ -129,12 +129,12 @@ const FinanceLending = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="finance-lending/corporate-lending/overdraft-working-capital.html"
+                        href="/corporate/finance-lending/corporate-lending/overdraft-working-capital"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="finance-lending/corporate-lending/overdraft-working-capital.html"
+                          href="/corporate/finance-lending/corporate-lending/overdraft-working-capital"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -149,21 +149,21 @@ const FinanceLending = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="finance-lending/corporate-lending/overdraft-working-capital.html"
+                            href="/corporate/finance-lending/corporate-lending/overdraft-working-capital"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="finance-lending/corporate-lending/overdraft-working-capital.html"
+                              href="/corporate/finance-lending/corporate-lending/overdraft-working-capital"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="finance-lending/corporate-lending/overdraft-working-capital.html"
+                                href="/corporate/finance-lending/corporate-lending/overdraft-working-capital"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="finance-lending/corporate-lending/overdraft-working-capital.html"
+                                href="/corporate/finance-lending/corporate-lending/overdraft-working-capital"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Overdraft &amp; Working Capital
@@ -187,12 +187,12 @@ const FinanceLending = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="finance-lending/corporate-lending/revolving-credit.html"
+                        href="/corporate/finance-lending/corporate-lending/revolving-credit"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="finance-lending/corporate-lending/revolving-credit.html"
+                          href="/corporate/finance-lending/corporate-lending/revolving-credit"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -207,21 +207,21 @@ const FinanceLending = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="finance-lending/corporate-lending/revolving-credit.html"
+                            href="/corporate/finance-lending/corporate-lending/revolving-credit"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="finance-lending/corporate-lending/revolving-credit.html"
+                              href="/corporate/finance-lending/corporate-lending/revolving-credit"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="finance-lending/corporate-lending/revolving-credit.html"
+                                href="/corporate/finance-lending/corporate-lending/revolving-credit"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="finance-lending/corporate-lending/revolving-credit.html"
+                                href="/corporate/finance-lending/corporate-lending/revolving-credit"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Revolving Credit
@@ -245,12 +245,12 @@ const FinanceLending = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="finance-lending/corporate-lending/import-loan.html"
+                        href="/corporate/finance-lending/corporate-lending/import-loan"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="finance-lending/corporate-lending/import-loan.html"
+                          href="/corporate/finance-lending/corporate-lending/import-loan"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -265,21 +265,21 @@ const FinanceLending = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="finance-lending/corporate-lending/import-loan.html"
+                            href="/corporate/finance-lending/corporate-lending/import-loan"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="finance-lending/corporate-lending/import-loan.html"
+                              href="/corporate/finance-lending/corporate-lending/import-loan"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="finance-lending/corporate-lending/import-loan.html"
+                                href="/corporate/finance-lending/corporate-lending/import-loan"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="finance-lending/corporate-lending/import-loan.html"
+                                href="/corporate/finance-lending/corporate-lending/import-loan"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Import Loan
@@ -301,12 +301,12 @@ const FinanceLending = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="finance-lending/corporate-lending/export-loan.html"
+                        href="/corporate/finance-lending/corporate-lending/export-loan"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="finance-lending/corporate-lending/export-loan.html"
+                          href="/corporate/finance-lending/corporate-lending/export-loan"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -321,21 +321,21 @@ const FinanceLending = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="finance-lending/corporate-lending/export-loan.html"
+                            href="/corporate/finance-lending/corporate-lending/export-loan"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="finance-lending/corporate-lending/export-loan.html"
+                              href="/corporate/finance-lending/corporate-lending/export-loan"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="finance-lending/corporate-lending/export-loan.html"
+                                href="/corporate/finance-lending/corporate-lending/export-loan"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="finance-lending/corporate-lending/export-loan.html"
+                                href="/corporate/finance-lending/corporate-lending/export-loan"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Export Loan
@@ -357,12 +357,12 @@ const FinanceLending = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="finance-lending/corporate-lending/term-loan.html"
+                        href="/corporate/finance-lending/corporate-lending/term-loan"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="finance-lending/corporate-lending/term-loan.html"
+                          href="/corporate/finance-lending/corporate-lending/term-loan"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -377,21 +377,21 @@ const FinanceLending = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="finance-lending/corporate-lending/term-loan.html"
+                            href="/corporate/finance-lending/corporate-lending/term-loan"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="finance-lending/corporate-lending/term-loan.html"
+                              href="/corporate/finance-lending/corporate-lending/term-loan"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="finance-lending/corporate-lending/term-loan.html"
+                                href="/corporate/finance-lending/corporate-lending/term-loan"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="finance-lending/corporate-lending/term-loan.html"
+                                href="/corporate/finance-lending/corporate-lending/term-loan"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Term Loan
@@ -414,12 +414,12 @@ const FinanceLending = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="finance-lending/corporate-lending/sustainable-loan.html"
+                        href="/corporate/finance-lending/corporate-lending/sustainable-loan"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="finance-lending/corporate-lending/sustainable-loan.html"
+                          href="/corporate/finance-lending/corporate-lending/sustainable-loan"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -434,21 +434,21 @@ const FinanceLending = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="finance-lending/corporate-lending/sustainable-loan.html"
+                            href="/corporate/finance-lending/corporate-lending/sustainable-loan"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="finance-lending/corporate-lending/sustainable-loan.html"
+                              href="/corporate/finance-lending/corporate-lending/sustainable-loan"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="finance-lending/corporate-lending/sustainable-loan.html"
+                                href="/corporate/finance-lending/corporate-lending/sustainable-loan"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="finance-lending/corporate-lending/sustainable-loan.html"
+                                href="/corporate/finance-lending/corporate-lending/sustainable-loan"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Sustainable Loan
@@ -467,12 +467,12 @@ const FinanceLending = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="finance-lending/corporate-lending/guarantees.html"
+                        href="/corporate/finance-lending/corporate-lending/guarantees"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="finance-lending/corporate-lending/guarantees.html"
+                          href="/corporate/finance-lending/corporate-lending/guarantees"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -487,21 +487,21 @@ const FinanceLending = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="finance-lending/corporate-lending/guarantees.html"
+                            href="/corporate/finance-lending/corporate-lending/guarantees"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="finance-lending/corporate-lending/guarantees.html"
+                              href="/corporate/finance-lending/corporate-lending/guarantees"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="finance-lending/corporate-lending/guarantees.html"
+                                href="/corporate/finance-lending/corporate-lending/guarantees"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="finance-lending/corporate-lending/guarantees.html"
+                                href="/corporate/finance-lending/corporate-lending/guarantees"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Guarantees
@@ -543,7 +543,7 @@ const FinanceLending = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="finance-lending/supply-chain-finance/trade-finance.html"
+                        href="/corporate/finance-lending/supply-chain-finance/trade-finance"
                         className="text-decoration-none"
                       >
                         <article>
@@ -577,7 +577,7 @@ const FinanceLending = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="finance-lending/supply-chain-finance/credit-protection.html"
+                        href="/corporate/finance-lending/supply-chain-finance/credit-protection"
                         className="text-decoration-none"
                       >
                         <article>
@@ -612,7 +612,7 @@ const FinanceLending = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="finance-lending/supply-chain-finance/invoice-factoring.html"
+                        href="/corporate/finance-lending/supply-chain-finance/invoice-factoring"
                         className="text-decoration-none"
                       >
                         <article>
@@ -666,12 +666,12 @@ const FinanceLending = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="finance-lending/structured-finance/acquisition-financing.html"
+                        href="/corporate/finance-lending/structured-finance/acquisition-financing"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="finance-lending/structured-finance/acquisition-financing.html"
+                          href="/corporate/finance-lending/structured-finance/acquisition-financing"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -686,21 +686,21 @@ const FinanceLending = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="finance-lending/structured-finance/acquisition-financing.html"
+                            href="/corporate/finance-lending/structured-finance/acquisition-financing"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="finance-lending/structured-finance/acquisition-financing.html"
+                              href="/corporate/finance-lending/structured-finance/acquisition-financing"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="finance-lending/structured-finance/acquisition-financing.html"
+                                href="/corporate/finance-lending/structured-finance/acquisition-financing"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="finance-lending/structured-finance/acquisition-financing.html"
+                                href="/corporate/finance-lending/structured-finance/acquisition-financing"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Acquisition Financing
@@ -723,12 +723,12 @@ const FinanceLending = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="finance-lending/structured-finance/property-financing.html"
+                        href="/corporate/finance-lending/structured-finance/property-financing"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="finance-lending/structured-finance/property-financing.html"
+                          href="/corporate/finance-lending/structured-finance/property-financing"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -743,21 +743,21 @@ const FinanceLending = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="finance-lending/structured-finance/property-financing.html"
+                            href="/corporate/finance-lending/structured-finance/property-financing"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="finance-lending/structured-finance/property-financing.html"
+                              href="/corporate/finance-lending/structured-finance/property-financing"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="finance-lending/structured-finance/property-financing.html"
+                                href="/corporate/finance-lending/structured-finance/property-financing"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="finance-lending/structured-finance/property-financing.html"
+                                href="/corporate/finance-lending/structured-finance/property-financing"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Property Financing
@@ -781,12 +781,12 @@ const FinanceLending = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="finance-lending/structured-finance/project-financing.html"
+                        href="/corporate/finance-lending/structured-finance/project-financing"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="finance-lending/structured-finance/project-financing.html"
+                          href="/corporate/finance-lending/structured-finance/project-financing"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -801,21 +801,21 @@ const FinanceLending = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="finance-lending/structured-finance/project-financing.html"
+                            href="/corporate/finance-lending/structured-finance/project-financing"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="finance-lending/structured-finance/project-financing.html"
+                              href="/corporate/finance-lending/structured-finance/project-financing"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="finance-lending/structured-finance/project-financing.html"
+                                href="/corporate/finance-lending/structured-finance/project-financing"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="finance-lending/structured-finance/project-financing.html"
+                                href="/corporate/finance-lending/structured-finance/project-financing"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Project Financing
@@ -839,12 +839,12 @@ const FinanceLending = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="finance-lending/structured-finance/cross-border-financing.html"
+                        href="/corporate/finance-lending/structured-finance/cross-border-financing"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="finance-lending/structured-finance/cross-border-financing.html"
+                          href="/corporate/finance-lending/structured-finance/cross-border-financing"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -859,21 +859,21 @@ const FinanceLending = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="finance-lending/structured-finance/cross-border-financing.html"
+                            href="/corporate/finance-lending/structured-finance/cross-border-financing"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="finance-lending/structured-finance/cross-border-financing.html"
+                              href="/corporate/finance-lending/structured-finance/cross-border-financing"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="finance-lending/structured-finance/cross-border-financing.html"
+                                href="/corporate/finance-lending/structured-finance/cross-border-financing"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="finance-lending/structured-finance/cross-border-financing.html"
+                                href="/corporate/finance-lending/structured-finance/cross-border-financing"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Cross-border Financing
@@ -898,12 +898,12 @@ const FinanceLending = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="finance-lending/structured-finance/energy-commodities.html"
+                        href="/corporate/finance-lending/structured-finance/energy-commodities"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="finance-lending/structured-finance/energy-commodities.html"
+                          href="/corporate/finance-lending/structured-finance/energy-commodities"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -918,21 +918,21 @@ const FinanceLending = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="finance-lending/structured-finance/energy-commodities.html"
+                            href="/corporate/finance-lending/structured-finance/energy-commodities"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="finance-lending/structured-finance/energy-commodities.html"
+                              href="/corporate/finance-lending/structured-finance/energy-commodities"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="finance-lending/structured-finance/energy-commodities.html"
+                                href="/corporate/finance-lending/structured-finance/energy-commodities"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="finance-lending/structured-finance/energy-commodities.html"
+                                href="/corporate/finance-lending/structured-finance/energy-commodities"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Energy &amp; Commodities Financing
@@ -955,12 +955,12 @@ const FinanceLending = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="finance-lending/structured-finance/syndicated-financing.html"
+                        href="/corporate/finance-lending/structured-finance/syndicated-financing"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="finance-lending/structured-finance/syndicated-financing.html"
+                          href="/corporate/finance-lending/structured-finance/syndicated-financing"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -975,21 +975,21 @@ const FinanceLending = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="finance-lending/structured-finance/syndicated-financing.html"
+                            href="/corporate/finance-lending/structured-finance/syndicated-financing"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="finance-lending/structured-finance/syndicated-financing.html"
+                              href="/corporate/finance-lending/structured-finance/syndicated-financing"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="finance-lending/structured-finance/syndicated-financing.html"
+                                href="/corporate/finance-lending/structured-finance/syndicated-financing"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="finance-lending/structured-finance/syndicated-financing.html"
+                                href="/corporate/finance-lending/structured-finance/syndicated-financing"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Syndicated Financing
@@ -1031,12 +1031,12 @@ const FinanceLending = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="finance-lending/asset-finance/mcb-leasing.html"
+                        href="/corporate/finance-lending/asset-finance/mcb-leasing"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="finance-lending/asset-finance/mcb-leasing.html"
+                          href="/corporate/finance-lending/asset-finance/mcb-leasing"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -1051,21 +1051,21 @@ const FinanceLending = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="finance-lending/asset-finance/mcb-leasing.html"
+                            href="/corporate/finance-lending/asset-finance/mcb-leasing"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="finance-lending/asset-finance/mcb-leasing.html"
+                              href="/corporate/finance-lending/asset-finance/mcb-leasing"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="finance-lending/asset-finance/mcb-leasing.html"
+                                href="/corporate/finance-lending/asset-finance/mcb-leasing"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="finance-lending/asset-finance/mcb-leasing.html"
+                                href="/corporate/finance-lending/asset-finance/mcb-leasing"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 MCB Leasing

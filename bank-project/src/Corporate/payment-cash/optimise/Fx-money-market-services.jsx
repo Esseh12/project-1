@@ -28,7 +28,10 @@ const FxMoneyMarketServices = () => {
           property="og:url"
           content="https://mcb.mu/corporate/payment-cash/optimise/fx-money-market-services"
         />
-        <link rel="canonical" href="/fx-money-market-services" />
+        <link
+          rel="canonical"
+          href="/corporate/payment-cash/optimise/fx-money-market-services"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
@@ -158,7 +161,7 @@ const FxMoneyMarketServices = () => {
                           regarding your treasury needs.
                         </p>
                         <a
-                          href="../../investment-advisory/global-markets.html"
+                          href="/corperate/investment-advisory/global-markets"
                           target="_blank"
                           className="mb-1 mt-1 me-1 btn btn-primary"
                         >

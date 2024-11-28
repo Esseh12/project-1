@@ -28,7 +28,10 @@ const SupplyChainFinance = () => {
           property="og:url"
           content="https://mcb.mu/corporate/finance-lending/supply-chain-finance"
         />
-        <link rel="canonical" href="/supply-chain-finance" />
+        <link
+          rel="canonical"
+          href="/corporate/finance-lending/supply-chain-finance"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
@@ -99,7 +102,7 @@ const SupplyChainFinance = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="supply-chain-finance/trade-finance.html"
+                        href="/corporate/finance-lending/supply-chain-finance/trade-finance"
                         className="text-decoration-none"
                       >
                         <article>
@@ -133,7 +136,7 @@ const SupplyChainFinance = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="supply-chain-finance/credit-protection.html"
+                        href="/corporate/finance-lending/supply-chain-finance/credit-protection"
                         className="text-decoration-none"
                       >
                         <article>
@@ -168,7 +171,7 @@ const SupplyChainFinance = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="supply-chain-finance/invoice-factoring.html"
+                        href="/corporate/finance-lending/supply-chain-finance/invoice-factoring"
                         className="text-decoration-none"
                       >
                         <article>

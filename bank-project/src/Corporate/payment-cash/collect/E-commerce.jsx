@@ -28,7 +28,10 @@ const Ecommerce = () => {
           property="og:url"
           content="https://mcb.mu/corporate/payment-cash/collect/e-commerce"
         />
-        <link rel="canonical" href="/e-commerce" />
+        <link
+          rel="canonical"
+          href="/corporate/payment-cash/collect/e-commerce"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
@@ -163,12 +166,12 @@ const Ecommerce = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="e-commerce/online-payment-gateway.html"
+                        href="/corporate/payment-cash/collect/e-commerce/online-payment-gateway"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="e-commerce/online-payment-gateway.html"
+                          href="/corporate/payment-cash/collect/e-commerce/online-payment-gateway"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -183,21 +186,21 @@ const Ecommerce = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="e-commerce/online-payment-gateway.html"
+                            href="/corporate/payment-cash/collect/e-commerce/online-payment-gateway"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="e-commerce/online-payment-gateway.html"
+                              href="/corporate/payment-cash/collect/e-commerce/online-payment-gateway"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="e-commerce/online-payment-gateway.html"
+                                href="/corporate/payment-cash/collect/e-commerce/online-payment-gateway"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="e-commerce/online-payment-gateway.html"
+                                href="/corporate/payment-cash/collect/e-commerce/online-payment-gateway"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Online Payment Gateway Solutions
@@ -220,12 +223,12 @@ const Ecommerce = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="e-commerce/merchant-services.html"
+                        href="/corporate/payment-cash/collect/e-commerce/merchant-services"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="e-commerce/merchant-services.html"
+                          href="/corporate/payment-cash/collect/e-commerce/merchant-services"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -240,21 +243,21 @@ const Ecommerce = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="e-commerce/merchant-services.html"
+                            href="/corporate/payment-cash/collect/e-commerce/merchant-services"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="e-commerce/merchant-services.html"
+                              href="/corporate/payment-cash/collect/e-commerce/merchant-services"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="e-commerce/merchant-services.html"
+                                href="/corporate/payment-cash/collect/e-commerce/merchant-services"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="e-commerce/merchant-services.html"
+                                href="/corporate/payment-cash/collect/e-commerce/merchant-services"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Merchant Services

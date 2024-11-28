@@ -22,7 +22,7 @@ const CoperateInternetBanking = () => {
           property="og:url"
           content="https://mcb.mu/corporate/faq/internet-banking"
         />
-        <link rel="canonical" href="/internet-banking" />
+        <link rel="canonical" href="/corporate/faq/internet-banking" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}

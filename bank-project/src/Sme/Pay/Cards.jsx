@@ -19,15 +19,18 @@ const SmeCards = () => {
           content="Manage your business expenses effortlessly with our cards for SMEs, offering convenience, financial flexibility, and more"
         />
         <meta property="og:url" content="https://mcb.mu/sme/pay/cards" />
-        <link rel="canonical" href="/cards" />
+        <link rel="canonical" href="/sme/pay/cards" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}
         {/* Header */}
         <SmeHeader />
@@ -141,7 +144,7 @@ const SmeCards = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="cards/business-card.html"
+                        href="/sme/pay/cards/business-card"
                         className="text-decoration-none"
                       >
                         <article>
@@ -175,7 +178,7 @@ const SmeCards = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="cards/business-deposit-card.html"
+                        href="/sme/pay/cards/business-deposit-card"
                         className="text-decoration-none"
                       >
                         <article>
@@ -209,7 +212,7 @@ const SmeCards = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="cards/fleetman-card.html"
+                        href="/sme/pay/cards/fleetman-card"
                         className="text-decoration-none"
                       >
                         <article>

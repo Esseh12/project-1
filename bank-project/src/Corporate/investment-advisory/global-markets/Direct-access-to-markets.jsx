@@ -28,7 +28,10 @@ const DirectAccessToMarkets = () => {
           property="og:url"
           content="https://mcb.mu/corporate/investment-advisory/global-markets/direct-access-to-markets"
         />
-        <link rel="canonical" href="/direct-access-to-markets" />
+        <link
+          rel="canonical"
+          href="/corporate/investment-advisory/global-markets/direct-access-to-markets"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}

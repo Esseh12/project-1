@@ -25,7 +25,7 @@ const Borrow = () => {
           content="Looking for working capital or expansion finance? We offer a personalized service and flexible lending options tailored to your needs."
         />
         <meta property="og:url" content="https://mcb.mu/sme/borrow" />
-        <link rel="canonical" href="/borrow" />
+        <link rel="canonical" href="/sme/borrow" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
@@ -41,7 +41,7 @@ const Borrow = () => {
         {/* Header */}
         <SmeHeader />
         {/* Header */}
-        <div role="main" className="main"></div>
+        <div role="main" className="main no-banner-spacing"></div>
         {/* Footer */}
         <Footer />
       </div>{" "}

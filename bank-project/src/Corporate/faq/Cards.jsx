@@ -19,7 +19,7 @@ const CorporateCards = () => {
           content="Navigate the world of credit and debit cards with ease. Explore our FAQs for quick answers to your card-related queries"
         />
         <meta property="og:url" content="https://mcb.mu/corporate/faq/cards" />
-        <link rel="canonical" href="/cards" />
+        <link rel="canonical" href="/corporate/faq/cards" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}

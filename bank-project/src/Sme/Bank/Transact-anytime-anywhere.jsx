@@ -25,15 +25,18 @@ const TransactAnytimeAnywhere = () => {
           property="og:url"
           content="https://mcb.mu/sme/bank/transact-anytime-anywhere"
         />
-        <link rel="canonical" href="/transact-anytime-anywhere" />
+        <link rel="canonical" href="/sme/bank/transact-anytime-anywhere" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}
         {/* Header */}
         <SmeHeader />
@@ -94,12 +97,12 @@ const TransactAnytimeAnywhere = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="transact-anytime-anywhere/internet-banking.html"
+                        href="/sme/bank/transact-anytime-anywhere/internet-banking"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="transact-anytime-anywhere/internet-banking.html"
+                          href="/sme/bank/transact-anytime-anywhere/internet-banking"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -114,21 +117,21 @@ const TransactAnytimeAnywhere = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="transact-anytime-anywhere/internet-banking.html"
+                            href="/sme/bank/transact-anytime-anywhere/internet-banking"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="transact-anytime-anywhere/internet-banking.html"
+                              href="/sme/bank/transact-anytime-anywhere/internet-banking"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="transact-anytime-anywhere/internet-banking.html"
+                                href="/sme/bank/transact-anytime-anywhere/internet-banking"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="transact-anytime-anywhere/internet-banking.html"
+                                href="/sme/bank/transact-anytime-anywhere/internet-banking"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Internet Banking
@@ -150,12 +153,12 @@ const TransactAnytimeAnywhere = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="transact-anytime-anywhere/atm.html"
+                        href="/sme/bank/transact-anytime-anywhere/atm"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="transact-anytime-anywhere/atm.html"
+                          href="/sme/bank/transact-anytime-anywhere/atm"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -170,21 +173,21 @@ const TransactAnytimeAnywhere = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="transact-anytime-anywhere/atm.html"
+                            href="/sme/bank/transact-anytime-anywhere/atm"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="transact-anytime-anywhere/atm.html"
+                              href="/sme/bank/transact-anytime-anywhere/atm"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="transact-anytime-anywhere/atm.html"
+                                href="/sme/bank/transact-anytime-anywhere/atm"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="transact-anytime-anywhere/atm.html"
+                                href="/sme/bank/transact-anytime-anywhere/atm"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 ATM: Self-service Banking
@@ -207,12 +210,12 @@ const TransactAnytimeAnywhere = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="transact-anytime-anywhere/e-statements.html"
+                        href="/sme/bank/transact-anytime-anywhere/e-statements"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="transact-anytime-anywhere/e-statements.html"
+                          href="/sme/bank/transact-anytime-anywhere/e-statements"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -227,21 +230,21 @@ const TransactAnytimeAnywhere = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="transact-anytime-anywhere/e-statements.html"
+                            href="/sme/bank/transact-anytime-anywhere/e-statements"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="transact-anytime-anywhere/e-statements.html"
+                              href="/sme/bank/transact-anytime-anywhere/e-statements"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="transact-anytime-anywhere/e-statements.html"
+                                href="/sme/bank/transact-anytime-anywhere/e-statements"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="transact-anytime-anywhere/e-statements.html"
+                                href="/sme/bank/transact-anytime-anywhere/e-statements"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 E-Statement
@@ -263,12 +266,12 @@ const TransactAnytimeAnywhere = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="transact-anytime-anywhere/juicepro.html"
+                        href="/sme/bank/transact-anytime-anywhere/juicepro"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="transact-anytime-anywhere/juicepro.html"
+                          href="/sme/bank/transact-anytime-anywhere/juicepro"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -283,21 +286,21 @@ const TransactAnytimeAnywhere = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="transact-anytime-anywhere/juicepro.html"
+                            href="/sme/bank/transact-anytime-anywhere/juicepro"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="transact-anytime-anywhere/juicepro.html"
+                              href="/sme/bank/transact-anytime-anywhere/juicepro"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="transact-anytime-anywhere/juicepro.html"
+                                href="/sme/bank/transact-anytime-anywhere/juicepro"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="transact-anytime-anywhere/juicepro.html"
+                                href="/sme/bank/transact-anytime-anywhere/juicepro"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Juice Pro

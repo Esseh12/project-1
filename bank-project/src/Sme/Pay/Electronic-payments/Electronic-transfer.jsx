@@ -14,15 +14,21 @@ const ElectronicTransfer = () => {
           property="og:url"
           content="https://mcb.mu/sme/pay/electronic-payments/electronic-transfer"
         />
-        <link rel="canonical" href="/electronic-transfer" />
+        <link
+          rel="canonical"
+          href="/sme/pay/electronic-payments/electronic-transfer"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}
         {/* Header */}
         <SmeHeader />
@@ -144,7 +150,7 @@ const ElectronicTransfer = () => {
                                 <h5>+230 202 6060</h5>
                               </div>
                               <a
-                                href="../../../locate-us.html"
+                                href="/locate-us"
                                 target="_blank"
                                 className="mb-1 mt-1 me-1 btn btn-primary"
                               >
@@ -180,7 +186,7 @@ const ElectronicTransfer = () => {
                                 </p>
                               </div>
                               <a
-                                href="../../../personal/contact-us.html"
+                                href="/contact-us"
                                 target="_blank"
                                 className="mb-1 mt-1 me-1 btn btn-primary"
                               >

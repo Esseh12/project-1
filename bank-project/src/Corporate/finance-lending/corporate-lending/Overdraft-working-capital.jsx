@@ -28,7 +28,10 @@ const OverdraftsWorkingCapitals = () => {
           property="og:url"
           content="https://mcb.mu/corporate/finance-lending/corporate-lending/overdraft-working-capital"
         />
-        <link rel="canonical" href="/overdraft-working-capital" />
+        <link
+          rel="canonical"
+          href="/corporate/finance-lending/corporate-lending/overdraft-working-capital"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
@@ -151,7 +154,7 @@ const OverdraftsWorkingCapitals = () => {
                           possible advice regarding your financing needs.
                         </p>
                         <a
-                          href="../../../personal/contact-us.html"
+                          href="/contact-us"
                           target="_blank"
                           className="mb-1 mt-1 me-1 btn btn-primary"
                         >

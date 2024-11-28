@@ -22,15 +22,18 @@ const Pay = () => {
           content="Manage your cash flow and streamline payments with MCB's SME payment solutions. Discover business cards, payroll services, and secure online payment options."
         />
         <meta property="og:url" content="https://mcb.mu/sme/pay" />
-        <link rel="canonical" href="/pay" />
+        <link rel="canonical" href="/sme/pay" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}
         {/* Header */}
         <SmeHeader />

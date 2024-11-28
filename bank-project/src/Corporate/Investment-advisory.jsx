@@ -14,7 +14,7 @@ const InvestAdvisory = () => {
           property="og:url"
           content="https://mcb.mu/corporate/investment-advisory"
         />
-        <link rel="canonical" href="/investment-advisory" />
+        <link rel="canonical" href="/corporate/investment-advisory" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}

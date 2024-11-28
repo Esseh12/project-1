@@ -16,7 +16,7 @@ const BusinessIntroducer = () => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="MCB Mauritius" />
-        <link rel="canonical" href="/business-introducer" />
+        <link rel="canonical" href="/sme/business-introducer" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}

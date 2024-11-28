@@ -22,15 +22,21 @@ const SmeInternetBanking = () => {
           property="og:url"
           content="https://mcb.mu/sme/bank/transact-anytime-anywhere/internet-banking"
         />
-        <link rel="canonical" href="/internet-banking" />
+        <link
+          rel="canonical"
+          href="/sme/bank/transact-anytime-anywhere/internet-banking"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}
         {/* Header */}
         <SmeHeader />
@@ -390,7 +396,7 @@ const SmeInternetBanking = () => {
                           </p>
                         </div>
                         <a
-                          href="/locate-us.html"
+                          href="/locate-us"
                           target="_blank"
                           className="mb-1 mt-1 me-1 btn btn-primary"
                         >

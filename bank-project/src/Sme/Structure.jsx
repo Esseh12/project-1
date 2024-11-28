@@ -19,15 +19,18 @@ const Structure = () => {
           content="Discover MCB's unique product offerings to enhance your business structure and make smarter decisions. Explore Business Deposit Cards, Internet Banking, and more"
         />
         <meta property="og:url" content="https://mcb.mu/sme/structure" />
-        <link rel="canonical" href="/structure" />
+        <link rel="canonical" href="/sme/structure" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */} {/* Header */}
         <SmeHeader />
         {/* Header */}
@@ -118,7 +121,7 @@ const Structure = () => {
                     </ul>
                     <div className="mt-20 d-none d-md-block d-lg-block d-xl-block">
                       <a
-                        href="cards/business-deposit-card.html"
+                        href="/sme/cards/business-deposit-card"
                         target="_blank"
                         data-sf-ec-immutable=""
                       >
@@ -151,7 +154,7 @@ const Structure = () => {
                     </ul>
                     <div className="mt-20 d-none d-md-block d-lg-block d-xl-block">
                       <a
-                        href="bank/transact-anytime-anywhere/internet-banking.html"
+                        href="/sme/bank/transact-anytime-anywhere/internet-banking"
                         target="_blank"
                         data-sf-ec-immutable=""
                       >
@@ -188,7 +191,7 @@ const Structure = () => {
                     </ul>
                     <div className="mt-20 d-none d-md-block d-lg-block d-xl-block">
                       <a
-                        href="business-introducer.html"
+                        href="/sme/business-introducer"
                         target="_blank"
                         data-sf-ec-immutable=""
                       >

@@ -70,7 +70,7 @@ const CorporateMcbAtAGlance = () => {
                   </h1>
                   <div className="col mt-4">
                     <a
-                      href="our-geographical-presence.html"
+                      href="/corporate/our-geographical-presence"
                       className=" btn btn-primary me-4 mt-3 w-100-mobile btn-floating is-visible"
                       target="_self"
                       style={{ color: "#ffffff" }}
@@ -196,7 +196,7 @@ const CorporateMcbAtAGlance = () => {
                           Facts &amp; Figures
                         </h3>
                         <a
-                          href="mcb-at-a-glance/facts-figures.html"
+                          href="/corporate/mcb-at-a-glance/facts-figures"
                           target="_self"
                         >
                           <i className="icon icon-arrow-right1 text-1" /> View
@@ -216,7 +216,7 @@ const CorporateMcbAtAGlance = () => {
                           Discover Recognitions &amp; Accolades
                         </h3>
                         <a
-                          href="mcb-at-a-glance/recognitions-accolades.html"
+                          href="/corporate/mcb-at-a-glance/recognitions-accolades"
                           target="_self"
                         >
                           <i className="icon icon-arrow-right1 text-1" /> View

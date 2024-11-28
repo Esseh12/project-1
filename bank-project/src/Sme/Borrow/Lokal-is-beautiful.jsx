@@ -16,15 +16,18 @@ const LokalIsBeautiful = () => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="MCB Mauritius" />
-        <link rel="canonical" href="/lokal-is-beautiful" />
+        <link rel="canonical" href="/sme/borrow/lokal-is-beautiful" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}
         {/* Header */}
         <SmeHeader />

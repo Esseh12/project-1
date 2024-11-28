@@ -22,7 +22,7 @@ const WhatWeDo = () => {
           content="Explore MCB's corporate and institutional services: Corporate Banking, Global Business, Energy & Commodities, Institutional Banking."
         />
         <meta property="og:url" content="https://mcb.mu/corporate/what-we-do" />
-        <link rel="canonical" href="/what-we-do" />
+        <link rel="canonical" href="/corporate/what-we-do" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
@@ -79,7 +79,7 @@ const WhatWeDo = () => {
                       publications.
                     </h4>
                     <a
-                      href="mcb-at-a-glance.html"
+                      href="/corporate/mcb-at-a-glance"
                       className=" btn btn-primary me-4 mt-3 w-100-mobile btn-floating is-visible"
                       target="_blank"
                       style={{ color: "#ffffff" }}
@@ -140,12 +140,12 @@ const WhatWeDo = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="what-we-do/corporate-banking.html"
+                        href="/corporate/what-we-do/corporate-banking"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="what-we-do/corporate-banking.html"
+                          href="/corporate/what-we-do/corporate-banking"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -160,21 +160,21 @@ const WhatWeDo = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="what-we-do/corporate-banking.html"
+                            href="/corporate/what-we-do/corporate-banking"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="what-we-do/corporate-banking.html"
+                              href="/corporate/what-we-do/corporate-banking"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="what-we-do/corporate-banking.html"
+                                href="/corporate/what-we-do/corporate-banking"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="what-we-do/corporate-banking.html"
+                                href="/corporate/what-we-do/corporate-banking"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Corporate Banking
@@ -198,12 +198,12 @@ const WhatWeDo = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="what-we-do/global-business.html"
+                        href="/corporate/what-we-do/global-business"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="what-we-do/global-business.html"
+                          href="/corporate/what-we-do/global-business"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -218,21 +218,21 @@ const WhatWeDo = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="what-we-do/global-business.html"
+                            href="/corporate/what-we-do/global-business"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="what-we-do/global-business.html"
+                              href="/corporate/what-we-do/global-business"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="what-we-do/global-business.html"
+                                href="/corporate/what-we-do/global-business"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="what-we-do/global-business.html"
+                                href="/corporate/what-we-do/global-business"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Global Business
@@ -255,12 +255,12 @@ const WhatWeDo = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="finance-lending/structured-finance/energy-commodities.html"
+                        href="/corporate/finance-lending/structured-finance/energy-commodities"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="finance-lending/structured-finance/energy-commodities.html"
+                          href="/corporate/finance-lending/structured-finance/energy-commodities"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -275,21 +275,21 @@ const WhatWeDo = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="finance-lending/structured-finance/energy-commodities.html"
+                            href="/corporate/finance-lending/structured-finance/energy-commodities"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="finance-lending/structured-finance/energy-commodities.html"
+                              href="/corporate/finance-lending/structured-finance/energy-commodities"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="finance-lending/structured-finance/energy-commodities.html"
+                                href="/corporate/finance-lending/structured-finance/energy-commodities"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="finance-lending/structured-finance/energy-commodities.html"
+                                href="/corporate/finance-lending/structured-finance/energy-commodities"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Energy &amp; Commodities
@@ -312,12 +312,12 @@ const WhatWeDo = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="/institutional.html"
+                        href="/institutional"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="/institutional.html"
+                          href="/institutional"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -332,21 +332,21 @@ const WhatWeDo = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="/institutional.html"
+                            href="/institutional"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="/institutional.html"
+                              href="/institutional"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="/institutional.html"
+                                href="/institutional"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="/institutional.html"
+                                href="/institutional"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Institutional Banking
@@ -406,7 +406,7 @@ const WhatWeDo = () => {
                         <div className="d-flex flex-column align-items-end">
                           <p className="mb-0 mt-3">
                             <a
-                              href="/sme.html"
+                              href="/sme"
                               target="_blank"
                               className="read-more text-color-primary font-weight-semibold mt-2 text-2"
                             >

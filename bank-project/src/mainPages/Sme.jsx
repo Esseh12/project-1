@@ -206,12 +206,12 @@ const Sme = () => {
                             <div className=" bg-light p-0 shadow-none">
                               <div className="card border-radius-0 border-0 shadow-none">
                                 <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
-                                  <a href="/signup.html">
+                                  <a href="https://mcb.mu/sme/onboarding/">
                                     <h4 className="card-title mb-1 text-6 font-weight-light text-color-dark text-center">
                                       Onboarding
                                     </h4>
                                   </a>
-                                  <a href="/signup.html">
+                                  <a href="https://mcb.mu/sme/onboarding/">
                                     <div className="card-text link-button text-center pt-2">
                                       <p>
                                         Online account opening for local
@@ -220,7 +220,7 @@ const Sme = () => {
                                     </div>
                                   </a>
                                   <a
-                                    href="/signup.html"
+                                    href="https://mcb.mu/sme/onboarding/"
                                     className="font-weight-bold text-uppercase text-decoration-none mt-3"
                                   >
                                     Apply now

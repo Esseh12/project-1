@@ -21,7 +21,10 @@ const Guarantees = () => {
           property="og:description"
           content="Enhance your financial credibility and ensure contractual obligations with MCB's tailored guarantee solutions. Choose from Tender Bonds, Performance Bonds, and more."
         />
-        <link rel="canonical" href="/guarantees" />
+        <link
+          rel="canonical"
+          href="/corporate/finance-lending/corporate-lending/guarantees"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
@@ -159,7 +162,7 @@ const Guarantees = () => {
                           possible advice regarding your financing needs.
                         </p>
                         <a
-                          href="/personal/contact-us.html"
+                          href="/contact-us"
                           target="_blank"
                           className="mb-1 mt-1 me-1 btn btn-primary"
                         >

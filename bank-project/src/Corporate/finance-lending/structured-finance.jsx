@@ -28,7 +28,10 @@ const StructuredFinance = () => {
           property="og:url"
           content="https://mcb.mu/corporate/finance-lending/structured-finance"
         />
-        <link rel="canonical" href="/structured-finance" />
+        <link
+          rel="canonical"
+          href="/corporate/finance-lending/structured-finance"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
@@ -100,7 +103,7 @@ const StructuredFinance = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="structured-finance/acquisition-financing.html"
+                        href="/corporate/finance-lending/structured-finance/acquisition-financing"
                         className="text-decoration-none"
                       >
                         <article>
@@ -134,7 +137,7 @@ const StructuredFinance = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="structured-finance/property-financing.html"
+                        href="/corporate/finance-lending/structured-finance/property-financing"
                         className="text-decoration-none"
                       >
                         <article>
@@ -169,7 +172,7 @@ const StructuredFinance = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="structured-finance/project-financing.html"
+                        href="/corporate/finance-lending/structured-finance/project-financing"
                         className="text-decoration-none"
                       >
                         <article>
@@ -205,7 +208,7 @@ const StructuredFinance = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="structured-finance/cross-border-financing.html"
+                        href="/corporate/finance-lending/structured-finance/cross-border-financing"
                         className="text-decoration-none"
                       >
                         <article>
@@ -241,7 +244,7 @@ const StructuredFinance = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="structured-finance/energy-commodities.html"
+                        href="/corporate/finance-lending/structured-finance/energy-commodities"
                         className="text-decoration-none"
                       >
                         <article>
@@ -277,7 +280,7 @@ const StructuredFinance = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="structured-finance/syndicated-financing.html"
+                        href="/corporate/finance-lending/structured-finance/syndicated-financing"
                         className="text-decoration-none"
                       >
                         <article>

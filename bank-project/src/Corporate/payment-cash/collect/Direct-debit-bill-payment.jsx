@@ -28,7 +28,10 @@ const DirectDebitBillPayment = () => {
           property="og:url"
           content="https://mcb.mu/corporate/payment-cash/collect/direct-debit-bill-payment"
         />
-        <link rel="canonical" href="/direct-debit-bill-payment" />
+        <link
+          rel="canonical"
+          href="/corporate/payment-cash/collect/direct-debit-bill-payment"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}

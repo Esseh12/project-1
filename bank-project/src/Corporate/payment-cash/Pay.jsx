@@ -14,7 +14,7 @@ const CorperatePay = () => {
           property="og:url"
           content="https://mcb.mu/corporate/payment-cash/pay"
         />
-        <link rel="canonical" href="/pay" />
+        <link rel="canonical" href="/corporate/payment-cash/pay" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
@@ -87,12 +87,12 @@ const CorperatePay = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="pay/domestic-international-transfers.html"
+                        href="/corporate/payment-cash/pay/domestic-international-transfers"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="pay/domestic-international-transfers.html"
+                          href="/corporate/payment-cash/pay/domestic-international-transfers"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -107,21 +107,21 @@ const CorperatePay = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="pay/domestic-international-transfers.html"
+                            href="/corporate/payment-cash/pay/domestic-international-transfers"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="pay/domestic-international-transfers.html"
+                              href="/corporate/payment-cash/pay/domestic-international-transfers"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="pay/domestic-international-transfers.html"
+                                href="/corporate/payment-cash/pay/domestic-international-transfers"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="pay/domestic-international-transfers.html"
+                                href="/corporate/payment-cash/pay/domestic-international-transfers"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Domestic &amp; International transfers
@@ -145,12 +145,12 @@ const CorperatePay = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="pay/internet-banking-pro-smartapprove.html"
+                        href="/corporate/payment-cash/pay/internet-banking-pro-smartapprove"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="pay/internet-banking-pro-smartapprove.html"
+                          href="/corporate/payment-cash/pay/internet-banking-pro-smartapprove"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -165,21 +165,21 @@ const CorperatePay = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="pay/internet-banking-pro-smartapprove.html"
+                            href="/corporate/payment-cash/pay/internet-banking-pro-smartapprove"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="pay/internet-banking-pro-smartapprove.html"
+                              href="/corporate/payment-cash/pay/internet-banking-pro-smartapprove"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="pay/internet-banking-pro-smartapprove.html"
+                                href="/corporate/payment-cash/pay/internet-banking-pro-smartapprove"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="pay/internet-banking-pro-smartapprove.html"
+                                href="/corporate/payment-cash/pay/internet-banking-pro-smartapprove"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Internet Banking &amp; SmartApprove
@@ -203,12 +203,12 @@ const CorperatePay = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="pay/bulk-payments.html"
+                        href="/corporate/payment-cash/pay/bulk-payments"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="pay/bulk-payments.html"
+                          href="/corporate/payment-cash/pay/bulk-payments"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -223,21 +223,21 @@ const CorperatePay = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="pay/bulk-payments.html"
+                            href="/corporate/payment-cash/pay/bulk-payments"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="pay/bulk-payments.html"
+                              href="/corporate/payment-cash/pay/bulk-payments"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="pay/bulk-payments.html"
+                                href="/corporate/payment-cash/pay/bulk-payments"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="pay/bulk-payments.html"
+                                href="/corporate/payment-cash/pay/bulk-payments"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Bulk Payments
@@ -260,12 +260,12 @@ const CorperatePay = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="pay/drop-collect.html"
+                        href="/corporate/payment-cash/pay/drop-collect"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="pay/drop-collect.html"
+                          href="/corporate/payment-cash/pay/drop-collect"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -280,21 +280,21 @@ const CorperatePay = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="pay/drop-collect.html"
+                            href="/corporate/payment-cash/pay/drop-collect"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="pay/drop-collect.html"
+                              href="/corporate/payment-cash/pay/drop-collect"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="pay/drop-collect.html"
+                                href="/corporate/payment-cash/pay/drop-collect"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="pay/drop-collect.html"
+                                href="/corporate/payment-cash/pay/drop-collect"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Drop &amp; Collect
@@ -317,12 +317,12 @@ const CorperatePay = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="pay/corporate-card.html"
+                        href="/corporate/payment-cash/pay/corporate-card"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="pay/corporate-card.html"
+                          href="/corporate/payment-cash/pay/corporate-card"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -337,21 +337,21 @@ const CorperatePay = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="pay/corporate-card.html"
+                            href="/corporate/payment-cash/pay/corporate-card"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="pay/corporate-card.html"
+                              href="/corporate/payment-cash/pay/corporate-card"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="pay/corporate-card.html"
+                                href="/corporate/payment-cash/pay/corporate-card"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="pay/corporate-card.html"
+                                href="/corporate/payment-cash/pay/corporate-card"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Corporate Card
@@ -375,12 +375,12 @@ const CorperatePay = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="pay/fleetman-card.html"
+                        href="/corporate/payment-cash/pay/fleetman-card"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="pay/fleetman-card.html"
+                          href="/corporate/payment-cash/pay/fleetman-card"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -395,21 +395,21 @@ const CorperatePay = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="pay/fleetman-card.html"
+                            href="/corporate/payment-cash/pay/fleetman-card"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="pay/fleetman-card.html"
+                              href="/corporate/payment-cash/pay/fleetman-card"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="pay/fleetman-card.html"
+                                href="/corporate/payment-cash/pay/fleetman-card"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="pay/fleetman-card.html"
+                                href="/corporate/payment-cash/pay/fleetman-card"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Fleetman Card
@@ -432,12 +432,12 @@ const CorperatePay = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="pay/swift-connectivity.html"
+                        href="/corporate/payment-cash/pay/swift-connectivity"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="pay/swift-connectivity.html"
+                          href="/corporate/payment-cash/pay/swift-connectivity"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -452,21 +452,21 @@ const CorperatePay = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="pay/swift-connectivity.html"
+                            href="/corporate/payment-cash/pay/swift-connectivity"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="pay/swift-connectivity.html"
+                              href="/corporate/payment-cash/pay/swift-connectivity"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="pay/swift-connectivity.html"
+                                href="/corporate/payment-cash/pay/swift-connectivity"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="pay/swift-connectivity.html"
+                                href="/corporate/payment-cash/pay/swift-connectivity"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 SWIFT Connectivity

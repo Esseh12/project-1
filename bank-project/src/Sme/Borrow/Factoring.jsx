@@ -25,15 +25,18 @@ const Factoring = () => {
           content="Turn your receivables into immediate cash with MCB Factoring. Get fast access to funds, protect against debtor insolvency, and maintain client relationships."
         />
         <meta property="og:url" content="https://mcb.mu/sme/borrow/factoring" />
-        <link rel="canonical" href="/factoring" />
+        <link rel="canonical" href="/sme/borrow/factoring" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}
         {/* Header */}
         <SmeHeader />
@@ -72,7 +75,7 @@ const Factoring = () => {
                       href="http://mcbfactors.mu/en/"
                       className=" btn btn-primary me-4 mt-3 w-100-mobile btn-floating is-visible"
                       target="_blank"
-                      style={{ color: "#ffffff!important" }}
+                      style={{ color: "#ffffff" }}
                     >
                       Visit MCB Factors for more info
                       <i className="fas fa-angle-right icons ms-1" />{" "}
@@ -196,7 +199,7 @@ const Factoring = () => {
                                 <h5>+230 202 6060</h5>
                               </div>
                               <a
-                                href="/locate-us.html"
+                                href="/locate-us"
                                 target="_blank"
                                 className="mb-1 mt-1 me-1 btn btn-primary"
                               >
@@ -232,7 +235,7 @@ const Factoring = () => {
                                 </p>
                               </div>
                               <a
-                                href="/personal/contact-us.html"
+                                href="/contact-us"
                                 target="_blank"
                                 className="mb-1 mt-1 me-1 btn btn-primary"
                               >

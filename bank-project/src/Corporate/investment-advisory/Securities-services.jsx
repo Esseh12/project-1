@@ -17,9 +17,10 @@ const SecurityServices = () => {
           }}
         />
         <meta property="og:title" content="Securities Services" />
-        <meta property="og:url" content="https://mcb.mu/chat" />
-        <meta property="og:site_name" content="MCB Mauritius" />
-        <link rel="canonical" href="/securities-services" />
+        <link
+          rel="canonical"
+          href="/corporate/investment-advisory/securities-services"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}

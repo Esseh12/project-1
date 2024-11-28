@@ -2,7 +2,7 @@
 import CorporateHeader from "../Components/Corporate-header";
 import Footer from "../Components/Footer";
 
-const Coperate = () => {
+const Corperate = () => {
   return (
     <>
       <meta name="title" content="Corporate Banking | MCB" />
@@ -17,41 +17,34 @@ const Coperate = () => {
         content="Enhance corporate success with MCB's efficient payments, financing, treasury, and capital market solutions tailored to your business needs."
       />
       <meta property="og:url" content="https://mcb.mu/corporate" />
-      <meta property="og:type" content="website" />
-      <meta property="og:site_name" content="MCB Mauritius" />
-      <style
-        type="text/css"
-        media="all"
-        dangerouslySetInnerHTML={{
-          __html:
-            "table.factstable.factstable .redbg {\n  background-color: #7e001d;\n  color: #fff;\n}\n\ntable.factstable.factstable .greybg {\n  background-color: #c7c7c7;\n  color:#2a2a2a;\n}\n\ntable.factstable.factstable .lgreybg {\n  background-color: #ededed;\n  color:#2a2a2a;\n}",
-        }}
-      />
-      <link rel="canonical" href="corporate.html" />
+      <link rel="canonical" href="/corporate" />
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/*  */}
         <CorporateHeader />
-        {/*  */}
+
         <div role="main" className="main">
           <div
             className="owl-carousel owl-carousel-top-banner owl-carousel-light owl-carousel-light-init-fadeIn owl-theme manual dots-inside dots-vertical-center dots-align-right dots-orientation-portrait custom-dots-style-1 show-dots-hover show-dots-xs nav-style-1 nav-inside nav-inside-plus nav-dark nav-lg nav-font-size-lg show-nav-hover mb-0"
             data-plugin-options="{'autoplayTimeout': 36000000}"
             data-dynamic-height="['650px','650px','650px','550px','500px']"
-            style={{ height: 650 }}
+            style={{ height: 650, opacity: 1 }}
           >
             <div className="owl-stage-outer">
               <div className="owl-stage">
                 <div
-                  className="owl-item position-relative overlay overlay-show overlay-op-3"
+                  className="owl-item position-relative overlay overlay-show overlay-op-3 active"
                   style={{
                     backgroundImage:
-                      "url(images/mcb/corporate/banners/corporate-homee8ce.jpg?sfvrsn=beaaffd0_1)",
+                      "url(/images/mcb/corporate/banners/corporate-homee8ce.jpg?sfvrsn=beaaffd0_1)",
                     backgroundSize: "cover",
                     backgroundPosition: "center top",
                   }}
@@ -60,10 +53,11 @@ const Coperate = () => {
                     <div className="row align-items-center h-100">
                       <div className="col pb-4">
                         <h1
-                          className="text-color-light w-50 w-100-mobile font-weight-medium text-12 line-height-2 mb-2 appear-animation text-decoration-none"
+                          className="text-color-light w-50 w-100-mobile font-weight-medium text-12 line-height-2 mb-2 appear-animation text-decoration-none animated fadeInUpShorter appear-animation-visible"
                           data-appear-animation="fadeInUpShorter"
                           data-appear-animation-delay={500}
                           data-plugin-options="{'minWindowWidth': 0}"
+                          style={{ animationDelay: "500ms" }}
                         >
                           Corporate Banking
                         </h1>
@@ -89,153 +83,203 @@ const Coperate = () => {
             >
               <section className="bg-color-light p-relative z-index-2">
                 <div
-                  className="cards custom-cards custom-cards-slider home h-auto pt-5 pb-4 container appear-animation"
+                  className="cards custom-cards custom-cards-slider home h-auto pt-5 pb-4 container appear-animation animated appear-animation-visible"
                   data-appear-animation="fadeInUpShorter"
                   data-appear-animation-delay={100}
                 >
                   <div className="row bg-color-light cards-container d-flex justify-content-center justify-content-xl-between w-100 mb-5 mx-0 box-shadow-1 p-relative top-0">
                     <div
-                      className="owl-carousel owl-theme stage-margin nav-style-1 hp"
+                      className="owl-carousel owl-theme stage-margin nav-style-1 hp owl-loaded owl-drag owl-carousel-init"
                       data-plugin-options="{'items': 4 , 'margin': 0, 'loop': false, 'nav': true, 'dots': false, 'stagePadding': 40,'responsive': {'0': {'items': 1, 'loop':true}, '479': {'items': 1, 'loop':true}, '768': {'items': 2, 'loop':true}, '991': {'items': 3, 'loop':true}}}"
+                      style={{ height: "auto" }}
                     >
-                      <div className=" bg-light p-0 shadow-none">
-                        <div className="card border-radius-0 border-0 shadow-none">
-                          <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
-                            <a href="corporate/payment-cash.html">
-                              <h4 className="card-title mb-1 text-6 font-weight-light text-color-dark text-center">
-                                Payments &amp; Cash
-                              </h4>
-                            </a>
-                            <a href="corporate/payment-cash.html">
-                              <div className="card-text link-button text-center pt-2">
-                                <p>
-                                  We understand the essence of efficient
-                                  payments and cash management as a key to
-                                  success for Corporates.
-                                </p>
+                      <div className="owl-stage-outer">
+                        <div
+                          className="owl-stage"
+                          style={{
+                            transform: "translate3d(0px, 0px, 0px)",
+                            transition: "all",
+                            width: 1192,
+                            paddingLeft: 40,
+                            paddingRight: 40,
+                          }}
+                        >
+                          <div
+                            className="owl-item active"
+                            style={{ width: 278 }}
+                          >
+                            <div className=" bg-light p-0 shadow-none">
+                              <div className="card border-radius-0 border-0 shadow-none">
+                                <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
+                                  <a href="/corporate/payment-cash">
+                                    <h4 className="card-title mb-1 text-6 font-weight-light text-color-dark text-center">
+                                      Payments &amp; Cash
+                                    </h4>
+                                  </a>
+                                  <a href="/corporate/payment-cash">
+                                    <div className="card-text link-button text-center pt-2">
+                                      <p>
+                                        We understand the essence of efficient
+                                        payments and cash management as a key to
+                                        success for Corporates.
+                                      </p>
+                                    </div>
+                                  </a>
+                                  <a
+                                    href="/corporate/payment-cash"
+                                    className="font-weight-bold text-uppercase text-decoration-none mt-3"
+                                  >
+                                    More info
+                                  </a>
+                                </div>
                               </div>
-                            </a>
-                            <a
-                              href="corporate/payment-cash.html"
-                              className="font-weight-bold text-uppercase text-decoration-none mt-3"
-                            >
-                              More info
-                            </a>
+                            </div>
                           </div>
-                        </div>
-                      </div>
-                      <div className=" bg-light p-0 shadow-none">
-                        <div className="card border-radius-0 border-0 shadow-none">
-                          <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
-                            <a href="corporate/finance-lending.html">
-                              <h4 className="card-title mb-1 text-6 font-weight-light text-color-dark text-center">
-                                Finance &amp; Lending
-                              </h4>
-                            </a>
-                            <a href="corporate/finance-lending.html">
-                              <div className="card-text link-button text-center pt-2">
-                                <p>
-                                  Access a spectrum of tailor-made financing
-                                  solutions to drive your company’s domestic or
-                                  international growth.
-                                </p>
+                          <div
+                            className="owl-item active"
+                            style={{ width: 278 }}
+                          >
+                            <div className=" bg-light p-0 shadow-none">
+                              <div className="card border-radius-0 border-0 shadow-none">
+                                <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
+                                  <a href="/corporate/finance-lending">
+                                    <h4 className="card-title mb-1 text-6 font-weight-light text-color-dark text-center">
+                                      Finance &amp; Lending
+                                    </h4>
+                                  </a>
+                                  <a href="/corporate/finance-lending">
+                                    <div className="card-text link-button text-center pt-2">
+                                      <p>
+                                        Access a spectrum of tailor-made
+                                        financing solutions to drive your
+                                        company’s domestic or international
+                                        growth.
+                                      </p>
+                                    </div>
+                                  </a>
+                                  <a
+                                    href="/corporate/finance-lending"
+                                    className="font-weight-bold text-uppercase text-decoration-none mt-3"
+                                  >
+                                    Get Started
+                                  </a>
+                                </div>
                               </div>
-                            </a>
-                            <a
-                              href="corporate/finance-lending.html"
-                              className="font-weight-bold text-uppercase text-decoration-none mt-3"
-                            >
-                              Get Started
-                            </a>
+                            </div>
                           </div>
-                        </div>
-                      </div>
-                      <div className=" bg-light p-0 shadow-none">
-                        <div className="card border-radius-0 border-0 shadow-none">
-                          <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
-                            <a href="corporate/investment-advisory/global-markets.html">
-                              <h4 className="card-title mb-1 text-6 font-weight-light text-color-dark text-center">
-                                Treasury &amp; Global
-                              </h4>
-                            </a>
-                            <a href="corporate/investment-advisory/global-markets.html">
-                              <div className="card-text link-button text-center pt-2">
-                                <div data-testid="conversation-turn-5">
-                                  <div>
-                                    <div>
-                                      <div>
+                          <div
+                            className="owl-item active"
+                            style={{ width: 278 }}
+                          >
+                            <div className=" bg-light p-0 shadow-none">
+                              <div className="card border-radius-0 border-0 shadow-none">
+                                <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
+                                  <a href="/corporate/investment-advisory/global-markets">
+                                    <h4 className="card-title mb-1 text-6 font-weight-light text-color-dark text-center">
+                                      Treasury &amp; Global
+                                    </h4>
+                                  </a>
+                                  <a href="/corporate/investment-advisory/global-markets">
+                                    <div className="card-text link-button text-center pt-2">
+                                      <div data-testid="conversation-turn-5">
                                         <div>
                                           <div>
                                             <div>
                                               <div>
-                                                <p>
-                                                  Financial &amp; treasury
-                                                  market solutions and expertise
-                                                  to mitigate risks and enhance
-                                                  business efficiency.
-                                                </p>
+                                                <div>
+                                                  <div>
+                                                    <div>
+                                                      <p>
+                                                        Financial &amp; treasury
+                                                        market solutions and
+                                                        expertise to mitigate
+                                                        risks and enhance
+                                                        business efficiency.
+                                                      </p>
+                                                    </div>
+                                                  </div>
+                                                </div>
                                               </div>
                                             </div>
                                           </div>
                                         </div>
                                       </div>
                                     </div>
-                                  </div>
+                                  </a>
+                                  <a
+                                    href="/corporate/investment-advisory/global-markets"
+                                    className="font-weight-bold text-uppercase text-decoration-none mt-3"
+                                  >
+                                    Learn More
+                                  </a>
                                 </div>
                               </div>
-                            </a>
-                            <a
-                              href="corporate/investment-advisory/global-markets.html"
-                              className="font-weight-bold text-uppercase text-decoration-none mt-3"
-                            >
-                              Learn More
-                            </a>
+                            </div>
                           </div>
-                        </div>
-                      </div>
-                      <div className=" bg-light p-0 shadow-none">
-                        <div className="card border-radius-0 border-0 shadow-none">
-                          <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
-                            <a href="corporate/investment-advisory/capital-markets.html">
-                              <h4 className="card-title mb-1 text-6 font-weight-light text-color-dark text-center">
-                                Capital Markets
-                              </h4>
-                            </a>
-                            <a href="corporate/investment-advisory/capital-markets.html">
-                              <div className="card-text link-button text-center pt-2">
-                                <div data-testid="conversation-turn-7">
-                                  <div>
-                                    <div>
-                                      <div>
+                          <div
+                            className="owl-item active"
+                            style={{ width: 278 }}
+                          >
+                            <div className=" bg-light p-0 shadow-none">
+                              <div className="card border-radius-0 border-0 shadow-none">
+                                <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
+                                  <a href="/corporate/investment-advisory/capital-markets">
+                                    <h4 className="card-title mb-1 text-6 font-weight-light text-color-dark text-center">
+                                      Capital Markets
+                                    </h4>
+                                  </a>
+                                  <a href="/corporate/investment-advisory/capital-markets">
+                                    <div className="card-text link-button text-center pt-2">
+                                      <div data-testid="conversation-turn-7">
                                         <div>
                                           <div>
                                             <div>
                                               <div>
-                                                <p>
-                                                  Tailored financing solutions,
-                                                  advice, and strategic
-                                                  investment solutions tailored
-                                                  for the African market.
-                                                </p>
+                                                <div>
+                                                  <div>
+                                                    <div>
+                                                      <p>
+                                                        Tailored financing
+                                                        solutions, advice, and
+                                                        strategic investment
+                                                        solutions tailored for
+                                                        the African market.
+                                                      </p>
+                                                    </div>
+                                                  </div>
+                                                </div>
                                               </div>
                                             </div>
                                           </div>
                                         </div>
                                       </div>
                                     </div>
-                                  </div>
+                                  </a>
+                                  <a
+                                    href="/corporate/investment-advisory/capital-markets"
+                                    className="font-weight-bold text-uppercase text-decoration-none mt-3"
+                                  >
+                                    Explore Now
+                                  </a>
                                 </div>
                               </div>
-                            </a>
-                            <a
-                              href="corporate/investment-advisory/capital-markets.html"
-                              className="font-weight-bold text-uppercase text-decoration-none mt-3"
-                            >
-                              Explore Now
-                            </a>
+                            </div>
                           </div>
                         </div>
                       </div>
+                      <div className="owl-nav disabled">
+                        <button
+                          type="button"
+                          role="presentation"
+                          className="owl-prev disabled"
+                        />
+                        <button
+                          type="button"
+                          role="presentation"
+                          className="owl-next disabled"
+                        />
+                      </div>
+                      <div className="owl-dots disabled" />
                     </div>
                   </div>
                 </div>
@@ -258,7 +302,7 @@ const Coperate = () => {
                           className="thumb-info-wrapper"
                           style={{
                             backgroundImage:
-                              "url(images/mcb/corporate/banners/corporate-hp-mcb-at-a-glancec944.jpg?sfvrsn=f5396b0_3)",
+                              "url(/images/mcb/corporate/banners/corporate-hp-mcb-at-a-glancec944.jpg?sfvrsn=f5396b0_3)",
                           }}
                         >
                           <span className="thumb-info-title bg-transparent">
@@ -272,7 +316,7 @@ const Coperate = () => {
                               service.
                             </p>
                             <a
-                              href="corporate/mcb-at-a-glance.html"
+                              href="/corporate/mcb-at-a-glance"
                               target="_blank"
                               className="btn btn-more text-light d-flex align-items-center ps-0"
                             >
@@ -320,7 +364,7 @@ const Coperate = () => {
                                 className="thumb-info-wrapper"
                                 style={{
                                   backgroundImage:
-                                    "url(images/mcb/corporate/assets/securities-corporate-hpc403.jpg?sfvrsn=32230da7_0)",
+                                    "url(/images/mcb/corporate/assets/securities-corporate-hpc403.jpg?sfvrsn=32230da7_0)",
                                 }}
                               >
                                 <span className="thumb-info-title bg-transparent">
@@ -331,7 +375,7 @@ const Coperate = () => {
                                     Your trusted partner beyond borders.
                                   </p>
                                   <a
-                                    href="corporate/investment-advisory/securities-services.html"
+                                    href="/corporate/investment-advisory/securities-services"
                                     target="_blank"
                                     className="btn btn-more text-light d-flex align-items-center ps-0"
                                   >
@@ -364,7 +408,7 @@ const Coperate = () => {
                                 className="thumb-info-wrapper"
                                 style={{
                                   backgroundImage:
-                                    "url(images/mcb/corporate/assets/global-business-corporate-hpdb54.jpg?sfvrsn=a0ed46c1_0)",
+                                    "url(/images/mcb/corporate/assets/global-business-corporate-hpdb54.jpg?sfvrsn=a0ed46c1_0)",
                                 }}
                               >
                                 <span className="thumb-info-title bg-transparent">
@@ -375,7 +419,7 @@ const Coperate = () => {
                                     A gateway to the world
                                   </p>
                                   <a
-                                    href="corporate/what-we-do/global-business.html"
+                                    href="/corporate/what-we-do/global-business"
                                     target="_blank"
                                     className="btn btn-more text-light d-flex align-items-center ps-0"
                                   >
@@ -408,7 +452,7 @@ const Coperate = () => {
                                 className="thumb-info-wrapper"
                                 style={{
                                   backgroundImage:
-                                    "url(images/mcb/corporate/assets/energy-commoditiesd989.jpg?sfvrsn=6391e681_0)",
+                                    "url(/images/mcb/corporate/assets/energy-commoditiesd989.jpg?sfvrsn=6391e681_0)",
                                 }}
                               >
                                 <span className="thumb-info-title bg-transparent">
@@ -420,7 +464,7 @@ const Coperate = () => {
                                     meet your financing requirements.
                                   </p>
                                   <a
-                                    href="corporate/finance-lending/structured-finance/energy-commodities.html"
+                                    href="/corporate/finance-lending/structured-finance/energy-commodities"
                                     target="_blank"
                                     className="btn btn-more text-light d-flex align-items-center ps-0"
                                   >
@@ -556,6 +600,7 @@ const Coperate = () => {
                                               id="currency1a"
                                               name="currency1a"
                                               className="form__input jquery-selectmenu--forex currency1"
+                                              style={{ display: "none" }}
                                             >
                                               <option value="aed">
                                                 UAE Dirham AED
@@ -596,7 +641,7 @@ const Coperate = () => {
                                               <option value="mga">
                                                 Malagasy Ariary MGA
                                               </option>
-                                              <option value="mur">
+                                              <option value="mur" disabled="">
                                                 Mauritius MUR
                                               </option>
                                               <option value="nok">
@@ -628,6 +673,28 @@ const Coperate = () => {
                                                 South Africa Rand ZAR
                                               </option>
                                             </select>
+                                            <span
+                                              tabIndex={0}
+                                              id="currency1a-button"
+                                              role="combobox"
+                                              aria-expanded="false"
+                                              aria-autocomplete="list"
+                                              aria-owns="currency1a-menu"
+                                              aria-haspopup="true"
+                                              className="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"
+                                              aria-activedescendant="ui-id-22"
+                                              aria-labelledby="ui-id-22"
+                                              aria-disabled="false"
+                                            >
+                                              <span
+                                                style={{}}
+                                                className="ui-selectmenu-flag"
+                                              />
+                                              <span className="ui-selectmenu-icon ui-icon icon--arrow-down" />
+                                              <span className="ui-selectmenu-text">
+                                                United States Dollars USD
+                                              </span>
+                                            </span>
                                           </div>
                                         </div>
                                       </div>
@@ -660,6 +727,7 @@ const Coperate = () => {
                                               id="currency2a"
                                               name="currency2a"
                                               className="form__input jquery-selectmenu--forex currency2"
+                                              style={{ display: "none" }}
                                             >
                                               <option value="aed">
                                                 UAE Dirham AED
@@ -725,13 +793,35 @@ const Coperate = () => {
                                               <option value="tzs">
                                                 Tanzania Shillings TZS
                                               </option>
-                                              <option value="usd">
+                                              <option value="usd" disabled="">
                                                 United States Dollars USD
                                               </option>
                                               <option value="zar">
                                                 South Africa Rand ZAR
                                               </option>
                                             </select>
+                                            <span
+                                              tabIndex={0}
+                                              id="currency2a-button"
+                                              role="combobox"
+                                              aria-expanded="false"
+                                              aria-autocomplete="list"
+                                              aria-owns="currency2a-menu"
+                                              aria-haspopup="true"
+                                              className="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"
+                                              aria-activedescendant="ui-id-37"
+                                              aria-labelledby="ui-id-37"
+                                              aria-disabled="false"
+                                            >
+                                              <span
+                                                style={{}}
+                                                className="ui-selectmenu-flag"
+                                              />
+                                              <span className="ui-selectmenu-icon ui-icon icon--arrow-down" />
+                                              <span className="ui-selectmenu-text">
+                                                Mauritius MUR
+                                              </span>
+                                            </span>
                                           </div>
                                         </div>
                                       </div>
@@ -755,11 +845,15 @@ const Coperate = () => {
                                     style={{}}
                                   >
                                     <span className="foreignexchangecalculator__results-from">
-                                      <span className="foreignexchangecalculator__results-base-amount" />{" "}
+                                      <span className="foreignexchangecalculator__results-base-amount">
+                                        1.00 United States Dollars
+                                      </span>{" "}
                                       equals
                                     </span>
                                     <span className="foreignexchangecalculator__results-to">
-                                      <span className="foreignexchangecalculator__results-result-amount" />
+                                      <span className="foreignexchangecalculator__results-result-amount">
+                                        44.2300 Mauritius
+                                      </span>
                                     </span>
                                     <span className="foreignexchangecalculator__results-terms">
                                       Disclaimer: The exchange rates provided by
@@ -798,7 +892,7 @@ const Coperate = () => {
                       <div className="grid__item grid__item-1-4-large">
                         <div className="component component--collapsed">
                           <a
-                            href="tools-calculators/download-daily-rates.html"
+                            href="/tools-calculators/download-daily-rates"
                             className="product-panel hover-expand indicativeforex"
                             data-eh="yes"
                             target="_blank"
@@ -839,7 +933,7 @@ const Coperate = () => {
                       <div className="grid__item grid__item-1-4-large">
                         <div className="component component--collapsed">
                           <a
-                            href="treasury-market-updates.html"
+                            href="/treasury-market-updates"
                             className="product-panel hover-expand indicativeforex"
                             data-eh="yes"
                             target="Model.IsTargetNewTab"
@@ -1016,7 +1110,7 @@ const Coperate = () => {
                             className="card-content d-flex flex-column justify-content-end align-items-center p-3"
                             style={{
                               backgroundImage:
-                                "url(_/images/mcb/personal/assets/personal-treasury-market-updates.html)",
+                                "url(/images/mcb/personal/assets/personal-treasury-market-updates.html)",
                               backgroundSize: "cover",
                               backgroundPosition: "center",
                               minHeight: 360,
@@ -1059,11 +1153,16 @@ const Coperate = () => {
                     >
                       <div>
                         <div className="card bg-color-light box-shadow-1 box-shadow-1-hover anim-hover-translate-top-10px transition-3ms">
-                          <div className="card-body" data-mh-l1="tiles-block">
+                          <div
+                            className="card-body"
+                            data-mh-l1="tiles-block"
+                            style={{ minHeight: 241 }}
+                          >
                             <div className="d-flex flex-column align-items-start">
                               <h3
                                 className="card-title mb-2 text-5 font-weight-medium text-decoration-none text-transform-none"
                                 data-mh-l2="tiles-title"
+                                style={{ minHeight: 48 }}
                               >
                                 IBAN Generator
                               </h3>
@@ -1076,7 +1175,7 @@ const Coperate = () => {
                             <div className="d-flex flex-column align-items-end">
                               <p className="mb-0 mt-3">
                                 <a
-                                  href="tools-calculators/iban-generator.html"
+                                  href="/tools-calculators/iban-generator"
                                   target="_blank"
                                   className="read-more text-color-primary font-weight-semibold mt-2 text-2"
                                 >
@@ -1102,11 +1201,16 @@ const Coperate = () => {
                     >
                       <div>
                         <div className="card bg-color-light box-shadow-1 box-shadow-1-hover anim-hover-translate-top-10px transition-3ms">
-                          <div className="card-body" data-mh-l1="tiles-block">
+                          <div
+                            className="card-body"
+                            data-mh-l1="tiles-block"
+                            style={{ minHeight: 241 }}
+                          >
                             <div className="d-flex flex-column align-items-start">
                               <h3
                                 className="card-title mb-2 text-5 font-weight-medium text-decoration-none text-transform-none"
                                 data-mh-l2="tiles-title"
+                                style={{ minHeight: 48 }}
                               >
                                 Request for proposal
                               </h3>
@@ -1118,7 +1222,7 @@ const Coperate = () => {
                             <div className="d-flex flex-column align-items-end">
                               <p className="mb-0 mt-3">
                                 <a
-                                  href="tools-calculators/request-for-proposal.html"
+                                  href="/tools-calculators/request-for-proposal"
                                   target="_blank"
                                   className="read-more text-color-primary font-weight-semibold mt-2 text-2"
                                 >
@@ -1144,11 +1248,16 @@ const Coperate = () => {
                     >
                       <div>
                         <div className="card bg-color-light box-shadow-1 box-shadow-1-hover anim-hover-translate-top-10px transition-3ms">
-                          <div className="card-body" data-mh-l1="tiles-block">
+                          <div
+                            className="card-body"
+                            data-mh-l1="tiles-block"
+                            style={{ minHeight: 241 }}
+                          >
                             <div className="d-flex flex-column align-items-start">
                               <h3
                                 className="card-title mb-2 text-5 font-weight-medium text-decoration-none text-transform-none"
                                 data-mh-l2="tiles-title"
+                                style={{ minHeight: 48 }}
                               >
                                 Internet Banking Pro &amp; SmartApprove App
                               </h3>
@@ -1160,7 +1269,7 @@ const Coperate = () => {
                             <div className="d-flex flex-column align-items-end">
                               <p className="mb-0 mt-3">
                                 <a
-                                  href="corporate/payment-cash/pay/internet-banking-pro-smartapprove.html"
+                                  href="/corporate/payment-cash/pay/internet-banking-pro-smartapprove"
                                   target="_blank"
                                   className="read-more text-color-primary font-weight-semibold mt-2 text-2"
                                 >
@@ -1229,7 +1338,7 @@ const Coperate = () => {
                         <div className="col-sm-3 col-lg-3">
                           <div className="call-to-action-btn w-100-mobile px-0">
                             <a
-                              href="corporate/security-centre.html"
+                              href="/corporate/security-centre"
                               target="_blank"
                               className="btn btn-gray-ca w-100-mobile btn-modern text-2"
                               data-sf-ec-immutable=""
@@ -1246,6 +1355,7 @@ const Coperate = () => {
             </div>
           </div>
         </div>
+
         <Footer />
       </div>{" "}
       {/* Vendor */} {/* Theme Base, Components and Settings */}{" "}
@@ -1255,4 +1365,4 @@ const Coperate = () => {
     </>
   );
 };
-export default Coperate;
+export default Corperate;

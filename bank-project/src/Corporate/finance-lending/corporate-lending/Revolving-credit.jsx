@@ -28,7 +28,10 @@ const RevolvingCredit = () => {
           property="og:url"
           content="https://mcb.mu/corporate/finance-lending/corporate-lending/revolving-credit"
         />
-        <link rel="canonical" href="/revolving-credit" />
+        <link
+          rel="canonical"
+          href="/corporate/finance-lending/corporate-lending/revolving-credit"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
@@ -156,7 +159,7 @@ const RevolvingCredit = () => {
                           possible advice regarding your financing needs.
                         </p>
                         <a
-                          href="/personal/contact-us.html"
+                          href="/contact-us"
                           target="_blank"
                           className="mb-1 mt-1 me-1 btn btn-primary"
                         >

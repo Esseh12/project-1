@@ -28,7 +28,10 @@ const CashDepositSolutions = () => {
           property="og:url"
           content="https://mcb.mu/corporate/payment-cash/collect/cash-deposit-solutions"
         />
-        <link rel="canonical" href="/cash-deposit-solutions" />
+        <link
+          rel="canonical"
+          href="/corporate/payment-cash/collect/cash-deposit-solutions"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}

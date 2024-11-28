@@ -14,7 +14,7 @@ const Monitor = () => {
           property="og:url"
           content="https://mcb.mu/corporate/payment-cash/monitor"
         />
-        <link rel="canonical" href="/monitor" />
+        <link rel="canonical" href="/corporate/payment-cash/monitor" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
@@ -85,12 +85,12 @@ const Monitor = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="monitor/e-statements.html"
+                        href="/corporate/payment-cash/monitor/e-statements"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="monitor/e-statements.html"
+                          href="/corporate/payment-cash/monitor/e-statements"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -105,21 +105,21 @@ const Monitor = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="monitor/e-statements.html"
+                            href="/corporate/payment-cash/monitor/e-statements"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="monitor/e-statements.html"
+                              href="/corporate/payment-cash/monitor/e-statements"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="monitor/e-statements.html"
+                                href="/corporate/payment-cash/monitor/e-statements"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="monitor/e-statements.html"
+                                href="/corporate/payment-cash/monitor/e-statements"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 E-Statements
@@ -142,12 +142,12 @@ const Monitor = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="monitor/reporting-services-ib-dashboard.html"
+                        href="/corporate/payment-cash/monitor/reporting-services-ib-dashboard"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="monitor/reporting-services-ib-dashboard.html"
+                          href="/corporate/payment-cash/monitor/reporting-services-ib-dashboard"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -162,21 +162,21 @@ const Monitor = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="monitor/reporting-services-ib-dashboard.html"
+                            href="/corporate/payment-cash/monitor/reporting-services-ib-dashboard"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="monitor/reporting-services-ib-dashboard.html"
+                              href="/corporate/payment-cash/monitor/reporting-services-ib-dashboard"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="monitor/reporting-services-ib-dashboard.html"
+                                href="/corporate/payment-cash/monitor/reporting-services-ib-dashboard"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="monitor/reporting-services-ib-dashboard.html"
+                                href="/corporate/payment-cash/monitor/reporting-services-ib-dashboard"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Reporting Services &amp; IB Dashboard

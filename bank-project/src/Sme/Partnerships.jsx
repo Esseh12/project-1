@@ -19,7 +19,7 @@ const Partnerships = () => {
           content="Discover MCB's strong partnerships with prominent local stakeholders in the SME sector, offering innovative solutions to enhance your business"
         />
         <meta property="og:url" content="https://mcb.mu/sme/partnerships" />
-        <link rel="canonical" href="/partnerships" />
+        <link rel="canonical" href="/sme/partnerships" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}

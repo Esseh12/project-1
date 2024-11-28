@@ -28,7 +28,10 @@ const CorporateTradeFinance = () => {
           property="og:url"
           content="https://mcb.mu/corporate/finance-lending/supply-chain-finance/trade-finance"
         />
-        <link rel="canonical" href="/trade-finance" />
+        <link
+          rel="canonical"
+          href="/corporate/finance-lending/supply-chain-finance/trade-finance"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
@@ -75,7 +78,7 @@ const CorporateTradeFinance = () => {
                   </p>
                   <div className="col mt-4">
                     <a
-                      href="trade-finance/trade-finance-forms.html"
+                      href="/corporate/finance-lending/supply-chain-finance/trade-finance/trade-finance-forms"
                       className=" btn btn-primary me-4 mt-3 w-100-mobile btn-floating is-visible"
                       target="_blank"
                       style={{ color: "#ffffff" }}

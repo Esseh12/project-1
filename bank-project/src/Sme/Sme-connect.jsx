@@ -19,15 +19,18 @@ const SmeConnect = () => {
           content="Join MCB's Punch platform for SMEs to connect, find solutions, and access resources for business growth."
         />
         <meta property="og:url" content="https://mcb.mu/sme/sme-connect" />
-        <link rel="canonical" href="/sme-connect" />
+        <link rel="canonical" href="/sme/sme-connect" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}
         {/* Header */}
         <SmeHeader />

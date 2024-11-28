@@ -28,7 +28,10 @@ const ForeignCurrencyTransferOnIB = () => {
           property="og:url"
           content="https://mcb.mu/corporate/faq/foreign-currency-transfer-on-ib"
         />
-        <link rel="canonical" href="/foreign-currency-transfer-on-ib" />
+        <link
+          rel="canonical"
+          href="/corporate/faq/foreign-currency-transfer-on-ib"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}

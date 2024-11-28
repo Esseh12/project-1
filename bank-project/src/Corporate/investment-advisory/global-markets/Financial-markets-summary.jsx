@@ -28,7 +28,10 @@ const FinancialMarketsSummary = () => {
           property="og:url"
           content="https://mcb.mu/corporate/investment-advisory/global-markets/financial-markets-summary"
         />
-        <link rel="canonical" href="/financial-markets-summary" />
+        <link
+          rel="canonical"
+          href="/corporate/investment-advisory/global-markets/financial-markets-summary"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
@@ -105,7 +108,7 @@ const FinancialMarketsSummary = () => {
                       <div className="grid__item grid__item-1-4-large">
                         <div className="component component--collapsed">
                           <a
-                            href="/tools-calculators/download-daily-rates.html"
+                            href="/tools-calculators/download-daily-rates"
                             className="product-panel hover-expand indicativeforex"
                             data-eh="yes"
                             target="_self"
@@ -159,7 +162,7 @@ const FinancialMarketsSummary = () => {
                             <div className="d-flex flex-column align-items-end">
                               <p className="mb-0 mt-3">
                                 <a
-                                  href="/treasury-market-updates.html"
+                                  href="/treasury-market-updates"
                                   target="_blank"
                                   className="read-more text-color-primary font-weight-semibold mt-2 text-2"
                                 >
@@ -183,7 +186,7 @@ const FinancialMarketsSummary = () => {
                       <div className="grid__item grid__item-1-4-large">
                         <div className="component component--collapsed">
                           <a
-                            href="/treasury-market-updates.html"
+                            href="/treasury-market-updates"
                             className="product-panel hover-expand indicativeforex"
                             data-eh="yes"
                             target="Model.IsTargetNewTab"

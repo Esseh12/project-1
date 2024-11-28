@@ -28,7 +28,7 @@ const Optimise = () => {
           property="og:url"
           content="https://mcb.mu/corporate/payment-cash/optimise"
         />
-        <link rel="canonical" href="/optimise" />
+        <link rel="canonical" href="/corporate/payment-cash/optimise" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
@@ -98,12 +98,12 @@ const Optimise = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="optimise/cash-pooling-services.html"
+                        href="/corporate/payment-cash/optimise/cash-pooling-services"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="optimise/cash-pooling-services.html"
+                          href="/corporate/payment-cash/optimise/cash-pooling-services"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -118,21 +118,21 @@ const Optimise = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="optimise/cash-pooling-services.html"
+                            href="/corporate/payment-cash/optimise/cash-pooling-services"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="optimise/cash-pooling-services.html"
+                              href="/corporate/payment-cash/optimise/cash-pooling-services"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="optimise/cash-pooling-services.html"
+                                href="/corporate/payment-cash/optimise/cash-pooling-services"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="optimise/cash-pooling-services.html"
+                                href="/corporate/payment-cash/optimise/cash-pooling-services"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 Cash Pooling Services
@@ -154,12 +154,12 @@ const Optimise = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="optimise/fx-money-market-services.html"
+                        href="/corporate/payment-cash/optimise/fx-money-market-services"
                         className="text-decoration-none"
                       ></a>
                       <article>
                         <a
-                          href="optimise/fx-money-market-services.html"
+                          href="/corporate/payment-cash/optimise/fx-money-market-services"
                           className="text-decoration-none"
                         >
                           <div className="row">
@@ -174,21 +174,21 @@ const Optimise = () => {
                         </a>
                         <div className="row">
                           <a
-                            href="optimise/fx-money-market-services.html"
+                            href="/corporate/payment-cash/optimise/fx-money-market-services"
                             className="text-decoration-none"
                           ></a>
                           <div className="col">
                             <a
-                              href="optimise/fx-money-market-services.html"
+                              href="/corporate/payment-cash/optimise/fx-money-market-services"
                               className="text-decoration-none"
                             ></a>
                             <h4 className="mb-0">
                               <a
-                                href="optimise/fx-money-market-services.html"
+                                href="/corporate/payment-cash/optimise/fx-money-market-services"
                                 className="text-decoration-none"
                               ></a>
                               <a
-                                href="optimise/fx-money-market-services.html"
+                                href="/corporate/payment-cash/optimise/fx-money-market-services"
                                 className="text-3 text-uppercase font-weight-medium pt-2 d-block text-dark text-decoration-none"
                               >
                                 FX &amp; Money Market Services

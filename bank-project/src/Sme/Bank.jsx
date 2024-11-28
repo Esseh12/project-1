@@ -19,9 +19,7 @@ const Bank = () => {
           content="Learn how our dedicated team of experts can, with a fresh customized approach, enhance your business banking experience!"
         />
         <meta property="og:url" content="https://mcb.mu/sme/bank" />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="MCB Mauritius" />
-        <link rel="canonical" href="/bank" />
+        <link rel="canonical" href="/sme/bank" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
@@ -37,7 +35,7 @@ const Bank = () => {
         {/* Header */}
         <SmeHeader />
         {/* Header */}
-        <div role="main" className="main"></div>
+        <div role="main" className="main no-banner-spacing"></div>
         {/* Footer */}
         <Footer />
         {/* Footer */}

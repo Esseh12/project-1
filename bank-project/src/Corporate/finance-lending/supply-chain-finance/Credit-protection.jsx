@@ -14,7 +14,10 @@ const CreditProtection = () => {
           property="og:url"
           content="https://mcb.mu/corporate/finance-lending/supply-chain-finance/credit-protection"
         />
-        <link rel="canonical" href="/credit-protection" />
+        <link
+          rel="canonical"
+          href="/corporate/finance-lending/supply-chain-finance/credit-protection"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}

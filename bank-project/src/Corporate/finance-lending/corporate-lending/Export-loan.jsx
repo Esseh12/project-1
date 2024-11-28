@@ -21,7 +21,10 @@ const ExportLoan = () => {
           property="og:description"
           content="Get immediate export financing and improve cash flow with tailored solutions. Contact your dedicated Relationship Manager today"
         />
-        <link rel="canonical" href="/export-loan" />
+        <link
+          rel="canonical"
+          href="/corporate/finance-lending/corporate-lending/export-loan"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
@@ -147,7 +150,7 @@ const ExportLoan = () => {
                           possible advice regarding your financing needs.
                         </p>
                         <a
-                          href="/personal/contact-us.html"
+                          href="/contact-us"
                           target="_blank"
                           className="mb-1 mt-1 me-1 btn btn-primary"
                         >

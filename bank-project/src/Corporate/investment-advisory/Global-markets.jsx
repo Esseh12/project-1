@@ -14,7 +14,10 @@ const GlobalMarkets = () => {
           property="og:url"
           content="https://mcb.mu/corporate/investment-advisory/global-markets"
         />
-        <link rel="canonical" href="/global-markets" />
+        <link
+          rel="canonical"
+          href="/corporate/investment-advisory/global-markets"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
@@ -163,7 +166,7 @@ const GlobalMarkets = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="global-markets/financial-markets-summary.html"
+                        href="/corporate/investment-advisory/global-markets/financial-markets-summary"
                         className="text-decoration-none"
                       >
                         <article>
@@ -199,7 +202,7 @@ const GlobalMarkets = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="global-markets/global-markets-solutions.html"
+                        href="/corporate/investment-advisory/global-markets/global-markets-solutions"
                         className="text-decoration-none"
                       >
                         <article>
@@ -232,7 +235,7 @@ const GlobalMarkets = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="global-markets/direct-access-to-markets.html"
+                        href="/corporate/investment-advisory/global-markets/direct-access-to-markets"
                         className="text-decoration-none"
                       >
                         <article>

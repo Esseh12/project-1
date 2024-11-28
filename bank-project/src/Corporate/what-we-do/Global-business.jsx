@@ -28,7 +28,7 @@ const GlobalBusiness = () => {
           property="og:url"
           content="https://mcb.mu/corporate/what-we-do/global-business"
         />
-        <link rel="canonical" href="/global-business" />
+        <link rel="canonical" href="/corporate/what-we-do/global-business" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
@@ -193,7 +193,7 @@ const GlobalBusiness = () => {
                             <div className="d-flex flex-column align-items-end">
                               <p className="mb-0 mt-3">
                                 <a
-                                  href="global-business/investing-in-mauritius.html"
+                                  href="/corporate/what-we-do/global-business/investing-in-mauritius"
                                   target="_blank"
                                   className="read-more text-color-primary font-weight-semibold mt-2 text-2"
                                 >
@@ -235,7 +235,7 @@ const GlobalBusiness = () => {
                             <div className="d-flex flex-column align-items-end">
                               <p className="mb-0 mt-3">
                                 <a
-                                  href="/institutional/our-solutions/correspondent-banking.html"
+                                  href="/institutional/our-solutions/correspondent-banking"
                                   target="_blank"
                                   className="read-more text-color-primary font-weight-semibold mt-2 text-2"
                                 >
@@ -277,7 +277,7 @@ const GlobalBusiness = () => {
                             <div className="d-flex flex-column align-items-end">
                               <p className="mb-0 mt-3">
                                 <a
-                                  href="../mcb-at-a-glance.html"
+                                  href="/corporate/mcb-at-a-glance"
                                   target="_blank"
                                   className="read-more text-color-primary font-weight-semibold mt-2 text-2"
                                 >
@@ -316,7 +316,7 @@ const GlobalBusiness = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="../payment-cash.html"
+                        href="/corporate/payment-cash"
                         className="text-decoration-none"
                       >
                         <article>
@@ -350,7 +350,7 @@ const GlobalBusiness = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="../investment-advisory/global-markets/global-markets-solutions.html"
+                        href="/corporate/investment-advisory/global-markets/global-markets-solutions"
                         className="text-decoration-none"
                       >
                         <article>
@@ -383,7 +383,7 @@ const GlobalBusiness = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="../finance-lending/supply-chain-finance/trade-finance.html"
+                        href="/corporate/finance-lending/supply-chain-finance/trade-finance"
                         className="text-decoration-none"
                       >
                         <article>
@@ -417,7 +417,7 @@ const GlobalBusiness = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="../investment-advisory/securities-services.html"
+                        href="/corporate/investment-advisory/securities-services"
                         className="text-decoration-none"
                       >
                         <article>
@@ -453,7 +453,7 @@ const GlobalBusiness = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="../finance-lending.html"
+                        href="/corporate/finance-lending"
                         className="text-decoration-none"
                       >
                         <article>
@@ -487,7 +487,7 @@ const GlobalBusiness = () => {
                       style={{ animationDelay: "100ms" }}
                     >
                       <a
-                        href="../investment-advisory/capital-markets.html"
+                        href="/corporate/investment-advisory/capital-markets"
                         className="text-decoration-none"
                       >
                         <article>
@@ -560,7 +560,7 @@ const GlobalBusiness = () => {
                           </p>
                         </div>
                         <a
-                          href="global-business/become-a-client.html"
+                          href="/corporate/what-we-do/global-business/become-a-client"
                           target="_self"
                           className="mb-1 mt-1 me-1 btn btn-primary"
                         >
