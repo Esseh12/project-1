@@ -16,7 +16,7 @@ const PersonalHeader = () => {
                   <a
                     className="nav-link"
                     //dropdown-toggle
-                    href="../accounts-packages.html"
+                    href="/personal/accounts-packages"
                     target="_self"
                     id="navbarDropdownMenuLink0-2"
                     data-bs-toggle="dropdown"
@@ -47,7 +47,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../accounts-packages/standard-savings-account.html"
+                                    href="/personal/accounts-packages/standard-savings-account"
                                     target="_self"
                                   >
                                     <strong>Standard savings account</strong>
@@ -59,7 +59,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../accounts-packages/mcb-rupys.html"
+                                    href="/personal/accounts-packages/mcb-rupys"
                                     target="_self"
                                   >
                                     <strong>MCB Rupys</strong>
@@ -71,7 +71,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../accounts-packages/standard-current-account.html"
+                                    href="/personal/accounts-packages/standard-current-account"
                                     target="_self"
                                   >
                                     <strong>Standard current account</strong>
@@ -83,7 +83,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../accounts-packages/foreign-currency-account.html"
+                                    href="/personal/accounts-packages/foreign-currency-account"
                                     target="_self"
                                   >
                                     <strong>Foreign currency account</strong>
@@ -95,7 +95,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../accounts-packages/instakit.html"
+                                    href="/personal/accounts-packages/instakit"
                                     target="_self"
                                   >
                                     <strong>Instakit</strong>
@@ -107,7 +107,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../accounts-packages/pack-1825.html"
+                                    href="/personal/accounts-packages/pack-1825"
                                     target="_self"
                                   >
                                     <strong>Pack 18.25</strong>
@@ -119,7 +119,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../accounts-packages/neo.html"
+                                    href="/personal/accounts-packages/neo"
                                     target="_self"
                                   >
                                     <strong>NEO</strong>
@@ -137,7 +137,7 @@ const PersonalHeader = () => {
                 <li className="nav-item dropdown has-megamenu ">
                   <a
                     className="nav-link"
-                    href="../loans.html"
+                    href="/personal/loans"
                     target="_self"
                     id="navbarDropdownMenuLink1-2"
                     data-bs-toggle="dropdown"
@@ -165,7 +165,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../loans/educational-loan.html"
+                                    href="/personal/loans/educational-loan"
                                     target="_self"
                                   >
                                     <strong>Educational loan</strong>
@@ -177,7 +177,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../loans/personal-loan.html"
+                                    href="/personal/loans/personal-loan"
                                     target="_self"
                                   >
                                     <strong>Personal loan</strong>
@@ -189,7 +189,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../loans/home-loan.html"
+                                    href="/personal/loans/home-loan"
                                     target="_self"
                                   >
                                     <strong>Home loan</strong>
@@ -201,7 +201,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../loans/green-loan.html"
+                                    href="/personal/loans/green-loan"
                                     target="_self"
                                   >
                                     <strong>Green loan</strong>
@@ -213,7 +213,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../loans/personal-overdrafts.html"
+                                    href="/personal/loans/personal-overdrafts"
                                     target="_self"
                                   >
                                     <strong>Personal overdrafts</strong>
@@ -243,7 +243,7 @@ const PersonalHeader = () => {
                 <li className="nav-item dropdown has-megamenu active">
                   <a
                     className="nav-link"
-                    href="../cards.html"
+                    href="/personal/cards"
                     target="_self"
                     id="navbarDropdownMenuLink2-2"
                     data-bs-toggle="dropdown"
@@ -271,7 +271,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="mcb-debit-card.html"
+                                    href="mcb-debit-card"
                                     target="_self"
                                   >
                                     <strong>MCB debit card</strong>
@@ -283,7 +283,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="mastercard-primo-credit-card.html"
+                                    href="mastercard-primo-credit-card"
                                     target="_self"
                                   >
                                     <strong>
@@ -297,7 +297,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="classic-credit-card.html"
+                                    href="classic-credit-card"
                                     target="_self"
                                   >
                                     <strong>Classic credit card</strong>
@@ -309,7 +309,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="gold-credit-card.html"
+                                    href="gold-credit-card"
                                     target="_self"
                                   >
                                     <strong>Gold credit card</strong>
@@ -330,7 +330,7 @@ const PersonalHeader = () => {
                                     <span>
                                       <a
                                         className="d-flex flex-column text-1 line-height-2 "
-                                        href="american-express/american-express-green.html"
+                                        href="american-express/american-express-green"
                                         target="_self"
                                       >
                                         <div className="d-flex">
@@ -345,7 +345,7 @@ const PersonalHeader = () => {
                                     <span>
                                       <a
                                         className="d-flex flex-column text-1 line-height-2 "
-                                        href="american-express/american-express-gold.html"
+                                        href="american-express/american-express-gold"
                                         target="_self"
                                       >
                                         <div className="d-flex">
@@ -360,7 +360,7 @@ const PersonalHeader = () => {
                                     <span>
                                       <a
                                         className="d-flex flex-column text-1 line-height-2 "
-                                        href="american-express/membership-rewards.html"
+                                        href="american-express/membership-rewards"
                                         target="_self"
                                       >
                                         <div className="d-flex">
@@ -377,7 +377,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="visa-platinum.html"
+                                    href="visa-platinum"
                                     target="_self"
                                   >
                                     <strong>Visa Platinum</strong>
@@ -389,7 +389,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="visa-signature.html"
+                                    href="visa-signature"
                                     target="_self"
                                   >
                                     <strong>Visa Signature</strong>
@@ -401,7 +401,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="compare-our-credit-cards.html"
+                                    href="compare-our-credit-cards"
                                     target="_self"
                                   >
                                     <strong>Compare our credit cards</strong>
@@ -422,7 +422,7 @@ const PersonalHeader = () => {
                                     <span>
                                       <a
                                         className="d-flex flex-column text-1 line-height-2 "
-                                        href="prepaid-cards/visa-prepaid-card.html"
+                                        href="prepaid-cards/visa-prepaid-card"
                                         target="_self"
                                       >
                                         <div className="d-flex">
@@ -437,7 +437,7 @@ const PersonalHeader = () => {
                                     <span>
                                       <a
                                         className="d-flex flex-column text-1 line-height-2 "
-                                        href="prepaid-cards/unionpay-prepaid-card.html"
+                                        href="prepaid-cards/unionpay-prepaid-card"
                                         target="_self"
                                       >
                                         <div className="d-flex">
@@ -454,7 +454,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="travel-insurance.html"
+                                    href="travel-insurance"
                                     target="_self"
                                   >
                                     <strong>Travel insurance</strong>
@@ -472,7 +472,7 @@ const PersonalHeader = () => {
                 <li className="nav-item dropdown has-megamenu ">
                   <a
                     className="nav-link"
-                    href="../investments.html"
+                    href="/personal/investments"
                     target="_self"
                     id="navbarDropdownMenuLink3-2"
                     data-bs-toggle="dropdown"
@@ -500,7 +500,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../investments/mcb-mutual-funds.html"
+                                    href="/personal/investments/mcb-mutual-funds"
                                     target="_self"
                                   >
                                     <strong>MCB Mutual Funds</strong>
@@ -512,7 +512,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../investments/stockbroking.html"
+                                    href="/personal/investments/stockbroking"
                                     target="_self"
                                   >
                                     <strong>Stockbroking</strong>
@@ -524,7 +524,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../investments/education-plan.html"
+                                    href="/personal/investments/education-plan"
                                     target="_self"
                                   >
                                     <strong>Education plan</strong>
@@ -536,7 +536,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../investments/retirement-plan.html"
+                                    href="/personal/investments/retirement-plan"
                                     target="_self"
                                   >
                                     <strong>Retirement plan</strong>
@@ -548,7 +548,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../investments/life-insurance.html"
+                                    href="/personal/investments/life-insurance"
                                     target="_self"
                                   >
                                     <strong>Life insurance</strong>
@@ -560,7 +560,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../investments/fixed-deposit.html"
+                                    href="/personal/investments/fixed-deposit"
                                     target="_self"
                                   >
                                     <strong>Fixed deposit</strong>
@@ -578,7 +578,7 @@ const PersonalHeader = () => {
                 <li className="nav-item dropdown has-megamenu ">
                   <a
                     className="nav-link"
-                    href="../ways-to-bank.html"
+                    href="/personal/ways-to-bank"
                     target="_self"
                     id="navbarDropdownMenuLink4-1"
                     data-bs-toggle="dropdown"
@@ -618,7 +618,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../ways-to-bank/internet-banking.html"
+                                    href="/personal/ways-to-bank/internet-banking"
                                     target="_self"
                                   >
                                     <strong>Internet banking</strong>
@@ -630,7 +630,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../ways-to-bank/sms-banking.html"
+                                    href="/personal/ways-to-bank/sms-banking"
                                     target="_self"
                                   >
                                     <strong>SMS banking</strong>
@@ -642,7 +642,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../ways-to-bank/mcb-refill.html"
+                                    href="/personal/ways-to-bank/mcb-refill"
                                     target="_self"
                                   >
                                     <strong>MCB Refill</strong>
@@ -654,7 +654,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../ways-to-bank/atms.html"
+                                    href="/personal/ways-to-bank/atms"
                                     target="_self"
                                   >
                                     <strong>ATMs</strong>
@@ -666,7 +666,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../ways-to-bank/in-branch-banking.html"
+                                    href="/personal/ways-to-bank/in-branch-banking"
                                     target="_self"
                                   >
                                     <strong>In-branch banking</strong>
@@ -678,7 +678,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../ways-to-bank/bill-payments.html"
+                                    href="/personal/ways-to-bank/bill-payments"
                                     target="_self"
                                   >
                                     <strong>Pay my bills</strong>
@@ -699,7 +699,7 @@ const PersonalHeader = () => {
                                     <span>
                                       <a
                                         className="d-flex flex-column text-1 line-height-2 "
-                                        href="../ways-to-bank/international-transfers/international-payment.html"
+                                        href="/personal/ways-to-bank/international-transfers/international-payment"
                                         target="_self"
                                       >
                                         <div className="d-flex">
@@ -714,7 +714,7 @@ const PersonalHeader = () => {
                                     <span>
                                       <a
                                         className="d-flex flex-column text-1 line-height-2 "
-                                        href="../ways-to-bank/international-transfers/moneygram.html"
+                                        href="/personal/ways-to-bank/international-transfers/moneygram"
                                         target="_self"
                                       >
                                         <div className="d-flex">
@@ -731,7 +731,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../ways-to-bank/e-statements.html"
+                                    href="/personal/ways-to-bank/e-statements"
                                     target="_self"
                                   >
                                     <strong>E-Statements</strong>
@@ -749,7 +749,7 @@ const PersonalHeader = () => {
                 <li className="nav-item dropdown has-megamenu ">
                   <a
                     className="nav-link"
-                    href="../existing-customers.html"
+                    href="/personal/existing-customers"
                     target="_self"
                     id="navbarDropdownMenuLink5-1"
                     data-bs-toggle="dropdown"
@@ -789,7 +789,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="/T001/banking.html"
+                                    href="/T001/banking"
                                     target="_blank"
                                   >
                                     <strong>Log in to Internet Banking</strong>
@@ -801,7 +801,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../offers-and-promotions.html"
+                                    href="/personal/offers-and-promotions"
                                     target="_self"
                                   >
                                     <strong>Offers &amp; promotions</strong>
@@ -813,7 +813,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="american-express/membership-rewards.html"
+                                    href="american-express/membership-rewards"
                                     target="_self"
                                   >
                                     <strong>
@@ -828,7 +828,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../help-centre.html"
+                                    href="/personal/help-centre"
                                     target="_self"
                                   >
                                     <strong>Go to help center</strong>
@@ -840,7 +840,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../../security-centre.html"
+                                    href="/personal//personal/security-centre"
                                     target="_self"
                                   >
                                     <strong>Go to security center</strong>
@@ -866,7 +866,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../contact-us.html"
+                                    href="/personal/contact-us"
                                     target="_self"
                                   >
                                     <strong>Contact us</strong>
@@ -878,7 +878,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../../file-a-complaint.html"
+                                    href="/personal//personal/file-a-complaint"
                                     target="_self"
                                   >
                                     <strong>File a complaint</strong>
@@ -890,7 +890,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../../locate-us.html"
+                                    href="/personal//personal/locate-us"
                                     target="_self"
                                   >
                                     <strong>Find your nearest branch</strong>
@@ -902,7 +902,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="../../rates-fees.html"
+                                    href="/personal//personal/rates-fees"
                                     target="_self"
                                   >
                                     <strong>

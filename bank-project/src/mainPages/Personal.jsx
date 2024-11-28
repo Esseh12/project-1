@@ -1,21 +1,5 @@
 import PersonalHeader from "../Components/Personal-header";
 import Footer from "../Components/Footer";
-import "../ResourcePackages/MCBMU/assets/dist/vendor/bootstrap/css/bootstrap.min7306.css";
-import "../ResourcePackages/MCBMU/assets/dist/vendor/fontawesome-free/css/all.min7306.css";
-import "../ResourcePackages/MCBMU/assets/dist/vendor/animate/animate.compat7306.css";
-import "../ResourcePackages/MCBMU/assets/dist/vendor/simple-line-icons/css/simple-line-icons.min7306.css";
-import "../ResourcePackages/MCBMU/assets/dist/vendor/owl.carousel/assets/owl.carousel.min7306.css";
-import "../ResourcePackages/MCBMU/assets/dist/vendor/owl.carousel/assets/owl.theme.default.min7306.css";
-import "../ResourcePackages/MCBMU/assets/dist/vendor/magnific-popup/magnific-popup.min7306.css";
-import "../ResourcePackages/MCBMU/assets/dist/css/theme7306.css";
-import "../ResourcePackages/MCBMU/assets/dist/css/theme-elements7306.css";
-import "../ResourcePackages/MCBMU/assets/dist/css/theme-blog7306.css";
-import "../ResourcePackages/MCBMU/assets/dist/css/theme-shop7306.css";
-import "../ResourcePackages/MCBMU/assets/dist/css/demos/demo-business-consulting-27306.css";
-import "../ResourcePackages/MCBMU/assets/dist/css/skins/skin-business-consulting-27306.css";
-import "../ResourcePackages/MCBMU/assets/dist/css/custom7306.css";
-import "../ResourcePackages/MCBMU/assets/dist/css/menu_style/assets/css/ma5-menu7306.css";
-import "../ResourcePackages/MCBMU/assets/dist/css/style-new7306.css";
 
 const Personal = () => {
   return (
@@ -395,7 +379,7 @@ const Personal = () => {
                     <div className=" bg-light p-0 shadow-none">
                       <div className="card border-radius-0 border-0 shadow-none">
                         <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
-                          <a href="personal/loans/home-loan">
+                          <a href="/personal/loans/home-loan">
                             <img
                               src="images/mcb/default-album/ph_house-line-lighte8bf.png?sfvrsn=49ba69b0_3"
                               height={80}
@@ -403,13 +387,13 @@ const Personal = () => {
                               alt="ph_house-line-light"
                             />
                           </a>
-                          <a href="personal/loans/home-loan">
+                          <a href="/personal/loans/home-loan">
                             <h4 className="card-title mb-1 text-6 font-weight-light text-color-dark text-center">
                               Buy your first house
                             </h4>
                           </a>
                           <a
-                            href="personal/loans/home-loan"
+                            href="/personal/loans/home-loan"
                             className="font-weight-bold text-uppercase text-decoration-none mt-3"
                           >
                             LEARN MORE
@@ -420,21 +404,21 @@ const Personal = () => {
                     <div className=" bg-light p-0 shadow-none">
                       <div className="card border-radius-0 border-0 shadow-none">
                         <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
-                          <a href="personal/loans/educational-loan">
+                          <a href="/personal/loans/educational-loan">
                             <img
-                              src="images/mcb/default-album/cil_education4b9a.png?sfvrsn=97285b76_3"
+                              src="/images/mcb/default-album/cil_education4b9a.png?sfvrsn=97285b76_3"
                               height={80}
                               className="w-auto p-0"
                               alt="cil_education"
                             />
                           </a>
-                          <a href="personal/loans/educational-loan">
+                          <a href="/personal/loans/educational-loan">
                             <h4 className="card-title mb-1 text-6 font-weight-light text-color-dark text-center">
                               Finance your child&#39;s studies
                             </h4>
                           </a>
                           <a
-                            href="personal/loans/educational-loan"
+                            href="/personal/loans/educational-loan"
                             className="font-weight-bold text-uppercase text-decoration-none mt-3"
                           >
                             LEARN MORE
@@ -445,21 +429,21 @@ const Personal = () => {
                     <div className=" bg-light p-0 shadow-none">
                       <div className="card border-radius-0 border-0 shadow-none">
                         <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
-                          <a href="personal/ways-to-bank/payment-solutions">
+                          <a href="/personal/ways-to-bank/payment-solutions">
                             <img
-                              src="images/mcb/default-album/fluent_payment-20-regular078e.png?sfvrsn=31141dc3_3"
+                              src="/images/mcb/default-album/fluent_payment-20-regular078e.png?sfvrsn=31141dc3_3"
                               height={80}
                               className="w-auto p-0"
                               alt="fluent_payment-20-regular"
                             />
                           </a>
-                          <a href="personal/ways-to-bank/payment-solutions">
+                          <a href="/personal/ways-to-bank/payment-solutions">
                             <h4 className="card-title mb-1 text-6 font-weight-light text-color-dark text-center">
                               Discover our payment solutions
                             </h4>
                           </a>
                           <a
-                            href="personal/ways-to-bank/payment-solutions"
+                            href="/personal/ways-to-bank/payment-solutions"
                             className="font-weight-bold text-uppercase text-decoration-none mt-3"
                           >
                             LEARN MORE
@@ -470,21 +454,21 @@ const Personal = () => {
                     <div className=" bg-light p-0 shadow-none">
                       <div className="card border-radius-0 border-0 shadow-none">
                         <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
-                          <a href="personal/investments/mcb-mutual-funds">
+                          <a href="/personal/investments/mcb-mutual-funds">
                             <img
-                              src="images/mcb/default-album/fe_line-chart987a.png?sfvrsn=b7a33998_3"
+                              src="/images/mcb/default-album/fe_line-chart987a.png?sfvrsn=b7a33998_3"
                               height={80}
                               className="w-auto p-0"
                               alt="fe_line-chart"
                             />
                           </a>
-                          <a href="personal/investments/mcb-mutual-funds">
+                          <a href="/personal/investments/mcb-mutual-funds">
                             <h4 className="card-title mb-1 text-6 font-weight-light text-color-dark text-center">
                               Invest for your future
                             </h4>
                           </a>
                           <a
-                            href="personal/investments/mcb-mutual-funds"
+                            href="/personal/investments/mcb-mutual-funds"
                             className="font-weight-bold text-uppercase text-decoration-none mt-3"
                           >
                             LEARN MORE
@@ -535,7 +519,7 @@ const Personal = () => {
                             accessible.
                           </p>
                           <a
-                            href="personal/loans/home-loan.html"
+                            href="/personal/loans/home-loan"
                             target="_self"
                             className="btn btn-more text-light d-flex align-items-center ps-0"
                           >
@@ -668,7 +652,7 @@ const Personal = () => {
                                       <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
                                         <a href="/personal/cards/gold-credit-card">
                                           <img
-                                            src="images/mcb/personal/assets/Visa-gold3a505ac2-f9ab-4f84-b36d-2600e46d3527.png"
+                                            src="/images/mcb/personal/assets/Visa-gold3a505ac2-f9ab-4f84-b36d-2600e46d3527.png"
                                             height={80}
                                             className="w-auto p-0"
                                             alt="Gold Credit Card"
@@ -687,7 +671,7 @@ const Personal = () => {
                                       <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
                                         <a href="/personal/cards/visa-platinum">
                                           <img
-                                            src="images/mcb/personal/assets/Visa-platinum6c6b277d-9c1e-479a-ac3b-cb980bdddc52.png"
+                                            src="/images/mcb/personal/assets/Visa-platinum6c6b277d-9c1e-479a-ac3b-cb980bdddc52.png"
                                             height={80}
                                             className="w-auto p-0"
                                             alt="Visa Platinum"
@@ -706,7 +690,7 @@ const Personal = () => {
                                       <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
                                         <a href="/personal/cards/visa-signature">
                                           <img
-                                            src="images/mcb/personal/assets/Visa-signature.png"
+                                            src="/images/mcb/personal/assets/Visa-signature.png"
                                             height={80}
                                             className="w-auto p-0"
                                             alt="Visa Signature"
@@ -723,7 +707,7 @@ const Personal = () => {
                                   <div className=" bg-light p-0 shadow-none">
                                     <div className="card border-radius-0 border-0 shadow-none">
                                       <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
-                                        <a href="personal/cards/american-express/american-express-green">
+                                        <a href="/personal/cards/american-express/american-express-green">
                                           <img
                                             src="images/mcb/personal/assets/amex-green22d193d1-cb68-4aac-84da-b488aeb714c6.png"
                                             height={80}
@@ -742,9 +726,9 @@ const Personal = () => {
                                   <div className=" bg-light p-0 shadow-none">
                                     <div className="card border-radius-0 border-0 shadow-none">
                                       <div className="card-body hp border-0 px-3 d-flex align-items-center justify-content-center flex-column z-index-1">
-                                        <a href="personal/cards/american-express/american-express-gold">
+                                        <a href="/personal/cards/american-express/american-express-gold">
                                           <img
-                                            src="images/mcb/personal/assets/amex-gold2138435b-fa90-43f3-8191-343bd361d3ed.png"
+                                            src="/images/mcb/personal/assets/amex-gold2138435b-fa90-43f3-8191-343bd361d3ed.png"
                                             height={80}
                                             className="w-auto p-0"
                                             alt="American Express® Gold"
@@ -905,7 +889,7 @@ const Personal = () => {
                   <div>
                     <a
                       className="btn btn-default w-auto btn-view-all"
-                      href="personal/offers-and-promotions"
+                      href="/personal/offers-and-promotions"
                     >
                       VIEW ALL OFFERS
                     </a>
@@ -1310,7 +1294,7 @@ const Personal = () => {
                       <div className="grid__item grid__item-1-4-large">
                         <div className="component component--collapsed">
                           <a
-                            href="tools-calculators/download-daily-rates.html"
+                            href="/tools-calculators/download-daily-rates"
                             className="product-panel hover-expand indicativeforex"
                             data-eh="yes"
                             target="_self"
@@ -1368,14 +1352,13 @@ const Personal = () => {
                         </div>
                         <div className="d-flex flex-row flex-wrap align-items-center justify-content-evenly">
                           <a
-                            href="rates-fees.html"
+                            href="/rates-fees"
                             className="btn btn-light btn-outline btn-outline-thin btn-outline-light-opacity-2 btn-effect-5 font-weight-semi-bold px-3 btn-py-2 text-3 text-color-light text-color-hover-dark d-flex flex-row ms-1 mb-1 text-1"
                             target="_blank"
                           >
                             View <span className="icon-chevron-right" />
                             {/*<span class="icon-bi_download ms-1"></span>*/}
                           </a>
-                          {/* <a href="" class="btn btn-light btn-outline btn-outline-thin btn-outline-light-opacity-2 btn-effect-5 font-weight-semi-bold px-3 btn-py-2 text-3 text-color-light text-color-hover-dark d-flex flex-row ms-1 mb-1 text-0" target="_blank">Corporate<span class="icon-bi_download ms-1"></span></a> */}
                         </div>
                       </div>
                     </div>
@@ -1710,7 +1693,7 @@ const Personal = () => {
                         <div className="col-sm-3 col-lg-3">
                           <div className="call-to-action-btn w-100-mobile px-0 w-auto">
                             <a
-                              href="personal/help-centre.html"
+                              href="/personal/help-centre"
                               target="_blank"
                               className="btn btn-gray-ca w-auto btn-modern text-2"
                               data-sf-ec-immutable=""
