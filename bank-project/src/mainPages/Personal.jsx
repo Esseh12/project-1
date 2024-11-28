@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import PersonalHeader from "../Components/Personal-header";
-import Footer from "../Components/Footer";
+// import Footer from "../Components/Footer";
 
 const Personal = () => {
   return (
@@ -1450,7 +1450,7 @@ const Personal = () => {
         </div>
       </div>
       {/* REUSABLE FOOTER COMPONENT */}
-      <Footer />
+      {/* <Footer /> */}
       {/* END OF REUSABLE FOOTER COMPONENT */}
       {/* Vendor */} {/* Theme Base, Components and Settings */}{" "}
       {/* Current Page Vendor and Views */}
