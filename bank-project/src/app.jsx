@@ -181,460 +181,449 @@ import OurSuccessStories from "./Corporate/what-we-do/corporate-banking/Our-succ
 // End of What we do
 // End of Corporate Folder files
 
-// institutional files and folder routes
-const InstitutionalRoutes = () => {
-  return (
-    <>
-      <Route path="/institutional" element={<Institutional />} />
-      {/* Institutional folder files */}
-      <Route path="/institutional/events" element={<Events />} />
-      <Route path="/institutional/mcb-at-a-glance" element={<McbAtAGlance />} />
-      <Route
-        path="/institutional/our-geographical-presence"
-        element={<OurGeographicalPresence />}
-      />
-      <Route path="/institutional/our-solutions" element={<OurSolutions />} />
-      {/* Our Solutions folder files */}
-      <Route
-        path="/institutional/our-solutions/bank-of-banks"
-        element={<BankOfBanks />}
-      />
-      <Route
-        path="/institutional/our-solutions/correspondent-banking"
-        element={<CorrespondentBanking />}
-      />
-      <Route
-        path="/institutional/our-solutions/risk-sharing"
-        element={<RiskSharing />}
-      />
-      <Route
-        path="/institutional/our-solutions/syndications"
-        element={<Syndications />}
-      />
-      {/* End of Our Solutions folder files */}
-      {/* Mcb at a glance folder files */}
-      <Route
-        path="/institutional/mcb-at-a-glance/facts-figures"
-        element={<FactsFigures />}
-      />
-      <Route
-        path="/institutional/mcb-at-a-glance/recognitions-accolades"
-        element={<RecognitionsAccolades />}
-      />
-      {/* End of Institutional folder files */}
-    </>
-  );
-};
-// End of institutional files and folder routes
-
-// sme files and folder routes
-const SmeRoutes = () => {
-  return (
-    <>
-      <Route path="/sme" element={<Sme />} />
-      {/* Sme folder files */}
-      <Route path="/sme/bank" element={<Bank />} />
-      <Route path="/sme/borrow" element={<Borrow />} />
-      <Route path="/sme/business-introducer" element={<BusinessIntroducer />} />
-      <Route path="/sme/finance" element={<Finance />} />
-      <Route path="/sme/partnerships" element={<Partnerships />} />
-      <Route path="/sme/pay" element={<Pay />} />
-      <Route path="/sme/sme-connect" element={<SmeConnect />} />
-      <Route path="/sme/structure" element={<Structure />} />
-      {/* Sme Connect Folder files */}
-      <Route
-        path="/sme/sme-connect/manage-your-business"
-        element={<ManageYourBusiness />}
-      />
-      <Route
-        path="/sme/sme-connect/speaker-series"
-        element={<SpeakerSeries />}
-      />
-      <Route
-        path="/sme/sme-connect/start-your-business"
-        element={<StartYourBusiness />}
-      />
-      {/* End of Sme Connect Folder files */}
-      {/* Borrow Folder files */}
-      <Route path="/sme/borrow/bank-guarantees" element={<BankGuarantees />} />
-      <Route path="/sme/borrow/factoring" element={<Factoring />} />
-      <Route path="/sme/borrow/leasing" element={<Leasing />} />
-      <Route path="/sme/borrow/loans" element={<Loans />} />
-      <Route
-        path="/sme/borrow/lokal-is-beautiful"
-        element={<LokalIsBeautiful />}
-      />
-      <Route path="/sme/borrow/overdrafts" element={<Overdrafts />} />
-      <Route
-        path="/sme/borrow/sustainable-loan"
-        element={<SustainableLoan />}
-      />
-      <Route path="/sme/borrow/trade-finance" element={<TradeFinance />} />
-      {/* End of Borrow Folder files */}
-      {/* Bank Folder files */}
-      <Route path="/sme/bank/business-account" element={<BusinessAccount />} />
-      <Route
-        path="/sme/bank/tailor-made-solutions"
-        element={<TailorMadeSolutions />}
-      />
-      <Route
-        path="/sme/bank/transact-anytime-anywhere"
-        element={<TransactAnytimeAnywhere />}
-      />
-      {/* Transact anywhere folder files */}
-      <Route path="/sme/bank/transact-anytime-anywhere/atm" element={<Atm />} />
-      <Route
-        path="/sme/bank/transact-anytime-anywhere/e-statements"
-        element={<EStatements />}
-      />
-      <Route
-        path="/sme/bank/transact-anytime-anywhere/internet-banking"
-        element={<SmeInternetBanking />}
-      />
-      <Route
-        path="/sme/bank/transact-anytime-anywhere/juicepro"
-        element={<JuicePro />}
-      />
-      {/* End of Transact anywhere folder files */}
-      {/* End of Bank Folder files */}
-      {/* Pay Folder files */}
-      <Route path="/sme/pay/cards" element={<SmeCards />} />
-      <Route path="/sme/pay/cheques" element={<Cheque />} />
-      <Route
-        path="/sme/pay/electronic-payments"
-        element={<ElectronicePayments />}
-      />
-      <Route path="/sme/pay/payroll-services" element={<PayrollServices />} />
-      {/* Electronic Payments Folder files */}
-      <Route
-        path="/sme/pay/electronic-payments/e-commerce-solutions"
-        element={<EcommerceSolutions />}
-      />
-      <Route
-        path="/sme/pay/electronic-payments/electronic-transfer"
-        element={<ElectronicTransfer />}
-      />
-      {/* End of Electronic Payments Folder files */}
-      {/* card folder files */}
-      <Route path="/sme/pay/cards/business-card" element={<BusinessCard />} />
-      <Route
-        path="/sme/pay/cards/business-deposit-card"
-        element={<SmeBusinessDepositCard />}
-      />
-      <Route path="/sme/pay/cards/fleetman-card" element={<FleetmanCard />} />
-      {/* end of card folder files */}
-      {/* End of pay folder */}
-      {/* Cards folder */}
-      <Route
-        path="/sme/cards/business-deposit-card"
-        element={<BusinessDepositCard />}
-      />
-      {/* End of Cards folder */}
-      {/* End of Sme folder files */}
-    </>
-  );
-};
-// End of sme files and folder routes
-
-// corporate files and folder routes
-const CorporateRoutes = () => {
-  return (
-    <>
-      <Route path="/corporate" element={<Corporate />} />
-      {/* Corporate folder files */}
-      <Route path="/corporate/faq" element={<CorporateFaq />} />
-      <Route path="/corporate/finance-lending" element={<FinanceLending />} />
-      <Route
-        path="/corporate/investment-advisory"
-        element={<InvestmentAdvisory />}
-      />
-      <Route
-        path="/corporate/mcb-at-a-glance"
-        element={<CorporateMcbAtAGlance />}
-      />
-      <Route
-        path="/corporate/our-geographical-presence"
-        element={<CorporateOurGeographicalPresence />}
-      />
-      <Route path="/corporate/payment-cash" element={<PaymentCash />} />
-      <Route
-        path="/corporate/security-centre"
-        element={<CorporateSecurityCenter />}
-      />
-      <Route path="/corporate/what-we-do" element={<WhatWeDo />} />
-      {/* Payment Cash Folder files */}
-      <Route path="/corporate/payment-cash/collect" element={<Collect />} />
-      <Route path="/corporate/payment-cash/monitor" element={<Monitor />} />
-      <Route path="/corporate/payment-cash/optimise" element={<Optimise />} />
-      <Route path="/corporate/payment-cash/pay" element={<CorperatePay />} />
-      {/* Monitor folder files */}
-      <Route
-        path="/corporate/payment-cash/monitor/e-statements"
-        element={<CorporateEStatements />}
-      />
-      <Route
-        path="/corporate/payment-cash/monitor/reporting-services-ib-dashboard"
-        element={<ReportingServicesIbDashboard />}
-      />
-      {/* End of Monitor folder files */}
-      {/* Optimise folder files */}
-      <Route
-        path="/corporate/payment-cash/optimise/cash-pooling-services"
-        element={<CashPoolingServices />}
-      />
-      <Route
-        path="/corporate/payment-cash/optimise/fx-money-market-services"
-        element={<FxMoneyMarketServices />}
-      />
-      {/* End of Optimise folder files */}
-      {/* Collect folder files */}
-      <Route
-        path="/corporate/payment-cash/collect/cash-deposit-solutions"
-        element={<CashDepositSolutions />}
-      />
-      <Route
-        path="/corporate/payment-cash/collect/direct-debit-bill-payment"
-        element={<DirectDebitBillPayment />}
-      />
-      <Route
-        path="/corporate/payment-cash/collect/e-commerce"
-        element={<Ecommerce />}
-      />
-      <Route
-        path="/corporate/payment-cash/collect/mobile-banking"
-        element={<MobileBanking />}
-      />
-      <Route
-        path="/corporate/payment-cash/collect/point-of-sale-solutions"
-        element={<PointOfSaleSolutions />}
-      />
-      {/* Ecommerce folder files */}
-      <Route
-        path="/corporate/payment-cash/collect/e-commerce/merchant-services"
-        element={<MerchantServices />}
-      />
-      <Route
-        path="/corporate/payment-cash/collect/e-commerce/online-payment-gateway"
-        element={<OnlinePaymentGateway />}
-      />
-      {/* End of collect folder files */}
-      {/* End of Payment Cash Folder files */}
-      {/* Faq */}
-      <Route path="/corporate/faq/banking" element={<CorporateBanking />} />
-      <Route path="/corporate/faq/cards" element={<CorporateCards />} />
-      <Route
-        path="/corporate/faq/foreign-currency-transfer-on-ib"
-        element={<ForeignCurrencyTransferOnIB />}
-      />
-      <Route
-        path="/corporate/faq/internet-banking"
-        element={<CoperateInternetBanking />}
-      />
-      <Route
-        path="/corporate/faq/mcb-smartapprove"
-        element={<McbSmartApprove />}
-      />
-      <Route path="/corporate/faq/soft-token" element={<SoftToken />} />
-      {/* End of Faq */}
-      {/* Investment advisory */}
-      <Route
-        path="/corporate/investment-advisory/capital-markets"
-        element={<CapitalMarket />}
-      />
-      <Route
-        path="/corporate/investment-advisory/global-markets"
-        element={<GlobalMarkets />}
-      />
-      <Route
-        path="/corporate/investment-advisory/securities-services"
-        element={<SecurityServices />}
-      />
-      {/* Global Markets Folder files */}
-      <Route
-        path="/corporate/investment-advisory/global-markets/direct-access-to-markets"
-        element={<DirectAccessToMarkets />}
-      />
-      <Route
-        path="/corporate/investment-advisory/global-markets/financial-markets-summary"
-        element={<FinancialMarketsSummary />}
-      />
-      <Route
-        path="/corporate/investment-advisory/global-markets/global-markets-solutions"
-        element={<GlobalMarketsSolutions />}
-      />
-      {/* End Global Markets Folder files */}
-      {/* End Investment Advisory Folder files */}
-
-      {/* Finance Lending Folder files */}
-      <Route
-        path="/corporate/finance-lending/asset-finance"
-        element={<AssetFinance />}
-      />
-      <Route
-        path="/corporate/finance-lending/corporate-lending"
-        element={<CorporateLending />}
-      />
-      <Route
-        path="/corporate/finance-lending/structured-finance"
-        element={<StructuredFinance />}
-      />
-      <Route
-        path="/corporate/finance-lending/supply-chain-finance"
-        element={<SupplyChainFinance />}
-      />
-      {/* Mcb Leasing Folder files */}
-      <Route
-        path="/corporate/finance-lending/asset-finance/mcb-leasing"
-        element={<McbLeasing />}
-      />
-      {/* End of Mcb Leasing Folder files */}
-      {/* Supply Chain Finance Folder files */}
-      <Route
-        path="/corporate/finance-lending/supply-chain-finance/credit-protection"
-        element={<CreditProtection />}
-      />
-      <Route
-        path="/corporate/finance-lending/supply-chain-finance/global-trade-portal"
-        element={<GlobalTradePortal />}
-      />
-      <Route
-        path="/corporate/finance-lending/supply-chain-finance/invoice-factoring"
-        element={<InvoiceFactoring />}
-      />
-      <Route
-        path="/corporate/finance-lending/supply-chain-finance/trade-finance"
-        element={<CorporateTradeFinance />}
-      />
-      {/* Trade Finance Folder files */}
-      <Route
-        path="/corporate/finance-lending/supply-chain-finance/trade-finance/trade-finance-forms"
-        element={<TradeFinanceForms />}
-      />
-      {/* End of Trade Finance Folder files */}
-      {/* End Supply Chain Finance Folder files */}
-      {/* Corporate lending files */}
-      <Route
-        path="/corporate/finance-lending/corporate-lending/export-loan"
-        element={<ExportLoan />}
-      />
-      <Route
-        path="/corporate/finance-lending/corporate-lending/guarantees"
-        element={<Guarantees />}
-      />
-      <Route
-        path="/corporate/finance-lending/corporate-lending/import-loan"
-        element={<ImportLoan />}
-      />
-      <Route
-        path="/corporate/finance-lending/corporate-lending/overdraft-working-capital"
-        element={<OverdraftsWorkingCapitals />}
-      />
-      <Route
-        path="/corporate/finance-lending/corporate-lending/revolving-credit"
-        element={<RevolvingCredit />}
-      />
-      <Route
-        path="/corporate/finance-lending/corporate-lending/sustainable-loan"
-        element={<CorporateSustainableLoan />}
-      />
-      <Route
-        path="/corporate/finance-lending/corporate-lending/term-loan"
-        element={<TermLoan />}
-      />
-      {/* Corporate lending files */}
-      {/* Structured finance folder files */}
-      <Route
-        path="/corporate/finance-lending/structured-finance/acquisition-financing"
-        element={<AcquisitionFinancing />}
-      />
-      <Route
-        path="/corporate/finance-lending/structured-finance/cross-border-financing"
-        element={<CrossBorderFinancing />}
-      />
-      <Route
-        path="/corporate/finance-lending/structured-finance/energy-commodities"
-        element={<EnergyCommodities />}
-      />
-      <Route
-        path="/corporate/finance-lending/structured-finance/project-financing"
-        element={<ProjectFinancing />}
-      />
-      <Route
-        path="/corporate/finance-lending/structured-finance/property-financing"
-        element={<PropertyFinancing />}
-      />
-      <Route
-        path="/corporate/finance-lending/structured-finance/syndicated-financing"
-        element={<SyndicatedFinancing />}
-      />
-      {/* Energy comodities */}
-      <Route
-        path="/corporate/finance-lending/structured-finance/energy-commodities/our-success-stories"
-        element={<CorporateOurSuccessStories />}
-      />
-      {/* Energy Comodities Folder files */}
-      {/* End of structured finance folder files */}
-      {/* End of Finance Lending Folder files */}
-      {/* MCB AT A GLANCE */}
-      <Route
-        path="/corporate/mcb-at-a-glance/facts-figures"
-        element={<CorporateFactsFigures />}
-      />
-      <Route
-        path="/corporate/mcb-at-a-glance/overview"
-        element={<Overview />}
-      />
-      <Route
-        path="/corporate/mcb-at-a-glance/recognitions-accolades"
-        element={<CorporateRecognitionsAccolades />}
-      />
-      {/* MCB AT A GLANCE */}
-      {/* What we do */}
-      <Route
-        path="/corporate/what-we-do/corporate-banking"
-        element={<WWDCorporateBanking />}
-      />
-      <Route
-        path="/corporate/what-we-do/global-business"
-        element={<GlobalBusiness />}
-      />
-      {/* Global Business Folder files */}
-      <Route
-        path="/corporate/what-we-do/global-business/become-a-client"
-        element={<BecomeAClient />}
-      />
-      <Route
-        path="/corporate/what-we-do/global-business/custody-services"
-        element={<CustodyServices />}
-      />
-      <Route
-        path="/corporate/what-we-do/global-business/investing-in-mauritius"
-        element={<InvestingInMauritius />}
-      />
-      {/* End of Global Business Folder files */}
-      {/* Corporate Banking Folder files */}
-      <Route
-        path="/corporate/what-we-do/corporate-banking/become-a-client"
-        element={<CorporateBecomeAClient />}
-      />
-      <Route
-        path="/corporate/what-we-do/corporate-banking/our-success-stories"
-        element={<OurSuccessStories />}
-      />
-      {/* End of What we do */}
-
-      {/* End of Corporate folder files */}
-    </>
-  );
-};
-
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        {InstitutionalRoutes()}
-        {SmeRoutes()}
-        {CorporateRoutes()}
+        {/* Institutional folder files */}
+        <Route path="/institutional" element={<Institutional />} />
+        {/* Institutional folder files */}
+        <Route path="/institutional/events" element={<Events />} />
+        <Route
+          path="/institutional/mcb-at-a-glance"
+          element={<McbAtAGlance />}
+        />
+        <Route
+          path="/institutional/our-geographical-presence"
+          element={<OurGeographicalPresence />}
+        />
+        <Route path="/institutional/our-solutions" element={<OurSolutions />} />
+        {/* Our Solutions folder files */}
+        <Route
+          path="/institutional/our-solutions/bank-of-banks"
+          element={<BankOfBanks />}
+        />
+        <Route
+          path="/institutional/our-solutions/correspondent-banking"
+          element={<CorrespondentBanking />}
+        />
+        <Route
+          path="/institutional/our-solutions/risk-sharing"
+          element={<RiskSharing />}
+        />
+        <Route
+          path="/institutional/our-solutions/syndications"
+          element={<Syndications />}
+        />
+        {/* End of Our Solutions folder files */}
+        {/* Mcb at a glance folder files */}
+        <Route
+          path="/institutional/mcb-at-a-glance/facts-figures"
+          element={<FactsFigures />}
+        />
+        <Route
+          path="/institutional/mcb-at-a-glance/recognitions-accolades"
+          element={<RecognitionsAccolades />}
+        />
+        {/* End of Institutional folder files */}
+
+        <Route path="/sme" element={<Sme />} />
+        {/* Sme folder files */}
+        <Route path="/sme/bank" element={<Bank />} />
+        <Route path="/sme/borrow" element={<Borrow />} />
+        <Route
+          path="/sme/business-introducer"
+          element={<BusinessIntroducer />}
+        />
+        <Route path="/sme/finance" element={<Finance />} />
+        <Route path="/sme/partnerships" element={<Partnerships />} />
+        <Route path="/sme/pay" element={<Pay />} />
+        <Route path="/sme/sme-connect" element={<SmeConnect />} />
+        <Route path="/sme/structure" element={<Structure />} />
+        {/* Sme Connect Folder files */}
+        <Route
+          path="/sme/sme-connect/manage-your-business"
+          element={<ManageYourBusiness />}
+        />
+        <Route
+          path="/sme/sme-connect/speaker-series"
+          element={<SpeakerSeries />}
+        />
+        <Route
+          path="/sme/sme-connect/start-your-business"
+          element={<StartYourBusiness />}
+        />
+        {/* End of Sme Connect Folder files */}
+        {/* Borrow Folder files */}
+        <Route
+          path="/sme/borrow/bank-guarantees"
+          element={<BankGuarantees />}
+        />
+        <Route path="/sme/borrow/factoring" element={<Factoring />} />
+        <Route path="/sme/borrow/leasing" element={<Leasing />} />
+        <Route path="/sme/borrow/loans" element={<Loans />} />
+        <Route
+          path="/sme/borrow/lokal-is-beautiful"
+          element={<LokalIsBeautiful />}
+        />
+        <Route path="/sme/borrow/overdrafts" element={<Overdrafts />} />
+        <Route
+          path="/sme/borrow/sustainable-loan"
+          element={<SustainableLoan />}
+        />
+        <Route path="/sme/borrow/trade-finance" element={<TradeFinance />} />
+        {/* End of Borrow Folder files */}
+        {/* Bank Folder files */}
+        <Route
+          path="/sme/bank/business-account"
+          element={<BusinessAccount />}
+        />
+        <Route
+          path="/sme/bank/tailor-made-solutions"
+          element={<TailorMadeSolutions />}
+        />
+        <Route
+          path="/sme/bank/transact-anytime-anywhere"
+          element={<TransactAnytimeAnywhere />}
+        />
+        {/* Transact anywhere folder files */}
+        <Route
+          path="/sme/bank/transact-anytime-anywhere/atm"
+          element={<Atm />}
+        />
+        <Route
+          path="/sme/bank/transact-anytime-anywhere/e-statements"
+          element={<EStatements />}
+        />
+        <Route
+          path="/sme/bank/transact-anytime-anywhere/internet-banking"
+          element={<SmeInternetBanking />}
+        />
+        <Route
+          path="/sme/bank/transact-anytime-anywhere/juicepro"
+          element={<JuicePro />}
+        />
+        {/* End of Transact anywhere folder files */}
+        {/* End of Bank Folder files */}
+        {/* Pay Folder files */}
+        <Route path="/sme/pay/cards" element={<SmeCards />} />
+        <Route path="/sme/pay/cheques" element={<Cheque />} />
+        <Route
+          path="/sme/pay/electronic-payments"
+          element={<ElectronicePayments />}
+        />
+        <Route path="/sme/pay/payroll-services" element={<PayrollServices />} />
+        {/* Electronic Payments Folder files */}
+        <Route
+          path="/sme/pay/electronic-payments/e-commerce-solutions"
+          element={<EcommerceSolutions />}
+        />
+        <Route
+          path="/sme/pay/electronic-payments/electronic-transfer"
+          element={<ElectronicTransfer />}
+        />
+        {/* End of Electronic Payments Folder files */}
+        {/* card folder files */}
+        <Route path="/sme/pay/cards/business-card" element={<BusinessCard />} />
+        <Route
+          path="/sme/pay/cards/business-deposit-card"
+          element={<SmeBusinessDepositCard />}
+        />
+        <Route path="/sme/pay/cards/fleetman-card" element={<FleetmanCard />} />
+        {/* end of card folder files */}
+        {/* End of pay folder */}
+        {/* Cards folder */}
+        <Route
+          path="/sme/cards/business-deposit-card"
+          element={<BusinessDepositCard />}
+        />
+        {/* End of Cards folder */}
+        {/* End of Sme folder files */}
+
+        {/* corperate folder files */}
+        <Route path="/corporate" element={<Corporate />} />
+        {/* Corporate folder files */}
+        <Route path="/corporate/faq" element={<CorporateFaq />} />
+        <Route path="/corporate/finance-lending" element={<FinanceLending />} />
+        <Route
+          path="/corporate/investment-advisory"
+          element={<InvestmentAdvisory />}
+        />
+        <Route
+          path="/corporate/mcb-at-a-glance"
+          element={<CorporateMcbAtAGlance />}
+        />
+        <Route
+          path="/corporate/our-geographical-presence"
+          element={<CorporateOurGeographicalPresence />}
+        />
+        <Route path="/corporate/payment-cash" element={<PaymentCash />} />
+        <Route
+          path="/corporate/security-centre"
+          element={<CorporateSecurityCenter />}
+        />
+        <Route path="/corporate/what-we-do" element={<WhatWeDo />} />
+        {/* Payment Cash Folder files */}
+        <Route path="/corporate/payment-cash/collect" element={<Collect />} />
+        <Route path="/corporate/payment-cash/monitor" element={<Monitor />} />
+        <Route path="/corporate/payment-cash/optimise" element={<Optimise />} />
+        <Route path="/corporate/payment-cash/pay" element={<CorperatePay />} />
+        {/* Monitor folder files */}
+        <Route
+          path="/corporate/payment-cash/monitor/e-statements"
+          element={<CorporateEStatements />}
+        />
+        <Route
+          path="/corporate/payment-cash/monitor/reporting-services-ib-dashboard"
+          element={<ReportingServicesIbDashboard />}
+        />
+        {/* End of Monitor folder files */}
+        {/* Optimise folder files */}
+        <Route
+          path="/corporate/payment-cash/optimise/cash-pooling-services"
+          element={<CashPoolingServices />}
+        />
+        <Route
+          path="/corporate/payment-cash/optimise/fx-money-market-services"
+          element={<FxMoneyMarketServices />}
+        />
+        {/* End of Optimise folder files */}
+        {/* Collect folder files */}
+        <Route
+          path="/corporate/payment-cash/collect/cash-deposit-solutions"
+          element={<CashDepositSolutions />}
+        />
+        <Route
+          path="/corporate/payment-cash/collect/direct-debit-bill-payment"
+          element={<DirectDebitBillPayment />}
+        />
+        <Route
+          path="/corporate/payment-cash/collect/e-commerce"
+          element={<Ecommerce />}
+        />
+        <Route
+          path="/corporate/payment-cash/collect/mobile-banking"
+          element={<MobileBanking />}
+        />
+        <Route
+          path="/corporate/payment-cash/collect/point-of-sale-solutions"
+          element={<PointOfSaleSolutions />}
+        />
+        {/* Ecommerce folder files */}
+        <Route
+          path="/corporate/payment-cash/collect/e-commerce/merchant-services"
+          element={<MerchantServices />}
+        />
+        <Route
+          path="/corporate/payment-cash/collect/e-commerce/online-payment-gateway"
+          element={<OnlinePaymentGateway />}
+        />
+        {/* End of collect folder files */}
+        {/* End of Payment Cash Folder files */}
+        {/* Faq */}
+        <Route path="/corporate/faq/banking" element={<CorporateBanking />} />
+        <Route path="/corporate/faq/cards" element={<CorporateCards />} />
+        <Route
+          path="/corporate/faq/foreign-currency-transfer-on-ib"
+          element={<ForeignCurrencyTransferOnIB />}
+        />
+        <Route
+          path="/corporate/faq/internet-banking"
+          element={<CoperateInternetBanking />}
+        />
+        <Route
+          path="/corporate/faq/mcb-smartapprove"
+          element={<McbSmartApprove />}
+        />
+        <Route path="/corporate/faq/soft-token" element={<SoftToken />} />
+        {/* End of Faq */}
+        {/* Investment advisory */}
+        <Route
+          path="/corporate/investment-advisory/capital-markets"
+          element={<CapitalMarket />}
+        />
+        <Route
+          path="/corporate/investment-advisory/global-markets"
+          element={<GlobalMarkets />}
+        />
+        <Route
+          path="/corporate/investment-advisory/securities-services"
+          element={<SecurityServices />}
+        />
+        {/* Global Markets Folder files */}
+        <Route
+          path="/corporate/investment-advisory/global-markets/direct-access-to-markets"
+          element={<DirectAccessToMarkets />}
+        />
+        <Route
+          path="/corporate/investment-advisory/global-markets/financial-markets-summary"
+          element={<FinancialMarketsSummary />}
+        />
+        <Route
+          path="/corporate/investment-advisory/global-markets/global-markets-solutions"
+          element={<GlobalMarketsSolutions />}
+        />
+        {/* End Global Markets Folder files */}
+        {/* End Investment Advisory Folder files */}
+
+        {/* Finance Lending Folder files */}
+        <Route
+          path="/corporate/finance-lending/asset-finance"
+          element={<AssetFinance />}
+        />
+        <Route
+          path="/corporate/finance-lending/corporate-lending"
+          element={<CorporateLending />}
+        />
+        <Route
+          path="/corporate/finance-lending/structured-finance"
+          element={<StructuredFinance />}
+        />
+        <Route
+          path="/corporate/finance-lending/supply-chain-finance"
+          element={<SupplyChainFinance />}
+        />
+        {/* Mcb Leasing Folder files */}
+        <Route
+          path="/corporate/finance-lending/asset-finance/mcb-leasing"
+          element={<McbLeasing />}
+        />
+        {/* End of Mcb Leasing Folder files */}
+        {/* Supply Chain Finance Folder files */}
+        <Route
+          path="/corporate/finance-lending/supply-chain-finance/credit-protection"
+          element={<CreditProtection />}
+        />
+        <Route
+          path="/corporate/finance-lending/supply-chain-finance/global-trade-portal"
+          element={<GlobalTradePortal />}
+        />
+        <Route
+          path="/corporate/finance-lending/supply-chain-finance/invoice-factoring"
+          element={<InvoiceFactoring />}
+        />
+        <Route
+          path="/corporate/finance-lending/supply-chain-finance/trade-finance"
+          element={<CorporateTradeFinance />}
+        />
+        {/* Trade Finance Folder files */}
+        <Route
+          path="/corporate/finance-lending/supply-chain-finance/trade-finance/trade-finance-forms"
+          element={<TradeFinanceForms />}
+        />
+        {/* End of Trade Finance Folder files */}
+        {/* End Supply Chain Finance Folder files */}
+        {/* Corporate lending files */}
+        <Route
+          path="/corporate/finance-lending/corporate-lending/export-loan"
+          element={<ExportLoan />}
+        />
+        <Route
+          path="/corporate/finance-lending/corporate-lending/guarantees"
+          element={<Guarantees />}
+        />
+        <Route
+          path="/corporate/finance-lending/corporate-lending/import-loan"
+          element={<ImportLoan />}
+        />
+        <Route
+          path="/corporate/finance-lending/corporate-lending/overdraft-working-capital"
+          element={<OverdraftsWorkingCapitals />}
+        />
+        <Route
+          path="/corporate/finance-lending/corporate-lending/revolving-credit"
+          element={<RevolvingCredit />}
+        />
+        <Route
+          path="/corporate/finance-lending/corporate-lending/sustainable-loan"
+          element={<CorporateSustainableLoan />}
+        />
+        <Route
+          path="/corporate/finance-lending/corporate-lending/term-loan"
+          element={<TermLoan />}
+        />
+        {/* Corporate lending files */}
+        {/* Structured finance folder files */}
+        <Route
+          path="/corporate/finance-lending/structured-finance/acquisition-financing"
+          element={<AcquisitionFinancing />}
+        />
+        <Route
+          path="/corporate/finance-lending/structured-finance/cross-border-financing"
+          element={<CrossBorderFinancing />}
+        />
+        <Route
+          path="/corporate/finance-lending/structured-finance/energy-commodities"
+          element={<EnergyCommodities />}
+        />
+        <Route
+          path="/corporate/finance-lending/structured-finance/project-financing"
+          element={<ProjectFinancing />}
+        />
+        <Route
+          path="/corporate/finance-lending/structured-finance/property-financing"
+          element={<PropertyFinancing />}
+        />
+        <Route
+          path="/corporate/finance-lending/structured-finance/syndicated-financing"
+          element={<SyndicatedFinancing />}
+        />
+        {/* Energy comodities */}
+        <Route
+          path="/corporate/finance-lending/structured-finance/energy-commodities/our-success-stories"
+          element={<CorporateOurSuccessStories />}
+        />
+        {/* Energy Comodities Folder files */}
+        {/* End of structured finance folder files */}
+        {/* End of Finance Lending Folder files */}
+        {/* MCB AT A GLANCE */}
+        <Route
+          path="/corporate/mcb-at-a-glance/facts-figures"
+          element={<CorporateFactsFigures />}
+        />
+        <Route
+          path="/corporate/mcb-at-a-glance/overview"
+          element={<Overview />}
+        />
+        <Route
+          path="/corporate/mcb-at-a-glance/recognitions-accolades"
+          element={<CorporateRecognitionsAccolades />}
+        />
+        {/* MCB AT A GLANCE */}
+        {/* What we do */}
+        <Route
+          path="/corporate/what-we-do/corporate-banking"
+          element={<WWDCorporateBanking />}
+        />
+        <Route
+          path="/corporate/what-we-do/global-business"
+          element={<GlobalBusiness />}
+        />
+        {/* Global Business Folder files */}
+        <Route
+          path="/corporate/what-we-do/global-business/become-a-client"
+          element={<BecomeAClient />}
+        />
+        <Route
+          path="/corporate/what-we-do/global-business/custody-services"
+          element={<CustodyServices />}
+        />
+        <Route
+          path="/corporate/what-we-do/global-business/investing-in-mauritius"
+          element={<InvestingInMauritius />}
+        />
+        {/* End of Global Business Folder files */}
+        {/* Corporate Banking Folder files */}
+        <Route
+          path="/corporate/what-we-do/corporate-banking/become-a-client"
+          element={<CorporateBecomeAClient />}
+        />
+        <Route
+          path="/corporate/what-we-do/corporate-banking/our-success-stories"
+          element={<OurSuccessStories />}
+        />
+        {/* End of What we do */}
+        {/* End of Corporate folder files */}
       </Routes>
     </BrowserRouter>
   );

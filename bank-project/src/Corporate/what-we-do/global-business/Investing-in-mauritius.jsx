@@ -343,7 +343,7 @@ const InvestingInMauritius = () => {
                             <p>
                               <a
                                 target="_blank"
-                                href="../../payment-cash/collect/e-commerce.html"
+                                href="/corporate/payment-cash/collect/e-commerce"
                               >
                                 Ecommerce
                               </a>
@@ -351,7 +351,7 @@ const InvestingInMauritius = () => {
                             <p>
                               <a
                                 target="_blank"
-                                href="../../payment-cash/pay/corporate-card.html"
+                                href="/corperate/payment-cash/pay/corporate-card"
                               >
                                 Corporate Card
                               </a>
@@ -414,7 +414,7 @@ const InvestingInMauritius = () => {
                           </p>
                         </div>
                         <a
-                          href="become-a-client.html"
+                          href="/corporate/what-we-do/corporate-banking/become-a-client"
                           target="_self"
                           className="mb-1 mt-1 me-1 btn btn-primary"
                         >
