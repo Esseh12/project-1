@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet-async";
 import PersonalHeader from "../Components/Personal-header";
 import Footer from "../Components/Footer";
 
-const Loans = () => {
+const PersonalLoans = () => {
   return (
     <>
       <Helmet>
@@ -306,4 +306,4 @@ const Loans = () => {
     </>
   );
 };
-export default Loans;
+export default PersonalLoans;
