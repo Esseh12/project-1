@@ -596,7 +596,7 @@ const FileComplaintForm = () => {
                     </p>
                     <p>
                       <a
-                        href="personal/help-centre/faq.html"
+                        href="/personal/help-centre/faq"
                         className="btn btn-primary"
                         target="_blank"
                       >

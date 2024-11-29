@@ -25,11 +25,14 @@ const SecurityCentre = () => {
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}
         {/* reusable header component */}
         <PersonalHeader />
@@ -39,7 +42,7 @@ const SecurityCentre = () => {
             className="banner-small custom-bg-color-light-2 position-relative border-0 pb-sm-0 pt-lg-4 m-0 mt-80"
             style={{
               backgroundImage:
-                "url(images/mcb/personal/banners/personal-security-centre-banner1f03.jpeg?sfvrsn=3ea0e51b_0)",
+                "url(/images/mcb/personal/banners/personal-security-centre-banner1f03.jpeg?sfvrsn=3ea0e51b_0)",
             }}
           >
             <div className="overlay" />
@@ -106,7 +109,7 @@ const SecurityCentre = () => {
                         <div className="d-flex flex-column align-items-end">
                           <p className="mb-0 mt-3">
                             <a
-                              href="security-centre/online-and-mobile"
+                              href="/security-centre/online-and-mobile"
                               target="_self"
                               className="read-more text-color-primary font-weight-semibold mt-2 text-2"
                             >
@@ -237,7 +240,7 @@ const SecurityCentre = () => {
                         <div className="d-flex flex-column align-items-end">
                           <p className="mb-0 mt-3">
                             <a
-                              href="security-centre/money-muling"
+                              href="/security-centre/money-muling"
                               target="_self"
                               className="read-more text-color-primary font-weight-semibold mt-2 text-2"
                             >
@@ -290,7 +293,7 @@ const SecurityCentre = () => {
                             </h3>
                           </div>
                           <a
-                            href="personal/contact-us.html"
+                            href="/contact-us"
                             target="_blank"
                             className="mb-1 mt-1 me-1 btn btn-primary"
                           >

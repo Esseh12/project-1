@@ -20,11 +20,14 @@ const RatesFees = () => {
       <link rel="canonical" href="/rates-fees" />
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}
         {/* Reusable Header componet */}
         <Header />
@@ -263,7 +266,7 @@ const RatesFees = () => {
                           <i className="icon-pdf-env fs-1" />
                         </div>
                         <div className="flex-grow-1" role="group">
-                          <a href="docs/mcb/rates-fees/fees-charges/global-businessb6b7.pdf?sfvrsn=763071da_9">
+                          <a href="/docs/mcb/rates-fees/fees-charges/global-businessb6b7.pdf?sfvrsn=763071da_9">
                             Global Business
                           </a>
                           <div className="small">
@@ -280,7 +283,7 @@ const RatesFees = () => {
                           <i className="icon-pdf-env fs-1" />
                         </div>
                         <div className="flex-grow-1" role="group">
-                          <a href="docs/mcb/rates-fees/fees-charges/business-banking-pricing8157.pdf?sfvrsn=ed9da991_8">
+                          <a href="/docs/mcb/rates-fees/fees-charges/business-banking-pricing8157.pdf?sfvrsn=ed9da991_8">
                             Business Banking
                           </a>
                           <div className="small">
@@ -297,7 +300,7 @@ const RatesFees = () => {
                           <i className="icon-pdf-env fs-1" />
                         </div>
                         <div className="flex-grow-1" role="group">
-                          <a href="docs/mcb/rates-fees/fees-charges/Upcoming-New-pricing_0107231084.pdf?sfvrsn=3090ddef_3">
+                          <a href="/docs/mcb/rates-fees/fees-charges/Upcoming-New-pricing_0107231084.pdf?sfvrsn=3090ddef_3">
                             Upcoming New pricing
                           </a>
                           <div className="small">
@@ -314,7 +317,7 @@ const RatesFees = () => {
                           <i className="icon-pdf-env fs-1" />
                         </div>
                         <div className="flex-grow-1" role="group">
-                          <a href="docs/mcb/rates-fees/fees-charges/individual2601.pdf?sfvrsn=23bafdac_9">
+                          <a href="/docs/mcb/rates-fees/fees-charges/individual2601.pdf?sfvrsn=23bafdac_9">
                             Individual
                           </a>
                           <div className="small">
@@ -329,7 +332,7 @@ const RatesFees = () => {
                           <i className="icon-pdf-env fs-1" />
                         </div>
                         <div className="flex-grow-1" role="group">
-                          <a href="docs/mcb/rates-fees/fees-charges/corporate79cb.pdf?sfvrsn=edebb8e_7">
+                          <a href="/docs/mcb/rates-fees/fees-charges/corporate79cb.pdf?sfvrsn=edebb8e_7">
                             Corporate
                           </a>
                           <div className="small">
@@ -364,7 +367,7 @@ const RatesFees = () => {
                       <p>
                         <a
                           target="_blank"
-                          href="rates-fees/rates-in-html-version.html"
+                          href="/rates-fees/rates-in-html-version"
                         >
                           Rates in HTML version
                         </a>
@@ -380,7 +383,7 @@ const RatesFees = () => {
                           <i className="icon-pdf-env fs-1" />
                         </div>
                         <div className="flex-grow-1" role="group">
-                          <a href="docs/mcb/rates-fees/bom/bom-templatee1c0.pdf?sfvrsn=60819b53_9">
+                          <a href="/docs/mcb/rates-fees/bom/bom-templatee1c0.pdf?sfvrsn=60819b53_9">
                             Rates in PDF version
                           </a>
                           <div className="small">

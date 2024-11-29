@@ -13,7 +13,7 @@ const CorporateHeader = () => {
               <li className="nav-item dropdown has-megamenu ">
                 <a
                   className="nav-link"
-                  href="corporate/what-we-do.html"
+                  href="/corporate/what-we-do"
                   target="_self"
                   id="navbarDropdownMenuLink0-2"
                   data-bs-toggle="dropdown"
@@ -51,7 +51,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/what-we-do/corporate-banking/our-success-stories.html"
+                                      href="/corporate/what-we-do/corporate-banking/our-success-stories"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -66,7 +66,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/what-we-do/corporate-banking/become-a-client.html"
+                                      href="/corporate/what-we-do/corporate-banking/become-a-client"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -92,7 +92,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/what-we-do/global-business/become-a-client.html"
+                                      href="/corporate/what-we-do/global-business/become-a-client"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -107,7 +107,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/what-we-do/global-business/investing-in-mauritius.html"
+                                      href="/corporate/what-we-do/global-business/investing-in-mauritius"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -122,7 +122,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/what-we-do/global-business/custody-services.html"
+                                      href="/corporate/what-we-do/global-business/custody-services"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -139,7 +139,7 @@ const CorporateHeader = () => {
                               <span>
                                 <a
                                   className="d-flex flex-column "
-                                  href="corporate/finance-lending/structured-finance/energy-commodities.html"
+                                  href="/corporate/finance-lending/structured-finance/energy-commodities"
                                   target="_self"
                                 >
                                   <strong>
@@ -153,7 +153,7 @@ const CorporateHeader = () => {
                               <span>
                                 <a
                                   className="d-flex flex-column "
-                                  href="institutional.html"
+                                  href="/institutional"
                                   target="_self"
                                 >
                                   <strong>Institutional Banking</strong>
@@ -165,7 +165,7 @@ const CorporateHeader = () => {
                               <span>
                                 <a
                                   className="d-flex flex-column "
-                                  href="sme.html"
+                                  href="/sme"
                                   target="_self"
                                 >
                                   <strong>SME Banking</strong>
@@ -183,7 +183,7 @@ const CorporateHeader = () => {
               <li className="nav-item dropdown has-megamenu ">
                 <a
                   className="nav-link"
-                  href="corporate/payment-cash.html"
+                  href="/corporate/payment-cash"
                   target="_self"
                   id="navbarDropdownMenuLink1-2"
                   data-bs-toggle="dropdown"
@@ -220,7 +220,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/payment-cash/pay/domestic-international-transfers.html"
+                                      href="/corporate/payment-cash/pay/domestic-international-transfers"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -235,7 +235,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/payment-cash/pay/internet-banking-pro-smartapprove.html"
+                                      href="/corporate/payment-cash/pay/internet-banking-pro-smartapprove"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -251,7 +251,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/payment-cash/pay/bulk-payments.html"
+                                      href="/corporate/payment-cash/pay/bulk-payments"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -266,7 +266,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/payment-cash/pay/corporate-card.html"
+                                      href="/corporate/payment-cash/pay/corporate-card"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -281,7 +281,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/payment-cash/pay/fleetman-card.html"
+                                      href="/corporate/payment-cash/pay/fleetman-card"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -296,7 +296,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/payment-cash/pay/swift-connectivity.html"
+                                      href="/corporate/payment-cash/pay/swift-connectivity"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -311,7 +311,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/payment-cash/pay/drop-collect.html"
+                                      href="/corporate/payment-cash/pay/drop-collect"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -337,7 +337,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/payment-cash/collect/direct-debit-bill-payment.html"
+                                      href="/corporate/payment-cash/collect/direct-debit-bill-payment"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -352,7 +352,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/payment-cash/collect/cash-deposit-solutions.html"
+                                      href="/corporate/payment-cash/collect/cash-deposit-solutions"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -367,7 +367,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/payment-cash/collect/e-commerce.html"
+                                      href="/corporate/payment-cash/collect/e-commerce"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -382,7 +382,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/payment-cash/collect/point-of-sale-solutions.html"
+                                      href="/corporate/payment-cash/collect/point-of-sale-solutions"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -397,7 +397,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/payment-cash/collect/mobile-banking.html"
+                                      href="/corporate/payment-cash/collect/mobile-banking"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -423,7 +423,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/payment-cash/monitor/e-statements.html"
+                                      href="/corporate/payment-cash/monitor/e-statements"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -438,7 +438,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/payment-cash/monitor/reporting-services-ib-dashboard.html"
+                                      href="/corporate/payment-cash/monitor/reporting-services-ib-dashboard"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -464,7 +464,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/payment-cash/optimise/cash-pooling-services.html"
+                                      href="/corporate/payment-cash/optimise/cash-pooling-services"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -479,7 +479,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/payment-cash/optimise/fx-money-market-services.html"
+                                      href="/corporate/payment-cash/optimise/fx-money-market-services"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -502,7 +502,7 @@ const CorporateHeader = () => {
               <li className="nav-item dropdown has-megamenu ">
                 <a
                   className="nav-link"
-                  href="corporate/finance-lending.html"
+                  href="/corporate/finance-lending"
                   target="_self"
                   id="navbarDropdownMenuLink2-2"
                   data-bs-toggle="dropdown"
@@ -539,7 +539,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/finance-lending/corporate-lending/overdraft-working-capital.html"
+                                      href="/corporate/finance-lending/corporate-lending/overdraft-working-capital"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -554,7 +554,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/finance-lending/corporate-lending/revolving-credit.html"
+                                      href="/corporate/finance-lending/corporate-lending/revolving-credit"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -569,7 +569,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/finance-lending/corporate-lending/import-loan.html"
+                                      href="/corporate/finance-lending/corporate-lending/import-loan"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -584,7 +584,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/finance-lending/corporate-lending/export-loan.html"
+                                      href="/corporate/finance-lending/corporate-lending/export-loan"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -599,7 +599,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/finance-lending/corporate-lending/term-loan.html"
+                                      href="/corporate/finance-lending/corporate-lending/term-loan"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -614,7 +614,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/finance-lending/corporate-lending/sustainable-loan.html"
+                                      href="/corporate/finance-lending/corporate-lending/sustainable-loan"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -629,7 +629,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/finance-lending/corporate-lending/guarantees.html"
+                                      href="/corporate/finance-lending/corporate-lending/guarantees"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -670,7 +670,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/finance-lending/supply-chain-finance/trade-finance.html"
+                                      href="/corporate/finance-lending/supply-chain-finance/trade-finance"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -685,7 +685,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/finance-lending/supply-chain-finance/credit-protection.html"
+                                      href="/corporate/finance-lending/supply-chain-finance/credit-protection"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -700,7 +700,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/finance-lending/supply-chain-finance/invoice-factoring.html"
+                                      href="/corporate/finance-lending/supply-chain-finance/invoice-factoring"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -726,7 +726,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/finance-lending/structured-finance/acquisition-financing.html"
+                                      href="/corporate/finance-lending/structured-finance/acquisition-financing"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -741,7 +741,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/finance-lending/structured-finance/property-financing.html"
+                                      href="/corporate/finance-lending/structured-finance/property-financing"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -756,7 +756,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/finance-lending/structured-finance/project-financing.html"
+                                      href="/corporate/finance-lending/structured-finance/project-financing"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -771,7 +771,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/finance-lending/structured-finance/energy-commodities.html"
+                                      href="/corporate/finance-lending/structured-finance/energy-commodities"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -786,7 +786,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/finance-lending/structured-finance/cross-border-financing.html"
+                                      href="/corporate/finance-lending/structured-finance/cross-border-financing"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -801,7 +801,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/finance-lending/structured-finance/syndicated-financing.html"
+                                      href="/corporate/finance-lending/structured-finance/syndicated-financing"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -827,7 +827,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/finance-lending/asset-finance/mcb-leasing.html"
+                                      href="/corporate/finance-lending/asset-finance/mcb-leasing"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -850,7 +850,7 @@ const CorporateHeader = () => {
               <li className="nav-item dropdown has-megamenu ">
                 <a
                   className="nav-link"
-                  href="corporate/investment-advisory.html"
+                  href="/corporate/investment-advisory"
                   target="_self"
                   id="navbarDropdownMenuLink3-2"
                   data-bs-toggle="dropdown"
@@ -889,7 +889,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/investment-advisory/global-markets/financial-markets-summary.html"
+                                      href="/corporate/investment-advisory/global-markets/financial-markets-summary"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -904,7 +904,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/investment-advisory/global-markets/global-markets-solutions.html"
+                                      href="/corporate/investment-advisory/global-markets/global-markets-solutions"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -919,7 +919,7 @@ const CorporateHeader = () => {
                                   <span>
                                     <a
                                       className="d-flex flex-column text-1 line-height-2 "
-                                      href="corporate/investment-advisory/global-markets/direct-access-to-markets.html"
+                                      href="/corporate/investment-advisory/global-markets/direct-access-to-markets"
                                       target="_self"
                                     >
                                       <div className="d-flex">
@@ -936,7 +936,7 @@ const CorporateHeader = () => {
                               <span>
                                 <a
                                   className="d-flex flex-column "
-                                  href="corporate/investment-advisory/capital-markets.html"
+                                  href="/corporate/investment-advisory/capital-markets"
                                   target="_self"
                                 >
                                   <strong>Capital Markets</strong>
@@ -948,7 +948,7 @@ const CorporateHeader = () => {
                               <span>
                                 <a
                                   className="d-flex flex-column "
-                                  href="corporate/investment-advisory/securities-services.html"
+                                  href="/corporate/investment-advisory/securities-services"
                                   target="_self"
                                 >
                                   <strong>Securities Services</strong>

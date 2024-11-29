@@ -73,7 +73,7 @@ const Footer = () => {
                     </a>
                     <a
                       id="contact-btn"
-                      href="../cdn-cgi/l/email-protection.html#c6a5a9a8b2a7a5b286aba5a4e8abb3"
+                      href="/cdn-cgi/l/email-protection.html#c6a5a9a8b2a7a5b286aba5a4e8abb3"
                       target="_blank"
                     >
                       <img
@@ -132,7 +132,7 @@ const Footer = () => {
                   target: "_blank",
                 },
                 {
-                  href: "../../about-us/financials-annual-reports.html",
+                  href: "/personal/about-us/financials-annual-reports",
                   text: "Financial & Reports",
                 },
                 { href: "/rates-fees", text: "Rates & Fees" },
@@ -143,11 +143,11 @@ const Footer = () => {
               title="Tools & Calculators"
               links={[
                 {
-                  href: "../../../tools-calculators/bank-guarantee-authentication.html",
+                  href: "/tools-calculators/bank-guarantee-authentication",
                   text: "Bank Guarantee authentication",
                 },
                 {
-                  href: "../../../tools-calculators/foreign-exchange-convertor.html",
+                  href: "/tools-calculators/foreign-exchange-convertor",
                   text: "Foreign exchange calculator",
                 },
                 {
@@ -155,7 +155,7 @@ const Footer = () => {
                   text: "How much can I borrow?",
                 },
                 {
-                  href: "../../../tools-calculators/monthly-repayment.html",
+                  href: "/tools-calculators/monthly-repayment",
                   text: "Monthly repayment",
                 },
                 {
@@ -174,15 +174,15 @@ const Footer = () => {
                   text: "Adherence to FX Global Code",
                 },
                 {
-                  href: "../../../rates-fees/rates-in-html-version.html",
+                  href: "/rates-fees/rates-in-html-version",
                   text: "Bank of Mauritius Template on Fees, Charges & Commissions",
                 },
                 {
-                  href: "../../../docs/mcb/default-document-library/MBA-Code-of-Banking-Practice-2016.pdf",
+                  href: "/docs/mcb/default-document-library/MBA-Code-of-Banking-Practice-2016.pdf",
                   text: "Code of Ethics & Banking Practice",
                 },
                 {
-                  href: "../../../docs/mcb/personal/mcb-complaints-escalation.pdf",
+                  href: "/docs/mcb/personal/mcb-complaints-escalation.pdf",
                   text: "Complaints Escalation",
                 },
                 {
@@ -221,7 +221,7 @@ const Footer = () => {
         {/* Additional Links */}
         <div className="row mt-50" data-sf-element="Row">
           <FooterAdditionalLink
-            href="../../contact-us.html"
+            href="/contact-us"
             iconClass="fa-file-lines"
             text="Contact Us"
             id="Footer_T0975117C010_Col00"
@@ -248,7 +248,7 @@ const Footer = () => {
             data-placeholder-label="Column 3"
           />
           <FooterAdditionalLink
-            href="../../../offers/index.html"
+            href="/offers/index"
             iconClass="fa-star"
             text="Offers & promotions"
             id="Footer_T0975117C010_Col03"

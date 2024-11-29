@@ -298,6 +298,9 @@ import Collect from "./Corporate/payment-cash/Collect";
 import Monitor from "./Corporate/payment-cash/Monitor";
 import Optimise from "./Corporate/payment-cash/Optimise";
 import CorperatePay from "./Corporate/payment-cash/Pay";
+// pay folder files
+import BulkPayments from "./Corporate/payment-cash/pay/Bulk-payments";
+import CorperateCard from "./Corporate/payment-cash/pay/Corporate-card";
 // End of Payment Cash Folder files
 // Monitor Folder files
 import CorporateEStatements from "./Corporate/payment-cash/monitor/E-statements";
@@ -1068,6 +1071,17 @@ const App = () => {
         <Route path="/corporate/payment-cash/monitor" element={<Monitor />} />
         <Route path="/corporate/payment-cash/optimise" element={<Optimise />} />
         <Route path="/corporate/payment-cash/pay" element={<CorperatePay />} />
+        {/* pay folder file */}
+        <Route
+          path="/corporate/payment-cash/pay/bulk-payments"
+          element={<BulkPayments />}
+        />
+        <Route
+          path="/corporate/payment-cash/pay/corporate-card"
+          element={<CorperateCard />}
+        />
+
+        {/* End of pay folder files */}
         {/* Monitor folder */}
         <Route
           path="/corporate/payment-cash/monitor/e-statements"

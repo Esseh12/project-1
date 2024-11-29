@@ -840,7 +840,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="/personal//personal/security-centre"
+                                    href="/security-centre"
                                     target="_self"
                                   >
                                     <strong>Go to security center</strong>
@@ -890,7 +890,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="/personal//personal/locate-us"
+                                    href="/locate-us"
                                     target="_self"
                                   >
                                     <strong>Find your nearest branch</strong>
@@ -902,7 +902,7 @@ const PersonalHeader = () => {
                                 <span>
                                   <a
                                     className="d-flex flex-column "
-                                    href="/personal//personal/rates-fees"
+                                    href="/rates-fees"
                                     target="_self"
                                   >
                                     <strong>
