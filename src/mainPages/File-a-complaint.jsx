@@ -1,50 +1,24 @@
-// form doesn't work because it's not connected to the backend
-import { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import Header from "../Components/Header";
 
 const FileComplaintForm = () => {
-  useEffect(() => {
-    // External scripts to be loaded dynamically
-    const scripts = [
-      "ResourcePackages/MCBMU/assets/dist/vendor/plugins/js/plugins.min7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/theme7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/views/view.contact7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/demos/demo-business-consulting-27306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/custom7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/ma5-menu7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/theme.init7306.js?package=MCBMU",
-    ];
-
-    scripts.forEach((src) => {
-      const script = document.createElement("script");
-      script.src = src;
-      script.async = false;
-      document.body.appendChild(script);
-    });
-
-    // Cleanup scripts on component unmount
-    return () => {
-      scripts.forEach((src) => {
-        const script = document.querySelector(`script[src="${src}"]`);
-        if (script) {
-          document.body.removeChild(script);
-        }
-      });
-    };
-  }, []);
-
   return (
     <>
-      <meta name="title" content="File a complaint" />
-      <meta property="og:title" content="File a complaint" />
-      <link rel="canonical" href="file-a-complaint.html" />
+      <Helmet>
+        <meta name="title" content="File a complaint" />
+        <meta property="og:title" content="File a complaint" />
+        <link rel="canonical" href="/file-a-complaint" />
+      </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}
         {/* Reusable header component */}
         <Header />

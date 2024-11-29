@@ -1,162 +1,27 @@
-import { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 
 const CustomerForms = () => {
-  useEffect(() => {
-    // External scripts to be loaded dynamically
-    const scripts = [
-      "ResourcePackages/MCBMU/assets/dist/vendor/plugins/js/plugins.min7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/theme7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/views/view.contact7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/demos/demo-business-consulting-27306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/custom7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/ma5-menu7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/theme.init7306.js?package=MCBMU",
-    ];
-
-    scripts.forEach((src) => {
-      const script = document.createElement("script");
-      script.src = src;
-      script.async = false;
-      document.body.appendChild(script);
-    });
-
-    // Cleanup scripts on component unmount
-    return () => {
-      scripts.forEach((src) => {
-        const script = document.querySelector(`script[src="${src}"]`);
-        if (script) {
-          document.body.removeChild(script);
-        }
-      });
-    };
-  }, []);
-
   return (
     <>
-      <meta name="title" content="Oops! Page not found" />
-      <meta name="description" /> <meta charSet="utf-8" />{" "}
-      <meta name="viewport" content="width=device-width, initial-scale=1" />{" "}
-      {/* Favicon */}{" "}
-      <link
-        rel="shortcut icon"
-        href="/ResourcePackages/MCBMU/assets/dist/images/favicon.ico"
-        type="image/x-icon"
-      />{" "}
-      {/* <link rel="apple-touch-icon" href="/ResourcePackages/MCBMU/assets/dist/images/favicon.ico"> */}{" "}
-      {/* Mobile Metas */}{" "}
-      {/*<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">*/}{" "}
-      <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no"
-      />{" "}
-      {/* Web Fonts  */}{" "}
-      {/*<link id="googleFonts" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" type="text/css">*/}{" "}
-      <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet"
-      />{" "}
-      <link
-        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
-        rel="stylesheet"
-      />{" "}
-      {/* Vendor CSS */}{" "}
-      <link
-        href="/ResourcePackages/MCBMU/assets/dist/vendor/bootstrap/css/bootstrap.min.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="/ResourcePackages/MCBMU/assets/dist/vendor/fontawesome-free/css/all.min.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="/ResourcePackages/MCBMU/assets/dist/vendor/animate/animate.compat.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="/ResourcePackages/MCBMU/assets/dist/vendor/simple-line-icons/css/simple-line-icons.min.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="/ResourcePackages/MCBMU/assets/dist/vendor/owl.carousel/assets/owl.carousel.min.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="/ResourcePackages/MCBMU/assets/dist/vendor/owl.carousel/assets/owl.theme.default.min.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="/ResourcePackages/MCBMU/assets/dist/vendor/magnific-popup/magnific-popup.min.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="/ResourcePackages/MCBMU/assets/dist/css/theme.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="/ResourcePackages/MCBMU/assets/dist/css/theme-elements.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="/ResourcePackages/MCBMU/assets/dist/css/theme-blog.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="/ResourcePackages/MCBMU/assets/dist/css/theme-shop.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="/ResourcePackages/MCBMU/assets/dist/css/demos/demo-business-consulting-2.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="/ResourcePackages/MCBMU/assets/dist/css/skins/skin-business-consulting-2.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="/ResourcePackages/MCBMU/assets/dist/css/custom.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="/ResourcePackages/MCBMU/assets/dist/css/menu_style/assets/css/ma5-menu.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="/ResourcePackages/MCBMU/assets/dist/css/style-new.css?package=MCBMU"
-        rel="stylesheet"
-        type="text/css"
-      />{" "}
-      {/* Theme CSS */} {/* Demo CSS */} {/* Skin CSS */}
-      {/* Theme Custom CSS */} {/* Head Libs */}
-      <title>Oops! Page not found</title>
-      <meta property="og:title" content="Oops! Page not found" />
-      <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://mcb.mu/error-pages/404" />
-      <meta property="og:site_name" content="MCB Mauritius" />
-      <link rel="canonical" href="https://mcb.mu/error-pages/404" />
+      <Helmet>
+        <meta name="title" content="Oops! Page not found" />
+        <title>Oops! Page not found</title>
+        <meta property="og:title" content="Oops! Page not found" />
+        <meta property="og:url" content="https://mcb.mu/error-pages/404" />
+        <link rel="canonical" href="https://mcb.mu/error-pages/404" />
+      </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}
         {/* Reusable header component */}
         <Header />

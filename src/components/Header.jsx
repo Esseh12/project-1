@@ -21,9 +21,11 @@ const Header = ({ children }) => {
       "/ResourcePackages/MCBMU/assets/dist/js/forexchartData7306.js",
       "/ResourcePackages/MCBMU/assets/dist/js/forexchart7306.js",
       "/ResourcePackages/MCBMU/assets/dist/js/iban7306.js",
-      "ResourcePackages/MCBMU/assets/dist/js/forexdata7306.js",
-      "ResourcePackages/MCBMU/assets/dist/js/forexCalculator7306.js",
-      "ResourcePackages/MCBMU/assets/dist/js/forexCalculator7306.js",
+      "/ResourcePackages/MCBMU/assets/dist/js/forexdata7306.js",
+      "/ResourcePackages/MCBMU/assets/dist/js/forexCalculator7306.js",
+      "/ResourcePackages/MCBMU/assets/dist/js/gmap/handlebars.min7306.js",
+      "ResourcePackages/MCBMU/assets/dist/js/gmap/jquery.storelocator7306.js",
+      "ResourcePackages/MCBMU/assets/dist/js/gmap/map7306.js",
     ];
 
     scripts.forEach((src) => {

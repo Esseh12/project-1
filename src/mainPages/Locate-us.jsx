@@ -1,38 +1,7 @@
-import { useEffect } from "react";
-import Header from "../Components/Header";
+import PersonalHeader from "../Components/Personal-header";
 import Footer from "../Components/Footer";
 
 const LocateUs = () => {
-  useEffect(() => {
-    // External scripts to be loaded dynamically
-    const scripts = [
-      "ResourcePackages/MCBMU/assets/dist/vendor/plugins/js/plugins.min7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/theme7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/views/view.contact7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/demos/demo-business-consulting-27306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/custom7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/ma5-menu7306.js?package=MCBMU",
-      "ResourcePackages/MCBMU/assets/dist/js/theme.init7306.js?package=MCBMU",
-    ];
-
-    scripts.forEach((src) => {
-      const script = document.createElement("script");
-      script.src = src;
-      script.async = false;
-      document.body.appendChild(script);
-    });
-
-    // Cleanup scripts on component unmount
-    return () => {
-      scripts.forEach((src) => {
-        const script = document.querySelector(`script[src="${src}"]`);
-        if (script) {
-          document.body.removeChild(script);
-        }
-      });
-    };
-  }, []);
-
   return (
     <>
       {/* Mirrored from mcb.mu/locate-us by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 06:38:48 GMT */}
@@ -60,7 +29,8 @@ const LocateUs = () => {
         />
         {/* End Google Tag Manager (noscript) */}{" "}
         {/* REUSABLE HEADER CONTAINER */}
-        <Header />
+        <PersonalHeader />
+        {/* Header */}
         <div role="main" className="main no-banner-spacing">
           <div className="row" data-sf-element="Row">
             <div
