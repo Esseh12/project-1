@@ -4,7 +4,6 @@ const PersonalHeader = () => {
   useEffect(() => {
     // External scripts to be loaded dynamically
     const scripts = [
-      // "/ResourcePackages/MCBMU/assets/dist/js/ma5-menu7306.js",
       "/ResourcePackages/MCBMU/assets/dist/vendor/plugins/js/plugins.min7306.js",
       "/ResourcePackages/MCBMU/assets/dist/js/theme7306.js",
       "/ResourcePackages/MCBMU/assets/dist/js/views/view.contact7306.js",
@@ -61,7 +60,7 @@ const PersonalHeader = () => {
                   <div className="univers">
                     {" "}
                     <div className="logo logo-mobile">
-                      <a href="index.html">
+                      <a href="/">
                         <img
                           src="/images/mcb/default-album/logo-mcb-caravelle-red.svg"
                           //sf-size={2255}
@@ -88,7 +87,7 @@ const PersonalHeader = () => {
                           <ul className="buttons">
                             <li className="btn-primary">
                               <a
-                                href="/T001/banking.html"
+                                href="/T001/banking"
                                 className="dropdown-item"
                                 target="_blank"
                               >
@@ -98,12 +97,11 @@ const PersonalHeader = () => {
                           </ul>
                           <ul className="more-links mt-4">
                             <li>
-                              <a href="security-centre.html">
+                              <a href="/security-centre">
                                 <i className="icon-chevron-right" /> Protect
                                 yourself online
                               </a>
                             </li>
-                            {/* <li><a href="https://ib.mcb.mu/T001/process.jsp"><i class="icon-chevron-right"></i> Register</a></li> */}
                           </ul>
                         </div>
                       </div>{" "}
@@ -173,75 +171,71 @@ const PersonalHeader = () => {
             {/* source for mobile menu start */}
             <ul className="site-menu">
               <li className='"active"'>
-                <a
-                  href="index.html"
-                  target="_self"
-                  id="navbarDropdownMenuLink0-1"
-                >
+                <a href="/" target="_self" id="navbarDropdownMenuLink0-1">
                   Personal
                 </a>
                 <ul>
                   <li>
-                    <a href="personal/accounts-packages.html">
+                    <a href="/personal/accounts-packages">
                       Accounts &amp; Packages{" "}
                     </a>
                     <ul>
                       <li>
-                        <a href="personal/accounts-packages/standard-savings-account.html">
+                        <a href="/personal/accounts-packages/standard-savings-account">
                           Standard savings account
                         </a>
                       </li>
                       <li>
-                        <a href="personal/accounts-packages/mcb-rupys.html">
+                        <a href="/personal/accounts-packages/mcb-rupys">
                           MCB Rupys
                         </a>
                       </li>
                       <li>
-                        <a href="personal/accounts-packages/standard-current-account.html">
+                        <a href="/personal/accounts-packages/standard-current-account">
                           Standard current account
                         </a>
                       </li>
                       <li>
-                        <a href="personal/accounts-packages/foreign-currency-account.html">
+                        <a href="/personal/accounts-packages/foreign-currency-account">
                           Foreign currency account
                         </a>
                       </li>
                       <li>
-                        <a href="personal/accounts-packages/instakit.html">
+                        <a href="/personal/accounts-packages/instakit">
                           Instakit
                         </a>
                       </li>
                       <li>
-                        <a href="personal/accounts-packages/pack-1825.html">
+                        <a href="/personal/accounts-packages/pack-1825">
                           Pack 18.25
                         </a>
                       </li>
                       <li>
-                        <a href="personal/accounts-packages/neo.html">NEO</a>
+                        <a href="/personal/accounts-packages/neo">NEO</a>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="personal/loans.html">Loans </a>
+                    <a href="/personal/loans">Loans </a>
                     <ul>
                       <li>
-                        <a href="personal/loans/educational-loan.html">
+                        <a href="/personal/loans/educational-loan">
                           Educational loan
                         </a>
                       </li>
                       <li>
-                        <a href="personal/loans/personal-loan.html">
+                        <a href="/personal/loans/personal-loan">
                           Personal loan
                         </a>
                       </li>
                       <li>
-                        <a href="personal/loans/home-loan.html">Home loan</a>
+                        <a href="/personal/loans/home-loan">Home loan</a>
                       </li>
                       <li>
-                        <a href="personal/loans/green-loan.html">Green loan</a>
+                        <a href="/personal/loans/green-loan">Green loan</a>
                       </li>
                       <li>
-                        <a href="personal/loans/personal-overdrafts.html">
+                        <a href="/personal/loans/personal-overdrafts">
                           Personal overdrafts
                         </a>
                       </li>
@@ -251,184 +245,184 @@ const PersonalHeader = () => {
                     </ul>
                   </li>
                   <li>
-                    <a href="personal/cards.html">Cards </a>
+                    <a href="/personal/cards">Cards </a>
                     <ul>
                       <li>
-                        <a href="personal/cards/mcb-debit-card.html">
+                        <a href="/personal/cards/mcb-debit-card">
                           MCB debit card
                         </a>
                       </li>
                       <li>
-                        <a href="personal/cards/mastercard-primo-credit-card.html">
+                        <a href="/personal/cards/mastercard-primo-credit-card">
                           Mastercard Primo credit card
                         </a>
                       </li>
                       <li>
-                        <a href="personal/cards/classic-credit-card.html">
+                        <a href="/personal/cards/classic-credit-card">
                           Classic credit card
                         </a>
                       </li>
                       <li>
-                        <a href="personal/cards/gold-credit-card.html">
+                        <a href="/personal/cards/gold-credit-card">
                           Gold credit card
                         </a>
                       </li>
                       <li>
-                        <a href="personal/cards/american-express.html">
+                        <a href="/personal/cards/american-express">
                           American Express®{" "}
                         </a>
                         <ul>
                           <li>
-                            <a href="personal/cards/american-express/american-express-green.html">
+                            <a href="/personal/cards/american-express/american-express-green">
                               American Express® Green
                             </a>
                           </li>
                           <li>
-                            <a href="personal/cards/american-express/american-express-gold.html">
+                            <a href="/personal/cards/american-express/american-express-gold">
                               American Express® Gold
                             </a>
                           </li>
                           <li>
-                            <a href="personal/cards/american-express/membership-rewards.html">
+                            <a href="/personal/cards/american-express/membership-rewards">
                               Membership Rewards®
                             </a>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="personal/cards/visa-platinum.html">
+                        <a href="/personal/cards/visa-platinum">
                           Visa Platinum
                         </a>
                       </li>
                       <li>
-                        <a href="personal/cards/visa-signature.html">
+                        <a href="/personal/cards/visa-signature">
                           Visa Signature
                         </a>
                       </li>
                       <li>
-                        <a href="personal/cards/compare-our-credit-cards.html">
+                        <a href="/personal/cards/compare-our-credit-cards">
                           Compare our credit cards
                         </a>
                       </li>
                       <li>
-                        <a href="personal/cards/prepaid-cards.html">
+                        <a href="/personal/cards/prepaid-cards">
                           Prepaid cards{" "}
                         </a>
                         <ul>
                           <li>
-                            <a href="personal/cards/prepaid-cards/visa-prepaid-card.html">
+                            <a href="/personal/cards/prepaid-cards/visa-prepaid-card">
                               VISA prepaid card
                             </a>
                           </li>
                           <li>
-                            <a href="personal/cards/prepaid-cards/unionpay-prepaid-card.html">
+                            <a href="/personal/cards/prepaid-cards/unionpay-prepaid-card">
                               UnionPay prepaid card
                             </a>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="personal/cards/travel-insurance.html">
+                        <a href="/personal/cards/travel-insurance">
                           Travel insurance
                         </a>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="personal/investments.html">Investments </a>
+                    <a href="/personal/investments">Investments </a>
                     <ul>
                       <li>
-                        <a href="personal/investments/mcb-mutual-funds.html">
+                        <a href="/personal/investments/mcb-mutual-funds">
                           MCB Mutual Funds
                         </a>
                       </li>
                       <li>
-                        <a href="personal/investments/stockbroking.html">
+                        <a href="/personal/investments/stockbroking">
                           Stockbroking
                         </a>
                       </li>
                       <li>
-                        <a href="personal/investments/education-plan.html">
+                        <a href="/personal/investments/education-plan">
                           Education plan
                         </a>
                       </li>
                       <li>
-                        <a href="personal/investments/retirement-plan.html">
+                        <a href="/personal/investments/retirement-plan">
                           Retirement plan
                         </a>
                       </li>
                       <li>
-                        <a href="personal/investments/life-insurance.html">
+                        <a href="/personal/investments/life-insurance">
                           Life insurance
                         </a>
                       </li>
                       <li>
-                        <a href="personal/investments/fixed-deposit.html">
+                        <a href="/personal/investments/fixed-deposit">
                           Fixed deposit
                         </a>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="personal/ways-to-bank.html">Ways to bank </a>
+                    <a href="/personal/ways-to-bank">Ways to bank </a>
                     <ul>
                       <li>
                         <a href="https://juice.mu/">MCB Juice</a>
                       </li>
                       <li>
-                        <a href="personal/ways-to-bank/internet-banking.html">
+                        <a href="/personal/ways-to-bank/internet-banking">
                           Internet banking
                         </a>
                       </li>
                       <li>
-                        <a href="personal/ways-to-bank/sms-banking.html">
+                        <a href="/personal/ways-to-bank/sms-banking">
                           SMS banking
                         </a>
                       </li>
                       <li>
-                        <a href="personal/ways-to-bank/mcb-refill.html">
+                        <a href="/personal/ways-to-bank/mcb-refill">
                           MCB Refill
                         </a>
                       </li>
                       <li>
-                        <a href="personal/ways-to-bank/atms.html">ATMs</a>
+                        <a href="/personal/ways-to-bank/atms">ATMs</a>
                       </li>
                       <li>
-                        <a href="personal/ways-to-bank/in-branch-banking.html">
+                        <a href="/personal/ways-to-bank/in-branch-banking">
                           In-branch banking
                         </a>
                       </li>
                       <li>
-                        <a href="personal/ways-to-bank/bill-payments.html">
+                        <a href="/personal/ways-to-bank/bill-payments">
                           Pay my bills
                         </a>
                       </li>
                       <li>
-                        <a href="personal/ways-to-bank/international-transfers.html">
+                        <a href="/personal/ways-to-bank/international-transfers">
                           International transfers{" "}
                         </a>
                         <ul>
                           <li>
-                            <a href="personal/ways-to-bank/international-transfers/international-payment.html">
+                            <a href="/personal/ways-to-bank/international-transfers/international-payment">
                               International payment
                             </a>
                           </li>
                           <li>
-                            <a href="personal/ways-to-bank/international-transfers/moneygram.html">
+                            <a href="/personal/ways-to-bank/international-transfers/moneygram">
                               MoneyGram
                             </a>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="personal/ways-to-bank/e-statements.html">
+                        <a href="/personal/ways-to-bank/e-statements">
                           E-Statements
                         </a>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="personal/existing-customers.html">
+                    <a href="/personal/existing-customers">
                       Existing customers{" "}
                     </a>
                     <ul>
@@ -436,44 +430,42 @@ const PersonalHeader = () => {
                         <a href="https://juice.mu/">Get MCB Juice</a>
                       </li>
                       <li>
-                        <a href="personal/existing-customers/log-in-to-internet-banking.html">
+                        <a href="/personal/existing-customers/log-in-to-internet-banking">
                           Log in to Internet Banking
                         </a>
                       </li>
                       <li>
-                        <a href="personal/offers-and-promotions.html">
+                        <a href="/personal/offers-and-promotions">
                           Offers &amp; promotions
                         </a>
                       </li>
                       <li>
-                        <a href="personal/cards/american-express/membership-rewards.html">
+                        <a href="/personal/cards/american-express/membership-rewards">
                           American Express® Membership Rewards® programme
                         </a>
                       </li>
                       <li>
-                        <a href="personal/help-centre.html">
-                          Go to help center
-                        </a>
+                        <a href="/personal/help-centre">Go to help center</a>
                       </li>
                       <li>
-                        <a href="security-centre.html">Go to security center</a>
+                        <a href="/security-centre">Go to security center</a>
                       </li>
                       <li>
-                        <a href="personal/existing-customers/update-your-personal-profile.html">
+                        <a href="/personal/existing-customers/update-your-personal-profile">
                           Update your personal profile
                         </a>
                       </li>
                       <li>
-                        <a href="personal/contact-us.html">Contact us</a>
+                        <a href="/contact-us">Contact us</a>
                       </li>
                       <li>
-                        <a href="file-a-complaint.html">File a complaint</a>
+                        <a href="/file-a-complaint">File a complaint</a>
                       </li>
                       <li>
-                        <a href="locate-us.html">Find your nearest branch</a>
+                        <a href="/locate-us">Find your nearest branch</a>
                       </li>
                       <li>
-                        <a href="rates-fees.html">
+                        <a href="/rates-fees">
                           View interest rates, fees and charges
                         </a>
                       </li>
@@ -482,24 +474,20 @@ const PersonalHeader = () => {
                 </ul>
               </li>
               <li>
-                <a
-                  href="sme.html"
-                  target="_self"
-                  id="navbarDropdownMenuLink1-1"
-                >
+                <a href="/sme" target="_self" id="navbarDropdownMenuLink1-1">
                   SME
                 </a>
                 <ul>
                   <li>
-                    <a href="sme/bank.html">Bank </a>
+                    <a href="/sme/bank">Bank </a>
                     <ul>
                       <li>
-                        <a href="sme/bank/business-account.html">
+                        <a href="/sme/bank/business-account">
                           Business Account
                         </a>
                       </li>
                       <li>
-                        <a href="sme/bank/tailor-made-solutions.html">
+                        <a href="/sme/bank/tailor-made-solutions">
                           Tailor-made Solutions{" "}
                         </a>
                         <ul>
@@ -511,27 +499,27 @@ const PersonalHeader = () => {
                         </ul>
                       </li>
                       <li>
-                        <a href="sme/bank/transact-anytime-anywhere.html">
+                        <a href="/sme/bank/transact-anytime-anywhere">
                           Transact anytime, anywhere{" "}
                         </a>
                         <ul>
                           <li>
-                            <a href="sme/bank/transact-anytime-anywhere/internet-banking.html">
+                            <a href="/sme/bank/transact-anytime-anywhere/internet-banking">
                               Internet Banking
                             </a>
                           </li>
                           <li>
-                            <a href="sme/bank/transact-anytime-anywhere/atm.html">
+                            <a href="/sme/bank/transact-anytime-anywhere/atm">
                               ATM
                             </a>
                           </li>
                           <li>
-                            <a href="sme/bank/transact-anytime-anywhere/e-statements.html">
+                            <a href="/sme/bank/transact-anytime-anywhere/e-statements">
                               E-Statements
                             </a>
                           </li>
                           <li>
-                            <a href="sme/bank/transact-anytime-anywhere/juicepro.html">
+                            <a href="/sme/bank/transact-anytime-anywhere/juicepro">
                               JuicePro
                             </a>
                           </li>
@@ -540,85 +528,81 @@ const PersonalHeader = () => {
                     </ul>
                   </li>
                   <li>
-                    <a href="sme/borrow.html">Borrow </a>
+                    <a href="/sme/borrow">Borrow </a>
                     <ul>
                       <li>
-                        <a href="sme/borrow/loans.html">Loans</a>
+                        <a href="/sme/borrow/loans">Loans</a>
                       </li>
                       <li>
-                        <a href="sme/borrow/overdrafts.html">Overdrafts</a>
+                        <a href="/sme/borrow/overdrafts">Overdrafts</a>
                       </li>
                       <li>
-                        <a href="sme/borrow/leasing.html">Leasing</a>
+                        <a href="/sme/borrow/leasing">Leasing</a>
                       </li>
                       <li>
-                        <a href="sme/borrow/trade-finance.html">
-                          Trade Finance
-                        </a>
+                        <a href="/sme/borrow/trade-finance">Trade Finance</a>
                       </li>
                       <li>
-                        <a href="sme/borrow/sustainable-loan.html">
+                        <a href="/sme/borrow/sustainable-loan">
                           Sustainable Loan
                         </a>
                       </li>
                       <li>
-                        <a href="sme/borrow/factoring.html">Factoring</a>
+                        <a href="/sme/borrow/factoring">Factoring</a>
                       </li>
                       <li>
-                        <a href="sme/borrow/bank-guarantees.html">
+                        <a href="/sme/borrow/bank-guarantees">
                           Bank Guarantees
                         </a>
                       </li>
                       <li>
-                        <a href="sme/borrow/lokal-is-beautiful.html">
+                        <a href="/sme/borrow/lokal-is-beautiful">
                           Lokal is Beautiful
                         </a>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="sme/pay.html">Pay </a>
+                    <a href="/sme/pay">Pay </a>
                     <ul>
                       <li>
-                        <a href="sme/pay/cards.html">Cards </a>
+                        <a href="/sme/pay/cards">Cards </a>
                         <ul>
                           <li>
-                            <a href="sme/pay/cards/business-card.html">
+                            <a href="/sme/pay/cards/business-card">
                               Business Card
                             </a>
                           </li>
                           <li>
-                            <a href="sme/pay/cards/business-deposit-card.html">
+                            <a href="/sme/pay/cards/business-deposit-card">
                               Business Deposit Card
                             </a>
                           </li>
                           <li>
-                            <a href="sme/pay/cards/fleetman-card.html">
+                            <a href="/sme/pay/cards/fleetman-card">
                               Fleetman Card
                             </a>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="sme/pay/payroll-services.html">
-                          Payroll Services
-                        </a>
+                        <a href="/sme/pay/payroll-services">Payroll Services</a>
                       </li>
                       <li>
-                        <a href="sme/pay/cheques.html">Cheques</a>
+                        <a href="/sme/pay/cheques">Cheques</a>
                       </li>
                       <li>
-                        <a href="sme/pay/electronic-payments.html">
+                        <a href="/sme/pay/electronic-payments">
                           Electronic Payments{" "}
                         </a>
                         <ul>
                           <li>
-                            <a href="sme/pay/electronic-payments/electronic-transfer.html">
+                            <a href="/sme/pay/electronic-payments/electronic-transfer">
                               Electronic Transfer
                             </a>
                           </li>
                           <li>
-                            <a href="sme/pay/electronic-payments/e-commerce-solutions.html">
+                            <a href="/sme/pay/electronic-payments/e-commerce-solutions">
                               E-Commerce Solutions
                             </a>
                           </li>
@@ -627,20 +611,20 @@ const PersonalHeader = () => {
                     </ul>
                   </li>
                   <li>
-                    <a href="sme/sme-connect.html">SME Connect </a>
+                    <a href="/sme/sme-connect">SME Connect </a>
                     <ul>
                       <li>
-                        <a href="sme/sme-connect/start-your-business.html">
+                        <a href="/sme/sme-connect/start-your-business">
                           Start Your Business
                         </a>
                       </li>
                       <li>
-                        <a href="sme/sme-connect/manage-your-business.html">
+                        <a href="/sme/sme-connect/manage-your-business">
                           Manage Your Business
                         </a>
                       </li>
                       <li>
-                        <a href="sme/sme-connect/speaker-series.html">
+                        <a href="/sme/sme-connect/speaker-series">
                           Speaker Series
                         </a>
                       </li>
@@ -650,7 +634,7 @@ const PersonalHeader = () => {
               </li>
               <li>
                 <a
-                  href="corporate.html"
+                  href="/corporate"
                   target="_self"
                   id="navbarDropdownMenuLink2-1"
                 >
@@ -658,185 +642,177 @@ const PersonalHeader = () => {
                 </a>
                 <ul>
                   <li>
-                    <a href="corporate/what-we-do.html">What we do </a>
+                    <a href="/corporate/what-we-do">What we do </a>
                     <ul>
                       <li>
-                        <a href="corporate/what-we-do/corporate-banking.html">
+                        <a href="/corporate/what-we-do/corporate-banking">
                           Corporate Banking{" "}
                         </a>
                         <ul>
                           <li>
-                            <a href="corporate/what-we-do/corporate-banking/our-success-stories.html">
+                            <a href="/corporate/what-we-do/corporate-banking/our-success-stories">
                               Our success stories
                             </a>
                           </li>
                           <li>
-                            <a href="corporate/what-we-do/corporate-banking/become-a-client.html">
+                            <a href="/corporate/what-we-do/corporate-banking/become-a-client">
                               Become a client
                             </a>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="corporate/what-we-do/global-business.html">
+                        <a href="/corporate/what-we-do/global-business">
                           Global Business{" "}
                         </a>
                         <ul>
                           <li>
-                            <a href="corporate/what-we-do/global-business/become-a-client.html">
+                            <a href="/corporate/what-we-do/global-business/become-a-client">
                               Become a client
                             </a>
                           </li>
                           <li>
-                            <a href="corporate/what-we-do/global-business/investing-in-mauritius.html">
+                            <a href="/corporate/what-we-do/global-business/investing-in-mauritius">
                               Investing in Mauritius
                             </a>
                           </li>
                           <li>
-                            <a href="corporate/what-we-do/global-business/custody-services.html">
+                            <a href="/corporate/what-we-do/global-business/custody-services">
                               Custody Services
                             </a>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="corporate/finance-lending/structured-finance/energy-commodities.html">
+                        <a href="/corporate/finance-lending/structured-finance/energy-commodities">
                           Energy &amp; Commodities Financing
                         </a>
                       </li>
                       <li>
-                        <a href="institutional.html">Institutional Banking</a>
+                        <a href="/institutional">Institutional Banking</a>
                       </li>
                       <li>
-                        <a href="sme.html">SME Banking</a>
+                        <a href="/sme">SME Banking</a>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="corporate/payment-cash.html">
-                      Payment &amp; Cash{" "}
-                    </a>
+                    <a href="/corporate/payment-cash">Payment &amp; Cash </a>
                     <ul>
                       <li>
-                        <a href="corporate/payment-cash/pay.html">Pay </a>
+                        <a href="/corporate/payment-cash/pay">Pay </a>
                         <ul>
                           <li>
-                            <a href="corporate/payment-cash/pay/domestic-international-transfers.html">
+                            <a href="/corporate/payment-cash/pay/domestic-international-transfers">
                               Domestic &amp; International transfers{" "}
                             </a>
                             <ul>
                               <li>
-                                <a href="corporate/payment-cash/pay/domestic-international-transfers/swift-gpi.html">
+                                <a href="/corporate/payment-cash/pay/domestic-international-transfers/swift-gpi">
                                   SWIFT gpi
                                 </a>
                               </li>
                             </ul>
                           </li>
                           <li>
-                            <a href="corporate/payment-cash/pay/internet-banking-pro-smartapprove.html">
+                            <a href="/corporate/payment-cash/pay/internet-banking-pro-smartapprove">
                               Internet Banking Pro &amp; SmartApprove App
                             </a>
                           </li>
                           <li>
-                            <a href="corporate/payment-cash/pay/bulk-payments.html">
+                            <a href="/corporate/payment-cash/pay/bulk-payments">
                               Bulk Payments
                             </a>
                           </li>
                           <li>
-                            <a href="corporate/payment-cash/pay/corporate-card.html">
+                            <a href="/corporate/payment-cash/pay/corporate-card">
                               Corporate Card
                             </a>
                           </li>
                           <li>
-                            <a href="corporate/payment-cash/pay/fleetman-card.html">
+                            <a href="/corporate/payment-cash/pay/fleetman-card">
                               Fleetman Card
                             </a>
                           </li>
                           <li>
-                            <a href="corporate/payment-cash/pay/swift-connectivity.html">
+                            <a href="/corporate/payment-cash/pay/swift-connectivity">
                               SWIFT Connectivity
                             </a>
                           </li>
                           <li>
-                            <a href="corporate/payment-cash/pay/drop-collect.html">
+                            <a href="/corporate/payment-cash/pay/drop-collect">
                               Drop &amp; Collect
                             </a>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="corporate/payment-cash/collect.html">
-                          Collect{" "}
-                        </a>
+                        <a href="/corporate/payment-cash/collect">Collect </a>
                         <ul>
                           <li>
-                            <a href="corporate/payment-cash/collect/direct-debit-bill-payment.html">
+                            <a href="/corporate/payment-cash/collect/direct-debit-bill-payment">
                               Direct Debit &amp; Bill Payment
                             </a>
                           </li>
                           <li>
-                            <a href="corporate/payment-cash/collect/cash-deposit-solutions.html">
+                            <a href="/corporate/payment-cash/collect/cash-deposit-solutions">
                               Cash Deposit Solutions
                             </a>
                           </li>
                           <li>
-                            <a href="corporate/payment-cash/collect/e-commerce.html">
+                            <a href="/corporate/payment-cash/collect/e-commerce">
                               E-commerce{" "}
                             </a>
                             <ul>
                               <li>
-                                <a href="corporate/payment-cash/collect/e-commerce/online-payment-gateway.html">
+                                <a href="/corporate/payment-cash/collect/e-commerce/online-payment-gateway">
                                   Online Payment Gateway
                                 </a>
                               </li>
                               <li>
-                                <a href="corporate/payment-cash/collect/e-commerce/merchant-services.html">
+                                <a href="/corporate/payment-cash/collect/e-commerce/merchant-services">
                                   Merchant Services
                                 </a>
                               </li>
                             </ul>
                           </li>
                           <li>
-                            <a href="corporate/payment-cash/collect/point-of-sale-solutions.html">
+                            <a href="/corporate/payment-cash/collect/point-of-sale-solutions">
                               Point of Sale Solutions
                             </a>
                           </li>
                           <li>
-                            <a href="corporate/payment-cash/collect/mobile-banking.html">
+                            <a href="/corporate/payment-cash/collect/mobile-banking">
                               Mobile Banking
                             </a>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="corporate/payment-cash/monitor.html">
-                          Monitor{" "}
-                        </a>
+                        <a href="/corporate/payment-cash/monitor">Monitor </a>
                         <ul>
                           <li>
-                            <a href="corporate/payment-cash/monitor/e-statements.html">
+                            <a href="/corporate/payment-cash/monitor/e-statements">
                               E-Statements
                             </a>
                           </li>
                           <li>
-                            <a href="corporate/payment-cash/monitor/reporting-services-ib-dashboard.html">
+                            <a href="/corporate/payment-cash/monitor/reporting-services-ib-dashboard">
                               Reporting Services &amp; IB Dashboard
                             </a>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="corporate/payment-cash/optimise.html">
-                          Optimise{" "}
-                        </a>
+                        <a href="/corporate/payment-cash/optimise">Optimise </a>
                         <ul>
                           <li>
-                            <a href="corporate/payment-cash/optimise/cash-pooling-services.html">
+                            <a href="/corporate/payment-cash/optimise/cash-pooling-services">
                               Cash Pooling Services
                             </a>
                           </li>
                           <li>
-                            <a href="corporate/payment-cash/optimise/fx-money-market-services.html">
+                            <a href="/corporate/payment-cash/optimise/fx-money-market-services">
                               FX &amp; Money Market Services
                             </a>
                           </li>
@@ -845,137 +821,137 @@ const PersonalHeader = () => {
                     </ul>
                   </li>
                   <li>
-                    <a href="corporate/finance-lending.html">
+                    <a href="/corporate/finance-lending">
                       Finance &amp; Lending{" "}
                     </a>
                     <ul>
                       <li>
-                        <a href="corporate/finance-lending/corporate-lending.html">
+                        <a href="/corporate/finance-lending/corporate-lending">
                           Corporate Lending{" "}
                         </a>
                         <ul>
                           <li>
-                            <a href="corporate/finance-lending/corporate-lending/overdraft-working-capital.html">
+                            <a href="/corporate/finance-lending/corporate-lending/overdraft-working-capital">
                               Overdraft &amp; Working Capital
                             </a>
                           </li>
                           <li>
-                            <a href="corporate/finance-lending/corporate-lending/revolving-credit.html">
+                            <a href="/corporate/finance-lending/corporate-lending/revolving-credit">
                               Revolving Credit
                             </a>
                           </li>
                           <li>
-                            <a href="corporate/finance-lending/corporate-lending/import-loan.html">
+                            <a href="/corporate/finance-lending/corporate-lending/import-loan">
                               Import Loan
                             </a>
                           </li>
                           <li>
-                            <a href="corporate/finance-lending/corporate-lending/export-loan.html">
+                            <a href="/corporate/finance-lending/corporate-lending/export-loan">
                               Export Loan
                             </a>
                           </li>
                           <li>
-                            <a href="corporate/finance-lending/corporate-lending/term-loan.html">
+                            <a href="/corporate/finance-lending/corporate-lending/term-loan">
                               Term Loan
                             </a>
                           </li>
                           <li>
-                            <a href="corporate/finance-lending/corporate-lending/sustainable-loan.html">
+                            <a href="/corporate/finance-lending/corporate-lending/sustainable-loan">
                               Sustainable Loan
                             </a>
                           </li>
                           <li>
-                            <a href="corporate/finance-lending/corporate-lending/guarantees.html">
+                            <a href="/corporate/finance-lending/corporate-lending/guarantees">
                               Guarantees
                             </a>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="corporate/finance-lending/supply-chain-finance.html">
+                        <a href="/corporate/finance-lending/supply-chain-finance">
                           Supply Chain Finance{" "}
                         </a>
                         <ul>
                           <li>
-                            <a href="corporate/finance-lending/supply-chain-finance/global-trade-portal.html">
+                            <a href="/corporate/finance-lending/supply-chain-finance/global-trade-portal">
                               Global Trade Portal
                             </a>
                           </li>
                           <li>
-                            <a href="corporate/finance-lending/supply-chain-finance/trade-finance.html">
+                            <a href="/corporate/finance-lending/supply-chain-finance/trade-finance">
                               Trade Finance{" "}
                             </a>
                             <ul>
                               <li>
-                                <a href="corporate/finance-lending/supply-chain-finance/trade-finance/trade-finance-forms.html">
+                                <a href="/corporate/finance-lending/supply-chain-finance/trade-finance/trade-finance-forms">
                                   Trade Finance Forms
                                 </a>
                               </li>
                             </ul>
                           </li>
                           <li>
-                            <a href="corporate/finance-lending/supply-chain-finance/credit-protection.html">
+                            <a href="/corporate/finance-lending/supply-chain-finance/credit-protection">
                               Credit Protection
                             </a>
                           </li>
                           <li>
-                            <a href="corporate/finance-lending/supply-chain-finance/invoice-factoring.html">
+                            <a href="/corporate/finance-lending/supply-chain-finance/invoice-factoring">
                               Invoice Factoring
                             </a>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="corporate/finance-lending/structured-finance.html">
+                        <a href="/corporate/finance-lending/structured-finance">
                           Structured Finance{" "}
                         </a>
                         <ul>
                           <li>
-                            <a href="corporate/finance-lending/structured-finance/acquisition-financing.html">
+                            <a href="/corporate/finance-lending/structured-finance/acquisition-financing">
                               Acquisition Financing
                             </a>
                           </li>
                           <li>
-                            <a href="corporate/finance-lending/structured-finance/property-financing.html">
+                            <a href="/corporate/finance-lending/structured-finance/property-financing">
                               Property Financing
                             </a>
                           </li>
                           <li>
-                            <a href="corporate/finance-lending/structured-finance/project-financing.html">
+                            <a href="/corporate/finance-lending/structured-finance/project-financing">
                               Project Financing
                             </a>
                           </li>
                           <li>
-                            <a href="corporate/finance-lending/structured-finance/energy-commodities.html">
+                            <a href="/corporate/finance-lending/structured-finance/energy-commodities">
                               Energy &amp; Commodities{" "}
                             </a>
                             <ul>
                               <li>
-                                <a href="corporate/finance-lending/structured-finance/energy-commodities/our-success-stories.html">
+                                <a href="/corporate/finance-lending/structured-finance/energy-commodities/our-success-stories">
                                   Our Success Stories
                                 </a>
                               </li>
                             </ul>
                           </li>
                           <li>
-                            <a href="corporate/finance-lending/structured-finance/cross-border-financing.html">
+                            <a href="/corporate/finance-lending/structured-finance/cross-border-financing">
                               Cross-border Financing
                             </a>
                           </li>
                           <li>
-                            <a href="corporate/finance-lending/structured-finance/syndicated-financing.html">
+                            <a href="/corporate/finance-lending/structured-finance/syndicated-financing">
                               Syndicated Financing
                             </a>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="corporate/finance-lending/asset-finance.html">
+                        <a href="/corporate/finance-lending/asset-finance">
                           Asset Finance{" "}
                         </a>
                         <ul>
                           <li>
-                            <a href="corporate/finance-lending/asset-finance/mcb-leasing.html">
+                            <a href="/corporate/finance-lending/asset-finance/mcb-leasing">
                               MCB Leasing
                             </a>
                           </li>
@@ -984,39 +960,39 @@ const PersonalHeader = () => {
                     </ul>
                   </li>
                   <li>
-                    <a href="corporate/investment-advisory.html">
+                    <a href="/corporate/investment-advisory">
                       Investment &amp; Advisory{" "}
                     </a>
                     <ul>
                       <li>
-                        <a href="corporate/investment-advisory/global-markets.html">
+                        <a href="/corporate/investment-advisory/global-markets">
                           Global Markets{" "}
                         </a>
                         <ul>
                           <li>
-                            <a href="corporate/investment-advisory/global-markets/financial-markets-summary.html">
+                            <a href="/corporate/investment-advisory/global-markets/financial-markets-summary">
                               Financial Markets summary
                             </a>
                           </li>
                           <li>
-                            <a href="corporate/investment-advisory/global-markets/global-markets-solutions.html">
+                            <a href="/corporate/investment-advisory/global-markets/global-markets-solutions">
                               Global Markets Solutions
                             </a>
                           </li>
                           <li>
-                            <a href="corporate/investment-advisory/global-markets/direct-access-to-markets.html">
+                            <a href="/corporate/investment-advisory/global-markets/direct-access-to-markets">
                               Direct access to markets
                             </a>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="corporate/investment-advisory/capital-markets.html">
+                        <a href="/corporate/investment-advisory/capital-markets">
                           Capital Markets
                         </a>
                       </li>
                       <li>
-                        <a href="corporate/investment-advisory/securities-services.html">
+                        <a href="/corporate/investment-advisory/securities-services">
                           Securities Services
                         </a>
                       </li>
@@ -1026,7 +1002,7 @@ const PersonalHeader = () => {
               </li>
               <li>
                 <a
-                  href="institutional.html"
+                  href="/institutional"
                   target="_self"
                   id="navbarDropdownMenuLink3-1"
                 >
@@ -1034,49 +1010,45 @@ const PersonalHeader = () => {
                 </a>
                 <ul>
                   <li>
-                    <a href="institutional/mcb-at-a-glance.html">
-                      MCB at a glance
-                    </a>
+                    <a href="/institutional/mcb-at-a-glance">MCB at a glance</a>
                   </li>
                   <li>
-                    <a href="institutional/our-geographical-presence.html">
+                    <a href="/institutional/our-geographical-presence">
                       Our geographical presence
                     </a>
                   </li>
                   <li>
-                    <a href="institutional/our-solutions.html">
-                      Our solutions{" "}
-                    </a>
+                    <a href="/institutional/our-solutions">Our solutions </a>
                     <ul>
                       <li>
-                        <a href="institutional/our-solutions/bank-of-banks.html">
+                        <a href="/institutional/our-solutions/bank-of-banks">
                           Bank of Banks
                         </a>
                       </li>
                       <li>
-                        <a href="institutional/our-solutions/correspondent-banking.html">
+                        <a href="/institutional/our-solutions/correspondent-banking">
                           Correspondent Banking
                         </a>
                       </li>
                       <li>
-                        <a href="institutional/our-solutions/risk-sharing.html">
+                        <a href="/institutional/our-solutions/risk-sharing">
                           Risk Sharing
                         </a>
                       </li>
                       <li>
-                        <a href="institutional/our-solutions/syndications.html">
+                        <a href="/institutional/our-solutions/syndications">
                           Syndications
                         </a>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="institutional/events.html">Events</a>
+                    <a href="/institutional/events">Events</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="rates-fees.html" target="_self">
+                <a href="/rates-fees" target="_self">
                   Rates &amp; Fees
                 </a>
               </li>
@@ -1111,7 +1083,7 @@ const PersonalHeader = () => {
                   <span className="ma5menu__btn--enter">
                     <i className="icon-chevron-right" />
                   </span>
-                  <a href="index.html">Personal</a>
+                  <a href="/">Personal</a>
                   <ul data-ma5order="ma5-ul-1" className="lvl-1">
                     <div className="ma5menu__leave">
                       <span className="ma5menu__btn--leave">
@@ -1123,7 +1095,7 @@ const PersonalHeader = () => {
                       <span className="ma5menu__btn--enter">
                         <i className="icon-chevron-right" />
                       </span>
-                      <a href="personal/accounts-packages.html">
+                      <a href="/personal/accounts-packages">
                         Accounts &amp; Packages{" "}
                       </a>
                       <ul data-ma5order="ma5-ul-1-1" className="lvl-2">
@@ -1134,37 +1106,37 @@ const PersonalHeader = () => {
                           Accounts &amp; Packages{" "}
                         </div>
                         <li data-ma5order="ma5-li-1-1-1">
-                          <a href="personal/accounts-packages/standard-savings-account.html">
+                          <a href="/personal/accounts-packages/standard-savings-account">
                             Standard savings account
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-1-1-2">
-                          <a href="personal/accounts-packages/mcb-rupys.html">
+                          <a href="/personal/accounts-packages/mcb-rupys">
                             MCB Rupys
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-1-1-3">
-                          <a href="personal/accounts-packages/standard-current-account.html">
+                          <a href="/personal/accounts-packages/standard-current-account">
                             Standard current account
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-1-1-4">
-                          <a href="personal/accounts-packages/foreign-currency-account.html">
+                          <a href="/personal/accounts-packages/foreign-currency-account">
                             Foreign currency account
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-1-1-5">
-                          <a href="personal/accounts-packages/instakit.html">
+                          <a href="/personal/accounts-packages/instakit">
                             Instakit
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-1-1-6">
-                          <a href="personal/accounts-packages/pack-1825.html">
+                          <a href="/personal/accounts-packages/pack-1825">
                             Pack 18.25
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-1-1-7">
-                          <a href="personal/accounts-packages/neo.html">NEO</a>
+                          <a href="/personal/accounts-packages/neo">NEO</a>
                         </li>
                       </ul>
                     </li>
@@ -1172,7 +1144,7 @@ const PersonalHeader = () => {
                       <span className="ma5menu__btn--enter">
                         <i className="icon-chevron-right" />
                       </span>
-                      <a href="personal/loans.html">Loans </a>
+                      <a href="/personal/loans">Loans </a>
                       <ul data-ma5order="ma5-ul-1-2" className="lvl-2">
                         <div className="ma5menu__leave">
                           <span className="ma5menu__btn--leave">
@@ -1181,25 +1153,23 @@ const PersonalHeader = () => {
                           Loans{" "}
                         </div>
                         <li data-ma5order="ma5-li-1-2-1">
-                          <a href="personal/loans/educational-loan.html">
+                          <a href="/personal/loans/educational-loan">
                             Educational loan
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-1-2-2">
-                          <a href="personal/loans/personal-loan.html">
+                          <a href="/personal/loans/personal-loan">
                             Personal loan
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-1-2-3">
-                          <a href="personal/loans/home-loan.html">Home loan</a>
+                          <a href="/personal/loans/home-loan">Home loan</a>
                         </li>
                         <li data-ma5order="ma5-li-1-2-4">
-                          <a href="personal/loans/green-loan.html">
-                            Green loan
-                          </a>
+                          <a href="/personal/loans/green-loan">Green loan</a>
                         </li>
                         <li data-ma5order="ma5-li-1-2-5">
-                          <a href="personal/loans/personal-overdrafts.html">
+                          <a href="/personal/loans/personal-overdrafts">
                             Personal overdrafts
                           </a>
                         </li>
@@ -1212,7 +1182,7 @@ const PersonalHeader = () => {
                       <span className="ma5menu__btn--enter">
                         <i className="icon-chevron-right" />
                       </span>
-                      <a href="personal/cards.html">Cards </a>
+                      <a href="/personal/cards">Cards </a>
                       <ul data-ma5order="ma5-ul-1-3" className="lvl-2">
                         <div className="ma5menu__leave">
                           <span className="ma5menu__btn--leave">
@@ -1221,22 +1191,22 @@ const PersonalHeader = () => {
                           Cards{" "}
                         </div>
                         <li data-ma5order="ma5-li-1-3-1">
-                          <a href="personal/cards/mcb-debit-card.html">
+                          <a href="/personal/cards/mcb-debit-card">
                             MCB debit card
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-1-3-2">
-                          <a href="personal/cards/mastercard-primo-credit-card.html">
+                          <a href="/personal/cards/mastercard-primo-credit-card">
                             Mastercard Primo credit card
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-1-3-3">
-                          <a href="personal/cards/classic-credit-card.html">
+                          <a href="/personal/cards/classic-credit-card">
                             Classic credit card
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-1-3-4">
-                          <a href="personal/cards/gold-credit-card.html">
+                          <a href="/personal/cards/gold-credit-card">
                             Gold credit card
                           </a>
                         </li>
@@ -1244,7 +1214,7 @@ const PersonalHeader = () => {
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="personal/cards/american-express.html">
+                          <a href="/personal/cards/american-express">
                             American Express®{" "}
                           </a>
                           <ul data-ma5order="ma5-ul-1-3-5" className="lvl-3">
@@ -1255,34 +1225,34 @@ const PersonalHeader = () => {
                               American Express®{" "}
                             </div>
                             <li data-ma5order="ma5-li-1-3-5-1">
-                              <a href="personal/cards/american-express/american-express-green.html">
+                              <a href="/personal/cards/american-express/american-express-green">
                                 American Express® Green
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-1-3-5-2">
-                              <a href="personal/cards/american-express/american-express-gold.html">
+                              <a href="/personal/cards/american-express/american-express-gold">
                                 American Express® Gold
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-1-3-5-3">
-                              <a href="personal/cards/american-express/membership-rewards.html">
+                              <a href="/personal/cards/american-express/membership-rewards">
                                 Membership Rewards®
                               </a>
                             </li>
                           </ul>
                         </li>
                         <li data-ma5order="ma5-li-1-3-6">
-                          <a href="personal/cards/visa-platinum.html">
+                          <a href="/personal/cards/visa-platinum">
                             Visa Platinum
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-1-3-7">
-                          <a href="personal/cards/visa-signature.html">
+                          <a href="/personal/cards/visa-signature">
                             Visa Signature
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-1-3-8">
-                          <a href="personal/cards/compare-our-credit-cards.html">
+                          <a href="/personal/cards/compare-our-credit-cards">
                             Compare our credit cards
                           </a>
                         </li>
@@ -1290,7 +1260,7 @@ const PersonalHeader = () => {
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="personal/cards/prepaid-cards.html">
+                          <a href="/personal/cards/prepaid-cards">
                             Prepaid cards{" "}
                           </a>
                           <ul data-ma5order="ma5-ul-1-3-9" className="lvl-3">
@@ -1301,19 +1271,19 @@ const PersonalHeader = () => {
                               Prepaid cards{" "}
                             </div>
                             <li data-ma5order="ma5-li-1-3-9-1">
-                              <a href="personal/cards/prepaid-cards/visa-prepaid-card.html">
+                              <a href="/personal/cards/prepaid-cards/visa-prepaid-card">
                                 VISA prepaid card
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-1-3-9-2">
-                              <a href="personal/cards/prepaid-cards/unionpay-prepaid-card.html">
+                              <a href="/personal/cards/prepaid-cards/unionpay-prepaid-card">
                                 UnionPay prepaid card
                               </a>
                             </li>
                           </ul>
                         </li>
                         <li data-ma5order="ma5-li-1-3-10">
-                          <a href="personal/cards/travel-insurance.html">
+                          <a href="/personal/cards/travel-insurance">
                             Travel insurance
                           </a>
                         </li>
@@ -1323,7 +1293,7 @@ const PersonalHeader = () => {
                       <span className="ma5menu__btn--enter">
                         <i className="icon-chevron-right" />
                       </span>
-                      <a href="personal/investments.html">Investments </a>
+                      <a href="/personal/investments">Investments </a>
                       <ul data-ma5order="ma5-ul-1-4" className="lvl-2">
                         <div className="ma5menu__leave">
                           <span className="ma5menu__btn--leave">
@@ -1332,32 +1302,32 @@ const PersonalHeader = () => {
                           Investments{" "}
                         </div>
                         <li data-ma5order="ma5-li-1-4-1">
-                          <a href="personal/investments/mcb-mutual-funds.html">
+                          <a href="/personal/investments/mcb-mutual-funds">
                             MCB Mutual Funds
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-1-4-2">
-                          <a href="personal/investments/stockbroking.html">
+                          <a href="/personal/investments/stockbroking">
                             Stockbroking
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-1-4-3">
-                          <a href="personal/investments/education-plan.html">
+                          <a href="/personal/investments/education-plan">
                             Education plan
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-1-4-4">
-                          <a href="personal/investments/retirement-plan.html">
+                          <a href="/personal/investments/retirement-plan">
                             Retirement plan
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-1-4-5">
-                          <a href="personal/investments/life-insurance.html">
+                          <a href="/personal/investments/life-insurance">
                             Life insurance
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-1-4-6">
-                          <a href="personal/investments/fixed-deposit.html">
+                          <a href="/personal/investments/fixed-deposit">
                             Fixed deposit
                           </a>
                         </li>
@@ -1367,7 +1337,7 @@ const PersonalHeader = () => {
                       <span className="ma5menu__btn--enter">
                         <i className="icon-chevron-right" />
                       </span>
-                      <a href="personal/ways-to-bank.html">Ways to bank </a>
+                      <a href="/personal/ways-to-bank">Ways to bank </a>
                       <ul data-ma5order="ma5-ul-1-5" className="lvl-2">
                         <div className="ma5menu__leave">
                           <span className="ma5menu__btn--leave">
@@ -1379,30 +1349,30 @@ const PersonalHeader = () => {
                           <a href="https://juice.mu/">MCB Juice</a>
                         </li>
                         <li data-ma5order="ma5-li-1-5-2">
-                          <a href="personal/ways-to-bank/internet-banking.html">
+                          <a href="/personal/ways-to-bank/internet-banking">
                             Internet banking
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-1-5-3">
-                          <a href="personal/ways-to-bank/sms-banking.html">
+                          <a href="/personal/ways-to-bank/sms-banking">
                             SMS banking
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-1-5-4">
-                          <a href="personal/ways-to-bank/mcb-refill.html">
+                          <a href="/personal/ways-to-bank/mcb-refill">
                             MCB Refill
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-1-5-5">
-                          <a href="personal/ways-to-bank/atms.html">ATMs</a>
+                          <a href="/personal/ways-to-bank/atms">ATMs</a>
                         </li>
                         <li data-ma5order="ma5-li-1-5-6">
-                          <a href="personal/ways-to-bank/in-branch-banking.html">
+                          <a href="/personal/ways-to-bank/in-branch-banking">
                             In-branch banking
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-1-5-7">
-                          <a href="personal/ways-to-bank/bill-payments.html">
+                          <a href="/personal/ways-to-bank/bill-payments">
                             Pay my bills
                           </a>
                         </li>
@@ -1410,7 +1380,7 @@ const PersonalHeader = () => {
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="personal/ways-to-bank/international-transfers.html">
+                          <a href="/personal/ways-to-bank/international-transfers">
                             International transfers{" "}
                           </a>
                           <ul data-ma5order="ma5-ul-1-5-8" className="lvl-3">
@@ -1421,19 +1391,19 @@ const PersonalHeader = () => {
                               International transfers{" "}
                             </div>
                             <li data-ma5order="ma5-li-1-5-8-1">
-                              <a href="personal/ways-to-bank/international-transfers/international-payment.html">
+                              <a href="/personal/ways-to-bank/international-transfers/international-payment">
                                 International payment
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-1-5-8-2">
-                              <a href="personal/ways-to-bank/international-transfers/moneygram.html">
+                              <a href="/personal/ways-to-bank/international-transfers/moneygram">
                                 MoneyGram
                               </a>
                             </li>
                           </ul>
                         </li>
                         <li data-ma5order="ma5-li-1-5-9">
-                          <a href="personal/ways-to-bank/e-statements.html">
+                          <a href="/personal/ways-to-bank/e-statements">
                             E-Statements
                           </a>
                         </li>
@@ -1443,7 +1413,7 @@ const PersonalHeader = () => {
                       <span className="ma5menu__btn--enter">
                         <i className="icon-chevron-right" />
                       </span>
-                      <a href="personal/existing-customers.html">
+                      <a href="/personal/existing-customers">
                         Existing customers{" "}
                       </a>
                       <ul data-ma5order="ma5-ul-1-6" className="lvl-2">
@@ -1457,46 +1427,42 @@ const PersonalHeader = () => {
                           <a href="https://juice.mu/">Get MCB Juice</a>
                         </li>
                         <li data-ma5order="ma5-li-1-6-2">
-                          <a href="personal/existing-customers/log-in-to-internet-banking.html">
+                          <a href="/personal/existing-customers/log-in-to-internet-banking">
                             Log in to Internet Banking
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-1-6-3">
-                          <a href="personal/offers-and-promotions.html">
+                          <a href="/personal/offers-and-promotions">
                             Offers &amp; promotions
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-1-6-4">
-                          <a href="personal/cards/american-express/membership-rewards.html">
+                          <a href="/personal/cards/american-express/membership-rewards">
                             American Express® Membership Rewards® programme
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-1-6-5">
-                          <a href="personal/help-centre.html">
-                            Go to help center
-                          </a>
+                          <a href="/personal/help-centre">Go to help center</a>
                         </li>
                         <li data-ma5order="ma5-li-1-6-6">
-                          <a href="security-centre.html">
-                            Go to security center
-                          </a>
+                          <a href="/security-centre">Go to security center</a>
                         </li>
                         <li data-ma5order="ma5-li-1-6-7">
-                          <a href="personal/existing-customers/update-your-personal-profile.html">
+                          <a href="/personal/existing-customers/update-your-personal-profile">
                             Update your personal profile
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-1-6-8">
-                          <a href="personal/contact-us.html">Contact us</a>
+                          <a href="/contact-us">Contact us</a>
                         </li>
                         <li data-ma5order="ma5-li-1-6-9">
-                          <a href="file-a-complaint.html">File a complaint</a>
+                          <a href="/file-a-complaint">File a complaint</a>
                         </li>
                         <li data-ma5order="ma5-li-1-6-10">
-                          <a href="locate-us.html">Find your nearest branch</a>
+                          <a href="/locate-us">Find your nearest branch</a>
                         </li>
                         <li data-ma5order="ma5-li-1-6-11">
-                          <a href="rates-fees.html">
+                          <a href="/rates-fees">
                             View interest rates, fees and charges
                           </a>
                         </li>
@@ -1508,7 +1474,7 @@ const PersonalHeader = () => {
                   <span className="ma5menu__btn--enter">
                     <i className="icon-chevron-right" />
                   </span>
-                  <a href="sme.html">SME</a>
+                  <a href="/sme">SME</a>
                   <ul data-ma5order="ma5-ul-2" className="lvl-1">
                     <div className="ma5menu__leave">
                       <span className="ma5menu__btn--leave">
@@ -1520,7 +1486,7 @@ const PersonalHeader = () => {
                       <span className="ma5menu__btn--enter">
                         <i className="icon-chevron-right" />
                       </span>
-                      <a href="sme/bank.html">Bank </a>
+                      <a href="/sme/bank">Bank </a>
                       <ul data-ma5order="ma5-ul-2-1" className="lvl-2">
                         <div className="ma5menu__leave">
                           <span className="ma5menu__btn--leave">
@@ -1529,7 +1495,7 @@ const PersonalHeader = () => {
                           Bank{" "}
                         </div>
                         <li data-ma5order="ma5-li-2-1-1">
-                          <a href="sme/bank/business-account.html">
+                          <a href="/sme/bank/business-account">
                             Business Account
                           </a>
                         </li>
@@ -1537,7 +1503,7 @@ const PersonalHeader = () => {
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="sme/bank/tailor-made-solutions.html">
+                          <a href="/sme/bank/tailor-made-solutions">
                             Tailor-made Solutions{" "}
                           </a>
                           <ul data-ma5order="ma5-ul-2-1-2" className="lvl-3">
@@ -1558,7 +1524,7 @@ const PersonalHeader = () => {
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="sme/bank/transact-anytime-anywhere.html">
+                          <a href="/sme/bank/transact-anytime-anywhere">
                             Transact anytime, anywhere{" "}
                           </a>
                           <ul data-ma5order="ma5-ul-2-1-3" className="lvl-3">
@@ -1569,22 +1535,22 @@ const PersonalHeader = () => {
                               Transact anytime, anywhere{" "}
                             </div>
                             <li data-ma5order="ma5-li-2-1-3-1">
-                              <a href="sme/bank/transact-anytime-anywhere/internet-banking.html">
+                              <a href="/sme/bank/transact-anytime-anywhere/internet-banking">
                                 Internet Banking
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-2-1-3-2">
-                              <a href="sme/bank/transact-anytime-anywhere/atm.html">
+                              <a href="/sme/bank/transact-anytime-anywhere/atm">
                                 ATM
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-2-1-3-3">
-                              <a href="sme/bank/transact-anytime-anywhere/e-statements.html">
+                              <a href="/sme/bank/transact-anytime-anywhere/e-statements">
                                 E-Statements
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-2-1-3-4">
-                              <a href="sme/bank/transact-anytime-anywhere/juicepro.html">
+                              <a href="/sme/bank/transact-anytime-anywhere/juicepro">
                                 JuicePro
                               </a>
                             </li>
@@ -1596,7 +1562,7 @@ const PersonalHeader = () => {
                       <span className="ma5menu__btn--enter">
                         <i className="icon-chevron-right" />
                       </span>
-                      <a href="sme/borrow.html">Borrow </a>
+                      <a href="/sme/borrow">Borrow </a>
                       <ul data-ma5order="ma5-ul-2-2" className="lvl-2">
                         <div className="ma5menu__leave">
                           <span className="ma5menu__btn--leave">
@@ -1605,34 +1571,32 @@ const PersonalHeader = () => {
                           Borrow{" "}
                         </div>
                         <li data-ma5order="ma5-li-2-2-1">
-                          <a href="sme/borrow/loans.html">Loans</a>
+                          <a href="/sme/borrow/loans">Loans</a>
                         </li>
                         <li data-ma5order="ma5-li-2-2-2">
-                          <a href="sme/borrow/overdrafts.html">Overdrafts</a>
+                          <a href="/sme/borrow/overdrafts">Overdrafts</a>
                         </li>
                         <li data-ma5order="ma5-li-2-2-3">
-                          <a href="sme/borrow/leasing.html">Leasing</a>
+                          <a href="/sme/borrow/leasing">Leasing</a>
                         </li>
                         <li data-ma5order="ma5-li-2-2-4">
-                          <a href="sme/borrow/trade-finance.html">
-                            Trade Finance
-                          </a>
+                          <a href="/sme/borrow/trade-finance">Trade Finance</a>
                         </li>
                         <li data-ma5order="ma5-li-2-2-5">
-                          <a href="sme/borrow/sustainable-loan.html">
+                          <a href="/sme/borrow/sustainable-loan">
                             Sustainable Loan
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-2-2-6">
-                          <a href="sme/borrow/factoring.html">Factoring</a>
+                          <a href="/sme/borrow/factoring">Factoring</a>
                         </li>
                         <li data-ma5order="ma5-li-2-2-7">
-                          <a href="sme/borrow/bank-guarantees.html">
+                          <a href="/sme/borrow/bank-guarantees">
                             Bank Guarantees
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-2-2-8">
-                          <a href="sme/borrow/lokal-is-beautiful.html">
+                          <a href="/sme/borrow/lokal-is-beautiful">
                             Lokal is Beautiful
                           </a>
                         </li>
@@ -1642,7 +1606,7 @@ const PersonalHeader = () => {
                       <span className="ma5menu__btn--enter">
                         <i className="icon-chevron-right" />
                       </span>
-                      <a href="sme/pay.html">Pay </a>
+                      <a href="/sme/pay">Pay </a>
                       <ul data-ma5order="ma5-ul-2-3" className="lvl-2">
                         <div className="ma5menu__leave">
                           <span className="ma5menu__btn--leave">
@@ -1654,7 +1618,7 @@ const PersonalHeader = () => {
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="sme/pay/cards.html">Cards </a>
+                          <a href="/sme/pay/cards">Cards </a>
                           <ul data-ma5order="ma5-ul-2-3-1" className="lvl-3">
                             <div className="ma5menu__leave">
                               <span className="ma5menu__btn--leave">
@@ -1663,35 +1627,35 @@ const PersonalHeader = () => {
                               Cards{" "}
                             </div>
                             <li data-ma5order="ma5-li-2-3-1-1">
-                              <a href="sme/pay/cards/business-card.html">
+                              <a href="/sme/pay/cards/business-card">
                                 Business Card
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-2-3-1-2">
-                              <a href="sme/pay/cards/business-deposit-card.html">
+                              <a href="/sme/pay/cards/business-deposit-card">
                                 Business Deposit Card
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-2-3-1-3">
-                              <a href="sme/pay/cards/fleetman-card.html">
+                              <a href="/sme/pay/cards/fleetman-card">
                                 Fleetman Card
                               </a>
                             </li>
                           </ul>
                         </li>
                         <li data-ma5order="ma5-li-2-3-2">
-                          <a href="sme/pay/payroll-services.html">
+                          <a href="/sme/pay/payroll-services">
                             Payroll Services
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-2-3-3">
-                          <a href="sme/pay/cheques.html">Cheques</a>
+                          <a href="/sme/pay/cheques">Cheques</a>
                         </li>
                         <li data-ma5order="ma5-li-2-3-4">
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="sme/pay/electronic-payments.html">
+                          <a href="/sme/pay/electronic-payments">
                             Electronic Payments{" "}
                           </a>
                           <ul data-ma5order="ma5-ul-2-3-4" className="lvl-3">
@@ -1702,12 +1666,12 @@ const PersonalHeader = () => {
                               Electronic Payments{" "}
                             </div>
                             <li data-ma5order="ma5-li-2-3-4-1">
-                              <a href="sme/pay/electronic-payments/electronic-transfer.html">
+                              <a href="/sme/pay/electronic-payments/electronic-transfer">
                                 Electronic Transfer
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-2-3-4-2">
-                              <a href="sme/pay/electronic-payments/e-commerce-solutions.html">
+                              <a href="/sme/pay/electronic-payments/e-commerce-solutions">
                                 E-Commerce Solutions
                               </a>
                             </li>
@@ -1719,7 +1683,7 @@ const PersonalHeader = () => {
                       <span className="ma5menu__btn--enter">
                         <i className="icon-chevron-right" />
                       </span>
-                      <a href="sme/sme-connect.html">SME Connect </a>
+                      <a href="/sme/sme-connect">SME Connect </a>
                       <ul data-ma5order="ma5-ul-2-4" className="lvl-2">
                         <div className="ma5menu__leave">
                           <span className="ma5menu__btn--leave">
@@ -1728,17 +1692,17 @@ const PersonalHeader = () => {
                           SME Connect{" "}
                         </div>
                         <li data-ma5order="ma5-li-2-4-1">
-                          <a href="sme/sme-connect/start-your-business.html">
+                          <a href="/sme/sme-connect/start-your-business">
                             Start Your Business
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-2-4-2">
-                          <a href="sme/sme-connect/manage-your-business.html">
+                          <a href="/sme/sme-connect/manage-your-business">
                             Manage Your Business
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-2-4-3">
-                          <a href="sme/sme-connect/speaker-series.html">
+                          <a href="/sme/sme-connect/speaker-series">
                             Speaker Series
                           </a>
                         </li>
@@ -1750,7 +1714,7 @@ const PersonalHeader = () => {
                   <span className="ma5menu__btn--enter">
                     <i className="icon-chevron-right" />
                   </span>
-                  <a href="corporate.html">Corporate</a>
+                  <a href="/corporate">Corporate</a>
                   <ul data-ma5order="ma5-ul-3" className="lvl-1">
                     <div className="ma5menu__leave">
                       <span className="ma5menu__btn--leave">
@@ -1762,7 +1726,7 @@ const PersonalHeader = () => {
                       <span className="ma5menu__btn--enter">
                         <i className="icon-chevron-right" />
                       </span>
-                      <a href="corporate/what-we-do.html">What we do </a>
+                      <a href="/corporate/what-we-do">What we do </a>
                       <ul data-ma5order="ma5-ul-3-1" className="lvl-2">
                         <div className="ma5menu__leave">
                           <span className="ma5menu__btn--leave">
@@ -1774,7 +1738,7 @@ const PersonalHeader = () => {
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="corporate/what-we-do/corporate-banking.html">
+                          <a href="/corporate/what-we-do/corporate-banking">
                             Corporate Banking{" "}
                           </a>
                           <ul data-ma5order="ma5-ul-3-1-1" className="lvl-3">
@@ -1785,12 +1749,12 @@ const PersonalHeader = () => {
                               Corporate Banking{" "}
                             </div>
                             <li data-ma5order="ma5-li-3-1-1-1">
-                              <a href="corporate/what-we-do/corporate-banking/our-success-stories.html">
+                              <a href="/corporate/what-we-do/corporate-banking/our-success-stories">
                                 Our success stories
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-3-1-1-2">
-                              <a href="corporate/what-we-do/corporate-banking/become-a-client.html">
+                              <a href="/corporate/what-we-do/corporate-banking/become-a-client">
                                 Become a client
                               </a>
                             </li>
@@ -1800,7 +1764,7 @@ const PersonalHeader = () => {
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="corporate/what-we-do/global-business.html">
+                          <a href="/corporate/what-we-do/global-business">
                             Global Business{" "}
                           </a>
                           <ul data-ma5order="ma5-ul-3-1-2" className="lvl-3">
@@ -1811,32 +1775,32 @@ const PersonalHeader = () => {
                               Global Business{" "}
                             </div>
                             <li data-ma5order="ma5-li-3-1-2-1">
-                              <a href="corporate/what-we-do/global-business/become-a-client.html">
+                              <a href="/corporate/what-we-do/global-business/become-a-client">
                                 Become a client
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-3-1-2-2">
-                              <a href="corporate/what-we-do/global-business/investing-in-mauritius.html">
+                              <a href="/corporate/what-we-do/global-business/investing-in-mauritius">
                                 Investing in Mauritius
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-3-1-2-3">
-                              <a href="corporate/what-we-do/global-business/custody-services.html">
+                              <a href="/corporate/what-we-do/global-business/custody-services">
                                 Custody Services
                               </a>
                             </li>
                           </ul>
                         </li>
                         <li data-ma5order="ma5-li-3-1-3">
-                          <a href="corporate/finance-lending/structured-finance/energy-commodities.html">
+                          <a href="/corporate/finance-lending/structured-finance/energy-commodities">
                             Energy &amp; Commodities Financing
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-3-1-4">
-                          <a href="institutional.html">Institutional Banking</a>
+                          <a href="/institutional">Institutional Banking</a>
                         </li>
                         <li data-ma5order="ma5-li-3-1-5">
-                          <a href="sme.html">SME Banking</a>
+                          <a href="/sme">SME Banking</a>
                         </li>
                       </ul>
                     </li>
@@ -1844,9 +1808,7 @@ const PersonalHeader = () => {
                       <span className="ma5menu__btn--enter">
                         <i className="icon-chevron-right" />
                       </span>
-                      <a href="corporate/payment-cash.html">
-                        Payment &amp; Cash{" "}
-                      </a>
+                      <a href="/corporate/payment-cash">Payment &amp; Cash </a>
                       <ul data-ma5order="ma5-ul-3-2" className="lvl-2">
                         <div className="ma5menu__leave">
                           <span className="ma5menu__btn--leave">
@@ -1858,7 +1820,7 @@ const PersonalHeader = () => {
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="corporate/payment-cash/pay.html">Pay </a>
+                          <a href="/corporate/payment-cash/pay">Pay </a>
                           <ul data-ma5order="ma5-ul-3-2-1" className="lvl-3">
                             <div className="ma5menu__leave">
                               <span className="ma5menu__btn--leave">
@@ -1870,7 +1832,7 @@ const PersonalHeader = () => {
                               <span className="ma5menu__btn--enter">
                                 <i className="icon-chevron-right" />
                               </span>
-                              <a href="corporate/payment-cash/pay/domestic-international-transfers.html">
+                              <a href="/corporate/payment-cash/pay/domestic-international-transfers">
                                 Domestic &amp; International transfers{" "}
                               </a>
                               <ul
@@ -1884,39 +1846,39 @@ const PersonalHeader = () => {
                                   Domestic &amp; International transfers{" "}
                                 </div>
                                 <li data-ma5order="ma5-li-3-2-1-1-1">
-                                  <a href="corporate/payment-cash/pay/domestic-international-transfers/swift-gpi.html">
+                                  <a href="/corporate/payment-cash/pay/domestic-international-transfers/swift-gpi">
                                     SWIFT gpi
                                   </a>
                                 </li>
                               </ul>
                             </li>
                             <li data-ma5order="ma5-li-3-2-1-2">
-                              <a href="corporate/payment-cash/pay/internet-banking-pro-smartapprove.html">
+                              <a href="/corporate/payment-cash/pay/internet-banking-pro-smartapprove">
                                 Internet Banking Pro &amp; SmartApprove App
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-3-2-1-3">
-                              <a href="corporate/payment-cash/pay/bulk-payments.html">
+                              <a href="/corporate/payment-cash/pay/bulk-payments">
                                 Bulk Payments
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-3-2-1-4">
-                              <a href="corporate/payment-cash/pay/corporate-card.html">
+                              <a href="/corporate/payment-cash/pay/corporate-card">
                                 Corporate Card
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-3-2-1-5">
-                              <a href="corporate/payment-cash/pay/fleetman-card.html">
+                              <a href="/corporate/payment-cash/pay/fleetman-card">
                                 Fleetman Card
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-3-2-1-6">
-                              <a href="corporate/payment-cash/pay/swift-connectivity.html">
+                              <a href="/corporate/payment-cash/pay/swift-connectivity">
                                 SWIFT Connectivity
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-3-2-1-7">
-                              <a href="corporate/payment-cash/pay/drop-collect.html">
+                              <a href="/corporate/payment-cash/pay/drop-collect">
                                 Drop &amp; Collect
                               </a>
                             </li>
@@ -1926,9 +1888,7 @@ const PersonalHeader = () => {
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="corporate/payment-cash/collect.html">
-                            Collect{" "}
-                          </a>
+                          <a href="/corporate/payment-cash/collect">Collect </a>
                           <ul data-ma5order="ma5-ul-3-2-2" className="lvl-3">
                             <div className="ma5menu__leave">
                               <span className="ma5menu__btn--leave">
@@ -1937,12 +1897,12 @@ const PersonalHeader = () => {
                               Collect{" "}
                             </div>
                             <li data-ma5order="ma5-li-3-2-2-1">
-                              <a href="corporate/payment-cash/collect/direct-debit-bill-payment.html">
+                              <a href="/corporate/payment-cash/collect/direct-debit-bill-payment">
                                 Direct Debit &amp; Bill Payment
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-3-2-2-2">
-                              <a href="corporate/payment-cash/collect/cash-deposit-solutions.html">
+                              <a href="/corporate/payment-cash/collect/cash-deposit-solutions">
                                 Cash Deposit Solutions
                               </a>
                             </li>
@@ -1950,7 +1910,7 @@ const PersonalHeader = () => {
                               <span className="ma5menu__btn--enter">
                                 <i className="icon-chevron-right" />
                               </span>
-                              <a href="corporate/payment-cash/collect/e-commerce.html">
+                              <a href="/corporate/payment-cash/collect/e-commerce">
                                 E-commerce{" "}
                               </a>
                               <ul
@@ -1964,24 +1924,24 @@ const PersonalHeader = () => {
                                   E-commerce{" "}
                                 </div>
                                 <li data-ma5order="ma5-li-3-2-2-3-1">
-                                  <a href="corporate/payment-cash/collect/e-commerce/online-payment-gateway.html">
+                                  <a href="/corporate/payment-cash/collect/e-commerce/online-payment-gateway">
                                     Online Payment Gateway
                                   </a>
                                 </li>
                                 <li data-ma5order="ma5-li-3-2-2-3-2">
-                                  <a href="corporate/payment-cash/collect/e-commerce/merchant-services.html">
+                                  <a href="/corporate/payment-cash/collect/e-commerce/merchant-services">
                                     Merchant Services
                                   </a>
                                 </li>
                               </ul>
                             </li>
                             <li data-ma5order="ma5-li-3-2-2-4">
-                              <a href="corporate/payment-cash/collect/point-of-sale-solutions.html">
+                              <a href="/corporate/payment-cash/collect/point-of-sale-solutions">
                                 Point of Sale Solutions
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-3-2-2-5">
-                              <a href="corporate/payment-cash/collect/mobile-banking.html">
+                              <a href="/corporate/payment-cash/collect/mobile-banking">
                                 Mobile Banking
                               </a>
                             </li>
@@ -1991,9 +1951,7 @@ const PersonalHeader = () => {
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="corporate/payment-cash/monitor.html">
-                            Monitor{" "}
-                          </a>
+                          <a href="/corporate/payment-cash/monitor">Monitor </a>
                           <ul data-ma5order="ma5-ul-3-2-3" className="lvl-3">
                             <div className="ma5menu__leave">
                               <span className="ma5menu__btn--leave">
@@ -2002,12 +1960,12 @@ const PersonalHeader = () => {
                               Monitor{" "}
                             </div>
                             <li data-ma5order="ma5-li-3-2-3-1">
-                              <a href="corporate/payment-cash/monitor/e-statements.html">
+                              <a href="/corporate/payment-cash/monitor/e-statements">
                                 E-Statements
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-3-2-3-2">
-                              <a href="corporate/payment-cash/monitor/reporting-services-ib-dashboard.html">
+                              <a href="/corporate/payment-cash/monitor/reporting-services-ib-dashboard">
                                 Reporting Services &amp; IB Dashboard
                               </a>
                             </li>
@@ -2017,7 +1975,7 @@ const PersonalHeader = () => {
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="corporate/payment-cash/optimise.html">
+                          <a href="/corporate/payment-cash/optimise">
                             Optimise{" "}
                           </a>
                           <ul data-ma5order="ma5-ul-3-2-4" className="lvl-3">
@@ -2028,12 +1986,12 @@ const PersonalHeader = () => {
                               Optimise{" "}
                             </div>
                             <li data-ma5order="ma5-li-3-2-4-1">
-                              <a href="corporate/payment-cash/optimise/cash-pooling-services.html">
+                              <a href="/corporate/payment-cash/optimise/cash-pooling-services">
                                 Cash Pooling Services
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-3-2-4-2">
-                              <a href="corporate/payment-cash/optimise/fx-money-market-services.html">
+                              <a href="/corporate/payment-cash/optimise/fx-money-market-services">
                                 FX &amp; Money Market Services
                               </a>
                             </li>
@@ -2045,7 +2003,7 @@ const PersonalHeader = () => {
                       <span className="ma5menu__btn--enter">
                         <i className="icon-chevron-right" />
                       </span>
-                      <a href="corporate/finance-lending.html">
+                      <a href="/corporate/finance-lending">
                         Finance &amp; Lending{" "}
                       </a>
                       <ul data-ma5order="ma5-ul-3-3" className="lvl-2">
@@ -2059,7 +2017,7 @@ const PersonalHeader = () => {
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="corporate/finance-lending/corporate-lending.html">
+                          <a href="/corporate/finance-lending/corporate-lending">
                             Corporate Lending{" "}
                           </a>
                           <ul data-ma5order="ma5-ul-3-3-1" className="lvl-3">
@@ -2070,37 +2028,37 @@ const PersonalHeader = () => {
                               Corporate Lending{" "}
                             </div>
                             <li data-ma5order="ma5-li-3-3-1-1">
-                              <a href="corporate/finance-lending/corporate-lending/overdraft-working-capital.html">
+                              <a href="/corporate/finance-lending/corporate-lending/overdraft-working-capital">
                                 Overdraft &amp; Working Capital
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-3-3-1-2">
-                              <a href="corporate/finance-lending/corporate-lending/revolving-credit.html">
+                              <a href="/corporate/finance-lending/corporate-lending/revolving-credit">
                                 Revolving Credit
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-3-3-1-3">
-                              <a href="corporate/finance-lending/corporate-lending/import-loan.html">
+                              <a href="/corporate/finance-lending/corporate-lending/import-loan">
                                 Import Loan
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-3-3-1-4">
-                              <a href="corporate/finance-lending/corporate-lending/export-loan.html">
+                              <a href="/corporate/finance-lending/corporate-lending/export-loan">
                                 Export Loan
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-3-3-1-5">
-                              <a href="corporate/finance-lending/corporate-lending/term-loan.html">
+                              <a href="/corporate/finance-lending/corporate-lending/term-loan">
                                 Term Loan
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-3-3-1-6">
-                              <a href="corporate/finance-lending/corporate-lending/sustainable-loan.html">
+                              <a href="/corporate/finance-lending/corporate-lending/sustainable-loan">
                                 Sustainable Loan
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-3-3-1-7">
-                              <a href="corporate/finance-lending/corporate-lending/guarantees.html">
+                              <a href="/corporate/finance-lending/corporate-lending/guarantees">
                                 Guarantees
                               </a>
                             </li>
@@ -2110,7 +2068,7 @@ const PersonalHeader = () => {
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="corporate/finance-lending/supply-chain-finance.html">
+                          <a href="/corporate/finance-lending/supply-chain-finance">
                             Supply Chain Finance{" "}
                           </a>
                           <ul data-ma5order="ma5-ul-3-3-2" className="lvl-3">
@@ -2121,7 +2079,7 @@ const PersonalHeader = () => {
                               Supply Chain Finance{" "}
                             </div>
                             <li data-ma5order="ma5-li-3-3-2-1">
-                              <a href="corporate/finance-lending/supply-chain-finance/global-trade-portal.html">
+                              <a href="/corporate/finance-lending/supply-chain-finance/global-trade-portal">
                                 Global Trade Portal
                               </a>
                             </li>
@@ -2129,7 +2087,7 @@ const PersonalHeader = () => {
                               <span className="ma5menu__btn--enter">
                                 <i className="icon-chevron-right" />
                               </span>
-                              <a href="corporate/finance-lending/supply-chain-finance/trade-finance.html">
+                              <a href="/corporate/finance-lending/supply-chain-finance/trade-finance">
                                 Trade Finance{" "}
                               </a>
                               <ul
@@ -2143,19 +2101,19 @@ const PersonalHeader = () => {
                                   Trade Finance{" "}
                                 </div>
                                 <li data-ma5order="ma5-li-3-3-2-2-1">
-                                  <a href="corporate/finance-lending/supply-chain-finance/trade-finance/trade-finance-forms.html">
+                                  <a href="/corporate/finance-lending/supply-chain-finance/trade-finance/trade-finance-forms">
                                     Trade Finance Forms
                                   </a>
                                 </li>
                               </ul>
                             </li>
                             <li data-ma5order="ma5-li-3-3-2-3">
-                              <a href="corporate/finance-lending/supply-chain-finance/credit-protection.html">
+                              <a href="/corporate/finance-lending/supply-chain-finance/credit-protection">
                                 Credit Protection
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-3-3-2-4">
-                              <a href="corporate/finance-lending/supply-chain-finance/invoice-factoring.html">
+                              <a href="/corporate/finance-lending/supply-chain-finance/invoice-factoring">
                                 Invoice Factoring
                               </a>
                             </li>
@@ -2165,7 +2123,7 @@ const PersonalHeader = () => {
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="corporate/finance-lending/structured-finance.html">
+                          <a href="/corporate/finance-lending/structured-finance">
                             Structured Finance{" "}
                           </a>
                           <ul data-ma5order="ma5-ul-3-3-3" className="lvl-3">
@@ -2176,17 +2134,17 @@ const PersonalHeader = () => {
                               Structured Finance{" "}
                             </div>
                             <li data-ma5order="ma5-li-3-3-3-1">
-                              <a href="corporate/finance-lending/structured-finance/acquisition-financing.html">
+                              <a href="/corporate/finance-lending/structured-finance/acquisition-financing">
                                 Acquisition Financing
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-3-3-3-2">
-                              <a href="corporate/finance-lending/structured-finance/property-financing.html">
+                              <a href="/corporate/finance-lending/structured-finance/property-financing">
                                 Property Financing
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-3-3-3-3">
-                              <a href="corporate/finance-lending/structured-finance/project-financing.html">
+                              <a href="/corporate/finance-lending/structured-finance/project-financing">
                                 Project Financing
                               </a>
                             </li>
@@ -2194,7 +2152,7 @@ const PersonalHeader = () => {
                               <span className="ma5menu__btn--enter">
                                 <i className="icon-chevron-right" />
                               </span>
-                              <a href="corporate/finance-lending/structured-finance/energy-commodities.html">
+                              <a href="/corporate/finance-lending/structured-finance/energy-commodities">
                                 Energy &amp; Commodities{" "}
                               </a>
                               <ul
@@ -2208,19 +2166,19 @@ const PersonalHeader = () => {
                                   Energy &amp; Commodities{" "}
                                 </div>
                                 <li data-ma5order="ma5-li-3-3-3-4-1">
-                                  <a href="corporate/finance-lending/structured-finance/energy-commodities/our-success-stories.html">
+                                  <a href="/corporate/finance-lending/structured-finance/energy-commodities/our-success-stories">
                                     Our Success Stories
                                   </a>
                                 </li>
                               </ul>
                             </li>
                             <li data-ma5order="ma5-li-3-3-3-5">
-                              <a href="corporate/finance-lending/structured-finance/cross-border-financing.html">
+                              <a href="/corporate/finance-lending/structured-finance/cross-border-financing">
                                 Cross-border Financing
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-3-3-3-6">
-                              <a href="corporate/finance-lending/structured-finance/syndicated-financing.html">
+                              <a href="/corporate/finance-lending/structured-finance/syndicated-financing">
                                 Syndicated Financing
                               </a>
                             </li>
@@ -2230,7 +2188,7 @@ const PersonalHeader = () => {
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="corporate/finance-lending/asset-finance.html">
+                          <a href="/corporate/finance-lending/asset-finance">
                             Asset Finance{" "}
                           </a>
                           <ul data-ma5order="ma5-ul-3-3-4" className="lvl-3">
@@ -2241,7 +2199,7 @@ const PersonalHeader = () => {
                               Asset Finance{" "}
                             </div>
                             <li data-ma5order="ma5-li-3-3-4-1">
-                              <a href="corporate/finance-lending/asset-finance/mcb-leasing.html">
+                              <a href="/corporate/finance-lending/asset-finance/mcb-leasing">
                                 MCB Leasing
                               </a>
                             </li>
@@ -2253,7 +2211,7 @@ const PersonalHeader = () => {
                       <span className="ma5menu__btn--enter">
                         <i className="icon-chevron-right" />
                       </span>
-                      <a href="corporate/investment-advisory.html">
+                      <a href="/corporate/investment-advisory">
                         Investment &amp; Advisory{" "}
                       </a>
                       <ul data-ma5order="ma5-ul-3-4" className="lvl-2">
@@ -2267,7 +2225,7 @@ const PersonalHeader = () => {
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="corporate/investment-advisory/global-markets.html">
+                          <a href="/corporate/investment-advisory/global-markets">
                             Global Markets{" "}
                           </a>
                           <ul data-ma5order="ma5-ul-3-4-1" className="lvl-3">
@@ -2278,29 +2236,29 @@ const PersonalHeader = () => {
                               Global Markets{" "}
                             </div>
                             <li data-ma5order="ma5-li-3-4-1-1">
-                              <a href="corporate/investment-advisory/global-markets/financial-markets-summary.html">
+                              <a href="/corporate/investment-advisory/global-markets/financial-markets-summary">
                                 Financial Markets summary
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-3-4-1-2">
-                              <a href="corporate/investment-advisory/global-markets/global-markets-solutions.html">
+                              <a href="/corporate/investment-advisory/global-markets/global-markets-solutions">
                                 Global Markets Solutions
                               </a>
                             </li>
                             <li data-ma5order="ma5-li-3-4-1-3">
-                              <a href="corporate/investment-advisory/global-markets/direct-access-to-markets.html">
+                              <a href="/corporate/investment-advisory/global-markets/direct-access-to-markets">
                                 Direct access to markets
                               </a>
                             </li>
                           </ul>
                         </li>
                         <li data-ma5order="ma5-li-3-4-2">
-                          <a href="corporate/investment-advisory/capital-markets.html">
+                          <a href="/corporate/investment-advisory/capital-markets">
                             Capital Markets
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-3-4-3">
-                          <a href="corporate/investment-advisory/securities-services.html">
+                          <a href="/corporate/investment-advisory/securities-services">
                             Securities Services
                           </a>
                         </li>
@@ -2312,7 +2270,7 @@ const PersonalHeader = () => {
                   <span className="ma5menu__btn--enter">
                     <i className="icon-chevron-right" />
                   </span>
-                  <a href="institutional.html">Institutional</a>
+                  <a href="/institutional">Institutional</a>
                   <ul data-ma5order="ma5-ul-4" className="lvl-1">
                     <div className="ma5menu__leave">
                       <span className="ma5menu__btn--leave">
@@ -2321,12 +2279,12 @@ const PersonalHeader = () => {
                       Institutional
                     </div>
                     <li data-ma5order="ma5-li-4-1">
-                      <a href="institutional/mcb-at-a-glance.html">
+                      <a href="/institutional/mcb-at-a-glance">
                         MCB at a glance
                       </a>
                     </li>
                     <li data-ma5order="ma5-li-4-2">
-                      <a href="institutional/our-geographical-presence.html">
+                      <a href="/institutional/our-geographical-presence">
                         Our geographical presence
                       </a>
                     </li>
@@ -2334,9 +2292,7 @@ const PersonalHeader = () => {
                       <span className="ma5menu__btn--enter">
                         <i className="icon-chevron-right" />
                       </span>
-                      <a href="institutional/our-solutions.html">
-                        Our solutions{" "}
-                      </a>
+                      <a href="/institutional/our-solutions">Our solutions </a>
                       <ul data-ma5order="ma5-ul-4-3" className="lvl-2">
                         <div className="ma5menu__leave">
                           <span className="ma5menu__btn--leave">
@@ -2345,34 +2301,34 @@ const PersonalHeader = () => {
                           Our solutions{" "}
                         </div>
                         <li data-ma5order="ma5-li-4-3-1">
-                          <a href="institutional/our-solutions/bank-of-banks.html">
+                          <a href="/institutional/our-solutions/bank-of-banks">
                             Bank of Banks
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-4-3-2">
-                          <a href="institutional/our-solutions/correspondent-banking.html">
+                          <a href="/institutional/our-solutions/correspondent-banking">
                             Correspondent Banking
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-4-3-3">
-                          <a href="institutional/our-solutions/risk-sharing.html">
+                          <a href="/institutional/our-solutions/risk-sharing">
                             Risk Sharing
                           </a>
                         </li>
                         <li data-ma5order="ma5-li-4-3-4">
-                          <a href="institutional/our-solutions/syndications.html">
+                          <a href="/institutional/our-solutions/syndications">
                             Syndications
                           </a>
                         </li>
                       </ul>
                     </li>
                     <li data-ma5order="ma5-li-4-4">
-                      <a href="institutional/events.html">Events</a>
+                      <a href="/institutional/events">Events</a>
                     </li>
                   </ul>
                 </li>
                 <li data-ma5order="ma5-li-5">
-                  <a href="rates-fees.html">Rates &amp; Fees</a>
+                  <a href="/rates-fees">Rates &amp; Fees</a>
                 </li>
               </ul>
             </nav>
@@ -2399,7 +2355,7 @@ const PersonalHeader = () => {
                   <div className="d-flex justify-content-between">
                     <ul id="nav" className="nav-content ">
                       <li className="active">
-                        <a href="index.html" target="_self">
+                        <a href="/" target="_self">
                           Personal
                         </a>
                       </li>
@@ -2409,17 +2365,17 @@ const PersonalHeader = () => {
                         </a>
                       </li>
                       <li className="">
-                        <a href="sme.html" target="_self">
+                        <a href="/sme" target="_self">
                           SME
                         </a>
                       </li>
                       <li className="">
-                        <a href="corporate.html" target="_self">
+                        <a href="/corporate" target="_self">
                           Corporate
                         </a>
                       </li>
                       <li className="">
-                        <a href="institutional.html" target="_self">
+                        <a href="/institutional" target="_self">
                           Institutional
                         </a>
                       </li>
@@ -2433,7 +2389,7 @@ const PersonalHeader = () => {
                       <div className="link-icon d-flex flex-row">
                         <ul className="mx-2">
                           <li>
-                            <a href="personal/contact-us.html">
+                            <a href="/contact-us">
                               {/*<i class="icon-phone"></i>*/}
                               <i className="fas fa-thin fa-file-lines text-light" />
                               <span>Contact us</span>
@@ -2442,7 +2398,7 @@ const PersonalHeader = () => {
                         </ul>
                         <ul className="mx-2">
                           <li>
-                            <a href="locate-us.html">
+                            <a href="/locate-us">
                               {" "}
                               <i className="icon-locate-us" />
                               <span>Find a branch</span>{" "}
@@ -2475,7 +2431,7 @@ const PersonalHeader = () => {
                   >
                     {" "}
                     <a className="navbar-brand main" href="#"></a>
-                    <a href="index.html">
+                    <a href="/">
                       <img
                         src="/images/mcb/default-album/logo-mcb-caravelle-red.svg"
                         //sf-size={2255}
@@ -2496,14 +2452,14 @@ const PersonalHeader = () => {
                         <ul className="navbar-nav">
                           <li className="nav-item dropdown has-megamenu ">
                             <a
-                              className="nav-link dropdown-toggle"
-                              href="personal/accounts-packages.html"
+                              className="nav-link"
+                              href="/personal/accounts-packages"
                               target="_self"
                               id="navbarDropdownMenuLink0-2"
                               data-bs-toggle="dropdown"
                             >
                               Accounts &amp; Packages&nbsp;
-                              {/* <i className="fas fa-chevron-down" /> */}
+                              <i className="fas fa-chevron-down" />
                             </a>
                             <div className="dropdown-menu megamenu" role="menu">
                               <button
@@ -2530,7 +2486,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/accounts-packages/standard-savings-account.html"
+                                              href="/personal/accounts-packages/standard-savings-account"
                                               target="_self"
                                             >
                                               <strong>
@@ -2544,7 +2500,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/accounts-packages/mcb-rupys.html"
+                                              href="/personal/accounts-packages/mcb-rupys"
                                               target="_self"
                                             >
                                               <strong>MCB Rupys</strong>
@@ -2556,7 +2512,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/accounts-packages/standard-current-account.html"
+                                              href="/personal/accounts-packages/standard-current-account"
                                               target="_self"
                                             >
                                               <strong>
@@ -2570,7 +2526,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/accounts-packages/foreign-currency-account.html"
+                                              href="/personal/accounts-packages/foreign-currency-account"
                                               target="_self"
                                             >
                                               <strong>
@@ -2584,7 +2540,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/accounts-packages/instakit.html"
+                                              href="/personal/accounts-packages/instakit"
                                               target="_self"
                                             >
                                               <strong>Instakit</strong>
@@ -2596,7 +2552,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/accounts-packages/pack-1825.html"
+                                              href="/personal/accounts-packages/pack-1825"
                                               target="_self"
                                             >
                                               <strong>Pack 18.25</strong>
@@ -2608,7 +2564,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/accounts-packages/neo.html"
+                                              href="/personal/accounts-packages/neo"
                                               target="_self"
                                             >
                                               <strong>NEO</strong>
@@ -2625,14 +2581,14 @@ const PersonalHeader = () => {
                           </li>
                           <li className="nav-item dropdown has-megamenu ">
                             <a
-                              className="nav-link dropdown-toggle"
-                              href="personal/loans.html"
+                              className="nav-link"
+                              href="/personal/loans"
                               target="_self"
                               id="navbarDropdownMenuLink1-2"
                               data-bs-toggle="dropdown"
                             >
                               Loans&nbsp;
-                              {/* <i className="fas fa-chevron-down" /> */}
+                              <i className="fas fa-chevron-down" />
                             </a>
                             <div className="dropdown-menu megamenu" role="menu">
                               <button
@@ -2657,7 +2613,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/loans/educational-loan.html"
+                                              href="/personal/loans/educational-loan"
                                               target="_self"
                                             >
                                               <strong>Educational loan</strong>
@@ -2669,7 +2625,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/loans/personal-loan.html"
+                                              href="/personal/loans/personal-loan"
                                               target="_self"
                                             >
                                               <strong>Personal loan</strong>
@@ -2681,7 +2637,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/loans/home-loan.html"
+                                              href="/personal/loans/home-loan"
                                               target="_self"
                                             >
                                               <strong>Home loan</strong>
@@ -2693,7 +2649,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/loans/green-loan.html"
+                                              href="/personal/loans/green-loan"
                                               target="_self"
                                             >
                                               <strong>Green loan</strong>
@@ -2705,7 +2661,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/loans/personal-overdrafts.html"
+                                              href="/personal/loans/personal-overdrafts"
                                               target="_self"
                                             >
                                               <strong>
@@ -2736,14 +2692,14 @@ const PersonalHeader = () => {
                           </li>
                           <li className="nav-item dropdown has-megamenu ">
                             <a
-                              className="nav-link dropdown-toggle"
-                              href="personal/cards.html"
+                              className="nav-link"
+                              href="/personal/cards"
                               target="_self"
                               id="navbarDropdownMenuLink2-2"
                               data-bs-toggle="dropdown"
                             >
                               Cards&nbsp;
-                              {/* <i className="fas fa-chevron-down" /> */}
+                              <i className="fas fa-chevron-down" />
                             </a>
                             <div className="dropdown-menu megamenu" role="menu">
                               <button
@@ -2768,7 +2724,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/cards/mcb-debit-card.html"
+                                              href="/personal/cards/mcb-debit-card"
                                               target="_self"
                                             >
                                               <strong>MCB debit card</strong>
@@ -2780,7 +2736,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/cards/mastercard-primo-credit-card.html"
+                                              href="/personal/cards/mastercard-primo-credit-card"
                                               target="_self"
                                             >
                                               <strong>
@@ -2794,7 +2750,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/cards/classic-credit-card.html"
+                                              href="/personal/cards/classic-credit-card"
                                               target="_self"
                                             >
                                               <strong>
@@ -2808,7 +2764,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/cards/gold-credit-card.html"
+                                              href="/personal/cards/gold-credit-card"
                                               target="_self"
                                             >
                                               <strong>Gold credit card</strong>
@@ -2829,7 +2785,7 @@ const PersonalHeader = () => {
                                               <span>
                                                 <a
                                                   className="d-flex flex-column text-1 line-height-2 "
-                                                  href="personal/cards/american-express/american-express-green.html"
+                                                  href="/personal/cards/american-express/american-express-green"
                                                   target="_self"
                                                 >
                                                   <div className="d-flex">
@@ -2844,7 +2800,7 @@ const PersonalHeader = () => {
                                               <span>
                                                 <a
                                                   className="d-flex flex-column text-1 line-height-2 "
-                                                  href="personal/cards/american-express/american-express-gold.html"
+                                                  href="/personal/cards/american-express/american-express-gold"
                                                   target="_self"
                                                 >
                                                   <div className="d-flex">
@@ -2859,7 +2815,7 @@ const PersonalHeader = () => {
                                               <span>
                                                 <a
                                                   className="d-flex flex-column text-1 line-height-2 "
-                                                  href="personal/cards/american-express/membership-rewards.html"
+                                                  href="/personal/cards/american-express/membership-rewards"
                                                   target="_self"
                                                 >
                                                   <div className="d-flex">
@@ -2876,7 +2832,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/cards/visa-platinum.html"
+                                              href="/personal/cards/visa-platinum"
                                               target="_self"
                                             >
                                               <strong>Visa Platinum</strong>
@@ -2888,7 +2844,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/cards/visa-signature.html"
+                                              href="/personal/cards/visa-signature"
                                               target="_self"
                                             >
                                               <strong>Visa Signature</strong>
@@ -2900,7 +2856,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/cards/compare-our-credit-cards.html"
+                                              href="/personal/cards/compare-our-credit-cards"
                                               target="_self"
                                             >
                                               <strong>
@@ -2923,7 +2879,7 @@ const PersonalHeader = () => {
                                               <span>
                                                 <a
                                                   className="d-flex flex-column text-1 line-height-2 "
-                                                  href="personal/cards/prepaid-cards/visa-prepaid-card.html"
+                                                  href="/personal/cards/prepaid-cards/visa-prepaid-card"
                                                   target="_self"
                                                 >
                                                   <div className="d-flex">
@@ -2938,7 +2894,7 @@ const PersonalHeader = () => {
                                               <span>
                                                 <a
                                                   className="d-flex flex-column text-1 line-height-2 "
-                                                  href="personal/cards/prepaid-cards/unionpay-prepaid-card.html"
+                                                  href="/personal/cards/prepaid-cards/unionpay-prepaid-card"
                                                   target="_self"
                                                 >
                                                   <div className="d-flex">
@@ -2955,7 +2911,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/cards/travel-insurance.html"
+                                              href="/personal/cards/travel-insurance"
                                               target="_self"
                                             >
                                               <strong>Travel insurance</strong>
@@ -2972,14 +2928,14 @@ const PersonalHeader = () => {
                           </li>
                           <li className="nav-item dropdown has-megamenu ">
                             <a
-                              className="nav-link dropdown-toggle"
-                              href="personal/investments.html"
+                              className="nav-link"
+                              href="/personal/investments"
                               target="_self"
                               id="navbarDropdownMenuLink3-2"
                               data-bs-toggle="dropdown"
                             >
                               Investments&nbsp;
-                              {/* <i className="fas fa-chevron-down" /> */}
+                              <i className="fas fa-chevron-down" />
                             </a>
                             <div className="dropdown-menu megamenu" role="menu">
                               <button
@@ -3004,7 +2960,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/investments/mcb-mutual-funds.html"
+                                              href="/personal/investments/mcb-mutual-funds"
                                               target="_self"
                                             >
                                               <strong>MCB Mutual Funds</strong>
@@ -3016,7 +2972,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/investments/stockbroking.html"
+                                              href="/personal/investments/stockbroking"
                                               target="_self"
                                             >
                                               <strong>Stockbroking</strong>
@@ -3028,7 +2984,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/investments/education-plan.html"
+                                              href="/personal/investments/education-plan"
                                               target="_self"
                                             >
                                               <strong>Education plan</strong>
@@ -3040,7 +2996,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/investments/retirement-plan.html"
+                                              href="/personal/investments/retirement-plan"
                                               target="_self"
                                             >
                                               <strong>Retirement plan</strong>
@@ -3052,7 +3008,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/investments/life-insurance.html"
+                                              href="/personal/investments/life-insurance"
                                               target="_self"
                                             >
                                               <strong>Life insurance</strong>
@@ -3064,7 +3020,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/investments/fixed-deposit.html"
+                                              href="/personal/investments/fixed-deposit"
                                               target="_self"
                                             >
                                               <strong>Fixed deposit</strong>
@@ -3081,14 +3037,14 @@ const PersonalHeader = () => {
                           </li>
                           <li className="nav-item dropdown has-megamenu ">
                             <a
-                              className="nav-link dropdown-toggle"
-                              href="personal/ways-to-bank.html"
+                              className="nav-link"
+                              href="/personal/ways-to-bank"
                               target="_self"
                               id="navbarDropdownMenuLink4-1"
                               data-bs-toggle="dropdown"
                             >
                               Ways to bank&nbsp;
-                              {/* <i className="fas fa-chevron-down" /> */}
+                              <i className="fas fa-chevron-down" />
                             </a>
                             <div className="dropdown-menu megamenu" role="menu">
                               <button
@@ -3127,7 +3083,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/ways-to-bank/internet-banking.html"
+                                              href="/personal/ways-to-bank/internet-banking"
                                               target="_self"
                                             >
                                               <strong>Internet banking</strong>
@@ -3139,7 +3095,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/ways-to-bank/sms-banking.html"
+                                              href="/personal/ways-to-bank/sms-banking"
                                               target="_self"
                                             >
                                               <strong>SMS banking</strong>
@@ -3151,7 +3107,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/ways-to-bank/mcb-refill.html"
+                                              href="/personal/ways-to-bank/mcb-refill"
                                               target="_self"
                                             >
                                               <strong>MCB Refill</strong>
@@ -3163,7 +3119,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/ways-to-bank/atms.html"
+                                              href="/personal/ways-to-bank/atms"
                                               target="_self"
                                             >
                                               <strong>ATMs</strong>
@@ -3175,7 +3131,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/ways-to-bank/in-branch-banking.html"
+                                              href="/personal/ways-to-bank/in-branch-banking"
                                               target="_self"
                                             >
                                               <strong>In-branch banking</strong>
@@ -3187,7 +3143,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/ways-to-bank/bill-payments.html"
+                                              href="/personal/ways-to-bank/bill-payments"
                                               target="_self"
                                             >
                                               <strong>Pay my bills</strong>
@@ -3210,7 +3166,7 @@ const PersonalHeader = () => {
                                               <span>
                                                 <a
                                                   className="d-flex flex-column text-1 line-height-2 "
-                                                  href="personal/ways-to-bank/international-transfers/international-payment.html"
+                                                  href="/personal/ways-to-bank/international-transfers/international-payment"
                                                   target="_self"
                                                 >
                                                   <div className="d-flex">
@@ -3225,7 +3181,7 @@ const PersonalHeader = () => {
                                               <span>
                                                 <a
                                                   className="d-flex flex-column text-1 line-height-2 "
-                                                  href="personal/ways-to-bank/international-transfers/moneygram.html"
+                                                  href="/personal/ways-to-bank/international-transfers/moneygram"
                                                   target="_self"
                                                 >
                                                   <div className="d-flex">
@@ -3242,7 +3198,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/ways-to-bank/e-statements.html"
+                                              href="/personal/ways-to-bank/e-statements"
                                               target="_self"
                                             >
                                               <strong>E-Statements</strong>
@@ -3259,14 +3215,14 @@ const PersonalHeader = () => {
                           </li>
                           <li className="nav-item dropdown has-megamenu ">
                             <a
-                              className="nav-link dropdown-toggle"
-                              href="personal/existing-customers.html"
+                              className="nav-link"
+                              href="/personal/existing-customers"
                               target="_self"
                               id="navbarDropdownMenuLink5-1"
                               data-bs-toggle="dropdown"
                             >
                               Existing customers&nbsp;
-                              {/* <i className="fas fa-chevron-down" /> */}
+                              <i className="fas fa-chevron-down" />
                             </a>
                             <div className="dropdown-menu megamenu" role="menu">
                               <button
@@ -3305,7 +3261,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="/T001/banking.html"
+                                              href="/T001/banking"
                                               target="_blank"
                                             >
                                               <strong>
@@ -3319,7 +3275,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/offers-and-promotions.html"
+                                              href="/personal/offers-and-promotions"
                                               target="_self"
                                             >
                                               <strong>
@@ -3333,7 +3289,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/cards/american-express/membership-rewards.html"
+                                              href="/personal/cards/american-express/membership-rewards"
                                               target="_self"
                                             >
                                               <strong>
@@ -3348,7 +3304,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/help-centre.html"
+                                              href="/personal/help-centre"
                                               target="_self"
                                             >
                                               <strong>Go to help center</strong>
@@ -3360,7 +3316,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="security-centre.html"
+                                              href="/security-centre"
                                               target="_self"
                                             >
                                               <strong>
@@ -3388,7 +3344,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="personal/contact-us.html"
+                                              href="/contact-us"
                                               target="_self"
                                             >
                                               <strong>Contact us</strong>
@@ -3400,7 +3356,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="file-a-complaint.html"
+                                              href="/file-a-complaint"
                                               target="_self"
                                             >
                                               <strong>File a complaint</strong>
@@ -3412,7 +3368,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="locate-us.html"
+                                              href="/locate-us"
                                               target="_self"
                                             >
                                               <strong>
@@ -3426,7 +3382,7 @@ const PersonalHeader = () => {
                                           <span>
                                             <a
                                               className="d-flex flex-column "
-                                              href="rates-fees.html"
+                                              href="/rates-fees"
                                               target="_self"
                                             >
                                               <strong>
@@ -3476,7 +3432,7 @@ const PersonalHeader = () => {
                           <ul className="buttons">
                             <li className="btn-primary">
                               <a
-                                href="/T001/banking.html"
+                                href="/T001/banking"
                                 className="dropdown-item"
                                 target="_blank"
                               >
@@ -3486,7 +3442,7 @@ const PersonalHeader = () => {
                           </ul>
                           <ul className="more-links mt-4">
                             <li>
-                              <a href="security-centre.html">
+                              <a href="/security-centre">
                                 <i className="icon-chevron-right" /> Protect
                                 yourself online
                               </a>

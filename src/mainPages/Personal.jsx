@@ -130,7 +130,7 @@ const Personal = () => {
 
 
         .hp-payment {
-            background-image: url(images/mcb/personal/assets/hp-payment-bg.png);
+            background-image: url(/images/mcb/personal/assets/hp-payment-bg.png);
             padding-top: 50px;
             padding-bottom: 50px;
             background-size: cover;
@@ -334,7 +334,7 @@ const Personal = () => {
                     className="owl-item position-relative overlay overlay-show overlay-op-3"
                     style={{
                       backgroundImage:
-                        "url(images/mcb/personal/banners/mcb-main-bannered8f.jpg?sfvrsn=18cbc14f_1)",
+                        "url(/images/mcb/personal/banners/mcb-main-bannered8f.jpg?sfvrsn=18cbc14f_1)",
                       backgroundSize: "cover",
                       backgroundPosition: "center top",
                     }}
@@ -504,7 +504,7 @@ const Personal = () => {
                         className="thumb-info-wrapper"
                         style={{
                           backgroundImage:
-                            "url(images/mcb/personal/assets/hp-home-loan79dd.jpg?sfvrsn=a155643c_3)",
+                            "url(/images/mcb/personal/assets/hp-home-loan79dd.jpg?sfvrsn=a155643c_3)",
                         }}
                       >
                         <span className="thumb-info-title bg-transparent">
@@ -1335,7 +1335,7 @@ const Personal = () => {
                         className="d-flex flex-column justify-content-end align-items-center p-3"
                         style={{
                           backgroundImage:
-                            "url(images/mcb/personal/assets/rates-and-fees.png)",
+                            "url(/images/mcb/personal/assets/rates-and-fees.png)",
                           backgroundSize: "cover",
                           backgroundPosition: "center",
                           minHeight: 360,
@@ -1367,171 +1367,223 @@ const Personal = () => {
               </div>
             </div>
           </div>
-          <div
-            id="Main_C079_Col00"
-            className="sf_colsIn container"
-            data-sf-element="Container"
-            data-placeholder-label="Container"
-          >
-            <div className="row" data-sf-element="Row">
-              <div
-                id="Main_C080_Col00"
-                className="sf_colsIn col-lg-8 mauritian-bond"
-                data-sf-element="Column 1"
-                data-placeholder-label="Column 1"
-              >
-                <div className="p-4 featured-box featured-box-primary border-radius-0 border-all-light box-shadow-none box-shadow-1 box-shadow-1-hover border-color-transparent-hover container-zebra-table mt-0">
-                  <div className="grid__item grid__item-1-4-large">
-                    <div className="component component--collapsed">
-                      <a
-                        href="/treasury-market-updates"
-                        className="product-panel hover-expand indicativeforex"
-                        data-eh="yes"
-                        target="Model.IsTargetNewTab"
-                      >
-                        <div className="product-panel__info">
-                          <div className="product-panel__info-inner">
-                            <h3 className="h3 product-panel__info-title">
-                              Bank Of Africa Bond Markets
-                            </h3>
-                            <div
-                              className="product-panel__info-text"
-                              id="indicativeRates"
-                            >
-                              <table className="table table--decorated">
-                                <tbody>
-                                  <tr>
-                                    <th className="content-right">Security</th>
-                                    <th className="content-right">Coupon</th>
-                                    <th className="content-right">
-                                      Bank Buy Yield (%)
-                                    </th>
-                                    <th className="content-right">
-                                      Bank Sell Yield (%)
-                                    </th>
-                                  </tr>
-                                  <tr>
-                                    <td className="content-right">
-                                      BOARCB 0 03/28/24
-                                    </td>
-                                    <td className="content-right">0.00</td>
-                                    <td className="content-right"> 3.35000</td>
-                                    <td className="content-right"> 3.20000</td>
-                                  </tr>
-                                  <tr>
-                                    <td className="content-right">
-                                      BOARCB 0 06/27/24
-                                    </td>
-                                    <td className="content-right">0.00</td>
-                                    <td className="content-right"> 3.90000</td>
-                                    <td className="content-right"> 3.75000</td>
-                                  </tr>
-                                  <tr>
-                                    <td className="content-right">
-                                      BOARCB 0 12/26/24
-                                    </td>
-                                    <td className="content-right">0.00</td>
-                                    <td className="content-right"> 4.05000</td>
-                                    <td className="content-right"> 3.90000</td>
-                                  </tr>
-                                  <tr>
-                                    <td className="content-right">
-                                      BOARTN 3.92 10/20/26
-                                    </td>
-                                    <td className="content-right">3.92</td>
-                                    <td className="content-right"> 4.75000</td>
-                                    <td className="content-right"> 4.55000</td>
-                                  </tr>
-                                  <tr>
-                                    <td className="content-right">
-                                      BOARGB 3.78 08/18/28
-                                    </td>
-                                    <td className="content-right">3.78</td>
-                                    <td className="content-right"> 4.80000</td>
-                                    <td className="content-right"> 4.55000</td>
-                                  </tr>
-                                  <tr>
-                                    <td className="content-right">
-                                      BOARGB 4.24 09/08/33
-                                    </td>
-                                    <td className="content-right">4.24</td>
-                                    <td className="content-right"> 4.95000</td>
-                                    <td className="content-right"> 4.70000</td>
-                                  </tr>
-                                  <tr>
-                                    <td className="content-right">
-                                      BOARGB 4.4 07/19/38
-                                    </td>
-                                    <td className="content-right">4.40</td>
-                                    <td className="content-right"> 5.40000</td>
-                                    <td className="content-right"> 5.15000</td>
-                                  </tr>
-                                  <tr>
-                                    <td className="content-right">
-                                      BOARGB 5.55 12/22/43
-                                    </td>
-                                    <td className="content-right">5.55</td>
-                                    <td className="content-right"> 5.80000</td>
-                                    <td className="content-right"> 5.55000</td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                              <p className="content-left">
-                                <small> 04/01/2024</small>
-                                <br />
-                              </p>
-                            </div>
-                            <div className="product-panel__info-links">
-                              <span className="product-panel__info-link">
-                                <span className="icon--calculator product-panel__info-link-icon" />
-                                <span className="icon-label">
-                                  View More Details
+          <div className="row" data-sf-element="Row">
+            <div
+              id="Main_C079_Col00"
+              className="sf_colsIn container"
+              data-sf-element="Container"
+              data-placeholder-label="Container"
+            >
+              <div className="row" data-sf-element="Row">
+                <div
+                  id="Main_C080_Col00"
+                  className="sf_colsIn col-lg-8 mauritian-bond"
+                  data-sf-element="Column 1"
+                  data-placeholder-label="Column 1"
+                >
+                  <div className="p-4 featured-box featured-box-primary border-radius-0 border-all-light box-shadow-none box-shadow-1 box-shadow-1-hover border-color-transparent-hover container-zebra-table mt-0">
+                    <div className="grid__item grid__item-1-4-large">
+                      <div className="component component--collapsed">
+                        <a
+                          href="/treasury-market-updates"
+                          className="product-panel hover-expand indicativeforex"
+                          data-eh="yes"
+                          target="Model.IsTargetNewTab"
+                        >
+                          <div className="product-panel__info">
+                            <div className="product-panel__info-inner">
+                              <h3 className="h3 product-panel__info-title">
+                                Bank Of Africa Bond Markets
+                              </h3>
+                              <div
+                                className="product-panel__info-text"
+                                id="indicativeRates"
+                              >
+                                <table className="table table--decorated">
+                                  <tbody>
+                                    <tr>
+                                      <th className="content-right">
+                                        Security
+                                      </th>
+                                      <th className="content-right">Coupon</th>
+                                      <th className="content-right">
+                                        Bank Buy Yield (%)
+                                      </th>
+                                      <th className="content-right">
+                                        Bank Sell Yield (%)
+                                      </th>
+                                    </tr>
+                                    <tr>
+                                      <td className="content-right">
+                                        BOARCB 0 03/28/24
+                                      </td>
+                                      <td className="content-right">0.00</td>
+                                      <td className="content-right">
+                                        {" "}
+                                        3.35000
+                                      </td>
+                                      <td className="content-right">
+                                        {" "}
+                                        3.20000
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td className="content-right">
+                                        BOARCB 0 06/27/24
+                                      </td>
+                                      <td className="content-right">0.00</td>
+                                      <td className="content-right">
+                                        {" "}
+                                        3.90000
+                                      </td>
+                                      <td className="content-right">
+                                        {" "}
+                                        3.75000
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td className="content-right">
+                                        BOARCB 0 12/26/24
+                                      </td>
+                                      <td className="content-right">0.00</td>
+                                      <td className="content-right">
+                                        {" "}
+                                        4.05000
+                                      </td>
+                                      <td className="content-right">
+                                        {" "}
+                                        3.90000
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td className="content-right">
+                                        BOARTN 3.92 10/20/26
+                                      </td>
+                                      <td className="content-right">3.92</td>
+                                      <td className="content-right">
+                                        {" "}
+                                        4.75000
+                                      </td>
+                                      <td className="content-right">
+                                        {" "}
+                                        4.55000
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td className="content-right">
+                                        BOARGB 3.78 08/18/28
+                                      </td>
+                                      <td className="content-right">3.78</td>
+                                      <td className="content-right">
+                                        {" "}
+                                        4.80000
+                                      </td>
+                                      <td className="content-right">
+                                        {" "}
+                                        4.55000
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td className="content-right">
+                                        BOARGB 4.24 09/08/33
+                                      </td>
+                                      <td className="content-right">4.24</td>
+                                      <td className="content-right">
+                                        {" "}
+                                        4.95000
+                                      </td>
+                                      <td className="content-right">
+                                        {" "}
+                                        4.70000
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td className="content-right">
+                                        BOARGB 4.4 07/19/38
+                                      </td>
+                                      <td className="content-right">4.40</td>
+                                      <td className="content-right">
+                                        {" "}
+                                        5.40000
+                                      </td>
+                                      <td className="content-right">
+                                        {" "}
+                                        5.15000
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td className="content-right">
+                                        BOARGB 5.55 12/22/43
+                                      </td>
+                                      <td className="content-right">5.55</td>
+                                      <td className="content-right">
+                                        {" "}
+                                        5.80000
+                                      </td>
+                                      <td className="content-right">
+                                        {" "}
+                                        5.55000
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                <p className="content-left">
+                                  <small> 04/01/2024</small>
+                                  <br />
+                                </p>
+                              </div>
+                              <div className="product-panel__info-links">
+                                <span className="product-panel__info-link">
+                                  <span className="icon--calculator product-panel__info-link-icon" />
+                                  <span className="icon-label">
+                                    View More Details
+                                  </span>
                                 </span>
-                              </span>
+                              </div>
                             </div>
                           </div>
-                        </div>
-                      </a>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div
-                id="Main_C080_Col01"
-                className="sf_colsIn col-lg-4 hp-treasury-market"
-                data-sf-element="Column 2"
-                data-placeholder-label="Column 2"
-              >
-                <div className="check-ul-styling">
-                  <div>
-                    <div className="card bg-img-col-3 text-center rounded-0">
-                      <div
-                        className="card-content d-flex flex-column justify-content-end align-items-center p-3"
-                        style={{
-                          backgroundImage:
-                            "url(_/images/mcb/personal/assets/personal-treasury-market-updates)",
-                          backgroundSize: "cover",
-                          backgroundPosition: "center",
-                          minHeight: 360,
-                        }}
-                      >
-                        <div className="mt-4 d-flex flex-column align-items-center justify-content-end">
-                          <h3 className="font-weight-medium text-color-dark text-8 line-height-1 mb-2">
-                            Treasury Market Updates
-                          </h3>
-                          <p className="font-weight-medium text-color-dark text-2 line-height-4">
-                            Download the latest updates.
-                          </p>
-                        </div>
-                        <div className="d-flex flex-row flex-wrap align-items-center justify-content-evenly">
-                          <a
-                            href="/treasury-market-updates"
-                            className="btn btn-default btn-outline btn-outline-thin btn-outline-light-opacity-2 btn-effect-5 font-weight-semi-bold px-3 btn-py-2 text-3 text-color-dark text-color-hover-dark d-flex flex-row ms-1 mb-1 text-1"
-                            target="_blank"
-                            data-sf-ec-immutable=""
-                          >
-                            View <span className="icon-chevron-right" />
-                          </a>
+                <div
+                  id="Main_C080_Col01"
+                  className="sf_colsIn col-lg-4 hp-treasury-market"
+                  data-sf-element="Column 2"
+                  data-placeholder-label="Column 2"
+                >
+                  <div className="check-ul-styling">
+                    <div>
+                      <div className="card bg-img-col-3 text-center rounded-0">
+                        <div
+                          className="card-content d-flex flex-column justify-content-end align-items-center p-3"
+                          style={{
+                            backgroundImage:
+                              "url(/images/mcb/personal/assets/personal-treasury-market-updates)",
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                            minHeight: 360,
+                          }}
+                        >
+                          <div className="mt-4 d-flex flex-column align-items-center justify-content-end">
+                            <h3 className="font-weight-medium text-color-dark text-8 line-height-1 mb-2">
+                              Treasury Market Updates
+                            </h3>
+                            <p className="font-weight-medium text-color-dark text-2 line-height-4">
+                              Download the latest updates.
+                            </p>
+                          </div>
+                          <div className="d-flex flex-row flex-wrap align-items-center justify-content-evenly">
+                            <a
+                              href="/treasury-market-updates"
+                              className="btn btn-default btn-outline btn-outline-thin btn-outline-light-opacity-2 btn-effect-5 font-weight-semi-bold px-3 btn-py-2 text-3 text-color-dark text-color-hover-dark d-flex flex-row ms-1 mb-1 text-1"
+                              target="_blank"
+                              data-sf-ec-immutable=""
+                            >
+                              View <span className="icon-chevron-right" />
+                            </a>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -1633,7 +1685,7 @@ const Personal = () => {
                             className="thumb-info-wrapper"
                             style={{
                               backgroundImage:
-                                "url(images/mcb/personal/assets/careerbf99.jpeg?sfvrsn=b208d1bf_3)",
+                                "url(/images/mcb/personal/assets/careerbf99.jpeg?sfvrsn=b208d1bf_3)",
                             }}
                           >
                             <span className="thumb-info-title bg-transparent">
@@ -1647,7 +1699,17 @@ const Personal = () => {
                                 collaboration. Our real value lies in helping
                                 you unlock your Success from every point of YOU!
                               </p>
-                              {/* <a href="https://mcbgroup.com/talent" target="_blank" class="btn btn-more text-light d-flex align-items-center ps-0"><i class="icon icon-arrow-right me-2 text-9" aria-hidden="true"></i>More Information</a> */}
+                              <a
+                                href="https://mcbgroup.com/talent"
+                                target="_blank"
+                                className="btn btn-more text-light d-flex align-items-center ps-0"
+                              >
+                                <i
+                                  className="icon icon-arrow-right me-2 text-9"
+                                  aria-hidden="true"
+                                ></i>
+                                More Information
+                              </a>
                             </span>
                           </span>
                         </span>

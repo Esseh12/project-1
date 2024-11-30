@@ -19,15 +19,18 @@ const AboutUs = () => {
           content="MCB offers banking solutions tailored for each customer, assisting in the advancement of individuals and corporations. Find out how we can help you!"
         />
         <meta property="og:url" content="https://mcb.mu/personal/about-us" />
-        <link rel="canonical" href="/about-us" />
+        <link rel="canonical" href="/personal/about-us" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}
         {/* Header */}
         <PersonalHeader />
