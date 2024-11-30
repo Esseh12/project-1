@@ -126,13 +126,13 @@
   text-transform: none;
 }
 
-.ma5menu__footer a {
+/* .ma5menu__footer a {
   //color: #ffc107;
-}
+} */
 
-.ma5menu__footer a:hover {
+/* .ma5menu__footer a:hover {
   //color: #ffc107;
-}
+} */
 
 .ma5menu__toggle {
   cursor: pointer;
