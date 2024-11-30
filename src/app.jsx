@@ -35,6 +35,9 @@ import WtbSmsBanking from "./Personal/Ways-to-bank/Sms-banking";
 // Bill payment folder
 import ServiceProviders from "./Personal/Ways-to-bank/Bill-payments/Service-providers";
 // End Bill payment folder
+// Internation transfer
+import InternationalPayment from "./Personal/Ways-to-bank/International-transfers/International-payment";
+import MoneyGram from "./Personal/Ways-to-bank/International-transfers/Moneygram";
 // WAY TO bank files
 // About Folder files
 import AtAGlance from "./Personal/About-us/At-a-glance";
@@ -483,6 +486,16 @@ const App = () => {
           element={<ServiceProviders />}
         />
         {/* Bill payment folder */}
+        {/* Internation transfer */}
+        <Route
+          path="/personal/ways-to-bank/international-transfers/international-payment"
+          element={<InternationalPayment />}
+        />
+        <Route
+          path="/personal/ways-to-bank/international-transfers/moneygram"
+          element={<MoneyGram />}
+        />
+        {/* End of Internation transfer */}
         {/* WAY TO bank files */}
         {/* About Folder files */}
         <Route path="/personal/about-us/at-a-glance" element={<AtAGlance />} />

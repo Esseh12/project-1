@@ -1,40 +1,7 @@
-// code needs to be refectored;
-import { useEffect } from "react";
-import Header from "../../Components/Header";
+import PersonalHeader from "../../Components/Personal-header";
 import Footer from "../../Components/Footer";
 
 const HomeLoan = () => {
-  useEffect(() => {
-    // External scripts to be loaded dynamically
-    const scripts = [
-      "/ResourcePackages/MCBMU/assets/dist/vendor/plugins/js/plugins.min7306.js?package=MCBMU",
-      "/ResourcePackages/MCBMU/assets/dist/js/theme7306.js?package=MCBMU",
-      "/ResourcePackages/MCBMU/assets/dist/js/views/view.contact7306.js?package=MCBMU",
-      "/ResourcePackages/MCBMU/assets/dist/js/demos/demo-business-consulting-27306.js?package=MCBMU",
-      "/ResourcePackages/MCBMU/assets/dist/js/custom7306.js?package=MCBMU",
-      "/ResourcePackages/MCBMU/assets/dist/js/ma5-menu7306.js?package=MCBMU",
-      "/ResourcePackages/MCBMU/assets/dist/js/theme.init7306.js?package=MCBMU",
-      "/ResourcePackages/MCBMU/assets/dist/js/card7306.js?package=MCBMU",
-    ];
-
-    scripts.forEach((src) => {
-      const script = document.createElement("script");
-      script.src = src;
-      script.async = false;
-      document.body.appendChild(script);
-    });
-
-    // Cleanup scripts on component unmount
-    return () => {
-      scripts.forEach((src) => {
-        const script = document.querySelector(`script[src="${src}"]`);
-        if (script) {
-          document.body.removeChild(script);
-        }
-      });
-    };
-  }, []);
-
   return (
     <>
       <meta name="title" content="Home Loan | MCB" />
@@ -62,20 +29,24 @@ const HomeLoan = () => {
       <link rel="canonical" href="/personal/loans/home-loan" />
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}
         {/* reusable header component */}
-        <Header />
+        <PersonalHeader />
+        {/* reusable header component */}
         <div role="main" className="main">
           <section
             className="section detail-page-banner custom-bg-color-light-2 detail-page-banner position-relative border-0 pb-sm-0 pt-lg-4 m-0 mt-80 pb-5"
             style={{
               backgroundImage:
-                "url(../../images/mcb/personal/banners/homeloan_bga45ca02d2d2a47aebaf7481224c1970f8520.jpg?sfvrsn=c176e78c_0)",
+                "url(/images/mcb/personal/banners/homeloan_bga45ca02d2d2a47aebaf7481224c1970f8520.jpg?sfvrsn=c176e78c_0)",
             }}
           >
             <div className="container position-relative custom-negative-margin-1 z-index-3 pb-lg-5 pb-sm-0 mb-lg-3 check-ul-styling">
@@ -192,7 +163,7 @@ const HomeLoan = () => {
               >
                 <div className="text-center">
                   <img
-                    src="../../images/mcb/default-album/ph_house-line-lighte8bf.png?sfvrsn=49ba69b0_3"
+                    src="/images/mcb/default-album/ph_house-line-lighte8bf.png?sfvrsn=49ba69b0_3"
                     title="ph_house-line-light"
                     alt=""
                   />
@@ -210,7 +181,7 @@ const HomeLoan = () => {
               >
                 <div className="text-center">
                   <img
-                    src="../../images/mcb/about-us/second-property6aa3.png?sfvrsn=725d354f_3"
+                    src="/images/mcb/about-us/second-property6aa3.png?sfvrsn=725d354f_3"
                     title="second property"
                     alt=""
                   />
@@ -228,7 +199,7 @@ const HomeLoan = () => {
               >
                 <div className="text-center">
                   <img
-                    src="../../images/mcb/about-us/renovation0a4d.png?sfvrsn=70207137_3"
+                    src="/images/mcb/about-us/renovation0a4d.png?sfvrsn=70207137_3"
                     title="renovation"
                     alt=""
                   />
@@ -246,7 +217,7 @@ const HomeLoan = () => {
               >
                 <div className="text-center">
                   <img
-                    src="../../images/mcb/about-us/ph_walletb5da.png?sfvrsn=febede79_3"
+                    src="/images/mcb/about-us/ph_walletb5da.png?sfvrsn=febede79_3"
                     title="ph_wallet"
                     alt=""
                   />
@@ -318,7 +289,7 @@ const HomeLoan = () => {
                           repayment plan.
                         </p>
                         <a
-                          href="../../tools-calculators/how-much-can-i-borrow.html"
+                          href="/tools-calculators/how-much-can-i-borrow"
                           className="text-button"
                           target="_blank"
                         >
@@ -326,7 +297,7 @@ const HomeLoan = () => {
                         </a>
                         <a
                           className="btn border rounded-circle"
-                          href="../../mauritius/tools-calculators/how-much-can-i-borrow.html"
+                          href="/mauritius/tools-calculators/how-much-can-i-borrow"
                           data-sf-ec-immutable=""
                         >
                           <span
@@ -506,7 +477,7 @@ const HomeLoan = () => {
                             className="thumb-info-wrapper"
                             style={{
                               backgroundImage:
-                                "url(../../images/mcb/personal/banners/personal-home-loan-offers-banner-2e45c.jpg?sfvrsn=a2cadc5a_1)",
+                                "url(/images/mcb/personal/banners/personal-home-loan-offers-banner-2e45c.jpg?sfvrsn=a2cadc5a_1)",
                             }}
                           >
                             <span className="thumb-info-title bg-transparent">
@@ -656,7 +627,7 @@ const HomeLoan = () => {
                             or contact your relationship executive in branch.
                           </p>
                           <a
-                            href="../contact-us.html"
+                            href="/contact-us"
                             target="_blank"
                             className="mb-1 mt-1 me-1 btn btn-primary"
                           >
