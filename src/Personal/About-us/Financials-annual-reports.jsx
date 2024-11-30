@@ -22,7 +22,10 @@ const FinancialsAnnualReports = () => {
           property="og:url"
           content="https://mcb.mu/personal/about-us/financials-annual-reports"
         />
-        <link rel="canonical" href="/financials-annual-reports" />
+        <link
+          rel="canonical"
+          href="/personal/about-us/financials-annual-reports"
+        />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}

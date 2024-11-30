@@ -30,15 +30,18 @@ const AtAGlance = () => {
           property="og:url"
           content="https://mcb.mu/personal/about-us/at-a-glance"
         />
-        <link rel="canonical" href="/at-a-glance" />
+        <link rel="canonical" href="/personal/about-us/at-a-glance" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}
         {/* Header */}
         <PersonalHeader />

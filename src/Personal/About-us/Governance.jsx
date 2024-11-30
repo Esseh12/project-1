@@ -22,15 +22,18 @@ const Governance = () => {
           property="og:url"
           content="https://mcb.mu/personal/about-us/governance"
         />
-        <link rel="canonical" href="/governance" />
+        <link rel="canonical" href="/personal/about-us/governance" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}
         {/* Header */}
         <PersonalHeader />

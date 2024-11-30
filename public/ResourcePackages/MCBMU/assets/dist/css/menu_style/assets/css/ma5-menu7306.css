@@ -13,6 +13,7 @@
 .ma5menu *:after,
 .ma5menu *:before {
   box-sizing: border-box;
+  -webkit-box-sizing: border-box; /* Safari-specific */
 }
 
 .ma5menu--active .ma5menu__page {
@@ -20,7 +21,10 @@
   height: 100%;
   overflow: hidden;
   -webkit-transform: translate3d(280px, 0, 0);
+  -ms-transform: translate3d(280px, 0, 0);
   transform: translate3d(280px, 0, 0);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -moz-transition: transform 0.3s ease-out;
   transition: -webkit-transform 0.3s ease-out 0s;
   -o-transition: transform 0.3s ease-out 0s;
   transition: transform 0.3s ease-out 0s;
@@ -139,6 +143,8 @@
   color: #ffffff;
   background-color: #f6f6f6;
   -ms-touch-action: manipulation;
+  -webkit-touch-action: manipulation; /* Safari-specific touch action */
+  -webkit-tap-highlight-color: transparent; /* Remove tap highlight on iOS */
   touch-action: manipulation;
   width: 52px;
   height: 38px;
