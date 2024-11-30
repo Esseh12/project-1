@@ -3,9 +3,6 @@
 *   v4.0.0
 *   GitHub: https://github.com/ma-5/ma5-mobile-menu
 */
-
-
-
 function ma5menu(atributes) {
     // menuDesktop = string, target to desktop menu which will be used for build menu mobile. For example '.site-menu'
     var menuDesktop = '.site-menu';
@@ -18,13 +15,9 @@ function ma5menu(atributes) {
         activeClass = atributes.activeClass;
     }
     // menuTools = string, target to menu tools container which will be used for build menu mobile footer. For example '#sma5menu-tools'
-    var menuUnivers = '#ma5menu-univers';
     var menuFooter = '#ma5menu-tools';
     if (atributes.footer !== undefined) {
         menuFooter = atributes.footer;
-    }
-    if (atributes.univers !== undefined) {
-        menuUnivers = atributes.univers;
     }
     if ($(menuDesktop).length > 0) {
         var ma5menuHtml = '\n' +
@@ -32,7 +25,10 @@ function ma5menu(atributes) {
             '<nav id="js-ma5menu" class="ma5menu" itemscope itemtype="http://schema.org/SiteNavigationElement">\n' +
             '    <div class="ma5menu__header">\n' +
             '        <a class="ma5menu__home" href="/" tabindex="-1">\n' +
-            '             <span class="ma5menu__logo"><img src="' + logoImage +'" alt="MCB logo"></span>\n' +
+            '            <span class="ma5menu__logo"></span>\n' +
+            '        </a>\n' +
+            '        <a class="ma5menu__toggle" tabindex="-1">\n' +
+            '            <span class="ma5menu__close"></span>\n' +
             '        </a>\n' +
             '    </div>\n' +
             '</nav>\n' +
@@ -50,9 +46,6 @@ function ma5menu(atributes) {
         if (atributes.position === 'right') {
             position = atributes.position;
         }
-        if (atributes.position === 'bottom') {
-            position = atributes.position;
-        }
         if (atributes.closeOnBodyClick === true) {
             $('html').on('click touch', function (e) {
                 if (!$('.ma5menu__container').is(e.target) && $('.ma5menu__container').has(e.target).length === 0 && !$('.ma5menu__toggle').is(e.target) && $('.ma5menu__toggle').has(e.target).length === 0) {
@@ -61,7 +54,7 @@ function ma5menu(atributes) {
             });
         }
         $('html').addClass('ma5menu--' + position);
-        $('body').append('<div class="ma5menu__container"><div class="ma5menu__container-content"><div class="ma5menu__head"></div></div></div>');
+        $('body').append('<div class="ma5menu__container"><div class="ma5menu__head"></div><div class="ma5menu__alert"><div class="ma5menu__alert-content"><span class="ma5menu__icon-up" aria-hidden="true"></span><span class="ma5menu__icon-up" aria-hidden="true"></span><span class="ma5menu__icon-up" aria-hidden="true"></span></div></div></div>');
 
 
         $('.ma5menu__header').clone().appendTo('.ma5menu__head');
@@ -71,9 +64,6 @@ function ma5menu(atributes) {
             $(this).parent().addClass($(this).attr('class')).attr('data-ma5order', $(this).attr('data-ma5order'));
             $(this).removeAttr('class').removeAttr('data-ma5order');
         });
-        if($(menuUnivers).length > 0) {
-            $('.ma5menu__panel').prepend('<div class="ma5menu__univers js-append">' + $(menuUnivers).html() + '</div>');
-        }
         if($(menuFooter).length > 0) {
             $('.ma5menu__panel').append('<div class="ma5menu__footer js-append">' + $(menuFooter).html() + '</div>');
         }
@@ -100,12 +90,11 @@ function ma5menu(atributes) {
         });
         $('.ma5menu__leave').on('click touch', function () {
             $('.ma5menu__panel').removeClass('ma5menu__panel--active');
-            console.log($(this).parent());
-            var itemParent = $(this).parent().children('li').attr('data-ma5order').replace("li", "ul").split('-');
+            var itemParent = $(this).parent().attr('data-ma5order').replace("li", "ul").split('-');
             var splicedParent = itemParent.splice(-1, 1);
             splicedParent = itemParent.splice(-1, 1);
             itemParent = itemParent.join("-");
-            var itemPath = $(this).parent().children('li').attr('data-ma5order').replace("li", "ul").split('-');
+            var itemPath = $(this).parent().attr('data-ma5order').replace("li", "ul").split('-');
             var spliced = itemPath.splice(-1, 1);
             itemPath = itemPath.join("-");
             $('.ma5menu__panel').removeClass('ma5menu__panel--active-leave ma5menu__panel--parent-leave ma5menu__panel--active-enter ma5menu__panel--parent-enter');
@@ -246,16 +235,13 @@ function ma5menuBuilder_buildLevels(parent, level, order) {
         var sublist = $(this).children('ul');
         if (sublist.length > 0) {
             var thisText = $(this).find('> a').text();
-
-            $(this).find('> ul > li:first-child').parent().prepend('<div class="ma5menu__leave"><span class="ma5menu__btn--leave"><i class="icon-twotone-arrow"></i></span>' + thisText + '</div>');
-            
-            $('<span class="ma5menu__btn--enter"><i class="icon-chevron-right"></i></span>').insertBefore($(this).find('> a'));
+            $(this).find('> ul > li:first-child').prepend('<div class="ma5menu__leave"><span class="ma5menu__btn--leave"></span>' + thisText + '</div>');
+            $('<span class="ma5menu__btn--enter"></span>').insertBefore($(this).find('> a'));
             var orderBuild = $(this).attr('data-ma5order');
             ma5menuBuilder_buildLevels(sublist, level + 1, orderBuild);
         }
     });
 }
-
 
 // ADDITIONAL FUNCTIONS
 
@@ -375,13 +361,5 @@ $(window).on('load', function () {
     } else {
         $('html').addClass('hasnt-body-scrollbar');
     }
-
-    const burger = document.querySelector(".burger-wrapper");
-
-    burger.addEventListener('click',function(e){
-      this.classList.toggle('active');
-    })
 });
 //
-
-

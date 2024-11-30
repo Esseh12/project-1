@@ -1000,3 +1000,41 @@ table.tableBOM td.none {
 }
 
 /* Sme Finance.jsx */
+
+/* Internet banking pro smartapprove */
+.smartapprove img {
+  transform: rotate(10deg);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 410px;
+  margin-bottom: 40px;
+}
+
+.download img {
+  margin-bottom: 20px;
+}
+
+.btm-card .card {
+  margin-bottom: 20px;
+}
+
+.grid-bg-light-gray {
+  background: #efefef;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.blogwidevideo {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.blogwidevideo iframe {
+  top: 0;
+  height: 80%;
+  width: 100%;
+  position: absolute;
+}

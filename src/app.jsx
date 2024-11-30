@@ -24,6 +24,17 @@ import PersonalLoans from "./Personal/Loans";
 import WaysToBank from "./Personal/Ways-to-bank";
 // Way to bank files
 import WtbAtms from "./Personal/Ways-to-bank/Atms";
+import BillPayments from "./Personal/Ways-to-bank/Bill-payments";
+import WtbEstatements from "./Personal/Ways-to-bank/E-statements";
+import InbranchBanking from "./Personal/Ways-to-bank/In-branch-banking";
+import InternationalTransfer from "./Personal/Ways-to-bank/International-transfers";
+import WtbInternetBanking from "./Personal/Ways-to-bank/Internet-banking";
+import WtbMcbRefill from "./Personal/Ways-to-bank/Mcb-refill";
+import PaymentSolutions from "./Personal/Ways-to-bank/Payment-solutions";
+import WtbSmsBanking from "./Personal/Ways-to-bank/Sms-banking";
+// Bill payment folder
+import ServiceProviders from "./Personal/Ways-to-bank/Bill-payments/Service-providers";
+// End Bill payment folder
 // WAY TO bank files
 // About Folder files
 import AtAGlance from "./Personal/About-us/At-a-glance";
@@ -301,6 +312,14 @@ import CorperatePay from "./Corporate/payment-cash/Pay";
 // pay folder files
 import BulkPayments from "./Corporate/payment-cash/pay/Bulk-payments";
 import CorperateCard from "./Corporate/payment-cash/pay/Corporate-card";
+import DomesticInternationalTransfers from "./Corporate/payment-cash/pay/Domestic-international-transfers";
+import DropCollect from "./Corporate/payment-cash/pay/Drop-collect";
+import CorporateFleetmanCard from "./Corporate/payment-cash/pay/Fleetman-card";
+import InternetBankingProSmartapprove from "./Corporate/payment-cash/pay/Internet-banking-pro-smartapprove";
+import SwiftConnectivity from "./Corporate/payment-cash/pay/Swift-connectivity";
+// Domestic International Transfers Folder files
+import SwiftGpi from "./Corporate/payment-cash/pay/domestic-international-transfers/Swift-gpi";
+// End of Domestic International Transfers Folder files
 // End of Payment Cash Folder files
 // Monitor Folder files
 import CorporateEStatements from "./Corporate/payment-cash/monitor/E-statements";
@@ -426,6 +445,44 @@ const App = () => {
         <Route path="/personal/ways-to-bank" element={<WaysToBank />} />
         {/* Way to bank files */}
         <Route path="/personal/ways-to-bank/atms" element={<WtbAtms />} />
+        <Route
+          path="/personal/ways-to-bank/bill-payments"
+          element={<BillPayments />}
+        />
+        <Route
+          path="/personal/ways-to-bank/e-statements"
+          element={<WtbEstatements />}
+        />
+        <Route
+          path="/personal/ways-to-bank/in-branch-banking"
+          element={<InbranchBanking />}
+        />
+        <Route
+          path="/personal/ways-to-bank/international-transfers"
+          element={<InternationalTransfer />}
+        />
+        <Route
+          path="/personal/ways-to-bank/internet-banking"
+          element={<WtbInternetBanking />}
+        />
+        <Route
+          path="/personal/ways-to-bank/mcb-refill"
+          element={<WtbMcbRefill />}
+        />
+        <Route
+          path="/personal/ways-to-bank/payment-solutions"
+          element={<PaymentSolutions />}
+        />
+        <Route
+          path="/personal/ways-to-bank/sms-banking"
+          element={<WtbSmsBanking />}
+        />
+        {/* Bill payment folder */}
+        <Route
+          path="/personal/ways-to-bank/bill-payments/service-providers"
+          element={<ServiceProviders />}
+        />
+        {/* Bill payment folder */}
         {/* WAY TO bank files */}
         {/* About Folder files */}
         <Route path="/personal/about-us/at-a-glance" element={<AtAGlance />} />
@@ -1080,7 +1137,30 @@ const App = () => {
           path="/corporate/payment-cash/pay/corporate-card"
           element={<CorperateCard />}
         />
-
+        <Route
+          path="/corporate/payment-cash/pay/domestic-international-transfers"
+          element={<DomesticInternationalTransfers />}
+        />
+        <Route
+          path="/corporate/payment-cash/pay/drop-collect"
+          element={<DropCollect />}
+        />
+        <Route
+          path="/corporate/payment-cash/pay/fleetman-card"
+          element={<CorporateFleetmanCard />}
+        />
+        <Route
+          path="/corporate/payment-cash/pay/internet-banking-pro-smartapprove"
+          element={<InternetBankingProSmartapprove />}
+        />
+        <Route
+          path="/corporate/payment-cash/pay/swift-connectivity"
+          element={<SwiftConnectivity />}
+        />
+        <Route
+          path="/corporate/payment-cash/pay/domestic-international-transfers/swift-gpi"
+          element={<SwiftGpi />}
+        />
         {/* End of pay folder files */}
         {/* Monitor folder */}
         <Route
