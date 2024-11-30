@@ -19,8 +19,8 @@ const PersonalHeader = () => {
       "/ResourcePackages/MCBMU/assets/dist/js/forexdata7306.js",
       "/ResourcePackages/MCBMU/assets/dist/js/forexCalculator7306.js",
       "/ResourcePackages/MCBMU/assets/dist/js/gmap/handlebars.min7306.js",
-      "ResourcePackages/MCBMU/assets/dist/js/gmap/jquery.storelocator7306.js",
-      "ResourcePackages/MCBMU/assets/dist/js/gmap/map7306.js",
+      "/ResourcePackages/MCBMU/assets/dist/js/gmap/jquery.storelocator7306.js",
+      "/ResourcePackages/MCBMU/assets/dist/js/gmap/map7306.js",
     ];
 
     scripts.forEach((src) => {
