@@ -33,12 +33,12 @@ $(document).ready(function () {
 
                 /***** ma5menu custom starts *****/
 
-                $('.ma5menu__btn--enter').on('click',
+                $('.ma5menu__btn--enter').on('click touchstart',
                     function () {
                         $('.ma5menu__logo').css('display', 'none');
                     });
 
-                $('.ma5menu__btn--leave').on('click',
+                $('.ma5menu__btn--leave').on('click touchstart',
                     function () {
                         setTimeout(
                             function () {
@@ -156,7 +156,7 @@ $(document).ready(function () {
                         e.stopPropagation();
                     });
 
-                $('.btn-close-dropdown-menu').on("click",
+                $('.btn-close-dropdown-menu').on("click touchstart",
                     function () {
                         $('.navbar-nav .dropdown-menu').removeClass('show');
                         $('.navbar-nav .dropdown-toggle').removeClass('show');
@@ -195,7 +195,7 @@ $(document).ready(function () {
                 };
 
 
-                $(document).on("click",
+                $(document).on("click touchstart",
                     function (event) {
                         var $trigger = $(".dropdown");
                         if ($trigger !== event.target && !$trigger.has(event.target).length) {

@@ -24,7 +24,7 @@ const AmericanExpressMembershipRewardsOffers = () => {
         name="title"
         content="American Express&#174; Membership Rewards&#174; offers"
       />
-      <title>American Express® Membership Rewards® offers</title>
+      <title>American Express® Membership Rewards® offers</title>{" "}
       <meta
         property="og:title"
         content="American Express® Membership Rewards® offers"
@@ -35,21 +35,23 @@ const AmericanExpressMembershipRewardsOffers = () => {
       />
       <link
         rel="canonical"
-        href="/american-express-membership-rewards-offers"
+        href="/personal/offers-and-promotions/american-express-membership-rewards-offers"
       />
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}
-        {/* Reusable header component */}
+        {/* Header */}
         <PersonalHeader />
-        {/* End of Reusable header component */}
-        <div role="main" className="main no-banner-spacing">
-          {/* reusable nav menu component */}
+        {/* Header */}
+        <div role="main" className="main">
           <NavMenu items={navItems} />
           <div className="container py-2 mt-50 mb-70">
             <div className=" sort-destination-loader-showing mt-4 pt-2">
@@ -514,7 +516,7 @@ const AmericanExpressMembershipRewardsOffers = () => {
                           </span>
                           <span className="thumb-info-title">
                             <span className="thumb-info-inner">
-                              RITUALS SPA - Lover&#39;s Retreat Massage
+                              RITUALS SPA - Lover's Retreat Massage
                             </span>
                             <span className="thumb-info-type">
                               Wellness &amp; Beauty
@@ -1511,7 +1513,7 @@ const AmericanExpressMembershipRewardsOffers = () => {
                           </span>
                           <span className="thumb-info-title">
                             <span className="thumb-info-inner">
-                              L&#39;OCCITANE EN PROVENCE - Delicious Almond
+                              L'OCCITANE EN PROVENCE - Delicious Almond
                               Collection
                             </span>
                             <span className="thumb-info-type">
@@ -1758,7 +1760,7 @@ const AmericanExpressMembershipRewardsOffers = () => {
                           </span>
                           <span className="thumb-info-title">
                             <span className="thumb-info-inner">
-                              L&#39;OCCITANE EN PROVENCE - Shea Soft Skin Trio
+                              L'OCCITANE EN PROVENCE - Shea Soft Skin Trio
                             </span>
                             <span className="thumb-info-type">
                               Wellness &amp; Beauty
@@ -1793,8 +1795,8 @@ const AmericanExpressMembershipRewardsOffers = () => {
                           </span>
                           <span className="thumb-info-title">
                             <span className="thumb-info-inner">
-                              L&#39;OCCITANE EN PROVENCE - Eau de Cédrat Body
-                              Care Duo
+                              L'OCCITANE EN PROVENCE - Eau de Cédrat Body Care
+                              Duo
                             </span>
                             <span className="thumb-info-type">
                               Wellness &amp; Beauty
@@ -1829,7 +1831,7 @@ const AmericanExpressMembershipRewardsOffers = () => {
                           </span>
                           <span className="thumb-info-title">
                             <span className="thumb-info-inner">
-                              L&#39;OCCITANE EN PROVENCE Vouchers
+                              L'OCCITANE EN PROVENCE Vouchers
                             </span>
                             <span className="thumb-info-type">
                               Gift Vouchers
@@ -2004,8 +2006,7 @@ const AmericanExpressMembershipRewardsOffers = () => {
                           </span>
                           <span className="thumb-info-title">
                             <span className="thumb-info-inner">
-                              L&#39;OCCITANE EN PROVENCE - Cap Cédrat Men
-                              Collection
+                              L'OCCITANE EN PROVENCE - Cap Cédrat Men Collection
                             </span>
                             <span className="thumb-info-type">
                               Wellness &amp; Beauty
@@ -2110,7 +2111,7 @@ const AmericanExpressMembershipRewardsOffers = () => {
                           </span>
                           <span className="thumb-info-title">
                             <span className="thumb-info-inner">
-                              L&#39;OCCITANE EN PROVENCE - Calming Lavender Trio
+                              L'OCCITANE EN PROVENCE - Calming Lavender Trio
                             </span>
                             <span className="thumb-info-type">
                               Wellness &amp; Beauty
@@ -2215,7 +2216,7 @@ const AmericanExpressMembershipRewardsOffers = () => {
                           </span>
                           <span className="thumb-info-title">
                             <span className="thumb-info-inner">
-                              L&#39;OCCITANE EN PROVENCE - Revitalising Home
+                              L'OCCITANE EN PROVENCE - Revitalising Home
                               Diffuser Set
                             </span>
                             <span className="thumb-info-type">
@@ -2356,7 +2357,7 @@ const AmericanExpressMembershipRewardsOffers = () => {
                           </span>
                           <span className="thumb-info-title">
                             <span className="thumb-info-inner">
-                              L&#39;OCCITANE EN PROVENCE - Cade Shaving Duo
+                              L'OCCITANE EN PROVENCE - Cade Shaving Duo
                             </span>
                             <span className="thumb-info-type">
                               Wellness &amp; Beauty
@@ -2454,7 +2455,7 @@ const AmericanExpressMembershipRewardsOffers = () => {
                           </span>
                           <span className="thumb-info-title">
                             <span className="thumb-info-inner">
-                              L&#39;OCCITANE EN PROVENCE - Divine Reset Duo
+                              L'OCCITANE EN PROVENCE - Divine Reset Duo
                             </span>
                             <span className="thumb-info-type">
                               Wellness &amp; Beauty
@@ -2524,7 +2525,7 @@ const AmericanExpressMembershipRewardsOffers = () => {
                           </span>
                           <span className="thumb-info-title">
                             <span className="thumb-info-inner">
-                              L&#39;OCCITANE EN PROVENCE - Precious Skincare
+                              L'OCCITANE EN PROVENCE - Precious Skincare
                               Collection
                             </span>
                             <span className="thumb-info-type">
@@ -2630,7 +2631,7 @@ const AmericanExpressMembershipRewardsOffers = () => {
                           </span>
                           <span className="thumb-info-title">
                             <span className="thumb-info-inner">
-                              L&#39;OCCITANE EN PROVENCE - Shea Immortelle Youth
+                              L'OCCITANE EN PROVENCE - Shea Immortelle Youth
                               Body Care Duo
                             </span>
                             <span className="thumb-info-type">
@@ -2946,8 +2947,7 @@ const AmericanExpressMembershipRewardsOffers = () => {
                           </span>
                           <span className="thumb-info-title">
                             <span className="thumb-info-inner">
-                              L&#39;OCCITANE EN PROVENCE - Cherry Blossom
-                              Collection
+                              L'OCCITANE EN PROVENCE - Cherry Blossom Collection
                             </span>
                             <span className="thumb-info-type">
                               Wellness &amp; Beauty
@@ -3018,7 +3018,7 @@ const AmericanExpressMembershipRewardsOffers = () => {
                           </span>
                           <span className="thumb-info-title">
                             <span className="thumb-info-inner">
-                              L&#39;OCCITANE EN PROVENCE - Anti-Ageing Face Care
+                              L'OCCITANE EN PROVENCE - Anti-Ageing Face Care
                               Routine
                             </span>
                             <span className="thumb-info-type">
@@ -3159,7 +3159,7 @@ const AmericanExpressMembershipRewardsOffers = () => {
                           </span>
                           <span className="thumb-info-title">
                             <span className="thumb-info-inner">
-                              L&#39;OCCITANE EN PROVENCE - Artichoke Toning Trio
+                              L'OCCITANE EN PROVENCE - Artichoke Toning Trio
                             </span>
                             <span className="thumb-info-type">
                               Wellness &amp; Beauty
@@ -3397,7 +3397,7 @@ const AmericanExpressMembershipRewardsOffers = () => {
                           </span>
                           <span className="thumb-info-title">
                             <span className="thumb-info-inner">
-                              L&#39;OCCITANE EN PROVENCE - Enchanting Osmanthus
+                              L'OCCITANE EN PROVENCE - Enchanting Osmanthus
                               Collection
                             </span>
                             <span className="thumb-info-type">
@@ -3460,7 +3460,7 @@ const AmericanExpressMembershipRewardsOffers = () => {
                           </span>
                           <span className="thumb-info-title">
                             <span className="thumb-info-inner">
-                              LACOSTE L&#39;homme
+                              LACOSTE L'homme
                             </span>
                             <span className="thumb-info-type">
                               Wellness &amp; Beauty
@@ -3770,7 +3770,7 @@ const AmericanExpressMembershipRewardsOffers = () => {
                           <span className="thumb-info-title">
                             <span className="thumb-info-inner">
                               JOSEPH JOSEPH Folio 4-Piece Chopping Board Set
-                              with Elevate Chef&#39;s Knife
+                              with Elevate Chef's Knife
                             </span>
                             <span className="thumb-info-type">
                               Home &amp; Outdoor
@@ -7931,10 +7931,11 @@ const AmericanExpressMembershipRewardsOffers = () => {
               </div>
             </div>
           </div>
-        </div>
-        {/* reusable footer component */}
+        </div>{" "}
+        {/* Footer */}
         <Footer />
-      </div>
+        {/* Footer */}
+      </div>{" "}
       {/* Vendor */} {/* Theme Base, Components and Settings */}{" "}
       {/* Current Page Vendor and Views */} {/* Demo */} {/* Theme Custom */}{" "}
       {/* Theme Initialization Files */}

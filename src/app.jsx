@@ -190,6 +190,20 @@ import StandardSavingsAccount from "./Personal/Accounts-packages/Standard-saving
 // American Express Membership Rewards files
 import ADayPackageAtŒleDesDeuxCocos from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Experiences/A-day-package-at-Œle-des-deux-cocos";
 import LavilleonAdventurePark from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Experiences/Lavilleon-adventure-park";
+// Amex Golf
+import OfferTheNineAzuriGolfCourse from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Golf/The-nine-azuri-golf-course";
+import GreenFeeAtConstanceBelleMarePlage from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Golf/Green-Fee-at-Constance-Belle-Mare-Plage";
+// End Amex Golf
+// amex home outdoor
+import BlackDeckerVacuum from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/black_decker_vacuum";
+import BlackDeckerVacuumCleaner25L from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/black_decker-vacuum-Cleaner-2.5-L";
+import BlackDeckerBowlMixer from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/Black-decker-bowl-mixer";
+import BlackDeckerCitrusJuicer from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/Black-decker-citrus-juicer";
+import BlackDeckDomeKettle from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/Black-decker-dome-kettle";
+import BlackDeckerHandMixer from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/Black-decker-hand-mixer";
+import BlackDeckerJuiceExtractor from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/BLACK-DECKER-Juice-Extractor";
+import BlackDeckerMiniOven19L from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/BLACK-DECKER-Mini-Oven---19-L";
+// Amex Home Outdoor
 // End of American Express Membership Rewards files
 // End of Personal files
 // En Packages files
@@ -987,6 +1001,51 @@ const App = () => {
           path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Experiences/lavilleon-adventure-park"
           element={<LavilleonAdventurePark />}
         />
+
+        {/* Amex Golf */}
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Golf/the-nine-azuri-golf-course"
+          element={<OfferTheNineAzuriGolfCourse />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Golf/Green-Fee-at-Constance-Belle-Mare-Plage"
+          element={<GreenFeeAtConstanceBelleMarePlage />}
+        />
+        {/* End Amex Golf */}
+        {/* amex home outdoor */}
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/black_decker_vacuum"
+          element={<BlackDeckerVacuum />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/black_decker-vacuum-Cleaner-2.5-L"
+          element={<BlackDeckerVacuumCleaner25L />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/black-decker-bowl-mixer"
+          element={<BlackDeckerBowlMixer />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/black-decker-citrus-juicer"
+          element={<BlackDeckerCitrusJuicer />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/black-decker-dome-kettle"
+          element={<BlackDeckDomeKettle />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/black-decker-hand-mixer"
+          element={<BlackDeckerHandMixer />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/BLACK-DECKER-Juice-Extractor"
+          element={<BlackDeckerJuiceExtractor />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/BLACK-DECKER-Mini-Oven---19-L"
+          element={<BlackDeckerMiniOven19L />}
+        />
+        {/* end AMEXX home outdoor */}
         {/* End American expresses membership rewrd offers */}
         {/* End of Personal files */}
         {/* Sme Folder files */}
