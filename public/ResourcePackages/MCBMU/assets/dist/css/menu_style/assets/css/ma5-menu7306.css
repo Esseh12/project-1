@@ -4,6 +4,7 @@
 *   Copyright (c) 2016 Tomasz Kalinowski
 *   GitHub: https://github.com/ma-5/ma5-mobile-menu
 */
+
 .ma5menu {
   display: none;
   box-sizing: border-box;
@@ -13,7 +14,6 @@
 .ma5menu *:after,
 .ma5menu *:before {
   box-sizing: border-box;
-  -webkit-box-sizing: border-box; /* Safari-specific */
 }
 
 .ma5menu--active .ma5menu__page {
@@ -21,10 +21,7 @@
   height: 100%;
   overflow: hidden;
   -webkit-transform: translate3d(280px, 0, 0);
-  -ms-transform: translate3d(280px, 0, 0);
   transform: translate3d(280px, 0, 0);
-  -webkit-transition: -webkit-transform 0.3s ease-out;
-  -moz-transition: transform 0.3s ease-out;
   transition: -webkit-transform 0.3s ease-out 0s;
   -o-transition: transform 0.3s ease-out 0s;
   transition: transform 0.3s ease-out 0s;
@@ -130,21 +127,19 @@
   text-transform: none;
 }
 
-/* .ma5menu__footer a {
+.ma5menu__footer a {
   //color: #ffc107;
-} */
+}
 
-/* .ma5menu__footer a:hover {
+.ma5menu__footer a:hover {
   //color: #ffc107;
-} */
+}
 
 .ma5menu__toggle {
   cursor: pointer;
   color: #ffffff;
   background-color: #f6f6f6;
   -ms-touch-action: manipulation;
-  -webkit-touch-action: manipulation; /* Safari-specific touch action */
-  -webkit-tap-highlight-color: transparent; /* Remove tap highlight on iOS */
   touch-action: manipulation;
   width: 52px;
   height: 38px;
@@ -1131,6 +1126,7 @@
 }
 
 .ma5menu--swipe.ma5menu--right body {
+  -webkit-transition: right 0.5s ease-out;
   -o-transition: right 0.5s ease-out;
   transition: right 0.5s ease-out;
   right: 0;

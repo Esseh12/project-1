@@ -187,8 +187,11 @@ import Pack1825 from "./Personal/Accounts-packages/Pack-1825";
 import StandardCurrentAccount from "./Personal/Accounts-packages/Standard-current-account";
 import StandardSavingsAccount from "./Personal/Accounts-packages/Standard-savings-account";
 // End of Account and packages files
+// American Express Membership Rewards files
+import ADayPackageAtŒleDesDeuxCocos from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Experiences/A-day-package-at-Œle-des-deux-cocos";
+import LavilleonAdventurePark from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Experiences/Lavilleon-adventure-park";
+// End of American Express Membership Rewards files
 // End of Personal files
-
 // En Packages files
 import ADayPackageAtIleDesDeuxCocos from "./en/mediacontent/A-day-package-at-Ile-des-deux-cocos_tcm55-62105";
 // End En Packages files
@@ -446,6 +449,12 @@ const App = () => {
         <Route path="/personal/investments" element={<PersonalInvestments />} />
         <Route path="/personal/loans" element={<PersonalLoans />} />
         <Route path="/personal/ways-to-bank" element={<WaysToBank />} />
+        {/* En folder files */}
+        <Route
+          path="/en/mediacontent/a-day-package-at-ile-des-deux-cocos_tcm55-62105"
+          element={<ADayPackageAtIleDesDeuxCocos />}
+        />
+        {/* En folder files */}
         {/* Way to bank files */}
         <Route path="/personal/ways-to-bank/atms" element={<WtbAtms />} />
         <Route
@@ -969,6 +978,16 @@ const App = () => {
           element={<StandardSavingsAccount />}
         />
         {/* End of Investment files */}
+        {/* American expresses membership rewrd offers */}
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Experiences/a-day-package-at-île-des-deux-cocos"
+          element={<ADayPackageAtŒleDesDeuxCocos />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Experiences/lavilleon-adventure-park"
+          element={<LavilleonAdventurePark />}
+        />
+        {/* End American expresses membership rewrd offers */}
         {/* End of Personal files */}
         {/* Sme Folder files */}
         <Route path="/sme/bank" element={<Bank />} />
@@ -1431,12 +1450,7 @@ const App = () => {
         {/* End Corporate banking */}
         {/* End What we do */}
         {/* End Corporate Folder Files */}
-        {/* En Packages files */}
-        <Route
-          path="/en/mediacontent/a-day-package-at-ile-des-deux-cocos_tcm55-62105"
-          element={<ADayPackageAtIleDesDeuxCocos />}
-        />
-        {/* End En Packages files */}
+
         {/* Legal folder files */}
         <Route path="/legal/cookie-policy" element={<CookiePolicy />} />
         <Route path="/legal/legal-notice" element={<LegalNotice />} />
