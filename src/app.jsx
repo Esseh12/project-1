@@ -203,6 +203,25 @@ import BlackDeckDomeKettle from "./Personal/OffersAndPromotions/american-express
 import BlackDeckerHandMixer from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/Black-decker-hand-mixer";
 import BlackDeckerJuiceExtractor from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/BLACK-DECKER-Juice-Extractor";
 import BlackDeckerMiniOven19L from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/BLACK-DECKER-Mini-Oven---19-L";
+import BlackDeckerMiniOven45L from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/BLACK-DECKER-Mini-Oven---45-L";
+import BlackDeckerSteamMop from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/BLACK-DECKER-Steam-Mop";
+import BlackDeckerWaterPressureCleaner100B from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/BLACK-DECKER-Water-Pressure-Cleaner---100-B";
+import BlackDeckerWaterPressureCleaner120B from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/BLACK-DECKER-Water-Pressure-Cleaner---120-B";
+import BlomusFruitBasket from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/BLOMUS-Fruit-Basket";
+import BrabantiaHangOnDryingRack from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/BRABANTIA-Hang-On-Drying-Rack";
+import BrabantiaIroningBoard from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/BRABANTIA-Ironing-Board";
+import BrabantiaRollTopBreadBin from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/BRABANTIA-Roll-Top-Bread-Bin";
+import CilioClassicoEspressoMaker from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/CILIO-Classico-Espresso-Maker";
+import CilioFreddoIceBucket from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/CILIO-Freddo-Ice-Bucket";
+import Electrolux17LCordlessSmartKettle from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/ELECTROLUX-1.7-L-Cordless-Smart-Kettle";
+import ElectroEaseC4VacuumCleaner from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/ELECTROLUX-Ease-C4-Vacuum-Cleaner";
+import ElectroluxExplore7CompactBlender from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/ELECTROLUX-Explore-7-Compact-Blender";
+import ElectroluxRobotChef from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/ELECTROLUX-Robot-Chef";
+import IgnisMiniFridge from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/IGNIS-Mini-Fridge";
+import InstantPotDuo76LMultiPressureCooker from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/INSTANT-POT-Duo-7.6-L-Multi-Pressure-Cooker";
+import JosephJosephContainerGlassNest4PieceSet from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/JOSEPH-JOSEPH-Container-Glass-Nest---4-Piece-Set";
+import JosephJosephElevateKnivesSet from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/JOSEPH-JOSEPH-Elevate-Knives-Set";
+import JosephJosephExpandableDishDrainer from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/JOSEPH-JOSEPH-Expandable-Dish-Drainer";
 // Amex Home Outdoor
 // End of American Express Membership Rewards files
 // End of Personal files
@@ -1044,6 +1063,82 @@ const App = () => {
         <Route
           path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/BLACK-DECKER-Mini-Oven---19-L"
           element={<BlackDeckerMiniOven19L />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/BLACK-DECKER-Mini-Oven---45-L"
+          element={<BlackDeckerMiniOven45L />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/BLACK-DECKER-Steam-Mop"
+          element={<BlackDeckerSteamMop />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/BLACK-DECKER-Water-Pressure-Cleaner---100-B"
+          element={<BlackDeckerWaterPressureCleaner100B />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/BLACK-DECKER-Water-Pressure-Cleaner---120-B"
+          element={<BlackDeckerWaterPressureCleaner120B />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/BLOMUS-Fruit-Basket"
+          element={<BlomusFruitBasket />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/BRABANTIA-Hang-On-Drying-Rack"
+          element={<BrabantiaHangOnDryingRack />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/BRABANTIA-Ironing-Board"
+          element={<BrabantiaIroningBoard />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/BRABANTIA-Roll-Top-Bread-Bin"
+          element={<BrabantiaRollTopBreadBin />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/CILIO-Classico-Espresso-Maker"
+          element={<CilioClassicoEspressoMaker />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/CILIO-Freddo-Ice-Bucket"
+          element={<CilioFreddoIceBucket />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/ELECTROLUX-1.7-L-Cordless-Smart-Kettle"
+          element={<Electrolux17LCordlessSmartKettle />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/ELECTROLUX-Ease-C4-Vacuum-Cleaner"
+          element={<ElectroEaseC4VacuumCleaner />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/ELECTROLUX-Explore-7-Compact-Blender"
+          element={<ElectroluxExplore7CompactBlender />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/ELECTROLUX-Robot-Chef"
+          element={<ElectroluxRobotChef />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/IGNIS-Mini-Fridge"
+          element={<IgnisMiniFridge />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/INSTANT-POT-Duo-7.6-L-Multi-Pressure-Cooker"
+          element={<InstantPotDuo76LMultiPressureCooker />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/JOSEPH-JOSEPH-Container-Glass-Nest---4-Piece-Set"
+          element={<JosephJosephContainerGlassNest4PieceSet />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/JOSEPH-JOSEPH-Elevate-Knives-Set"
+          element={<JosephJosephElevateKnivesSet />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/JOSEPH-JOSEPH-Expandable-Dish-Drainer"
+          element={<JosephJosephExpandableDishDrainer />}
         />
         {/* end AMEXX home outdoor */}
         {/* End American expresses membership rewrd offers */}
