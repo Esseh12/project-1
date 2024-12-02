@@ -29,7 +29,7 @@ function ma5menu(atributes) {
             '<nav id="js-ma5menu" class="ma5menu" itemscope itemtype="http://schema.org/SiteNavigationElement">\n' +
             '    <div class="ma5menu__header">\n' +
             '        <a class="ma5menu__home" href="/" tabindex="-1">\n' +
-            '             <span class="ma5menu__logo"><img src="' + logoImage +'" alt="MCB logo"></span>\n' +
+            '             <span class="ma5menu__logo"></span>\n' +
             '        </a>\n' +
             '    </div>\n' +
             '</nav>\n' +
@@ -304,7 +304,6 @@ if (isIE()) {
 } else {
     htmlRootForDetectBrowser.className += " noie";
 }
-
 //
 
 // detect Safari
@@ -321,9 +320,9 @@ function detectSafari() {
 }
 
 if (detectSafari()) {
-    htmlRootForDetectBrowser.className += "safari";
+    htmlRootForDetectBrowser.className += " safari";
 }
-
+//
 
 // ESC close
 $(document).ready(function () {

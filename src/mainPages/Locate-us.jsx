@@ -1,32 +1,38 @@
+import { Helmet } from "react-helmet-async";
 import PersonalHeader from "../Components/Personal-header";
 import Footer from "../Components/Footer";
 
 const LocateUs = () => {
   return (
     <>
-      {/* Mirrored from mcb.mu/locate-us by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 06:38:48 GMT */}
-      <meta name="title" content="Locate us | Institutional Banking | MCB" />
-      <meta
-        name="description"
-        content="Find MCB Institutional Banking Branches and ATMs - Your Local & Global Financial Connection. Locate us for dedicated support."
-      />
-      <title>Locate us | Institutional Banking | MCB</title>
-      <meta
-        property="og:title"
-        content="Locate us | Institutional Banking | MCB"
-      />
-      <meta
-        property="og:description"
-        content="Find MCB Institutional Banking Branches and ATMs - Your Local & Global Financial Connection. Locate us for dedicated support."
-      />
-      <link rel="canonical" href="/locate-us" />
+      <Helmet>
+        {/* Mirrored from mcb.mu/locate-us by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 06:38:48 GMT */}
+        <meta name="title" content="Locate us | Institutional Banking | MCB" />
+        <meta
+          name="description"
+          content="Find MCB Institutional Banking Branches and ATMs - Your Local & Global Financial Connection. Locate us for dedicated support."
+        />
+        <title>Locate us | Institutional Banking | MCB</title>
+        <meta
+          property="og:title"
+          content="Locate us | Institutional Banking | MCB"
+        />
+        <meta
+          property="og:description"
+          content="Find MCB Institutional Banking Branches and ATMs - Your Local & Global Financial Connection. Locate us for dedicated support."
+        />
+        <link rel="canonical" href="/locate-us" />
+      </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}{" "}
         {/* REUSABLE HEADER CONTAINER */}
         <PersonalHeader />

@@ -3,9 +3,6 @@
 *   v4.0.0
 *   GitHub: https://github.com/ma-5/ma5-mobile-menu
 */
-
-
-
 function ma5menu(atributes) {
     // menuDesktop = string, target to desktop menu which will be used for build menu mobile. For example '.site-menu'
     var menuDesktop = '.site-menu';
@@ -383,5 +380,3 @@ $(window).on('load', function () {
     })
 });
 //
-
-

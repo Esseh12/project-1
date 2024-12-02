@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import PersonalHeader from "../../../../Components/Personal-header";
 import NavMenu from "../../OfferNavMenu";
 import Footer from "../../../../Components/Footer";
@@ -18,31 +19,38 @@ const ElectricalMU = () => {
 
   return (
     <>
-      {/* Mirrored from mcb.mu/personal/offers-and-promotions/home-offers/Home/ELECTRICAL.MU by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 09:56:29 GMT */}
-      <meta name="title" content="ELECTRICAL.MU" />
-      <meta
-        name="description"
-        content='<p>Enjoyï¿½<strong>7.5%</strong> discount on all products on <a href="" target="" title="">www.electrical.mu</a></p><p>Products include but are not limited to:</p><ul class=""><li><span class=""></span><span class="">switches and sockets</span></li><li><span class=""></span><span class="">electrical breakers, accessories and tooling</span></li><li><span class=""></span><span class="">smart home accessories</span></li><li><span class=""></span><span class="">lightings</span></li><li><span class=""></span><span class="">pumps and tooling</span></li><li><span class=""></span><span class="">CCTV and security solutions</span></li></ul><br><p><strong>Note:</strong></p><ul class=""><li><span class=""></span><span class="">Purchase can be made either online or in showroom.</span></li><li><span class=""></span><span class="">To benefit from the offer if purchase is made online, a picture of the ï¿½MCB Home Loan Cardï¿½ must be uploaded during checkout.</span></li></ul><br><p><strong>Contact</strong></p><ul class=""><li><span class=""></span><span class="">56, Avenue des Goyaviers, Sodnac, Quatre Bornes | T: 5940 5888 / 5269 0088</span></li></ul><p>ï¿½</p>'
-      />
-      <title>ELECTRICAL.MU</title>
-      <meta property="og:title" content="ELECTRICAL.MU" />
-      <meta
-        property="og:description"
-        content='<p>Enjoyï¿½<strong>7.5%</strong> discount on all products on <a href=__.html target="" title="">www.electrical.mu</a></p><p>Products include but are not limited to:</p><ul class=""><li><span class=""></span><span class="">switches and sockets</span></li><li><span class=""></span><span class="">electrical breakers, accessories and tooling</span></li><li><span class=""></span><span class="">smart home accessories</span></li><li><span class=""></span><span class="">lightings</span></li><li><span class=""></span><span class="">pumps and tooling</span></li><li><span class=""></span><span class="">CCTV and security solutions</span></li></ul><br><p><strong>Note:</strong></p><ul class=""><li><span class=""></span><span class="">Purchase can be made either online or in showroom.</span></li><li><span class=""></span><span class="">To benefit from the offer if purchase is made online, a picture of the ï¿½MCB Home Loan Cardï¿½ must be uploaded during checkout.</span></li></ul><br><p><strong>Contact</strong></p><ul class=""><li><span class=""></span><span class="">56, Avenue des Goyaviers, Sodnac, Quatre Bornes | T: 5940 5888 / 5269 0088</span></li></ul><p>ï¿½</p>'
-      />
-      <meta
-        property="og:url"
-        content="https://mcb.mu/personal/offers-and-promotions/home-offers/Home/ELECTRICAL.MU"
-      />
-      <link rel="canonical" href="/ELECTRICAL.MU" />
+      <Helmet>
+        {/* Mirrored from mcb.mu/personal/offers-and-promotions/home-offers/Home/ELECTRICAL.MU by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 09:56:29 GMT */}
+        <meta name="title" content="ELECTRICAL.MU" />
+        <meta
+          name="description"
+          content='<p>Enjoyï¿½<strong>7.5%</strong> discount on all products on <a href="" target="" title="">www.electrical.mu</a></p><p>Products include but are not limited to:</p><ul class=""><li><span class=""></span><span class="">switches and sockets</span></li><li><span class=""></span><span class="">electrical breakers, accessories and tooling</span></li><li><span class=""></span><span class="">smart home accessories</span></li><li><span class=""></span><span class="">lightings</span></li><li><span class=""></span><span class="">pumps and tooling</span></li><li><span class=""></span><span class="">CCTV and security solutions</span></li></ul><br><p><strong>Note:</strong></p><ul class=""><li><span class=""></span><span class="">Purchase can be made either online or in showroom.</span></li><li><span class=""></span><span class="">To benefit from the offer if purchase is made online, a picture of the ï¿½MCB Home Loan Cardï¿½ must be uploaded during checkout.</span></li></ul><br><p><strong>Contact</strong></p><ul class=""><li><span class=""></span><span class="">56, Avenue des Goyaviers, Sodnac, Quatre Bornes | T: 5940 5888 / 5269 0088</span></li></ul><p>ï¿½</p>'
+        />
+        <title>ELECTRICAL.MU</title>
+        <meta property="og:title" content="ELECTRICAL.MU" />
+        <meta
+          property="og:description"
+          content='<p>Enjoyï¿½<strong>7.5%</strong> discount on all products on <a href=__.html target="" title="">www.electrical.mu</a></p><p>Products include but are not limited to:</p><ul class=""><li><span class=""></span><span class="">switches and sockets</span></li><li><span class=""></span><span class="">electrical breakers, accessories and tooling</span></li><li><span class=""></span><span class="">smart home accessories</span></li><li><span class=""></span><span class="">lightings</span></li><li><span class=""></span><span class="">pumps and tooling</span></li><li><span class=""></span><span class="">CCTV and security solutions</span></li></ul><br><p><strong>Note:</strong></p><ul class=""><li><span class=""></span><span class="">Purchase can be made either online or in showroom.</span></li><li><span class=""></span><span class="">To benefit from the offer if purchase is made online, a picture of the ï¿½MCB Home Loan Cardï¿½ must be uploaded during checkout.</span></li></ul><br><p><strong>Contact</strong></p><ul class=""><li><span class=""></span><span class="">56, Avenue des Goyaviers, Sodnac, Quatre Bornes | T: 5940 5888 / 5269 0088</span></li></ul><p>ï¿½</p>'
+        />
+        <meta
+          property="og:url"
+          content="https://mcb.mu/personal/offers-and-promotions/home-offers/Home/ELECTRICAL.MU"
+        />
+        <link
+          rel="canonical"
+          href="/personal/offers-and-promotions/home-offers/Home/ELECTRICAL.MU"
+        />
+      </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}
 
         {/* HEADER COMPONENT */}

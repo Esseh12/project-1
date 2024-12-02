@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import PersonalHeader from "../../../../Components/Personal-header";
 import NavMenu from "../../OfferNavMenu";
 import Footer from "../../../../Components/Footer";
@@ -17,31 +18,38 @@ const DecoB = () => {
   ];
   return (
     <>
-      {/* Mirrored from mcb.mu/personal/offers-and-promotions/home-offers/Home/Deco-B by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 09:56:19 GMT */}
-      <meta name="title" content="Deco-B" />
-      <meta
-        name="description"
-        content='<div>Enjoy the following discounts:</div><ul class=""><li><span class=""></span><span class=""><strong>10%</strong>ï¿½off on indoor blinds</span></li><li><span class=""></span><span class=""><strong>5%</strong> offï¿½on outdoor solutions (awnings, weather blinds, bamboo outdoor, maxi screen - outdoor blinds)</span></li><li><span class=""></span><span class=""><strong>5%</strong> offï¿½on plantation shutters (aluminum, timber &amp; ABS)</span></li><li><span class=""></span><span class=""><strong>5%</strong> offï¿½on all LVT and engineered timber floor</span></li></ul><div><div><strong><br></strong></div><div><strong><br></strong></div><div><strong>Contact</strong></div><ul class=""><li><span class=""></span><span class="">Le Hub, Industrial Zone Road, Vacoas-Phoenix | T: 603 2990</span></li></ul></div><div>ï¿½ ï¿½</div>'
-      />
-      <title>Deco-B</title>
-      <meta property="og:title" content="Deco-B" />
-      <meta
-        property="og:description"
-        content='<div>Enjoy the following discounts:</div><ul class=""><li><span class=""></span><span class=""><strong>10%</strong>ï¿½off on indoor blinds</span></li><li><span class=""></span><span class=""><strong>5%</strong> offï¿½on outdoor solutions (awnings, weather blinds, bamboo outdoor, maxi screen - outdoor blinds)</span></li><li><span class=""></span><span class=""><strong>5%</strong> offï¿½on plantation shutters (aluminum, timber &amp; ABS)</span></li><li><span class=""></span><span class=""><strong>5%</strong> offï¿½on all LVT and engineered timber floor</span></li></ul><div><div><strong><br></strong></div><div><strong><br></strong></div><div><strong>Contact</strong></div><ul class=""><li><span class=""></span><span class="">Le Hub, Industrial Zone Road, Vacoas-Phoenix | T: 603 2990</span></li></ul></div><div>ï¿½ ï¿½</div>'
-      />
-      <meta
-        property="og:url"
-        content="https://mcb.mu/personal/offers-and-promotions/home-offers/Home/Deco-B"
-      />
-      <link rel="canonical" href="/Deco-B" />
+      <Helmet>
+        {/* Mirrored from mcb.mu/personal/offers-and-promotions/home-offers/Home/Deco-B by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 09:56:19 GMT */}
+        <meta name="title" content="Deco-B" />
+        <meta
+          name="description"
+          content='<div>Enjoy the following discounts:</div><ul class=""><li><span class=""></span><span class=""><strong>10%</strong>ï¿½off on indoor blinds</span></li><li><span class=""></span><span class=""><strong>5%</strong> offï¿½on outdoor solutions (awnings, weather blinds, bamboo outdoor, maxi screen - outdoor blinds)</span></li><li><span class=""></span><span class=""><strong>5%</strong> offï¿½on plantation shutters (aluminum, timber &amp; ABS)</span></li><li><span class=""></span><span class=""><strong>5%</strong> offï¿½on all LVT and engineered timber floor</span></li></ul><div><div><strong><br></strong></div><div><strong><br></strong></div><div><strong>Contact</strong></div><ul class=""><li><span class=""></span><span class="">Le Hub, Industrial Zone Road, Vacoas-Phoenix | T: 603 2990</span></li></ul></div><div>ï¿½ ï¿½</div>'
+        />
+        <title>Deco-B</title>
+        <meta property="og:title" content="Deco-B" />
+        <meta
+          property="og:description"
+          content='<div>Enjoy the following discounts:</div><ul class=""><li><span class=""></span><span class=""><strong>10%</strong>ï¿½off on indoor blinds</span></li><li><span class=""></span><span class=""><strong>5%</strong> offï¿½on outdoor solutions (awnings, weather blinds, bamboo outdoor, maxi screen - outdoor blinds)</span></li><li><span class=""></span><span class=""><strong>5%</strong> offï¿½on plantation shutters (aluminum, timber &amp; ABS)</span></li><li><span class=""></span><span class=""><strong>5%</strong> offï¿½on all LVT and engineered timber floor</span></li></ul><div><div><strong><br></strong></div><div><strong><br></strong></div><div><strong>Contact</strong></div><ul class=""><li><span class=""></span><span class="">Le Hub, Industrial Zone Road, Vacoas-Phoenix | T: 603 2990</span></li></ul></div><div>ï¿½ ï¿½</div>'
+        />
+        <meta
+          property="og:url"
+          content="https://mcb.mu/personal/offers-and-promotions/home-offers/Home/Deco-B"
+        />
+        <link
+          rel="canonical"
+          href="/personal/offers-and-promotions/home-offers/Home/Deco-B"
+        />
+      </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}
         {/* HEADER COMPONENT */}
         <PersonalHeader />

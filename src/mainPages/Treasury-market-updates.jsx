@@ -65,7 +65,7 @@ const TreasuryMarketUpdates = () => {
                             <i className="icon-pdf-env fs-1" />
                           </div>
                           <div className="flex-grow-1" role="group">
-                            <a href="//docs/mcb/treasury-market-updates/market-update-03rd-Jan-2024e645.pdf?sfvrsn=49b83ce2_4">
+                            <a href="/docs/mcb/treasury-market-updates/market-update-03rd-Jan-2024e645.pdf?sfvrsn=49b83ce2_4">
                               03/01/2024 - The US dollar marks a slight rise
                             </a>
                             <div className="small">

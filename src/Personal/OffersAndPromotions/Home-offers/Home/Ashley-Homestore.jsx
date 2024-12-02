@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import PersonalHeader from "../../../../Components/Personal-header";
 import NavMenu from "../../OfferNavMenu";
 import Footer from "../../../../Components/Footer";
@@ -18,32 +19,39 @@ const AshleyHomestore = () => {
 
   return (
     <>
-      {/* Mirrored from mcb.mu/personal/offers-and-promotions/home-offers/Home/Ashley-Homestore by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 09:56:12 GMT */}
-      <meta name="title" content="Ashley Homestore" />
-      <meta
-        name="description"
-        content='<p><strong>10%</strong> discount on Ashley products, such as sofas, bedroom accessories, dinnerware, decoration items and many other accessories.</p><br><p><strong>Contact:</strong>ï¿½</p><ul class=""><li><span class=""></span><span class="">Block B, Phoenix Central | T: 660 1920</span></li></ul><div>ï¿½ ï¿½</div>'
-      />
-      <title>Ashley Homestore</title>
-      <meta property="og:title" content="Ashley Homestore" />
-      <meta
-        property="og:description"
-        content='<p><strong>10%</strong> discount on Ashley products, such as sofas, bedroom accessories, dinnerware, decoration items and many other accessories.</p><br><p><strong>Contact:</strong>ï¿½</p><ul class=""><li><span class=""></span><span class="">Block B, Phoenix Central | T: 660 1920</span></li></ul><div>ï¿½ ï¿½</div>'
-      />
-      <meta
-        property="og:url"
-        content="https://mcb.mu/personal/offers-and-promotions/home-offers/Home/Ashley-Homestore"
-      />
-      <meta property="og:site_name" content="MCB Mauritius" />
-      <link rel="canonical" href="Ashley-Homestore" />
+      <Helmet>
+        {/* Mirrored from mcb.mu/personal/offers-and-promotions/home-offers/Home/Ashley-Homestore by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 09:56:12 GMT */}
+        <meta name="title" content="Ashley Homestore" />
+        <meta
+          name="description"
+          content='<p><strong>10%</strong> discount on Ashley products, such as sofas, bedroom accessories, dinnerware, decoration items and many other accessories.</p><br><p><strong>Contact:</strong>ï¿½</p><ul class=""><li><span class=""></span><span class="">Block B, Phoenix Central | T: 660 1920</span></li></ul><div>ï¿½ ï¿½</div>'
+        />
+        <title>Ashley Homestore</title>
+        <meta property="og:title" content="Ashley Homestore" />
+        <meta
+          property="og:description"
+          content='<p><strong>10%</strong> discount on Ashley products, such as sofas, bedroom accessories, dinnerware, decoration items and many other accessories.</p><br><p><strong>Contact:</strong>ï¿½</p><ul class=""><li><span class=""></span><span class="">Block B, Phoenix Central | T: 660 1920</span></li></ul><div>ï¿½ ï¿½</div>'
+        />
+        <meta
+          property="og:url"
+          content="https://mcb.mu/personal/offers-and-promotions/home-offers/Home/Ashley-Homestore"
+        />
+        <meta property="og:site_name" content="MCB Mauritius" />
+        <link
+          rel="canonical"
+          href="/personal/offers-and-promotions/home-offers/Home/Ashley-Homestore"
+        />
+      </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */} {/* HEADER COMPONENT */}
         <PersonalHeader />
         {/* END OF HEADER COMPONENT */}

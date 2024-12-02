@@ -1,23 +1,23 @@
 $(document).ready(function () {
-      window.addEventListener("resize", updateLayout, false);
+            window.addEventListener("resize", updateLayout, false);
 
-      function updateLayout() {
-        if (window.innerWidth < 991) {
-          $(".burger-wrapper").on("changedClass", function () {
-            $(this).removeClass("active");
-          });
+            function updateLayout() {
+                if (window.innerWidth < 991) {
+                    $(".burger-wrapper").on("changedClass", function () {
+                        $(this).removeClass("active");
+                    });
 
-          $(document).on("click", "#onetrust-consent-sdk", function () {
-            $(".ma5menu__toggle .burger-wrapper").removeClass('active');
-          });
-        }
-      }
-      updateLayout();
+                    $(document).on("click", "#onetrust-consent-sdk", function () {
+                        $(".ma5menu__toggle .burger-wrapper").removeClass('active');
+                    });
+                }
+            }
+            updateLayout();
+});
+        
 
-    });
 
-
-          $(document).ready(function () {
+            $(document).ready(function () {
 
                 /***** ma5menu config starts *****/
 
@@ -33,12 +33,12 @@ $(document).ready(function () {
 
                 /***** ma5menu custom starts *****/
 
-                $('.ma5menu__btn--enter').on('click touchstart',
+                $('.ma5menu__btn--enter').on('click',
                     function () {
                         $('.ma5menu__logo').css('display', 'none');
                     });
 
-                $('.ma5menu__btn--leave').on('click touchstart',
+                $('.ma5menu__btn--leave').on('click',
                     function () {
                         setTimeout(
                             function () {
@@ -156,7 +156,7 @@ $(document).ready(function () {
                         e.stopPropagation();
                     });
 
-                $('.btn-close-dropdown-menu').on("click touchstart",
+                $('.btn-close-dropdown-menu').on("click",
                     function () {
                         $('.navbar-nav .dropdown-menu').removeClass('show');
                         $('.navbar-nav .dropdown-toggle').removeClass('show');
@@ -195,7 +195,7 @@ $(document).ready(function () {
                 };
 
 
-                $(document).on("click touchstart",
+                $(document).on("click",
                     function (event) {
                         var $trigger = $(".dropdown");
                         if ($trigger !== event.target && !$trigger.has(event.target).length) {

@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import PersonalHeader from "../../../../Components/Personal-header";
 import NavMenu from "../../OfferNavMenu";
 import Footer from "../../../../Components/Footer";
@@ -18,31 +19,38 @@ const DuracoLtd = () => {
 
   return (
     <>
-      {/* Mirrored from mcb.mu/personal/offers-and-promotions/home-offers/Home/Duraco-Ltd by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 09:56:18 GMT */}
-      <meta name="title" content="Duraco Ltd" />
-      <meta
-        name="description"
-        content='<p>Enjoyï¿½<strong>10%</strong> discount* on:</p><ul class=""><li><span class=""></span><span class="">Rainwater harvesting system</span></li><li><span class=""></span><span class="">Grey water recycling kit</span></li><li><span class=""></span><span class="">Photovoltaic systems</span></li><li><span class=""></span><span class="">Solar water heaters</span></li><li><span class=""></span><span class="">Solar light</span></li></ul><p><em><br>* Applicable on normal price only.</em></p><br><p><strong>Contact</strong></p><ul class=""><li><span class=""></span><span class="">B33, Riche Terre Road, Port Louis | T: 249 3300</span></li></ul><p>ï¿½ ï¿½</p>'
-      />
-      <title>Duraco Ltd</title>
-      <meta property="og:title" content="Duraco Ltd" />
-      <meta
-        property="og:description"
-        content='<p>Enjoyï¿½<strong>10%</strong> discount* on:</p><ul class=""><li><span class=""></span><span class="">Rainwater harvesting system</span></li><li><span class=""></span><span class="">Grey water recycling kit</span></li><li><span class=""></span><span class="">Photovoltaic systems</span></li><li><span class=""></span><span class="">Solar water heaters</span></li><li><span class=""></span><span class="">Solar light</span></li></ul><p><em><br>* Applicable on normal price only.</em></p><br><p><strong>Contact</strong></p><ul class=""><li><span class=""></span><span class="">B33, Riche Terre Road, Port Louis | T: 249 3300</span></li></ul><p>ï¿½ ï¿½</p>'
-      />
-      <meta
-        property="og:url"
-        content="https://mcb.mu/personal/offers-and-promotions/home-offers/Home/Duraco-Ltd"
-      />
-      <link rel="canonical" href="/Duraco-Ltd" />
+      <Helmet>
+        {/* Mirrored from mcb.mu/personal/offers-and-promotions/home-offers/Home/Duraco-Ltd by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 09:56:18 GMT */}
+        <meta name="title" content="Duraco Ltd" />
+        <meta
+          name="description"
+          content='<p>Enjoyï¿½<strong>10%</strong> discount* on:</p><ul class=""><li><span class=""></span><span class="">Rainwater harvesting system</span></li><li><span class=""></span><span class="">Grey water recycling kit</span></li><li><span class=""></span><span class="">Photovoltaic systems</span></li><li><span class=""></span><span class="">Solar water heaters</span></li><li><span class=""></span><span class="">Solar light</span></li></ul><p><em><br>* Applicable on normal price only.</em></p><br><p><strong>Contact</strong></p><ul class=""><li><span class=""></span><span class="">B33, Riche Terre Road, Port Louis | T: 249 3300</span></li></ul><p>ï¿½ ï¿½</p>'
+        />
+        <title>Duraco Ltd</title>
+        <meta property="og:title" content="Duraco Ltd" />
+        <meta
+          property="og:description"
+          content='<p>Enjoyï¿½<strong>10%</strong> discount* on:</p><ul class=""><li><span class=""></span><span class="">Rainwater harvesting system</span></li><li><span class=""></span><span class="">Grey water recycling kit</span></li><li><span class=""></span><span class="">Photovoltaic systems</span></li><li><span class=""></span><span class="">Solar water heaters</span></li><li><span class=""></span><span class="">Solar light</span></li></ul><p><em><br>* Applicable on normal price only.</em></p><br><p><strong>Contact</strong></p><ul class=""><li><span class=""></span><span class="">B33, Riche Terre Road, Port Louis | T: 249 3300</span></li></ul><p>ï¿½ ï¿½</p>'
+        />
+        <meta
+          property="og:url"
+          content="https://mcb.mu/personal/offers-and-promotions/home-offers/Home/Duraco-Ltd"
+        />
+        <link
+          rel="canonical"
+          href="/personal/offers-and-promotions/home-offers/Home/Duraco-Ltd"
+        />
+      </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */} {/* HEADER COMPONENT */}
         <PersonalHeader />
         {/* END OF HEADER COMPONENT */}

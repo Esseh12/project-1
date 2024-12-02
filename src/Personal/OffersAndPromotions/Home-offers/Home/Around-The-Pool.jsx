@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import PersonalHeader from "../../../../Components/Personal-header";
 import NavMenu from "../../OfferNavMenu";
 import Footer from "../../../../Components/Footer";
@@ -18,32 +19,39 @@ const AroundThePool = () => {
 
   return (
     <>
-      {/* Mirrored from mcb.mu/personal/offers-and-promotions/home-offers/Home/Around-The-Pool by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 09:56:21 GMT */}
-      <meta name="title" content="Around The Pool" />
-      <meta
-        name="description"
-        content='<p>Enjoy the following offers upon confirmation of concrete pool construction:</p><ul class=""><li><span class=""></span><span class="">Salt chlorinator and cleaning equipment</span></li><li><span class=""></span><span class="">3 months of preventive maintenance</span></li><li><span class=""></span><span class="">6 months extension on equipment guarantee</span></li></ul><div><div>Conditions apply.</div><div><strong><br></strong></div><div><strong><br></strong></div><div><strong>Contact</strong></div><ul class=""><li><span class=""></span><span class="">Morcellement Majo, La Balise, Black River | T: 484 0390</span></li></ul><p>ï¿½ ï¿½</p></div>'
-      />
-      <title>Around The Pool</title>
-      <meta property="og:title" content="Around The Pool" />
-      <meta
-        property="og:description"
-        content='<p>Enjoy the following offers upon confirmation of concrete pool construction:</p><ul class=""><li><span class=""></span><span class="">Salt chlorinator and cleaning equipment</span></li><li><span class=""></span><span class="">3 months of preventive maintenance</span></li><li><span class=""></span><span class="">6 months extension on equipment guarantee</span></li></ul><div><div>Conditions apply.</div><div><strong><br></strong></div><div><strong><br></strong></div><div><strong>Contact</strong></div><ul class=""><li><span class=""></span><span class="">Morcellement Majo, La Balise, Black River | T: 484 0390</span></li></ul><p>ï¿½ ï¿½</p></div>'
-      />
-      <meta property="og:type" content="website" />
-      <meta
-        property="og:url"
-        content="https://mcb.mu/personal/offers-and-promotions/home-offers/Home/Around-The-Pool"
-      />
-      <link rel="canonical" href="/Around-The-Pool" />
+      <Helmet>
+        {/* Mirrored from mcb.mu/personal/offers-and-promotions/home-offers/Home/Around-The-Pool by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 09:56:21 GMT */}
+        <meta name="title" content="Around The Pool" />
+        <meta
+          name="description"
+          content='<p>Enjoy the following offers upon confirmation of concrete pool construction:</p><ul class=""><li><span class=""></span><span class="">Salt chlorinator and cleaning equipment</span></li><li><span class=""></span><span class="">3 months of preventive maintenance</span></li><li><span class=""></span><span class="">6 months extension on equipment guarantee</span></li></ul><div><div>Conditions apply.</div><div><strong><br></strong></div><div><strong><br></strong></div><div><strong>Contact</strong></div><ul class=""><li><span class=""></span><span class="">Morcellement Majo, La Balise, Black River | T: 484 0390</span></li></ul><p>ï¿½ ï¿½</p></div>'
+        />
+        <title>Around The Pool</title>
+        <meta property="og:title" content="Around The Pool" />
+        <meta
+          property="og:description"
+          content='<p>Enjoy the following offers upon confirmation of concrete pool construction:</p><ul class=""><li><span class=""></span><span class="">Salt chlorinator and cleaning equipment</span></li><li><span class=""></span><span class="">3 months of preventive maintenance</span></li><li><span class=""></span><span class="">6 months extension on equipment guarantee</span></li></ul><div><div>Conditions apply.</div><div><strong><br></strong></div><div><strong><br></strong></div><div><strong>Contact</strong></div><ul class=""><li><span class=""></span><span class="">Morcellement Majo, La Balise, Black River | T: 484 0390</span></li></ul><p>ï¿½ ï¿½</p></div>'
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://mcb.mu/personal/offers-and-promotions/home-offers/Home/Around-The-Pool"
+        />
+        <link
+          rel="canonical"
+          href="/personal/offers-and-promotions/home-offers/Home/Around-The-Pool"
+        />
+      </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}
         {/* HEADER COMPONENT */}
         <PersonalHeader />

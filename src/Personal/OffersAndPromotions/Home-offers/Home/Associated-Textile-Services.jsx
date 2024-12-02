@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import PersonalHeader from "../../../../Components/Personal-header";
 import NavMenu from "../../OfferNavMenu";
 import Footer from "../../../../Components/Footer";
@@ -18,32 +19,39 @@ const AssociatedTextileServices = () => {
 
   return (
     <>
-      {/* Mirrored from mcb.mu/personal/offers-and-promotions/home-offers/Home/Associated-Textile-Services by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 09:56:20 GMT */}
-      <meta name="title" content="Associated Textile Services" />
-      <meta
-        name="description"
-        content='<p><strong>5%</strong> discount on normal price products in shops only.</p><br><p><strong>Contact:</strong>ï¿½</p><ul class=""><li><span class=""></span><span class="">Zone Industrielle, St Pierre | T: 433 5050</span></li><li><span class=""></span><span class="">Cap Dal, Tamarin | T: 483 7328</span></li><li><span class=""></span><span class="">Circle Square, Forbach | T: 244 3044</span></li></ul><div>ï¿½ ï¿½</div>'
-      />
-      <title>Associated Textile Services</title>
-      <meta property="og:title" content="Associated Textile Services" />
-      <meta
-        property="og:description"
-        content='<p><strong>5%</strong> discount on normal price products in shops only.</p><br><p><strong>Contact:</strong>ï¿½</p><ul class=""><li><span class=""></span><span class="">Zone Industrielle, St Pierre | T: 433 5050</span></li><li><span class=""></span><span class="">Cap Dal, Tamarin | T: 483 7328</span></li><li><span class=""></span><span class="">Circle Square, Forbach | T: 244 3044</span></li></ul><div>ï¿½ ï¿½</div>'
-      />
-      <meta
-        property="og:url"
-        content="https://mcb.mu/personal/offers-and-promotions/home-offers/Home/Associated-Textile-Services"
-      />
-      <meta property="og:site_name" content="MCB Mauritius" />
-      <link rel="canonical" href="Associated-Textile-Services" />
+      <Helmet>
+        {/* Mirrored from mcb.mu/personal/offers-and-promotions/home-offers/Home/Associated-Textile-Services by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 09:56:20 GMT */}
+        <meta name="title" content="Associated Textile Services" />
+        <meta
+          name="description"
+          content='<p><strong>5%</strong> discount on normal price products in shops only.</p><br><p><strong>Contact:</strong>ï¿½</p><ul class=""><li><span class=""></span><span class="">Zone Industrielle, St Pierre | T: 433 5050</span></li><li><span class=""></span><span class="">Cap Dal, Tamarin | T: 483 7328</span></li><li><span class=""></span><span class="">Circle Square, Forbach | T: 244 3044</span></li></ul><div>ï¿½ ï¿½</div>'
+        />
+        <title>Associated Textile Services</title>
+        <meta property="og:title" content="Associated Textile Services" />
+        <meta
+          property="og:description"
+          content='<p><strong>5%</strong> discount on normal price products in shops only.</p><br><p><strong>Contact:</strong>ï¿½</p><ul class=""><li><span class=""></span><span class="">Zone Industrielle, St Pierre | T: 433 5050</span></li><li><span class=""></span><span class="">Cap Dal, Tamarin | T: 483 7328</span></li><li><span class=""></span><span class="">Circle Square, Forbach | T: 244 3044</span></li></ul><div>ï¿½ ï¿½</div>'
+        />
+        <meta
+          property="og:url"
+          content="https://mcb.mu/personal/offers-and-promotions/home-offers/Home/Associated-Textile-Services"
+        />
+        <meta property="og:site_name" content="MCB Mauritius" />
+        <link
+          rel="canonical"
+          href="/personal/offers-and-promotions/home-offers/Home/Associated-Textile-Services"
+        />
+      </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}
         {/* HEADER COMPONENT */}
         <PersonalHeader />
