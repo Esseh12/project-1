@@ -222,6 +222,46 @@ import InstantPotDuo76LMultiPressureCooker from "./Personal/OffersAndPromotions/
 import JosephJosephContainerGlassNest4PieceSet from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/JOSEPH-JOSEPH-Container-Glass-Nest---4-Piece-Set";
 import JosephJosephElevateKnivesSet from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/JOSEPH-JOSEPH-Elevate-Knives-Set";
 import JosephJosephExpandableDishDrainer from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/JOSEPH-JOSEPH-Expandable-Dish-Drainer";
+import JosephJosephFolio4PieceChoppingBoardSetWithElevateChefsKnife from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/JOSEPH-JOSEPH-Folio-4-Piece-Chopping-Board-Set-with-Elevate-Chef's-Knife";
+import JosephJosephKitchenOrganiser from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/JOSEPH-JOSEPH-Kitchen-Organiser";
+import JosephJosephSaladBowlsSetOf4 from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/JOSEPH-JOSEPH-Salad-Bowls---Set-of-4";
+import KenstarAsterDigiAirFryer from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KENSTAR-Aster-Digi-Air-Fryer";
+import KorkmazAquaCookwareSetOf6 from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Aqua-Cookware---Set-of-6";
+import KORKMAZAquaTeaSet from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Aqua-Tea-Set";
+import KorkmazCastaset from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Casta-Set";
+import KORKMAZCintemaniTeapotSet from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Cintemani-Teapot-Set";
+import KorkmazDroppaTeaPot from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Droppa-Tea-Pot";
+import KorkmazFreedomCoffeeCupsSetOf12 from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Freedom-Coffee-Cups---Set-of-12";
+import KorkmazKahvekolikCoffeeMaker from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Kahvekolik-Coffee-Maker";
+import KorkmazLumiaCookwareSet from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Lumia-Cookware-Set";
+import KorkmazMiaWaffleMaker from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Mia-Waffle-Maker";
+import KorkmazMondeaCookwareSet from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Mondea-Cookware-Set";
+import KorkmazNostaElectricalSamovar from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Nosta-Electrical-Samovar";
+import KorkmazOrnellaCookwareSet from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Ornella-Cookware-Set";
+import KorkmazPerlaMantiSteamerSet from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Perla-Manti-Steamer-Set";
+import KORKMAZProMagicRondo from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Pro-Magic-Rondo";
+import KorkmazProlineCookwareSet from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Proline-Cookware-Set";
+import KorkmazprolineExtraDeepCasserole from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Proline-Extra-Deep-Casserole";
+import KorkmazProlineFrypan from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Proline-Frypan";
+import KorkmazProlinePaellaFrypan from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Proline-Paella-Frypan";
+import KorkmazSteamaCookwareSet from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Steama-Cookware-Set";
+import KorkmazVetraKnivesSetOf6 from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Vetra-Knives---Set-of-6";
+import KorkmazVouchers from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Vouchers";
+import KUDEKLAVouchers from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KU-DE-KLA-Vouchers";
+import KucheProfiSanRemoPotWithPastaInsert from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KUCHENPROFI-San-Remo-Pot-with-Pasta-Insert";
+import KuvingWholeSlowJuicer from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KUVINGS-Whole-Slow-Juicer";
+import Moulinex2In1AirFryer from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/MOULINEX-2-in-1-Air-Fryer";
+import OoniKoda12GasPoweredPizzaOven from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/OONI-KODA-12-Gas-Powered-Pizza-Oven";
+import PanasonicBlender from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/PANASONIC-Blender";
+import PanasonicHandBlender from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/PANASONIC-Hand-Blender";
+import PanasonicMicrowaveOvenWithGrill from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/PANASONIC-Microwave-Oven-with-Grill";
+import PanasonicVacuumCleaner from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/PANASONIC-Vacuum-Cleaner";
+import PanasonicWaterPurifier from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/PANASONIC-Water-Purifier";
+import PhilipsEssentialAirFryer from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/PHILIPS-Essential-Air-Fryer";
+import RaviorVouchers from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/RAVIOR-Vouchers";
+import RedlineVouchers from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/REDLINE-Vouchers";
+import RowentaCordlessCanisterVacuumCleaner from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/ROWENTA-Cordless-Canister-Vacuum-Cleaner";
+import RowentaCordlessStickVacuumCleaner from "./Personal/OffersAndPromotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/ROWENTA-Cordless-Stick-Vacuum-Cleaner";
 // Amex Home Outdoor
 // End of American Express Membership Rewards files
 // End of Personal files
@@ -1139,6 +1179,168 @@ const App = () => {
         <Route
           path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/JOSEPH-JOSEPH-Expandable-Dish-Drainer"
           element={<JosephJosephExpandableDishDrainer />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/JOSEPH-JOSEPH-Folio-4-Piece-Chopping-Board-Set-with-Elevate-Chef's-Knife"
+          element={
+            <JosephJosephFolio4PieceChoppingBoardSetWithElevateChefsKnife />
+          }
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/JOSEPH-JOSEPH-Kitchen-Organiser"
+          element={<JosephJosephKitchenOrganiser />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/JOSEPH-JOSEPH-Salad-Bowls---Set-of-4"
+          element={<JosephJosephSaladBowlsSetOf4 />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KENSTAR-Aster-Digi-Air-Fryer"
+          element={<KenstarAsterDigiAirFryer />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Aqua-Cookware---Set-of-6"
+          element={<KorkmazAquaCookwareSetOf6 />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Aqua-Tea-Set"
+          element={<KORKMAZAquaTeaSet />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Casta-Set"
+          element={<KorkmazCastaset />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Cintemani-Teapot-Set"
+          element={<KORKMAZCintemaniTeapotSet />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Droppa-Tea-Pot"
+          element={<KorkmazDroppaTeaPot />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Freedom-Coffee-Cups---Set-of-12"
+          element={<KorkmazFreedomCoffeeCupsSetOf12 />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Kahvekolik-Coffee-Maker"
+          element={<KorkmazKahvekolikCoffeeMaker />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Lumia-Cookware-Set"
+          element={<KorkmazLumiaCookwareSet />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Mia-Waffle-Maker"
+          element={<KorkmazMiaWaffleMaker />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Mondea-Cookware-Set"
+          element={<KorkmazMondeaCookwareSet />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Nosta-Electrical-Samovar"
+          element={<KorkmazNostaElectricalSamovar />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Ornella-Cookware-Set"
+          element={<KorkmazOrnellaCookwareSet />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Perla-Manti-Steamer-Set"
+          element={<KorkmazPerlaMantiSteamerSet />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Pro-Magic-Rondo"
+          element={<KORKMAZProMagicRondo />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Proline-Cookware-Set"
+          element={<KorkmazProlineCookwareSet />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Proline-Extra-Deep-Casserole"
+          element={<KorkmazprolineExtraDeepCasserole />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Proline-Frypan"
+          element={<KorkmazProlineFrypan />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Proline-Paella-Frypan"
+          element={<KorkmazProlinePaellaFrypan />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Steama-Cookware-Set"
+          element={<KorkmazSteamaCookwareSet />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Vetra-Knives---Set-of-6"
+          element={<KorkmazVetraKnivesSetOf6 />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KORKMAZ-Vouchers"
+          element={<KorkmazVouchers />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KU-DE-KLA-Vouchers"
+          element={<KUDEKLAVouchers />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KUCHENPROFI-San-Remo-Pot-with-Pasta-Insert"
+          element={<KucheProfiSanRemoPotWithPastaInsert />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/KUVINGS-Whole-Slow-Juicer"
+          element={<KuvingWholeSlowJuicer />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/MOULINEX-2-in-1-Air-Fryer"
+          element={<Moulinex2In1AirFryer />}
+        />
+        <Route
+          path="personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/OONI-KODA-12-Gas-Powered-Pizza-Oven"
+          element={<OoniKoda12GasPoweredPizzaOven />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/PANASONIC-Blender"
+          element={<PanasonicBlender />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/PANASONIC-Hand-Blender"
+          element={<PanasonicHandBlender />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/PANASONIC-Microwave-Oven-with-Grill"
+          element={<PanasonicMicrowaveOvenWithGrill />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/PANASONIC-Vacuum-Cleaner"
+          element={<PanasonicVacuumCleaner />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/PANASONIC-Water-Purifier"
+          element={<PanasonicWaterPurifier />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/PHILIPS-Essential-Air-Fryer"
+          element={<PhilipsEssentialAirFryer />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/RAVIOR-Vouchers"
+          element={<RaviorVouchers />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/REDLINE-Vouchers"
+          element={<RedlineVouchers />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/ROWENTA-Cordless-Canister-Vacuum-Cleaner"
+          element={<RowentaCordlessCanisterVacuumCleaner />}
+        />
+        <Route
+          path="/personal/offers-and-promotions/american-express-membership-rewards-offers/AMEX_Home_Outdoor/ROWENTA-Cordless-Stick-Vacuum-Cleaner"
+          element={<RowentaCordlessStickVacuumCleaner />}
         />
         {/* end AMEXX home outdoor */}
         {/* End American expresses membership rewrd offers */}

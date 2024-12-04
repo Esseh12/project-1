@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   useEffect(() => {
@@ -60,7 +61,7 @@ const Header = () => {
                   <div className="univers">
                     {" "}
                     <div className="logo logo-mobile">
-                      <a href="/">
+                      <Link to="/">
                         <img
                           src="/images/mcb/default-album/logo-mcb-caravelle-red.svg"
                           //sf-size={2255}
@@ -69,10 +70,43 @@ const Header = () => {
                           width={40}
                           className="sf-immutable-selected"
                         />
-                      </a>{" "}
+                      </Link>{" "}
                     </div>{" "}
                     <div className="univers-option">
-                      <a className="ma5menu__toggle" type="button">
+                      <div className="btn-group">
+                        <Link
+                          className="nav-link px-3"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          <i className="icon-ib" style={{ fontSize: 20 }} />
+                        </Link>
+                        <div className="dropdown-menu dropdown-menu-end">
+                          <div className="title">
+                            <h4>Internet Banking</h4>
+                          </div>
+                          <ul className="buttons">
+                            <li className="btn-primary">
+                              <Link
+                                to="/T001/banking"
+                                className="dropdown-item"
+                                target="_blank"
+                              >
+                                Login
+                              </Link>
+                            </li>
+                          </ul>
+                          <ul className="more-links mt-4">
+                            <li>
+                              <Link to="/security-centre">
+                                <i className="icon-chevron-right" /> Protect
+                                yourself online
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>{" "}
+                      <Link className="ma5menu__toggle" type="button">
                         {" "}
                         <svg
                           width="40px"
@@ -123,7 +157,7 @@ const Header = () => {
                             </g>{" "}
                           </g>{" "}
                         </svg>{" "}
-                      </a>{" "}
+                      </Link>{" "}
                     </div>{" "}
                   </div>{" "}
                 </div>{" "}
@@ -137,887 +171,905 @@ const Header = () => {
           <div style={{ display: "none" }}>
             {/* source for mobile menu start */}
             <ul className="site-menu">
-              <li>
-                <a href="/" target="_self" id="navbarDropdownMenuLink0-1">
+              <li className='"active"'>
+                <Link to="/" target="_self" id="navbarDropdownMenuLink0-1">
                   Personal
-                </a>
+                </Link>
                 <ul>
                   <li>
-                    <a href="/personal/accounts-packages">
+                    <Link to="/personal/accounts-packages">
                       Accounts &amp; Packages{" "}
-                    </a>
+                    </Link>
                     <ul>
                       <li>
-                        <a href="/personal/accounts-packages/standard-savings-account">
+                        <Link to="/personal/accounts-packages/standard-savings-account">
                           Standard savings account
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/personal/accounts-packages/mcb-rupys">
+                        <Link to="/personal/accounts-packages/mcb-rupys">
                           MCB Rupys
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/personal/accounts-packages/standard-current-account">
+                        <Link to="/personal/accounts-packages/standard-current-account">
                           Standard current account
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/personal/accounts-packages/foreign-currency-account">
+                        <Link to="/personal/accounts-packages/foreign-currency-account">
                           Foreign currency account
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/personal/accounts-packages/instakit">
+                        <Link to="/personal/accounts-packages/instakit">
                           Instakit
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/personal/accounts-packages/pack-1825">
+                        <Link to="/personal/accounts-packages/pack-1825">
                           Pack 18.25
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/personal/accounts-packages/neo">NEO</a>
+                        <Link to="/personal/accounts-packages/neo">NEO</Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="/personal/loans">Loans </a>
+                    <Link to="/personal/loans">Loans </Link>
                     <ul>
                       <li>
-                        <a href="/personal/loans/educational-loan">
+                        <Link to="/personal/loans/educational-loan">
                           Educational loan
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/personal/loans/personal-loan">
+                        <Link to="/personal/loans/personal-loan">
                           Personal loan
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/personal/loans/home-loan">Home loan</a>
+                        <Link to="/personal/loans/home-loan">Home loan</Link>
                       </li>
                       <li>
-                        <a href="/personal/loans/green-loan">Green loan</a>
+                        <Link to="/personal/loans/green-loan">Green loan</Link>
                       </li>
                       <li>
-                        <a href="/personal/loans/personal-overdrafts">
+                        <Link to="/personal/loans/personal-overdrafts">
                           Personal overdrafts
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://mcbleasing.mu/">Car lease</a>
+                        <Link to="https://mcbleasing.mu/">Car lease</Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="/personal/cards">Cards </a>
+                    <Link to="/personal/cards">Cards </Link>
                     <ul>
                       <li>
-                        <a href="/personal/cards/mcb-debit-card">
+                        <Link to="/personal/cards/mcb-debit-card">
                           MCB debit card
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/personal/cards/mastercard-primo-credit-card">
+                        <Link to="/personal/cards/mastercard-primo-credit-card">
                           Mastercard Primo credit card
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/personal/cards/classic-credit-card">
+                        <Link to="/personal/cards/classic-credit-card">
                           Classic credit card
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/personal/cards/gold-credit-card">
+                        <Link to="/personal/cards/gold-credit-card">
                           Gold credit card
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/personal/cards/american-express">
+                        <Link to="/personal/cards/american-express">
                           American Express®{" "}
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a href="/personal/cards/american-express/american-express-green">
+                            <Link to="/personal/cards/american-express/american-express-green">
                               American Express® Green
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/personal/cards/american-express/american-express-gold">
+                            <Link to="/personal/cards/american-express/american-express-gold">
                               American Express® Gold
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/personal/cards/american-express/membership-rewards">
+                            <Link to="/personal/cards/american-express/membership-rewards">
                               Membership Rewards®
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="/personal/cards/visa-platinum">
+                        <Link to="/personal/cards/visa-platinum">
                           Visa Platinum
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/personal/cards/visa-signature">
+                        <Link to="/personal/cards/visa-signature">
                           Visa Signature
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/personal/cards/compare-our-credit-cards">
+                        <Link to="/personal/cards/compare-our-credit-cards">
                           Compare our credit cards
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/personal/cards/prepaid-cards">
+                        <Link to="/personal/cards/prepaid-cards">
                           Prepaid cards{" "}
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a href="/personal/cards/prepaid-cards/visa-prepaid-card">
+                            <Link to="/personal/cards/prepaid-cards/visa-prepaid-card">
                               VISA prepaid card
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/personal/cards/prepaid-cards/unionpay-prepaid-card">
+                            <Link to="/personal/cards/prepaid-cards/unionpay-prepaid-card">
                               UnionPay prepaid card
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="/personal/cards/travel-insurance">
+                        <Link to="/personal/cards/travel-insurance">
                           Travel insurance
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="/personal/investments">Investments </a>
+                    <Link to="/personal/investments">Investments </Link>
                     <ul>
                       <li>
-                        <a href="/personal/investments/mcb-mutual-funds">
+                        <Link to="/personal/investments/mcb-mutual-funds">
                           MCB Mutual Funds
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/personal/investments/stockbroking">
+                        <Link to="/personal/investments/stockbroking">
                           Stockbroking
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/personal/investments/education-plan">
+                        <Link to="/personal/investments/education-plan">
                           Education plan
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/personal/investments/retirement-plan">
+                        <Link to="/personal/investments/retirement-plan">
                           Retirement plan
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/personal/investments/life-insurance">
+                        <Link to="/personal/investments/life-insurance">
                           Life insurance
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/personal/investments/fixed-deposit">
+                        <Link to="/personal/investments/fixed-deposit">
                           Fixed deposit
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="/personal/ways-to-bank">Ways to bank </a>
+                    <Link to="/personal/ways-to-bank">Ways to bank </Link>
                     <ul>
                       <li>
-                        <a href="https://juice.mu/">MCB Juice</a>
+                        <Link to="https://juice.mu/">MCB Juice</Link>
                       </li>
                       <li>
-                        <a href="/personal/ways-to-bank/internet-banking">
+                        <Link to="/personal/ways-to-bank/internet-banking">
                           Internet banking
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/personal/ways-to-bank/sms-banking">
+                        <Link to="/personal/ways-to-bank/sms-banking">
                           SMS banking
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/personal/ways-to-bank/mcb-refill">
+                        <Link to="/personal/ways-to-bank/mcb-refill">
                           MCB Refill
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/personal/ways-to-bank/atms">ATMs</a>
+                        <Link to="/personal/ways-to-bank/atms">ATMs</Link>
                       </li>
                       <li>
-                        <a href="/personal/ways-to-bank/in-branch-banking">
+                        <Link to="/personal/ways-to-bank/in-branch-banking">
                           In-branch banking
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/personal/ways-to-bank/bill-payments">
+                        <Link to="/personal/ways-to-bank/bill-payments">
                           Pay my bills
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/personal/ways-to-bank/international-transfers">
+                        <Link to="/personal/ways-to-bank/international-transfers">
                           International transfers{" "}
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a href="/personal/ways-to-bank/international-transfers/international-payment">
+                            <Link to="/personal/ways-to-bank/international-transfers/international-payment">
                               International payment
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/personal/ways-to-bank/international-transfers/moneygram">
+                            <Link to="/personal/ways-to-bank/international-transfers/moneygram">
                               MoneyGram
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="/personal/ways-to-bank/e-statements">
+                        <Link to="/personal/ways-to-bank/e-statements">
                           E-Statements
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="/personal/existing-customers">
+                    <Link to="/personal/existing-customers">
                       Existing customers{" "}
-                    </a>
+                    </Link>
                     <ul>
                       <li>
-                        <a href="https://juice.mu/">Get MCB Juice</a>
+                        <Link to="https://juice.mu/">Get MCB Juice</Link>
                       </li>
                       <li>
-                        <a href="/personal/existing-customers/log-in-to-internet-banking">
+                        <Link to="/personal/existing-customers/log-in-to-internet-banking">
                           Log in to Internet Banking
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/personal/offers-and-promotions">
+                        <Link to="/personal/offers-and-promotions">
                           Offers &amp; promotions
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/personal/cards/american-express/membership-rewards">
+                        <Link to="/personal/cards/american-express/membership-rewards">
                           American Express® Membership Rewards® programme
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/personal/help-centre">Go to help center</a>
+                        <Link to="/personal/help-centre">
+                          Go to help center
+                        </Link>
                       </li>
                       <li>
-                        <a href="/security-centre">Go to security center</a>
+                        <Link to="/security-centre">Go to security center</Link>
                       </li>
                       <li>
-                        <a href="/personal/existing-customers/update-your-personal-profile">
+                        <Link to="/personal/existing-customers/update-your-personal-profile">
                           Update your personal profile
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/contact-us">Contact us</a>
+                        <Link to="/contact-us">Contact us</Link>
                       </li>
                       <li>
-                        <a href="/file-a-complaint">File a complaint</a>
+                        <Link to="/file-a-complaint">File a complaint</Link>
                       </li>
                       <li>
-                        <a href="/locate-us">Find your nearest branch</a>
+                        <Link to="/locate-us">Find your nearest branch</Link>
                       </li>
                       <li>
-                        <a href="/rates-fees">
+                        <Link to="/rates-fees">
                           View interest rates, fees and charges
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="/sme" target="_self" id="navbarDropdownMenuLink1-1">
+                <Link to="/sme" target="_self" id="navbarDropdownMenuLink1-1">
                   SME
-                </a>
+                </Link>
                 <ul>
                   <li>
-                    <a href="/sme/bank">Bank </a>
+                    <Link to="/sme/bank">Bank </Link>
                     <ul>
                       <li>
-                        <a href="/sme/bank/business-account">
+                        <Link to="/sme/bank/business-account">
                           Business Account
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/sme/bank/tailor-made-solutions">
+                        <Link to="/sme/bank/tailor-made-solutions">
                           Tailor-made Solutions{" "}
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a href="https://www.mcbmicrofinance.mu/">
+                            <Link to="https://www.mcbmicrofinance.mu/">
                               MCB Microfinance
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="/sme/bank/transact-anytime-anywhere">
+                        <Link to="/sme/bank/transact-anytime-anywhere">
                           Transact anytime, anywhere{" "}
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a href="/sme/bank/transact-anytime-anywhere/internet-banking">
+                            <Link to="/sme/bank/transact-anytime-anywhere/internet-banking">
                               Internet Banking
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/sme/bank/transact-anytime-anywhere/atm">
+                            <Link to="/sme/bank/transact-anytime-anywhere/atm">
                               ATM
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/sme/bank/transact-anytime-anywhere/e-statements">
+                            <Link to="/sme/bank/transact-anytime-anywhere/e-statements">
                               E-Statements
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/sme/bank/transact-anytime-anywhere/juicepro">
+                            <Link to="/sme/bank/transact-anytime-anywhere/juicepro">
                               JuicePro
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="/sme/borrow">Borrow </a>
+                    <Link to="/sme/borrow">Borrow </Link>
                     <ul>
                       <li>
-                        <a href="/sme/borrow/loans">Loans</a>
+                        <Link to="/sme/borrow/loans">Loans</Link>
                       </li>
                       <li>
-                        <a href="/sme/borrow/overdrafts">Overdrafts</a>
+                        <Link to="/sme/borrow/overdrafts">Overdrafts</Link>
                       </li>
                       <li>
-                        <a href="/sme/borrow/leasing">Leasing</a>
+                        <Link to="/sme/borrow/leasing">Leasing</Link>
                       </li>
                       <li>
-                        <a href="/sme/borrow/trade-finance">Trade Finance</a>
+                        <Link to="/sme/borrow/trade-finance">
+                          Trade Finance
+                        </Link>
                       </li>
                       <li>
-                        <a href="/sme/borrow/sustainable-loan">
+                        <Link to="/sme/borrow/sustainable-loan">
                           Sustainable Loan
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/sme/borrow/factoring">Factoring</a>
+                        <Link to="/sme/borrow/factoring">Factoring</Link>
                       </li>
                       <li>
-                        <a href="/sme/borrow/bank-guarantees">
+                        <Link to="/sme/borrow/bank-guarantees">
                           Bank Guarantees
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/sme/borrow/lokal-is-beautiful">
+                        <Link to="/sme/borrow/lokal-is-beautiful">
                           Lokal is Beautiful
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="/sme/pay">Pay </a>
+                    <Link to="/sme/pay">Pay </Link>
                     <ul>
                       <li>
-                        <a href="/sme/pay/cards">Cards </a>
+                        <Link to="/sme/pay/cards">Cards </Link>
                         <ul>
                           <li>
-                            <a href="/sme/pay/cards/business-card">
+                            <Link to="/sme/pay/cards/business-card">
                               Business Card
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/sme/pay/cards/business-deposit-card">
+                            <Link to="/sme/pay/cards/business-deposit-card">
                               Business Deposit Card
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/sme/pay/cards/fleetman-card">
+                            <Link to="/sme/pay/cards/fleetman-card">
                               Fleetman Card
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="/sme/pay/payroll-services">Payroll Services</a>
+                        <Link to="/sme/pay/payroll-services">
+                          Payroll Services
+                        </Link>
                       </li>
                       <li>
-                        <a href="/sme/pay/cheques">Cheques</a>
+                        <Link to="/sme/pay/cheques">Cheques</Link>
                       </li>
                       <li>
-                        <a href="/sme/pay/electronic-payments">
+                        <Link to="/sme/pay/electronic-payments">
                           Electronic Payments{" "}
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a href="/sme/pay/electronic-payments/electronic-transfer">
+                            <Link to="/sme/pay/electronic-payments/electronic-transfer">
                               Electronic Transfer
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/sme/pay/electronic-payments/e-commerce-solutions">
+                            <Link to="/sme/pay/electronic-payments/e-commerce-solutions">
                               E-Commerce Solutions
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="/sme/sme-connect">SME Connect </a>
+                    <Link to="/sme/sme-connect">SME Connect </Link>
                     <ul>
                       <li>
-                        <a href="/sme/sme-connect/start-your-business">
+                        <Link to="/sme/sme-connect/start-your-business">
                           Start Your Business
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/sme/sme-connect/manage-your-business">
+                        <Link to="/sme/sme-connect/manage-your-business">
                           Manage Your Business
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/sme/sme-connect/speaker-series">
+                        <Link to="/sme/sme-connect/speaker-series">
                           Speaker Series
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
                 </ul>
               </li>
               <li>
-                <a
-                  href="/corporate"
+                <Link
+                  to="/corporate"
                   target="_self"
                   id="navbarDropdownMenuLink2-1"
                 >
                   Corporate
-                </a>
+                </Link>
                 <ul>
                   <li>
-                    <a href="/corporate/what-we-do">What we do </a>
+                    <Link to="/corporate/what-we-do">What we do </Link>
                     <ul>
                       <li>
-                        <a href="/corporate/what-we-do/corporate-banking">
+                        <Link to="/corporate/what-we-do/corporate-banking">
                           Corporate Banking{" "}
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a href="/corporate/what-we-do/corporate-banking/our-success-stories">
+                            <Link to="/corporate/what-we-do/corporate-banking/our-success-stories">
                               Our success stories
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/corporate/what-we-do/corporate-banking/become-a-client">
+                            <Link to="/corporate/what-we-do/corporate-banking/become-a-client">
                               Become a client
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="/corporate/what-we-do/global-business">
+                        <Link to="/corporate/what-we-do/global-business">
                           Global Business{" "}
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a href="/corporate/what-we-do/global-business/become-a-client">
+                            <Link to="/corporate/what-we-do/global-business/become-a-client">
                               Become a client
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/corporate/what-we-do/global-business/investing-in-mauritius">
+                            <Link to="/corporate/what-we-do/global-business/investing-in-mauritius">
                               Investing in Mauritius
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/corporate/what-we-do/global-business/custody-services">
+                            <Link to="/corporate/what-we-do/global-business/custody-services">
                               Custody Services
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="/corporate/finance-lending/structured-finance/energy-commodities">
+                        <Link to="/corporate/finance-lending/structured-finance/energy-commodities">
                           Energy &amp; Commodities Financing
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/institutional">Institutional Banking</a>
+                        <Link to="/institutional">Institutional Banking</Link>
                       </li>
                       <li>
-                        <a href="/sme">SME Banking</a>
+                        <Link to="/sme">SME Banking</Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="/corporate/payment-cash">Payment &amp; Cash </a>
+                    <Link to="/corporate/payment-cash">
+                      Payment &amp; Cash{" "}
+                    </Link>
                     <ul>
                       <li>
-                        <a href="/corporate/payment-cash/pay">Pay </a>
+                        <Link to="/corporate/payment-cash/pay">Pay </Link>
                         <ul>
                           <li>
-                            <a href="/corporate/payment-cash/pay/domestic-international-transfers">
+                            <Link to="/corporate/payment-cash/pay/domestic-international-transfers">
                               Domestic &amp; International transfers{" "}
-                            </a>
+                            </Link>
                             <ul>
                               <li>
-                                <a href="/corporate/payment-cash/pay/domestic-international-transfers/swift-gpi">
+                                <Link to="/corporate/payment-cash/pay/domestic-international-transfers/swift-gpi">
                                   SWIFT gpi
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </li>
                           <li>
-                            <a href="/corporate/payment-cash/pay/internet-banking-pro-smartapprove">
+                            <Link to="/corporate/payment-cash/pay/internet-banking-pro-smartapprove">
                               Internet Banking Pro &amp; SmartApprove App
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/corporate/payment-cash/pay/bulk-payments">
+                            <Link to="/corporate/payment-cash/pay/bulk-payments">
                               Bulk Payments
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/corporate/payment-cash/pay/corporate-card">
+                            <Link to="/corporate/payment-cash/pay/corporate-card">
                               Corporate Card
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/corporate/payment-cash/pay/fleetman-card">
+                            <Link to="/corporate/payment-cash/pay/fleetman-card">
                               Fleetman Card
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/corporate/payment-cash/pay/swift-connectivity">
+                            <Link to="/corporate/payment-cash/pay/swift-connectivity">
                               SWIFT Connectivity
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/corporate/payment-cash/pay/drop-collect">
+                            <Link to="/corporate/payment-cash/pay/drop-collect">
                               Drop &amp; Collect
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="/corporate/payment-cash/collect">Collect </a>
+                        <Link to="/corporate/payment-cash/collect">
+                          Collect{" "}
+                        </Link>
                         <ul>
                           <li>
-                            <a href="/corporate/payment-cash/collect/direct-debit-bill-payment">
+                            <Link to="/corporate/payment-cash/collect/direct-debit-bill-payment">
                               Direct Debit &amp; Bill Payment
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/corporate/payment-cash/collect/cash-deposit-solutions">
+                            <Link to="/corporate/payment-cash/collect/cash-deposit-solutions">
                               Cash Deposit Solutions
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/corporate/payment-cash/collect/e-commerce">
+                            <Link to="/corporate/payment-cash/collect/e-commerce">
                               E-commerce{" "}
-                            </a>
+                            </Link>
                             <ul>
                               <li>
-                                <a href="/corporate/payment-cash/collect/e-commerce/online-payment-gateway">
+                                <Link to="/corporate/payment-cash/collect/e-commerce/online-payment-gateway">
                                   Online Payment Gateway
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="/corporate/payment-cash/collect/e-commerce/merchant-services">
+                                <Link to="/corporate/payment-cash/collect/e-commerce/merchant-services">
                                   Merchant Services
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </li>
                           <li>
-                            <a href="/corporate/payment-cash/collect/point-of-sale-solutions">
+                            <Link to="/corporate/payment-cash/collect/point-of-sale-solutions">
                               Point of Sale Solutions
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/corporate/payment-cash/collect/mobile-banking">
+                            <Link to="/corporate/payment-cash/collect/mobile-banking">
                               Mobile Banking
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="/corporate/payment-cash/monitor">Monitor </a>
+                        <Link to="/corporate/payment-cash/monitor">
+                          Monitor{" "}
+                        </Link>
                         <ul>
                           <li>
-                            <a href="/corporate/payment-cash/monitor/e-statements">
+                            <Link to="/corporate/payment-cash/monitor/e-statements">
                               E-Statements
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/corporate/payment-cash/monitor/reporting-services-ib-dashboard">
+                            <Link to="/corporate/payment-cash/monitor/reporting-services-ib-dashboard">
                               Reporting Services &amp; IB Dashboard
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="/corporate/payment-cash/optimise">Optimise </a>
+                        <Link to="/corporate/payment-cash/optimise">
+                          Optimise{" "}
+                        </Link>
                         <ul>
                           <li>
-                            <a href="/corporate/payment-cash/optimise/cash-pooling-services">
+                            <Link to="/corporate/payment-cash/optimise/cash-pooling-services">
                               Cash Pooling Services
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/corporate/payment-cash/optimise/fx-money-market-services">
+                            <Link to="/corporate/payment-cash/optimise/fx-money-market-services">
                               FX &amp; Money Market Services
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="/corporate/finance-lending">
+                    <Link to="/corporate/finance-lending">
                       Finance &amp; Lending{" "}
-                    </a>
+                    </Link>
                     <ul>
                       <li>
-                        <a href="/corporate/finance-lending/corporate-lending">
+                        <Link to="/corporate/finance-lending/corporate-lending">
                           Corporate Lending{" "}
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a href="/corporate/finance-lending/corporate-lending/overdraft-working-capital">
+                            <Link to="/corporate/finance-lending/corporate-lending/overdraft-working-capital">
                               Overdraft &amp; Working Capital
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/corporate/finance-lending/corporate-lending/revolving-credit">
+                            <Link to="/corporate/finance-lending/corporate-lending/revolving-credit">
                               Revolving Credit
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/corporate/finance-lending/corporate-lending/import-loan">
+                            <Link to="/corporate/finance-lending/corporate-lending/import-loan">
                               Import Loan
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/corporate/finance-lending/corporate-lending/export-loan">
+                            <Link to="/corporate/finance-lending/corporate-lending/export-loan">
                               Export Loan
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/corporate/finance-lending/corporate-lending/term-loan">
+                            <Link to="/corporate/finance-lending/corporate-lending/term-loan">
                               Term Loan
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/corporate/finance-lending/corporate-lending/sustainable-loan">
+                            <Link to="/corporate/finance-lending/corporate-lending/sustainable-loan">
                               Sustainable Loan
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/corporate/finance-lending/corporate-lending/guarantees">
+                            <Link to="/corporate/finance-lending/corporate-lending/guarantees">
                               Guarantees
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="/corporate/finance-lending/supply-chain-finance">
+                        <Link to="/corporate/finance-lending/supply-chain-finance">
                           Supply Chain Finance{" "}
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a href="/corporate/finance-lending/supply-chain-finance/global-trade-portal">
+                            <Link to="/corporate/finance-lending/supply-chain-finance/global-trade-portal">
                               Global Trade Portal
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/corporate/finance-lending/supply-chain-finance/trade-finance">
+                            <Link to="/corporate/finance-lending/supply-chain-finance/trade-finance">
                               Trade Finance{" "}
-                            </a>
+                            </Link>
                             <ul>
                               <li>
-                                <a href="/corporate/finance-lending/supply-chain-finance/trade-finance/trade-finance-forms">
+                                <Link to="/corporate/finance-lending/supply-chain-finance/trade-finance/trade-finance-forms">
                                   Trade Finance Forms
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </li>
                           <li>
-                            <a href="/corporate/finance-lending/supply-chain-finance/credit-protection">
+                            <Link to="/corporate/finance-lending/supply-chain-finance/credit-protection">
                               Credit Protection
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/corporate/finance-lending/supply-chain-finance/invoice-factoring">
+                            <Link to="/corporate/finance-lending/supply-chain-finance/invoice-factoring">
                               Invoice Factoring
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="/corporate/finance-lending/structured-finance">
+                        <Link to="/corporate/finance-lending/structured-finance">
                           Structured Finance{" "}
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a href="/corporate/finance-lending/structured-finance/acquisition-financing">
+                            <Link to="/corporate/finance-lending/structured-finance/acquisition-financing">
                               Acquisition Financing
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/corporate/finance-lending/structured-finance/property-financing">
+                            <Link to="/corporate/finance-lending/structured-finance/property-financing">
                               Property Financing
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/corporate/finance-lending/structured-finance/project-financing">
+                            <Link to="/corporate/finance-lending/structured-finance/project-financing">
                               Project Financing
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/corporate/finance-lending/structured-finance/energy-commodities">
+                            <Link to="/corporate/finance-lending/structured-finance/energy-commodities">
                               Energy &amp; Commodities{" "}
-                            </a>
+                            </Link>
                             <ul>
                               <li>
-                                <a href="/corporate/finance-lending/structured-finance/energy-commodities/our-success-stories">
+                                <Link to="/corporate/finance-lending/structured-finance/energy-commodities/our-success-stories">
                                   Our Success Stories
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </li>
                           <li>
-                            <a href="/corporate/finance-lending/structured-finance/cross-border-financing">
+                            <Link to="/corporate/finance-lending/structured-finance/cross-border-financing">
                               Cross-border Financing
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/corporate/finance-lending/structured-finance/syndicated-financing">
+                            <Link to="/corporate/finance-lending/structured-finance/syndicated-financing">
                               Syndicated Financing
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="/corporate/finance-lending/asset-finance">
+                        <Link to="/corporate/finance-lending/asset-finance">
                           Asset Finance{" "}
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a href="/corporate/finance-lending/asset-finance/mcb-leasing">
+                            <Link to="/corporate/finance-lending/asset-finance/mcb-leasing">
                               MCB Leasing
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="/corporate/investment-advisory">
+                    <Link to="/corporate/investment-advisory">
                       Investment &amp; Advisory{" "}
-                    </a>
+                    </Link>
                     <ul>
                       <li>
-                        <a href="/corporate/investment-advisory/global-markets">
+                        <Link to="/corporate/investment-advisory/global-markets">
                           Global Markets{" "}
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a href="/corporate/investment-advisory/global-markets/financial-markets-summary">
+                            <Link to="/corporate/investment-advisory/global-markets/financial-markets-summary">
                               Financial Markets summary
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/corporate/investment-advisory/global-markets/global-markets-solutions">
+                            <Link to="/corporate/investment-advisory/global-markets/global-markets-solutions">
                               Global Markets Solutions
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/corporate/investment-advisory/global-markets/direct-access-to-markets">
+                            <Link to="/corporate/investment-advisory/global-markets/direct-access-to-markets">
                               Direct access to markets
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="/corporate/investment-advisory/capital-markets">
+                        <Link to="/corporate/investment-advisory/capital-markets">
                           Capital Markets
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/corporate/investment-advisory/securities-services">
+                        <Link to="/corporate/investment-advisory/securities-services">
                           Securities Services
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
                 </ul>
               </li>
               <li>
-                <a
-                  href="/institutional"
+                <Link
+                  to="/institutional"
                   target="_self"
                   id="navbarDropdownMenuLink3-1"
                 >
                   Institutional
-                </a>
+                </Link>
                 <ul>
                   <li>
-                    <a href="/institutional/mcb-at-a-glance">MCB at a glance</a>
+                    <Link to="/institutional/mcb-at-a-glance">
+                      MCB at a glance
+                    </Link>
                   </li>
                   <li>
-                    <a href="/institutional/our-geographical-presence">
+                    <Link to="/institutional/our-geographical-presence">
                       Our geographical presence
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/institutional/our-solutions">Our solutions </a>
+                    <Link to="/institutional/our-solutions">
+                      Our solutions{" "}
+                    </Link>
                     <ul>
                       <li>
-                        <a href="/institutional/our-solutions/bank-of-banks">
+                        <Link to="/institutional/our-solutions/bank-of-banks">
                           Bank of Banks
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/institutional/our-solutions/correspondent-banking">
+                        <Link to="/institutional/our-solutions/correspondent-banking">
                           Correspondent Banking
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/institutional/our-solutions/risk-sharing">
+                        <Link to="/institutional/our-solutions/risk-sharing">
                           Risk Sharing
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/institutional/our-solutions/syndications">
+                        <Link to="/institutional/our-solutions/syndications">
                           Syndications
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="/institutional/events">Events</a>
+                    <Link to="/institutional/events">Events</Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="/rates-fees" target="_self">
+                <Link to="/rates-fees" target="_self">
                   Rates &amp; Fees
-                </a>
+                </Link>
               </li>
             </ul>
             {/* ma5-mobile-menu generated by js start */}
@@ -1033,14 +1085,14 @@ const Header = () => {
                   marginTop: "-30px",
                 }}
               >
-                <a className="ma5menu__home" href="/" tabIndex={-1}>
+                <Link className="ma5menu__home" to="/" tabIndex={-1}>
                   <span className="ma5menu__logo">
                     <img
-                      src="images/mcb/default-album/logo-mcb-caravelle-red.svg"
+                      src="/images/mcb/default-album/logo-mcb-caravelle-red.svg"
                       alt="MCB logo"
                     />
                   </span>
-                </a>
+                </Link>
               </div>
               <ul
                 data-ma5order="ma5-ul"
@@ -1050,7 +1102,7 @@ const Header = () => {
                   <span className="ma5menu__btn--enter">
                     <i className="icon-chevron-right" />
                   </span>
-                  <a href="/">Personal</a>
+                  <Link to="/">Personal</Link>
                   <ul data-ma5order="ma5-ul-1" className="lvl-1">
                     <div className="ma5menu__leave">
                       <span className="ma5menu__btn--leave">
@@ -1062,9 +1114,9 @@ const Header = () => {
                       <span className="ma5menu__btn--enter">
                         <i className="icon-chevron-right" />
                       </span>
-                      <a href="/personal/accounts-packages">
+                      <Link to="/personal/accounts-packages">
                         Accounts &amp; Packages{" "}
-                      </a>
+                      </Link>
                       <ul data-ma5order="ma5-ul-1-1" className="lvl-2">
                         <div className="ma5menu__leave">
                           <span className="ma5menu__btn--leave">
@@ -1073,37 +1125,37 @@ const Header = () => {
                           Accounts &amp; Packages{" "}
                         </div>
                         <li data-ma5order="ma5-li-1-1-1">
-                          <a href="/personal/accounts-packages/standard-savings-account">
+                          <Link to="/personal/accounts-packages/standard-savings-account">
                             Standard savings account
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-1-2">
-                          <a href="/personal/accounts-packages/mcb-rupys">
+                          <Link to="/personal/accounts-packages/mcb-rupys">
                             MCB Rupys
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-1-3">
-                          <a href="/personal/accounts-packages/standard-current-account">
+                          <Link to="/personal/accounts-packages/standard-current-account">
                             Standard current account
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-1-4">
-                          <a href="/personal/accounts-packages/foreign-currency-account">
+                          <Link to="/personal/accounts-packages/foreign-currency-account">
                             Foreign currency account
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-1-5">
-                          <a href="/personal/accounts-packages/instakit">
+                          <Link to="/personal/accounts-packages/instakit">
                             Instakit
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-1-6">
-                          <a href="/personal/accounts-packages/pack-1825">
+                          <Link to="/personal/accounts-packages/pack-1825">
                             Pack 18.25
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-1-7">
-                          <a href="/personal/accounts-packages/neo">NEO</a>
+                          <Link to="/personal/accounts-packages/neo">NEO</Link>
                         </li>
                       </ul>
                     </li>
@@ -1111,7 +1163,7 @@ const Header = () => {
                       <span className="ma5menu__btn--enter">
                         <i className="icon-chevron-right" />
                       </span>
-                      <a href="/personal/loans">Loans </a>
+                      <Link to="/personal/loans">Loans </Link>
                       <ul data-ma5order="ma5-ul-1-2" className="lvl-2">
                         <div className="ma5menu__leave">
                           <span className="ma5menu__btn--leave">
@@ -1120,28 +1172,30 @@ const Header = () => {
                           Loans{" "}
                         </div>
                         <li data-ma5order="ma5-li-1-2-1">
-                          <a href="/personal/loans/educational-loan">
+                          <Link to="/personal/loans/educational-loan">
                             Educational loan
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-2-2">
-                          <a href="/personal/loans/personal-loan">
+                          <Link to="/personal/loans/personal-loan">
                             Personal loan
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-2-3">
-                          <a href="/personal/loans/home-loan">Home loan</a>
+                          <Link to="/personal/loans/home-loan">Home loan</Link>
                         </li>
                         <li data-ma5order="ma5-li-1-2-4">
-                          <a href="/personal/loans/green-loan">Green loan</a>
+                          <Link to="/personal/loans/green-loan">
+                            Green loan
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-2-5">
-                          <a href="/personal/loans/personal-overdrafts">
+                          <Link to="/personal/loans/personal-overdrafts">
                             Personal overdrafts
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-2-6">
-                          <a href="https://mcbleasing.mu/">Car lease</a>
+                          <Link to="https://mcbleasing.mu/">Car lease</Link>
                         </li>
                       </ul>
                     </li>
@@ -1149,7 +1203,7 @@ const Header = () => {
                       <span className="ma5menu__btn--enter">
                         <i className="icon-chevron-right" />
                       </span>
-                      <a href="/personal/cards">Cards </a>
+                      <Link to="/personal/cards">Cards </Link>
                       <ul data-ma5order="ma5-ul-1-3" className="lvl-2">
                         <div className="ma5menu__leave">
                           <span className="ma5menu__btn--leave">
@@ -1158,32 +1212,32 @@ const Header = () => {
                           Cards{" "}
                         </div>
                         <li data-ma5order="ma5-li-1-3-1">
-                          <a href="/personal/cards/mcb-debit-card">
+                          <Link to="/personal/cards/mcb-debit-card">
                             MCB debit card
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-3-2">
-                          <a href="/personal/cards/mastercard-primo-credit-card">
+                          <Link to="/personal/cards/mastercard-primo-credit-card">
                             Mastercard Primo credit card
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-3-3">
-                          <a href="/personal/cards/classic-credit-card">
+                          <Link to="/personal/cards/classic-credit-card">
                             Classic credit card
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-3-4">
-                          <a href="/personal/cards/gold-credit-card">
+                          <Link to="/personal/cards/gold-credit-card">
                             Gold credit card
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-3-5">
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="/personal/cards/american-express">
+                          <Link to="/personal/cards/american-express">
                             American Express®{" "}
-                          </a>
+                          </Link>
                           <ul data-ma5order="ma5-ul-1-3-5" className="lvl-3">
                             <div className="ma5menu__leave">
                               <span className="ma5menu__btn--leave">
@@ -1192,44 +1246,44 @@ const Header = () => {
                               American Express®{" "}
                             </div>
                             <li data-ma5order="ma5-li-1-3-5-1">
-                              <a href="/personal/cards/american-express/american-express-green">
+                              <Link to="/personal/cards/american-express/american-express-green">
                                 American Express® Green
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-1-3-5-2">
-                              <a href="/personal/cards/american-express/american-express-gold">
+                              <Link to="/personal/cards/american-express/american-express-gold">
                                 American Express® Gold
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-1-3-5-3">
-                              <a href="/personal/cards/american-express/membership-rewards">
+                              <Link to="/personal/cards/american-express/membership-rewards">
                                 Membership Rewards®
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </li>
                         <li data-ma5order="ma5-li-1-3-6">
-                          <a href="/personal/cards/visa-platinum">
+                          <Link to="/personal/cards/visa-platinum">
                             Visa Platinum
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-3-7">
-                          <a href="/personal/cards/visa-signature">
+                          <Link to="/personal/cards/visa-signature">
                             Visa Signature
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-3-8">
-                          <a href="/personal/cards/compare-our-credit-cards">
+                          <Link to="/personal/cards/compare-our-credit-cards">
                             Compare our credit cards
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-3-9">
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="/personal/cards/prepaid-cards">
+                          <Link to="/personal/cards/prepaid-cards">
                             Prepaid cards{" "}
-                          </a>
+                          </Link>
                           <ul data-ma5order="ma5-ul-1-3-9" className="lvl-3">
                             <div className="ma5menu__leave">
                               <span className="ma5menu__btn--leave">
@@ -1238,21 +1292,21 @@ const Header = () => {
                               Prepaid cards{" "}
                             </div>
                             <li data-ma5order="ma5-li-1-3-9-1">
-                              <a href="/personal/cards/prepaid-cards/visa-prepaid-card">
+                              <Link to="/personal/cards/prepaid-cards/visa-prepaid-card">
                                 VISA prepaid card
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-1-3-9-2">
-                              <a href="/personal/cards/prepaid-cards/unionpay-prepaid-card">
+                              <Link to="/personal/cards/prepaid-cards/unionpay-prepaid-card">
                                 UnionPay prepaid card
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </li>
                         <li data-ma5order="ma5-li-1-3-10">
-                          <a href="/personal/cards/travel-insurance">
+                          <Link to="/personal/cards/travel-insurance">
                             Travel insurance
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
@@ -1260,7 +1314,7 @@ const Header = () => {
                       <span className="ma5menu__btn--enter">
                         <i className="icon-chevron-right" />
                       </span>
-                      <a href="/personal/investments">Investments </a>
+                      <Link to="/personal/investments">Investments </Link>
                       <ul data-ma5order="ma5-ul-1-4" className="lvl-2">
                         <div className="ma5menu__leave">
                           <span className="ma5menu__btn--leave">
@@ -1269,34 +1323,34 @@ const Header = () => {
                           Investments{" "}
                         </div>
                         <li data-ma5order="ma5-li-1-4-1">
-                          <a href="/personal/investments/mcb-mutual-funds">
+                          <Link to="/personal/investments/mcb-mutual-funds">
                             MCB Mutual Funds
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-4-2">
-                          <a href="/personal/investments/stockbroking">
+                          <Link to="/personal/investments/stockbroking">
                             Stockbroking
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-4-3">
-                          <a href="/personal/investments/education-plan">
+                          <Link to="/personal/investments/education-plan">
                             Education plan
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-4-4">
-                          <a href="/personal/investments/retirement-plan">
+                          <Link to="/personal/investments/retirement-plan">
                             Retirement plan
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-4-5">
-                          <a href="/personal/investments/life-insurance">
+                          <Link to="/personal/investments/life-insurance">
                             Life insurance
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-4-6">
-                          <a href="/personal/investments/fixed-deposit">
+                          <Link to="/personal/investments/fixed-deposit">
                             Fixed deposit
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
@@ -1304,7 +1358,7 @@ const Header = () => {
                       <span className="ma5menu__btn--enter">
                         <i className="icon-chevron-right" />
                       </span>
-                      <a href="/personal/ways-to-bank">Ways to bank </a>
+                      <Link to="/personal/ways-to-bank">Ways to bank </Link>
                       <ul data-ma5order="ma5-ul-1-5" className="lvl-2">
                         <div className="ma5menu__leave">
                           <span className="ma5menu__btn--leave">
@@ -1313,43 +1367,43 @@ const Header = () => {
                           Ways to bank{" "}
                         </div>
                         <li data-ma5order="ma5-li-1-5-1">
-                          <a href="https://juice.mu/">MCB Juice</a>
+                          <Link to="https://juice.mu/">MCB Juice</Link>
                         </li>
                         <li data-ma5order="ma5-li-1-5-2">
-                          <a href="/personal/ways-to-bank/internet-banking">
+                          <Link to="/personal/ways-to-bank/internet-banking">
                             Internet banking
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-5-3">
-                          <a href="/personal/ways-to-bank/sms-banking">
+                          <Link to="/personal/ways-to-bank/sms-banking">
                             SMS banking
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-5-4">
-                          <a href="/personal/ways-to-bank/mcb-refill">
+                          <Link to="/personal/ways-to-bank/mcb-refill">
                             MCB Refill
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-5-5">
-                          <a href="/personal/ways-to-bank/atms">ATMs</a>
+                          <Link to="/personal/ways-to-bank/atms">ATMs</Link>
                         </li>
                         <li data-ma5order="ma5-li-1-5-6">
-                          <a href="/personal/ways-to-bank/in-branch-banking">
+                          <Link to="/personal/ways-to-bank/in-branch-banking">
                             In-branch banking
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-5-7">
-                          <a href="/personal/ways-to-bank/bill-payments">
+                          <Link to="/personal/ways-to-bank/bill-payments">
                             Pay my bills
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-5-8">
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="/personal/ways-to-bank/international-transfers">
+                          <Link to="/personal/ways-to-bank/international-transfers">
                             International transfers{" "}
-                          </a>
+                          </Link>
                           <ul data-ma5order="ma5-ul-1-5-8" className="lvl-3">
                             <div className="ma5menu__leave">
                               <span className="ma5menu__btn--leave">
@@ -1358,21 +1412,21 @@ const Header = () => {
                               International transfers{" "}
                             </div>
                             <li data-ma5order="ma5-li-1-5-8-1">
-                              <a href="/personal/ways-to-bank/international-transfers/international-payment">
+                              <Link to="/personal/ways-to-bank/international-transfers/international-payment">
                                 International payment
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-1-5-8-2">
-                              <a href="/personal/ways-to-bank/international-transfers/moneygram">
+                              <Link to="/personal/ways-to-bank/international-transfers/moneygram">
                                 MoneyGram
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </li>
                         <li data-ma5order="ma5-li-1-5-9">
-                          <a href="/personal/ways-to-bank/e-statements">
+                          <Link to="/personal/ways-to-bank/e-statements">
                             E-Statements
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
@@ -1380,9 +1434,9 @@ const Header = () => {
                       <span className="ma5menu__btn--enter">
                         <i className="icon-chevron-right" />
                       </span>
-                      <a href="/personal/existing-customers">
+                      <Link to="/personal/existing-customers">
                         Existing customers{" "}
-                      </a>
+                      </Link>
                       <ul data-ma5order="ma5-ul-1-6" className="lvl-2">
                         <div className="ma5menu__leave">
                           <span className="ma5menu__btn--leave">
@@ -1391,47 +1445,51 @@ const Header = () => {
                           Existing customers{" "}
                         </div>
                         <li data-ma5order="ma5-li-1-6-1">
-                          <a href="https://juice.mu/">Get MCB Juice</a>
+                          <Link to="https://juice.mu/">Get MCB Juice</Link>
                         </li>
                         <li data-ma5order="ma5-li-1-6-2">
-                          <a href="/personal/existing-customers/log-in-to-internet-banking">
+                          <Link to="/personal/existing-customers/log-in-to-internet-banking">
                             Log in to Internet Banking
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-6-3">
-                          <a href="/personal/offers-and-promotions">
+                          <Link to="/personal/offers-and-promotions">
                             Offers &amp; promotions
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-6-4">
-                          <a href="/personal/cards/american-express/membership-rewards">
+                          <Link to="/personal/cards/american-express/membership-rewards">
                             American Express® Membership Rewards® programme
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-6-5">
-                          <a href="/personal/help-centre">Go to help center</a>
+                          <Link to="/personal/help-centre">
+                            Go to help center
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-6-6">
-                          <a href="/security-centre">Go to security center</a>
+                          <Link to="/security-centre">
+                            Go to security center
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-6-7">
-                          <a href="/personal/existing-customers/update-your-personal-profile">
+                          <Link to="/personal/existing-customers/update-your-personal-profile">
                             Update your personal profile
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-1-6-8">
-                          <a href="/contact-us">Contact us</a>
+                          <Link to="/contact-us">Contact us</Link>
                         </li>
                         <li data-ma5order="ma5-li-1-6-9">
-                          <a href="/file-a-complaint">File a complaint</a>
+                          <Link to="/file-a-complaint">File a complaint</Link>
                         </li>
                         <li data-ma5order="ma5-li-1-6-10">
-                          <a href="/locate-us">Find your nearest branch</a>
+                          <Link to="/locate-us">Find your nearest branch</Link>
                         </li>
                         <li data-ma5order="ma5-li-1-6-11">
-                          <a href="/rates-fees">
+                          <Link to="/rates-fees">
                             View interest rates, fees and charges
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
@@ -1441,7 +1499,7 @@ const Header = () => {
                   <span className="ma5menu__btn--enter">
                     <i className="icon-chevron-right" />
                   </span>
-                  <a href="/sme">SME</a>
+                  <Link to="/sme">SME</Link>
                   <ul data-ma5order="ma5-ul-2" className="lvl-1">
                     <div className="ma5menu__leave">
                       <span className="ma5menu__btn--leave">
@@ -1453,7 +1511,7 @@ const Header = () => {
                       <span className="ma5menu__btn--enter">
                         <i className="icon-chevron-right" />
                       </span>
-                      <a href="/sme/bank">Bank </a>
+                      <Link to="/sme/bank">Bank </Link>
                       <ul data-ma5order="ma5-ul-2-1" className="lvl-2">
                         <div className="ma5menu__leave">
                           <span className="ma5menu__btn--leave">
@@ -1462,17 +1520,17 @@ const Header = () => {
                           Bank{" "}
                         </div>
                         <li data-ma5order="ma5-li-2-1-1">
-                          <a href="/sme/bank/business-account">
+                          <Link to="/sme/bank/business-account">
                             Business Account
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-2-1-2">
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="/sme/bank/tailor-made-solutions">
+                          <Link to="/sme/bank/tailor-made-solutions">
                             Tailor-made Solutions{" "}
-                          </a>
+                          </Link>
                           <ul data-ma5order="ma5-ul-2-1-2" className="lvl-3">
                             <div className="ma5menu__leave">
                               <span className="ma5menu__btn--leave">
@@ -1481,9 +1539,9 @@ const Header = () => {
                               Tailor-made Solutions{" "}
                             </div>
                             <li data-ma5order="ma5-li-2-1-2-1">
-                              <a href="https://www.mcbmicrofinance.mu/">
+                              <Link to="https://www.mcbmicrofinance.mu/">
                                 MCB Microfinance
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </li>
@@ -1491,9 +1549,9 @@ const Header = () => {
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="/sme/bank/transact-anytime-anywhere">
+                          <Link to="/sme/bank/transact-anytime-anywhere">
                             Transact anytime, anywhere{" "}
-                          </a>
+                          </Link>
                           <ul data-ma5order="ma5-ul-2-1-3" className="lvl-3">
                             <div className="ma5menu__leave">
                               <span className="ma5menu__btn--leave">
@@ -1502,24 +1560,24 @@ const Header = () => {
                               Transact anytime, anywhere{" "}
                             </div>
                             <li data-ma5order="ma5-li-2-1-3-1">
-                              <a href="/sme/bank/transact-anytime-anywhere/internet-banking">
+                              <Link to="/sme/bank/transact-anytime-anywhere/internet-banking">
                                 Internet Banking
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-2-1-3-2">
-                              <a href="/sme/bank/transact-anytime-anywhere/atm">
+                              <Link to="/sme/bank/transact-anytime-anywhere/atm">
                                 ATM
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-2-1-3-3">
-                              <a href="/sme/bank/transact-anytime-anywhere/e-statements">
+                              <Link to="/sme/bank/transact-anytime-anywhere/e-statements">
                                 E-Statements
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-2-1-3-4">
-                              <a href="/sme/bank/transact-anytime-anywhere/juicepro">
+                              <Link to="/sme/bank/transact-anytime-anywhere/juicepro">
                                 JuicePro
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </li>
@@ -1529,7 +1587,7 @@ const Header = () => {
                       <span className="ma5menu__btn--enter">
                         <i className="icon-chevron-right" />
                       </span>
-                      <a href="/sme/borrow">Borrow </a>
+                      <Link to="/sme/borrow">Borrow </Link>
                       <ul data-ma5order="ma5-ul-2-2" className="lvl-2">
                         <div className="ma5menu__leave">
                           <span className="ma5menu__btn--leave">
@@ -1538,34 +1596,36 @@ const Header = () => {
                           Borrow{" "}
                         </div>
                         <li data-ma5order="ma5-li-2-2-1">
-                          <a href="/sme/borrow/loans">Loans</a>
+                          <Link to="/sme/borrow/loans">Loans</Link>
                         </li>
                         <li data-ma5order="ma5-li-2-2-2">
-                          <a href="/sme/borrow/overdrafts">Overdrafts</a>
+                          <Link to="/sme/borrow/overdrafts">Overdrafts</Link>
                         </li>
                         <li data-ma5order="ma5-li-2-2-3">
-                          <a href="/sme/borrow/leasing">Leasing</a>
+                          <Link to="/sme/borrow/leasing">Leasing</Link>
                         </li>
                         <li data-ma5order="ma5-li-2-2-4">
-                          <a href="/sme/borrow/trade-finance">Trade Finance</a>
+                          <Link to="/sme/borrow/trade-finance">
+                            Trade Finance
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-2-2-5">
-                          <a href="/sme/borrow/sustainable-loan">
+                          <Link to="/sme/borrow/sustainable-loan">
                             Sustainable Loan
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-2-2-6">
-                          <a href="/sme/borrow/factoring">Factoring</a>
+                          <Link to="/sme/borrow/factoring">Factoring</Link>
                         </li>
                         <li data-ma5order="ma5-li-2-2-7">
-                          <a href="/sme/borrow/bank-guarantees">
+                          <Link to="/sme/borrow/bank-guarantees">
                             Bank Guarantees
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-2-2-8">
-                          <a href="/sme/borrow/lokal-is-beautiful">
+                          <Link to="/sme/borrow/lokal-is-beautiful">
                             Lokal is Beautiful
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
@@ -1573,7 +1633,7 @@ const Header = () => {
                       <span className="ma5menu__btn--enter">
                         <i className="icon-chevron-right" />
                       </span>
-                      <a href="/sme/pay">Pay </a>
+                      <Link to="/sme/pay">Pay </Link>
                       <ul data-ma5order="ma5-ul-2-3" className="lvl-2">
                         <div className="ma5menu__leave">
                           <span className="ma5menu__btn--leave">
@@ -1585,7 +1645,7 @@ const Header = () => {
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="/sme/pay/cards">Cards </a>
+                          <Link to="/sme/pay/cards">Cards </Link>
                           <ul data-ma5order="ma5-ul-2-3-1" className="lvl-3">
                             <div className="ma5menu__leave">
                               <span className="ma5menu__btn--leave">
@@ -1594,37 +1654,37 @@ const Header = () => {
                               Cards{" "}
                             </div>
                             <li data-ma5order="ma5-li-2-3-1-1">
-                              <a href="/sme/pay/cards/business-card">
+                              <Link to="/sme/pay/cards/business-card">
                                 Business Card
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-2-3-1-2">
-                              <a href="/sme/pay/cards/business-deposit-card">
+                              <Link to="/sme/pay/cards/business-deposit-card">
                                 Business Deposit Card
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-2-3-1-3">
-                              <a href="/sme/pay/cards/fleetman-card">
+                              <Link to="/sme/pay/cards/fleetman-card">
                                 Fleetman Card
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </li>
                         <li data-ma5order="ma5-li-2-3-2">
-                          <a href="/sme/pay/payroll-services">
+                          <Link to="/sme/pay/payroll-services">
                             Payroll Services
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-2-3-3">
-                          <a href="/sme/pay/cheques">Cheques</a>
+                          <Link to="/sme/pay/cheques">Cheques</Link>
                         </li>
                         <li data-ma5order="ma5-li-2-3-4">
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="/sme/pay/electronic-payments">
+                          <Link to="/sme/pay/electronic-payments">
                             Electronic Payments{" "}
-                          </a>
+                          </Link>
                           <ul data-ma5order="ma5-ul-2-3-4" className="lvl-3">
                             <div className="ma5menu__leave">
                               <span className="ma5menu__btn--leave">
@@ -1633,14 +1693,14 @@ const Header = () => {
                               Electronic Payments{" "}
                             </div>
                             <li data-ma5order="ma5-li-2-3-4-1">
-                              <a href="/sme/pay/electronic-payments/electronic-transfer">
+                              <Link to="/sme/pay/electronic-payments/electronic-transfer">
                                 Electronic Transfer
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-2-3-4-2">
-                              <a href="/sme/pay/electronic-payments/e-commerce-solutions">
+                              <Link to="/sme/pay/electronic-payments/e-commerce-solutions">
                                 E-Commerce Solutions
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </li>
@@ -1650,7 +1710,7 @@ const Header = () => {
                       <span className="ma5menu__btn--enter">
                         <i className="icon-chevron-right" />
                       </span>
-                      <a href="/sme/sme-connect">SME Connect </a>
+                      <Link to="/sme/sme-connect">SME Connect </Link>
                       <ul data-ma5order="ma5-ul-2-4" className="lvl-2">
                         <div className="ma5menu__leave">
                           <span className="ma5menu__btn--leave">
@@ -1659,19 +1719,19 @@ const Header = () => {
                           SME Connect{" "}
                         </div>
                         <li data-ma5order="ma5-li-2-4-1">
-                          <a href="/sme/sme-connect/start-your-business">
+                          <Link to="/sme/sme-connect/start-your-business">
                             Start Your Business
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-2-4-2">
-                          <a href="/sme/sme-connect/manage-your-business">
+                          <Link to="/sme/sme-connect/manage-your-business">
                             Manage Your Business
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-2-4-3">
-                          <a href="/sme/sme-connect/speaker-series">
+                          <Link to="/sme/sme-connect/speaker-series">
                             Speaker Series
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
@@ -1681,7 +1741,7 @@ const Header = () => {
                   <span className="ma5menu__btn--enter">
                     <i className="icon-chevron-right" />
                   </span>
-                  <a href="/corporate">Corporate</a>
+                  <Link to="/corporate">Corporate</Link>
                   <ul data-ma5order="ma5-ul-3" className="lvl-1">
                     <div className="ma5menu__leave">
                       <span className="ma5menu__btn--leave">
@@ -1693,7 +1753,7 @@ const Header = () => {
                       <span className="ma5menu__btn--enter">
                         <i className="icon-chevron-right" />
                       </span>
-                      <a href="/corporate/what-we-do">What we do </a>
+                      <Link to="/corporate/what-we-do">What we do </Link>
                       <ul data-ma5order="ma5-ul-3-1" className="lvl-2">
                         <div className="ma5menu__leave">
                           <span className="ma5menu__btn--leave">
@@ -1705,9 +1765,9 @@ const Header = () => {
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="/corporate/what-we-do/corporate-banking">
+                          <Link to="/corporate/what-we-do/corporate-banking">
                             Corporate Banking{" "}
-                          </a>
+                          </Link>
                           <ul data-ma5order="ma5-ul-3-1-1" className="lvl-3">
                             <div className="ma5menu__leave">
                               <span className="ma5menu__btn--leave">
@@ -1716,14 +1776,14 @@ const Header = () => {
                               Corporate Banking{" "}
                             </div>
                             <li data-ma5order="ma5-li-3-1-1-1">
-                              <a href="/corporate/what-we-do/corporate-banking/our-success-stories">
+                              <Link to="/corporate/what-we-do/corporate-banking/our-success-stories">
                                 Our success stories
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-3-1-1-2">
-                              <a href="/corporate/what-we-do/corporate-banking/become-a-client">
+                              <Link to="/corporate/what-we-do/corporate-banking/become-a-client">
                                 Become a client
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </li>
@@ -1731,9 +1791,9 @@ const Header = () => {
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="/corporate/what-we-do/global-business">
+                          <Link to="/corporate/what-we-do/global-business">
                             Global Business{" "}
-                          </a>
+                          </Link>
                           <ul data-ma5order="ma5-ul-3-1-2" className="lvl-3">
                             <div className="ma5menu__leave">
                               <span className="ma5menu__btn--leave">
@@ -1742,32 +1802,32 @@ const Header = () => {
                               Global Business{" "}
                             </div>
                             <li data-ma5order="ma5-li-3-1-2-1">
-                              <a href="/corporate/what-we-do/global-business/become-a-client">
+                              <Link to="/corporate/what-we-do/global-business/become-a-client">
                                 Become a client
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-3-1-2-2">
-                              <a href="/corporate/what-we-do/global-business/investing-in-mauritius">
+                              <Link to="/corporate/what-we-do/global-business/investing-in-mauritius">
                                 Investing in Mauritius
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-3-1-2-3">
-                              <a href="/corporate/what-we-do/global-business/custody-services">
+                              <Link to="/corporate/what-we-do/global-business/custody-services">
                                 Custody Services
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </li>
                         <li data-ma5order="ma5-li-3-1-3">
-                          <a href="/corporate/finance-lending/structured-finance/energy-commodities">
+                          <Link to="/corporate/finance-lending/structured-finance/energy-commodities">
                             Energy &amp; Commodities Financing
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-3-1-4">
-                          <a href="/institutional">Institutional Banking</a>
+                          <Link to="/institutional">Institutional Banking</Link>
                         </li>
                         <li data-ma5order="ma5-li-3-1-5">
-                          <a href="/sme">SME Banking</a>
+                          <Link to="/sme">SME Banking</Link>
                         </li>
                       </ul>
                     </li>
@@ -1775,7 +1835,9 @@ const Header = () => {
                       <span className="ma5menu__btn--enter">
                         <i className="icon-chevron-right" />
                       </span>
-                      <a href="/corporate/payment-cash">Payment &amp; Cash </a>
+                      <Link to="/corporate/payment-cash">
+                        Payment &amp; Cash{" "}
+                      </Link>
                       <ul data-ma5order="ma5-ul-3-2" className="lvl-2">
                         <div className="ma5menu__leave">
                           <span className="ma5menu__btn--leave">
@@ -1787,7 +1849,7 @@ const Header = () => {
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="/corporate/payment-cash/pay">Pay </a>
+                          <Link to="/corporate/payment-cash/pay">Pay </Link>
                           <ul data-ma5order="ma5-ul-3-2-1" className="lvl-3">
                             <div className="ma5menu__leave">
                               <span className="ma5menu__btn--leave">
@@ -1799,9 +1861,9 @@ const Header = () => {
                               <span className="ma5menu__btn--enter">
                                 <i className="icon-chevron-right" />
                               </span>
-                              <a href="/corporate/payment-cash/pay/domestic-international-transfers">
+                              <Link to="/corporate/payment-cash/pay/domestic-international-transfers">
                                 Domestic &amp; International transfers{" "}
-                              </a>
+                              </Link>
                               <ul
                                 data-ma5order="ma5-ul-3-2-1-1"
                                 className="lvl-4"
@@ -1813,41 +1875,41 @@ const Header = () => {
                                   Domestic &amp; International transfers{" "}
                                 </div>
                                 <li data-ma5order="ma5-li-3-2-1-1-1">
-                                  <a href="/corporate/payment-cash/pay/domestic-international-transfers/swift-gpi">
+                                  <Link to="/corporate/payment-cash/pay/domestic-international-transfers/swift-gpi">
                                     SWIFT gpi
-                                  </a>
+                                  </Link>
                                 </li>
                               </ul>
                             </li>
                             <li data-ma5order="ma5-li-3-2-1-2">
-                              <a href="/corporate/payment-cash/pay/internet-banking-pro-smartapprove">
+                              <Link to="/corporate/payment-cash/pay/internet-banking-pro-smartapprove">
                                 Internet Banking Pro &amp; SmartApprove App
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-3-2-1-3">
-                              <a href="/corporate/payment-cash/pay/bulk-payments">
+                              <Link to="/corporate/payment-cash/pay/bulk-payments">
                                 Bulk Payments
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-3-2-1-4">
-                              <a href="/corporate/payment-cash/pay/corporate-card">
+                              <Link to="/corporate/payment-cash/pay/corporate-card">
                                 Corporate Card
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-3-2-1-5">
-                              <a href="/corporate/payment-cash/pay/fleetman-card">
+                              <Link to="/corporate/payment-cash/pay/fleetman-card">
                                 Fleetman Card
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-3-2-1-6">
-                              <a href="/corporate/payment-cash/pay/swift-connectivity">
+                              <Link to="/corporate/payment-cash/pay/swift-connectivity">
                                 SWIFT Connectivity
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-3-2-1-7">
-                              <a href="/corporate/payment-cash/pay/drop-collect">
+                              <Link to="/corporate/payment-cash/pay/drop-collect">
                                 Drop &amp; Collect
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </li>
@@ -1855,7 +1917,9 @@ const Header = () => {
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="/corporate/payment-cash/collect">Collect </a>
+                          <Link to="/corporate/payment-cash/collect">
+                            Collect{" "}
+                          </Link>
                           <ul data-ma5order="ma5-ul-3-2-2" className="lvl-3">
                             <div className="ma5menu__leave">
                               <span className="ma5menu__btn--leave">
@@ -1864,22 +1928,22 @@ const Header = () => {
                               Collect{" "}
                             </div>
                             <li data-ma5order="ma5-li-3-2-2-1">
-                              <a href="/corporate/payment-cash/collect/direct-debit-bill-payment">
+                              <Link to="/corporate/payment-cash/collect/direct-debit-bill-payment">
                                 Direct Debit &amp; Bill Payment
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-3-2-2-2">
-                              <a href="/corporate/payment-cash/collect/cash-deposit-solutions">
+                              <Link to="/corporate/payment-cash/collect/cash-deposit-solutions">
                                 Cash Deposit Solutions
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-3-2-2-3">
                               <span className="ma5menu__btn--enter">
                                 <i className="icon-chevron-right" />
                               </span>
-                              <a href="/corporate/payment-cash/collect/e-commerce">
+                              <Link to="/corporate/payment-cash/collect/e-commerce">
                                 E-commerce{" "}
-                              </a>
+                              </Link>
                               <ul
                                 data-ma5order="ma5-ul-3-2-2-3"
                                 className="lvl-4"
@@ -1891,26 +1955,26 @@ const Header = () => {
                                   E-commerce{" "}
                                 </div>
                                 <li data-ma5order="ma5-li-3-2-2-3-1">
-                                  <a href="/corporate/payment-cash/collect/e-commerce/online-payment-gateway">
+                                  <Link to="/corporate/payment-cash/collect/e-commerce/online-payment-gateway">
                                     Online Payment Gateway
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li data-ma5order="ma5-li-3-2-2-3-2">
-                                  <a href="/corporate/payment-cash/collect/e-commerce/merchant-services">
+                                  <Link to="/corporate/payment-cash/collect/e-commerce/merchant-services">
                                     Merchant Services
-                                  </a>
+                                  </Link>
                                 </li>
                               </ul>
                             </li>
                             <li data-ma5order="ma5-li-3-2-2-4">
-                              <a href="/corporate/payment-cash/collect/point-of-sale-solutions">
+                              <Link to="/corporate/payment-cash/collect/point-of-sale-solutions">
                                 Point of Sale Solutions
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-3-2-2-5">
-                              <a href="/corporate/payment-cash/collect/mobile-banking">
+                              <Link to="/corporate/payment-cash/collect/mobile-banking">
                                 Mobile Banking
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </li>
@@ -1918,7 +1982,9 @@ const Header = () => {
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="/corporate/payment-cash/monitor">Monitor </a>
+                          <Link to="/corporate/payment-cash/monitor">
+                            Monitor{" "}
+                          </Link>
                           <ul data-ma5order="ma5-ul-3-2-3" className="lvl-3">
                             <div className="ma5menu__leave">
                               <span className="ma5menu__btn--leave">
@@ -1927,14 +1993,14 @@ const Header = () => {
                               Monitor{" "}
                             </div>
                             <li data-ma5order="ma5-li-3-2-3-1">
-                              <a href="/corporate/payment-cash/monitor/e-statements">
+                              <Link to="/corporate/payment-cash/monitor/e-statements">
                                 E-Statements
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-3-2-3-2">
-                              <a href="/corporate/payment-cash/monitor/reporting-services-ib-dashboard">
+                              <Link to="/corporate/payment-cash/monitor/reporting-services-ib-dashboard">
                                 Reporting Services &amp; IB Dashboard
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </li>
@@ -1942,9 +2008,9 @@ const Header = () => {
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="/corporate/payment-cash/optimise">
+                          <Link to="/corporate/payment-cash/optimise">
                             Optimise{" "}
-                          </a>
+                          </Link>
                           <ul data-ma5order="ma5-ul-3-2-4" className="lvl-3">
                             <div className="ma5menu__leave">
                               <span className="ma5menu__btn--leave">
@@ -1953,14 +2019,14 @@ const Header = () => {
                               Optimise{" "}
                             </div>
                             <li data-ma5order="ma5-li-3-2-4-1">
-                              <a href="/corporate/payment-cash/optimise/cash-pooling-services">
+                              <Link to="/corporate/payment-cash/optimise/cash-pooling-services">
                                 Cash Pooling Services
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-3-2-4-2">
-                              <a href="/corporate/payment-cash/optimise/fx-money-market-services">
+                              <Link to="/corporate/payment-cash/optimise/fx-money-market-services">
                                 FX &amp; Money Market Services
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </li>
@@ -1970,9 +2036,9 @@ const Header = () => {
                       <span className="ma5menu__btn--enter">
                         <i className="icon-chevron-right" />
                       </span>
-                      <a href="/corporate/finance-lending">
+                      <Link to="/corporate/finance-lending">
                         Finance &amp; Lending{" "}
-                      </a>
+                      </Link>
                       <ul data-ma5order="ma5-ul-3-3" className="lvl-2">
                         <div className="ma5menu__leave">
                           <span className="ma5menu__btn--leave">
@@ -1984,9 +2050,9 @@ const Header = () => {
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="/corporate/finance-lending/corporate-lending">
+                          <Link to="/corporate/finance-lending/corporate-lending">
                             Corporate Lending{" "}
-                          </a>
+                          </Link>
                           <ul data-ma5order="ma5-ul-3-3-1" className="lvl-3">
                             <div className="ma5menu__leave">
                               <span className="ma5menu__btn--leave">
@@ -1995,39 +2061,39 @@ const Header = () => {
                               Corporate Lending{" "}
                             </div>
                             <li data-ma5order="ma5-li-3-3-1-1">
-                              <a href="/corporate/finance-lending/corporate-lending/overdraft-working-capital">
+                              <Link to="/corporate/finance-lending/corporate-lending/overdraft-working-capital">
                                 Overdraft &amp; Working Capital
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-3-3-1-2">
-                              <a href="/corporate/finance-lending/corporate-lending/revolving-credit">
+                              <Link to="/corporate/finance-lending/corporate-lending/revolving-credit">
                                 Revolving Credit
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-3-3-1-3">
-                              <a href="/corporate/finance-lending/corporate-lending/import-loan">
+                              <Link to="/corporate/finance-lending/corporate-lending/import-loan">
                                 Import Loan
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-3-3-1-4">
-                              <a href="/corporate/finance-lending/corporate-lending/export-loan">
+                              <Link to="/corporate/finance-lending/corporate-lending/export-loan">
                                 Export Loan
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-3-3-1-5">
-                              <a href="/corporate/finance-lending/corporate-lending/term-loan">
+                              <Link to="/corporate/finance-lending/corporate-lending/term-loan">
                                 Term Loan
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-3-3-1-6">
-                              <a href="/corporate/finance-lending/corporate-lending/sustainable-loan">
+                              <Link to="/corporate/finance-lending/corporate-lending/sustainable-loan">
                                 Sustainable Loan
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-3-3-1-7">
-                              <a href="/corporate/finance-lending/corporate-lending/guarantees">
+                              <Link to="/corporate/finance-lending/corporate-lending/guarantees">
                                 Guarantees
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </li>
@@ -2035,9 +2101,9 @@ const Header = () => {
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="/corporate/finance-lending/supply-chain-finance">
+                          <Link to="/corporate/finance-lending/supply-chain-finance">
                             Supply Chain Finance{" "}
-                          </a>
+                          </Link>
                           <ul data-ma5order="ma5-ul-3-3-2" className="lvl-3">
                             <div className="ma5menu__leave">
                               <span className="ma5menu__btn--leave">
@@ -2046,17 +2112,17 @@ const Header = () => {
                               Supply Chain Finance{" "}
                             </div>
                             <li data-ma5order="ma5-li-3-3-2-1">
-                              <a href="/corporate/finance-lending/supply-chain-finance/global-trade-portal">
+                              <Link to="/corporate/finance-lending/supply-chain-finance/global-trade-portal">
                                 Global Trade Portal
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-3-3-2-2">
                               <span className="ma5menu__btn--enter">
                                 <i className="icon-chevron-right" />
                               </span>
-                              <a href="/corporate/finance-lending/supply-chain-finance/trade-finance">
+                              <Link to="/corporate/finance-lending/supply-chain-finance/trade-finance">
                                 Trade Finance{" "}
-                              </a>
+                              </Link>
                               <ul
                                 data-ma5order="ma5-ul-3-3-2-2"
                                 className="lvl-4"
@@ -2068,21 +2134,21 @@ const Header = () => {
                                   Trade Finance{" "}
                                 </div>
                                 <li data-ma5order="ma5-li-3-3-2-2-1">
-                                  <a href="/corporate/finance-lending/supply-chain-finance/trade-finance/trade-finance-forms">
+                                  <Link to="/corporate/finance-lending/supply-chain-finance/trade-finance/trade-finance-forms">
                                     Trade Finance Forms
-                                  </a>
+                                  </Link>
                                 </li>
                               </ul>
                             </li>
                             <li data-ma5order="ma5-li-3-3-2-3">
-                              <a href="/corporate/finance-lending/supply-chain-finance/credit-protection">
+                              <Link to="/corporate/finance-lending/supply-chain-finance/credit-protection">
                                 Credit Protection
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-3-3-2-4">
-                              <a href="/corporate/finance-lending/supply-chain-finance/invoice-factoring">
+                              <Link to="/corporate/finance-lending/supply-chain-finance/invoice-factoring">
                                 Invoice Factoring
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </li>
@@ -2090,9 +2156,9 @@ const Header = () => {
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="/corporate/finance-lending/structured-finance">
+                          <Link to="/corporate/finance-lending/structured-finance">
                             Structured Finance{" "}
-                          </a>
+                          </Link>
                           <ul data-ma5order="ma5-ul-3-3-3" className="lvl-3">
                             <div className="ma5menu__leave">
                               <span className="ma5menu__btn--leave">
@@ -2101,27 +2167,27 @@ const Header = () => {
                               Structured Finance{" "}
                             </div>
                             <li data-ma5order="ma5-li-3-3-3-1">
-                              <a href="/corporate/finance-lending/structured-finance/acquisition-financing">
+                              <Link to="/corporate/finance-lending/structured-finance/acquisition-financing">
                                 Acquisition Financing
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-3-3-3-2">
-                              <a href="/corporate/finance-lending/structured-finance/property-financing">
+                              <Link to="/corporate/finance-lending/structured-finance/property-financing">
                                 Property Financing
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-3-3-3-3">
-                              <a href="/corporate/finance-lending/structured-finance/project-financing">
+                              <Link to="/corporate/finance-lending/structured-finance/project-financing">
                                 Project Financing
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-3-3-3-4">
                               <span className="ma5menu__btn--enter">
                                 <i className="icon-chevron-right" />
                               </span>
-                              <a href="/corporate/finance-lending/structured-finance/energy-commodities">
+                              <Link to="/corporate/finance-lending/structured-finance/energy-commodities">
                                 Energy &amp; Commodities{" "}
-                              </a>
+                              </Link>
                               <ul
                                 data-ma5order="ma5-ul-3-3-3-4"
                                 className="lvl-4"
@@ -2133,21 +2199,21 @@ const Header = () => {
                                   Energy &amp; Commodities{" "}
                                 </div>
                                 <li data-ma5order="ma5-li-3-3-3-4-1">
-                                  <a href="/corporate/finance-lending/structured-finance/energy-commodities/our-success-stories">
+                                  <Link to="/corporate/finance-lending/structured-finance/energy-commodities/our-success-stories">
                                     Our Success Stories
-                                  </a>
+                                  </Link>
                                 </li>
                               </ul>
                             </li>
                             <li data-ma5order="ma5-li-3-3-3-5">
-                              <a href="/corporate/finance-lending/structured-finance/cross-border-financing">
+                              <Link to="/corporate/finance-lending/structured-finance/cross-border-financing">
                                 Cross-border Financing
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-3-3-3-6">
-                              <a href="/corporate/finance-lending/structured-finance/syndicated-financing">
+                              <Link to="/corporate/finance-lending/structured-finance/syndicated-financing">
                                 Syndicated Financing
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </li>
@@ -2155,9 +2221,9 @@ const Header = () => {
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="/corporate/finance-lending/asset-finance">
+                          <Link to="/corporate/finance-lending/asset-finance">
                             Asset Finance{" "}
-                          </a>
+                          </Link>
                           <ul data-ma5order="ma5-ul-3-3-4" className="lvl-3">
                             <div className="ma5menu__leave">
                               <span className="ma5menu__btn--leave">
@@ -2166,9 +2232,9 @@ const Header = () => {
                               Asset Finance{" "}
                             </div>
                             <li data-ma5order="ma5-li-3-3-4-1">
-                              <a href="/corporate/finance-lending/asset-finance/mcb-leasing">
+                              <Link to="/corporate/finance-lending/asset-finance/mcb-leasing">
                                 MCB Leasing
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </li>
@@ -2178,9 +2244,9 @@ const Header = () => {
                       <span className="ma5menu__btn--enter">
                         <i className="icon-chevron-right" />
                       </span>
-                      <a href="/corporate/investment-advisory">
+                      <Link to="/corporate/investment-advisory">
                         Investment &amp; Advisory{" "}
-                      </a>
+                      </Link>
                       <ul data-ma5order="ma5-ul-3-4" className="lvl-2">
                         <div className="ma5menu__leave">
                           <span className="ma5menu__btn--leave">
@@ -2192,9 +2258,9 @@ const Header = () => {
                           <span className="ma5menu__btn--enter">
                             <i className="icon-chevron-right" />
                           </span>
-                          <a href="/corporate/investment-advisory/global-markets">
+                          <Link to="/corporate/investment-advisory/global-markets">
                             Global Markets{" "}
-                          </a>
+                          </Link>
                           <ul data-ma5order="ma5-ul-3-4-1" className="lvl-3">
                             <div className="ma5menu__leave">
                               <span className="ma5menu__btn--leave">
@@ -2203,31 +2269,31 @@ const Header = () => {
                               Global Markets{" "}
                             </div>
                             <li data-ma5order="ma5-li-3-4-1-1">
-                              <a href="/corporate/investment-advisory/global-markets/financial-markets-summary">
+                              <Link to="/corporate/investment-advisory/global-markets/financial-markets-summary">
                                 Financial Markets summary
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-3-4-1-2">
-                              <a href="/corporate/investment-advisory/global-markets/global-markets-solutions">
+                              <Link to="/corporate/investment-advisory/global-markets/global-markets-solutions">
                                 Global Markets Solutions
-                              </a>
+                              </Link>
                             </li>
                             <li data-ma5order="ma5-li-3-4-1-3">
-                              <a href="/corporate/investment-advisory/global-markets/direct-access-to-markets">
+                              <Link to="/corporate/investment-advisory/global-markets/direct-access-to-markets">
                                 Direct access to markets
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </li>
                         <li data-ma5order="ma5-li-3-4-2">
-                          <a href="/corporate/investment-advisory/capital-markets">
+                          <Link to="/corporate/investment-advisory/capital-markets">
                             Capital Markets
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-3-4-3">
-                          <a href="/corporate/investment-advisory/securities-services">
+                          <Link to="/corporate/investment-advisory/securities-services">
                             Securities Services
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
@@ -2237,7 +2303,7 @@ const Header = () => {
                   <span className="ma5menu__btn--enter">
                     <i className="icon-chevron-right" />
                   </span>
-                  <a href="/institutional">Institutional</a>
+                  <Link to="/institutional">Institutional</Link>
                   <ul data-ma5order="ma5-ul-4" className="lvl-1">
                     <div className="ma5menu__leave">
                       <span className="ma5menu__btn--leave">
@@ -2246,20 +2312,22 @@ const Header = () => {
                       Institutional
                     </div>
                     <li data-ma5order="ma5-li-4-1">
-                      <a href="/institutional/mcb-at-a-glance">
+                      <Link to="/institutional/mcb-at-a-glance">
                         MCB at a glance
-                      </a>
+                      </Link>
                     </li>
                     <li data-ma5order="ma5-li-4-2">
-                      <a href="/institutional/our-geographical-presence">
+                      <Link to="/institutional/our-geographical-presence">
                         Our geographical presence
-                      </a>
+                      </Link>
                     </li>
                     <li data-ma5order="ma5-li-4-3">
                       <span className="ma5menu__btn--enter">
                         <i className="icon-chevron-right" />
                       </span>
-                      <a href="/institutional/our-solutions">Our solutions </a>
+                      <Link to="/institutional/our-solutions">
+                        Our solutions{" "}
+                      </Link>
                       <ul data-ma5order="ma5-ul-4-3" className="lvl-2">
                         <div className="ma5menu__leave">
                           <span className="ma5menu__btn--leave">
@@ -2268,34 +2336,34 @@ const Header = () => {
                           Our solutions{" "}
                         </div>
                         <li data-ma5order="ma5-li-4-3-1">
-                          <a href="/institutional/our-solutions/bank-of-banks">
+                          <Link to="/institutional/our-solutions/bank-of-banks">
                             Bank of Banks
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-4-3-2">
-                          <a href="/institutional/our-solutions/correspondent-banking">
+                          <Link to="/institutional/our-solutions/correspondent-banking">
                             Correspondent Banking
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-4-3-3">
-                          <a href="/institutional/our-solutions/risk-sharing">
+                          <Link to="/institutional/our-solutions/risk-sharing">
                             Risk Sharing
-                          </a>
+                          </Link>
                         </li>
                         <li data-ma5order="ma5-li-4-3-4">
-                          <a href="/institutional/our-solutions/syndications">
+                          <Link to="/institutional/our-solutions/syndications">
                             Syndications
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
                     <li data-ma5order="ma5-li-4-4">
-                      <a href="/institutional/events">Events</a>
+                      <Link to="/institutional/events">Events</Link>
                     </li>
                   </ul>
                 </li>
                 <li data-ma5order="ma5-li-5">
-                  <a href="/rates-fees">Rates &amp; Fees</a>
+                  <Link to="/rates-fees">Rates &amp; Fees</Link>
                 </li>
               </ul>
             </nav>
@@ -2307,7 +2375,7 @@ const Header = () => {
         </div>{" "}
         {/* Modal level one */}{" "}
       </div>{" "}
-      <div className="desktop-menu d-none d-lg-block d-xl-block">
+      <div className="desktop-menu d-none d-lg-block d-xl-block header-home header-home-top">
         {" "}
         <div className="nav-container">
           {" "}
@@ -2321,38 +2389,59 @@ const Header = () => {
                   {" "}
                   <div className="d-flex justify-content-between">
                     <ul id="nav" className="nav-content ">
-                      <li className="">
-                        <a href="/" target="_self">
+                      <li className="active">
+                        <Link to="/" target="_self">
                           Personal
-                        </a>
+                        </Link>
                       </li>
                       <li className="">
-                        <a href="https://private.mcb.mu/" target="_blank">
+                        <Link to="https://private.mcb.mu/" target="_blank">
                           Private
-                        </a>
+                        </Link>
                       </li>
                       <li className="">
-                        <a href="/sme" target="_self">
+                        <Link to="/sme" target="_self">
                           SME
-                        </a>
+                        </Link>
                       </li>
                       <li className="">
-                        <a href="/corporate" target="_self">
+                        <Link to="/corporate" target="_self">
                           Corporate
-                        </a>
+                        </Link>
                       </li>
                       <li className="">
-                        <a href="/institutional" target="_self">
+                        <Link to="/institutional" target="_self">
                           Institutional
-                        </a>
+                        </Link>
                       </li>
                       <li className="">
-                        <a href="https://mcbgroup.com/" target="_blank">
+                        <Link to="https://mcbgroup.com/" target="_blank">
                           MCB Group
-                        </a>
+                        </Link>
                       </li>
                     </ul>
-                    <div className="link-icon d-flex flex-row"></div>{" "}
+                    <div className="link-icon d-flex flex-row">
+                      <div className="link-icon d-flex flex-row">
+                        <ul className="mx-2">
+                          <li>
+                            <Link to="/contact-us">
+                              {/*<i class="icon-phone"></i>*/}
+                              <i className="fas fa-thin fa-file-lines text-light" />
+                              <span>Contact us</span>
+                            </Link>
+                          </li>
+                        </ul>
+                        <ul className="mx-2">
+                          <li>
+                            <Link to="/locate-us">
+                              {" "}
+                              <i className="icon-locate-us" />
+                              <span>Find a branch</span>{" "}
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>{" "}
                   </div>{" "}
                 </div>{" "}
               </div>{" "}
@@ -2376,23 +2465,67 @@ const Header = () => {
                     }}
                   >
                     {" "}
-                    <a
-                      className="navbar-brand main no-banner-spacing"
-                      href="#"
-                    ></a>
-                    <a href="/">
+                    <Link className="navbar-brand main" to="#"></Link>
+                    <Link to="/">
                       <img
-                        src="images/mcb/default-album/logo-mcb-caravelle-red.svg"
+                        src="/images/mcb/default-album/logo-mcb-caravelle-red.svg"
                         //sf-size={2255}
                         data-sf-ec-immutable=""
                         alt=""
                         width={40}
                         className="sf-immutable-selected"
                       />
-                    </a>
+                    </Link>
                   </div>{" "}
                   {/* Second Level Navigation */}
                   {/* Side Button */}
+                  <ul
+                    className="navbar-nav button"
+                    style={{ visibility: "visible" }}
+                  >
+                    {/* Internet Banking */}
+                    <li className="nav-item ib">
+                      <div className="btn-group">
+                        <Link
+                          className="nav-link px-3"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          <i className="icon-ib" style={{ fontSize: 20 }} />
+                          <small
+                            style={{ lineHeight: "10px", fontSize: "80%" }}
+                            className=""
+                          >
+                            Internet Banking
+                          </small>
+                        </Link>
+                        <div className="dropdown-menu dropdown-menu-end">
+                          <div className="title">
+                            <h4>Internet Banking</h4>
+                          </div>
+                          <ul className="buttons">
+                            <li className="btn-primary">
+                              <Link
+                                to="/T001/banking"
+                                className="dropdown-item"
+                                target="_blank"
+                              >
+                                Login
+                              </Link>
+                            </li>
+                          </ul>
+                          <ul className="more-links mt-4">
+                            <li>
+                              <Link to="/security-centre">
+                                <i className="icon-chevron-right" /> Protect
+                                yourself online
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>{" "}
                 </div>{" "}
               </nav>{" "}
             </div>{" "}

@@ -1,4 +1,3 @@
-//icon a little bit to the left
 import { useEffect } from "react";
 import PropTypes from "prop-types";
 

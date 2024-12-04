@@ -22,16 +22,18 @@ const CardsAndAtms = () => {
           property="og:url"
           content="https://mcb.mu/security-centre/cards-and-atms"
         />
-        <link rel="canonical" href="/cards-and-atms" />
+        <link rel="canonical" href="/security-centre/cards-and-atms" />
       </Helmet>
       <div className="body detail-landing">
         {/* Google Tag Manager (noscript) */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NMCB2SN"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* End Google Tag Manager (noscript) */}{" "}
         {/* REUSABLE HEADER COMPONENT */}
         <Header />
